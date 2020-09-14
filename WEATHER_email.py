@@ -77,8 +77,7 @@ print(result_string)
 
 
 # Send Email
-# to = "pgunn@saenergygroup.com"
-to = ["rpaul@saenergygroup.com"]
+to = ["rpaul@saenergygroup.com","pgunn@saenergygroup.com"]
 text = result_string
 
 yag = yagmail.SMTP("rpaul.aecon@gmail.com","rzcxcrjefxusollv")

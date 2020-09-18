@@ -75,9 +75,17 @@ for station in stations:
 
 print(result_string)
 
+# Acquire emails
+fname_emails = "weather\\WEATHER_emails.txt"
+emails = []
+with open(fname_emails,newline="\r\n") as file:
+    rows = file.read().splitlines()
+    for row in rows:
+        emails.append(row)
+print(emails)
 
 # Send Email
-to = ["rpaul@saenergygroup.com","pgunn@saenergygroup.com"]
+to = emails
 text = result_string
 
 yag = yagmail.SMTP("rpaul.aecon@gmail.com","rzcxcrjefxusollv")

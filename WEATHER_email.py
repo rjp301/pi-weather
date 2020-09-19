@@ -76,7 +76,7 @@ for station in stations:
 print(result_string)
 
 # Acquire emails
-fname_emails = "weather\\WEATHER_emails.txt"
+fname_emails = "/home/pi/weather/WEATHER_emails.txt"
 emails = []
 with open(fname_emails,newline="\r\n") as file:
     rows = file.read().splitlines()

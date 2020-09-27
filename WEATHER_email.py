@@ -88,7 +88,9 @@ print(emails)
 to = emails
 text = result_string
 
-yag = yagmail.SMTP("rpaul.aecon@gmail.com","rzcxcrjefxusollv")
-yag.send(to=to,subject=subject,contents=text)
-
-print("Email SENT")
+try:
+    yag = yagmail.SMTP("rpaul.aecon@gmail.com","rzcxcrjefxusollv")
+    yag.send(to=to,subject=subject,contents=text)
+    print("Email SENT")
+except:
+    print("Email not sent")

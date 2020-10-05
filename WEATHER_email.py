@@ -31,8 +31,8 @@ def deg_to_compass(num):
 
 stations = [
     PWS("SAEG_Vanderhoof","IVANDE4","8nYFNJMH"),
-    PWS("SAEG_Parsnip","IREGIO56","vBCqMKqj")]
-    # PWS("SAEG_Stuart","IBULKL8","xKoizTAr"),
+    PWS("SAEG_Parsnip","IREGIO56","vBCqMKqj"),
+    PWS("SAEG_Crooked","IREGIO61","xzvVa8U1")]
     # PWS("SAEG_Anzac","IREGIO58","d6MfuO8f")]
 
 today = date.today()

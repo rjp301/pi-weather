@@ -6,10 +6,6 @@ import os
 import matplotlib
 import matplotlib.pyplot as plt
 
-from datetime import date
-from datetime import datetime
-from datetime import timedelta
-
 from wunderground_pws import WUndergroundAPI, units
 
 wu = WUndergroundAPI(
@@ -36,27 +32,30 @@ print(data)
 
 
 
-today = ts("2020-10-03")
+today = ts("2020-09-10")
 dates = [today + td(days=i) for i in range(0-today.weekday(),7-today.weekday())]
-labels = [date.day_name() for date in dates]
+labels = [date.strftime("%Y-%m-%d") for date in dates]
 
 actual = [wu.history(date=date,granularity="daily",station_id=stations[0].ID)["observations"][0]["metric"]["precipTotal"] for date in dates]
-plt.plot(dates,actual,label="Actual",color="red",marker="o")
-
-# for label,column in data.iteritems():
-#     if int(label) < 2010: continue
-#     rain = [column[date] for date in dates]
-#     plt.plot(dates,rain,label=label)
-
 average = [data["Max"][date] for date in dates]
+week_start = dates[0].strftime("%Y-%m-%d")
+
+plt.plot(dates,actual,label="Actual",color="red",marker="o")
 plt.plot(dates,average,label="10-year Maximum",color="gray",marker="o")
 
-week_start = dates[0].strftime("%A, %b %m, %Y")
-
 plt.grid(axis="y")
-plt.legend(loc="upper left")
-plt.ylabel("Total Rain (mm)")
-plt.title(f"Weekly Rainfall Summary for week of {week_start}")
-plt.xticks(ticks=dates,labels=labels)
-plt.show()
 
+leg = plt.legend(labels, bbox_to_anchor=(0.,1.15,1.,.102),prop ={'size':10},loc=10,ncol=2,title=f"Weekly Rainfall Summary for Week of {week_start}")                                         
+leg.get_title().set_fontsize('12') 
+
+
+# plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc='lower left',ncol=2,mode="expand", borderaxespad=0.)
+plt.ylabel("Total Rain (mm)")
+# plt.xlabel(f"Weekly Rainfall Summary for Week of {week_start}",fontsize=12,labelpad=10)
+plt.xticks(ticks=dates,labels=labels)
+plt.tight_layout()
+
+fig = plt.gcf()
+fig.set_size_inches(8,4)
+fig.savefig(f"weather\\Weekly_Rainfall_{week_start}.png",dpi=100)
+plt.show()

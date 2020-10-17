@@ -33,7 +33,9 @@ class PWS(object):
 stations = [
     PWS("SAEG_Vanderhoof","IVANDE4","8nYFNJMH"),
     PWS("SAEG_Parsnip","IREGIO56","vBCqMKqj"),
-    PWS("SAEG_Crooked","IREGIO61","xzvVa8U1")]
+    PWS("SAEG_Crooked","IREGIO61","xzvVa8U1"),
+    PWS("SAEG_Salmon","IREGIO64","HwajIWff"),
+    PWS("SAEG_Stuart","IBULKL8","xKoizTAr")]
 
 today = date.today()
 yesterday = today - timedelta(days=1)

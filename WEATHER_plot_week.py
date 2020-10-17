@@ -11,7 +11,7 @@ from sys import platform
 import dropbox
 
 def upload_to_dbx(fname_in,fname_out):
-    app_token = "C3UXpmLsHncAAAAAAAAAAXrgdTMQG1hC3tiAmQJSRxzDm432bzXP8MSpfwoectAX"
+    app_token = "pHLSHepyv2wAAAAAAAAAAepvG4Kkl_HQv3e9yn1l0Lwn1RKN1L-4_ISQHHHrRgNo"
     dbx = dropbox.Dropbox(app_token)
 
     with open(fname_in,"rb") as file:
@@ -66,7 +66,7 @@ plt.tight_layout()
 
 fig = plt.gcf()
 fig.set_size_inches(8,4)
-fig.savefig(fname_fig,dpi=100)
+fig.savefig(fname_fig,dpi=300)
 plt.show()
 
 fname_out = f"/5_ENG-CGLS34/42_Weather/PLOT_Weekly_Rainfall - {week_start}.png"

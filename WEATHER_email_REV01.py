@@ -87,8 +87,8 @@ print(result_print)
 print(result_string)
 
 # Acquire emails
-if platform.startswith('linux'): fname_emails = "/home/pi/weather/WEATHER_emails.txt"
-else: fname_emails = "weather\\WEATHER_emails.txt"
+if platform.startswith('linux'): fname_emails = "/home/pi/weather/email_list.txt"
+else: fname_emails = "email_list.txt"
 
 with open(fname_emails,newline="\r\n") as file:
     emails = file.read().splitlines()

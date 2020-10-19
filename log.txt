@@ -1,0 +1,568 @@
+Weather Summary - 2020-09-26
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 4°C
+   Wind = 2km/h WSW
+ 7:00 PM:
+   Temperature = 7°C
+   Wind = 4km/h WNW
+ Total Precipitation = 0.0mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 7°C
+   Wind = 19km/h S
+ 7:00 PM:
+   Temperature = 6°C
+   Wind = 5km/h SW
+ Total Precipitation = 2.01mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 2km/h WSW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 4km/h WNW<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 19km/h S<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 6°C<br>&nbsp;&nbsp;Wind = 5km/h SW<br>&nbsp;Total Precipitation = 2.01mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-09-27
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 2°C
+   Wind = 8km/h E
+ 7:00 PM:
+   Temperature = 12°C
+   Wind = 21km/h E
+ Total Precipitation = 1.8mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 3°C
+   Wind = 12km/h SE
+ 7:00 PM:
+   Temperature = 8°C
+   Wind = 28km/h SE
+ Total Precipitation = 5.11mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 8km/h E<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 12°C<br>&nbsp;&nbsp;Wind = 21km/h E<br>&nbsp;Total Precipitation = 1.8mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 12km/h SE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 8°C<br>&nbsp;&nbsp;Wind = 28km/h SE<br>&nbsp;Total Precipitation = 5.11mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-09-28
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 10°C
+   Wind = 4km/h WNW
+ 7:00 PM:
+   Temperature = 10°C
+   Wind = 4km/h ESE
+ Total Precipitation = 11.91mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 10°C
+   Wind = 7km/h ESE
+ 7:00 PM:
+   Temperature = 11°C
+   Wind = 21km/h S
+ Total Precipitation = 3.99mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 10°C<br>&nbsp;&nbsp;Wind = 4km/h WNW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 10°C<br>&nbsp;&nbsp;Wind = 4km/h ESE<br>&nbsp;Total Precipitation = 11.91mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 10°C<br>&nbsp;&nbsp;Wind = 7km/h ESE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 11°C<br>&nbsp;&nbsp;Wind = 21km/h S<br>&nbsp;Total Precipitation = 3.99mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-09-29
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 8°C
+   Wind = 4km/h S
+ 7:00 PM:
+   Temperature = 13°C
+   Wind = 5km/h E
+ Total Precipitation = 1.09mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 7°C
+   Wind = 5km/h ESE
+ 7:00 PM:
+   Temperature = 9°C
+   Wind = 2km/h E
+ Total Precipitation = 0.0mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 8°C<br>&nbsp;&nbsp;Wind = 4km/h S<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 13°C<br>&nbsp;&nbsp;Wind = 5km/h E<br>&nbsp;Total Precipitation = 1.09mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 5km/h ESE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 9°C<br>&nbsp;&nbsp;Wind = 2km/h E<br>&nbsp;Total Precipitation = 0.0mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-09-30
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 2°C
+   Wind = 4km/h SE
+ 7:00 PM:
+   Temperature = 12°C
+   Wind = 4km/h ESE
+ Total Precipitation = 0.0mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = -1°C
+   Wind = 4km/h E
+ 7:00 PM:
+   Temperature = 10°C
+   Wind = 2km/h E
+ Total Precipitation = 0.0mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 4km/h SE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 12°C<br>&nbsp;&nbsp;Wind = 4km/h ESE<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 4km/h E<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 10°C<br>&nbsp;&nbsp;Wind = 2km/h E<br>&nbsp;Total Precipitation = 0.0mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-01
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 9°C
+   Wind = 4km/h SSE
+ 7:00 PM:
+   Temperature = 15°C
+   Wind = 0km/h SSE
+ Total Precipitation = 0.0mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 7°C
+   Wind = 5km/h S
+ 7:00 PM:
+   Temperature = 14°C
+   Wind = 3km/h ESE
+ Total Precipitation = 0.0mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 9°C<br>&nbsp;&nbsp;Wind = 4km/h SSE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 15°C<br>&nbsp;&nbsp;Wind = 0km/h SSE<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 5km/h S<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 14°C<br>&nbsp;&nbsp;Wind = 3km/h ESE<br>&nbsp;Total Precipitation = 0.0mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-02
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 6°C
+   Wind = 0km/h SSE
+ 7:00 PM:
+   Temperature = 14°C
+   Wind = 2km/h SE
+ Total Precipitation = 0.0mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 6°C
+   Wind = 0km/h ESE
+ 7:00 PM:
+   Temperature = 13°C
+   Wind = 1km/h S
+ Total Precipitation = 0.0mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 6°C<br>&nbsp;&nbsp;Wind = 0km/h SSE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 14°C<br>&nbsp;&nbsp;Wind = 2km/h SE<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 6°C<br>&nbsp;&nbsp;Wind = 0km/h ESE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 13°C<br>&nbsp;&nbsp;Wind = 1km/h S<br>&nbsp;Total Precipitation = 0.0mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-03
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 7°C
+   Wind = 0km/h SE
+ 7:00 PM:
+   Temperature = 15°C
+   Wind = 3km/h N
+ Total Precipitation = 0.0mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 6°C
+   Wind = 4km/h SE
+ 7:00 PM:
+   Temperature = 15°C
+   Wind = 4km/h ENE
+ Total Precipitation = 3.99mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 0km/h SE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 15°C<br>&nbsp;&nbsp;Wind = 3km/h N<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 6°C<br>&nbsp;&nbsp;Wind = 4km/h SE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 15°C<br>&nbsp;&nbsp;Wind = 4km/h ENE<br>&nbsp;Total Precipitation = 3.99mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-04
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 10°C
+   Wind = 3km/h N
+ 7:00 PM:
+   Temperature = 11°C
+   Wind = 4km/h NW
+ Total Precipitation = 0.0mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 12°C
+   Wind = 5km/h SW
+ 7:00 PM:
+   Temperature = 9°C
+   Wind = 5km/h WSW
+ Total Precipitation = 0.0mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 10°C<br>&nbsp;&nbsp;Wind = 3km/h N<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 11°C<br>&nbsp;&nbsp;Wind = 4km/h NW<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 12°C<br>&nbsp;&nbsp;Wind = 5km/h SW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 9°C<br>&nbsp;&nbsp;Wind = 5km/h WSW<br>&nbsp;Total Precipitation = 0.0mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-05
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 8°C
+   Wind = 6km/h SW
+ 7:00 PM:
+   Temperature = 15°C
+   Wind = 13km/h W
+ Total Precipitation = 3.3mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 7°C
+   Wind = 15km/h ESE
+ 7:00 PM:
+   Temperature = 12°C
+   Wind = 12km/h E
+ Total Precipitation = 7.39mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 7°C
+   Wind = 3km/h SE
+ 7:00 PM:
+   Temperature = 12°C
+   Wind = 4km/h NNW
+ Total Precipitation = 4.57mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 8°C<br>&nbsp;&nbsp;Wind = 6km/h SW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 15°C<br>&nbsp;&nbsp;Wind = 13km/h W<br>&nbsp;Total Precipitation = 3.3mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 15km/h ESE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 12°C<br>&nbsp;&nbsp;Wind = 12km/h E<br>&nbsp;Total Precipitation = 7.39mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 3km/h SE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 12°C<br>&nbsp;&nbsp;Wind = 4km/h NNW<br>&nbsp;Total Precipitation = 4.57mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-06
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 8°C
+   Wind = 5km/h NNW
+ 7:00 PM:
+   Temperature = 7°C
+   Wind = 4km/h N
+ Total Precipitation = 0.0mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 4°C
+   Wind = 5km/h SSW
+ 7:00 PM:
+   Temperature = 5°C
+   Wind = 4km/h NNW
+ Total Precipitation = 0.0mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 4°C
+   Wind = 0km/h NW
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 0km/h WSW
+ Total Precipitation = 0.0mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 8°C<br>&nbsp;&nbsp;Wind = 5km/h NNW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 4km/h N<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 5km/h SSW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 5°C<br>&nbsp;&nbsp;Wind = 4km/h NNW<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 0km/h NW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 0km/h WSW<br>&nbsp;Total Precipitation = 0.0mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-07
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = -1°C
+   Wind = 0km/h N
+ 7:00 PM:
+   Temperature = 5°C
+   Wind = 0km/h NE
+ Total Precipitation = 4.8mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = -2°C
+   Wind = 1km/h E
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 6km/h NW
+ Total Precipitation = 6.1mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = -2°C
+   Wind = 0km/h WSW
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 1km/h E
+ Total Precipitation = 4.83mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 0km/h N<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 5°C<br>&nbsp;&nbsp;Wind = 0km/h NE<br>&nbsp;Total Precipitation = 4.8mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -2°C<br>&nbsp;&nbsp;Wind = 1km/h E<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 6km/h NW<br>&nbsp;Total Precipitation = 6.1mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -2°C<br>&nbsp;&nbsp;Wind = 0km/h WSW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 1km/h E<br>&nbsp;Total Precipitation = 4.83mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-08
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 3°C
+   Wind = 2km/h NNE
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 6km/h ESE
+ Total Precipitation = 2.01mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 2°C
+   Wind = 2km/h WNW
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 6km/h SSE
+ Total Precipitation = 3.61mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 2°C
+   Wind = 0km/h ESE
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 0km/h SE
+ Total Precipitation = 3.81mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 2km/h NNE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 6km/h ESE<br>&nbsp;Total Precipitation = 2.01mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 2km/h WNW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 6km/h SSE<br>&nbsp;Total Precipitation = 3.61mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 0km/h ESE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 0km/h SE<br>&nbsp;Total Precipitation = 3.81mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-09
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 3°C
+   Wind = 10km/h E
+ 7:00 PM:
+   Temperature = 7°C
+   Wind = 12km/h W
+ Total Precipitation = 7.11mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 3°C
+   Wind = 4km/h ESE
+ 7:00 PM:
+   Temperature = 7°C
+   Wind = 13km/h S
+ Total Precipitation = 11.4mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 2°C
+   Wind = 0km/h SE
+ 7:00 PM:
+   Temperature = 7°C
+   Wind = 2km/h SSE
+ Total Precipitation = 10.92mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 10km/h E<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 12km/h W<br>&nbsp;Total Precipitation = 7.11mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 4km/h ESE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 13km/h S<br>&nbsp;Total Precipitation = 11.4mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 0km/h SE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 7°C<br>&nbsp;&nbsp;Wind = 2km/h SSE<br>&nbsp;Total Precipitation = 10.92mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-10
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 4°C
+   Wind = 5km/h W
+ 7:00 PM:
+   Temperature = 3°C
+   Wind = 5km/h W
+ Total Precipitation = 16.51mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 3°C
+   Wind = 4km/h NNE
+ 7:00 PM:
+   Temperature = 1°C
+   Wind = 2km/h W
+ Total Precipitation = 21.79mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 3°C
+   Wind = 0km/h SSE
+ 7:00 PM:
+   Temperature = 2°C
+   Wind = 0km/h SSE
+ Total Precipitation = 20.32mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 5km/h W<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 5km/h W<br>&nbsp;Total Precipitation = 16.51mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 4km/h NNE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 1°C<br>&nbsp;&nbsp;Wind = 2km/h W<br>&nbsp;Total Precipitation = 21.79mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 0km/h SSE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 0km/h SSE<br>&nbsp;Total Precipitation = 20.32mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-11
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = -1°C
+   Wind = 4km/h NNW
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 5km/h W
+ Total Precipitation = 16.51mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 2°C
+   Wind = 4km/h SE
+ 7:00 PM:
+   Temperature = 3°C
+   Wind = 9km/h NNW
+ Total Precipitation = 2.79mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 0°C
+   Wind = 0km/h SSE
+ 7:00 PM:
+   Temperature = 3°C
+   Wind = 0km/h WNW
+ Total Precipitation = 0.25mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 4km/h NNW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 5km/h W<br>&nbsp;Total Precipitation = 16.51mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 4km/h SE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 9km/h NNW<br>&nbsp;Total Precipitation = 2.79mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 0°C<br>&nbsp;&nbsp;Wind = 0km/h SSE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 0km/h WNW<br>&nbsp;Total Precipitation = 0.25mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-12
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = -2°C
+   Wind = 3km/h N
+ 7:00 PM:
+   Temperature = 3°C
+   Wind = 5km/h WSW
+ Total Precipitation = 0.3mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = -1°C
+   Wind = 4km/h SW
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 6km/h ESE
+ Total Precipitation = 0.0mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = -1°C
+   Wind = 0km/h W
+ 7:00 PM:
+   Temperature = 3°C
+   Wind = 0km/h WSW
+ Total Precipitation = 0.25mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -2°C<br>&nbsp;&nbsp;Wind = 3km/h N<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 5km/h WSW<br>&nbsp;Total Precipitation = 0.3mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 4km/h SW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 6km/h ESE<br>&nbsp;Total Precipitation = 0.0mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 0km/h W<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 3°C<br>&nbsp;&nbsp;Wind = 0km/h WSW<br>&nbsp;Total Precipitation = 0.25mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-13
+Weather Summary - 2020-10-14
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 1°C
+   Wind = 5km/h WNW
+ 7:00 PM:
+   Temperature = 4°C
+   Wind = 4km/h WNW
+ Total Precipitation = 0.79mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 0°C
+   Wind = 12km/h SSE
+ 7:00 PM:
+   Temperature = 1°C
+   Wind = 7km/h WSW
+ Total Precipitation = 3.61mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 0°C
+   Wind = 1km/h N
+ 7:00 PM:
+   Temperature = 2°C
+   Wind = 0km/h WSW
+ Total Precipitation = 0.51mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 1°C<br>&nbsp;&nbsp;Wind = 5km/h WNW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 4°C<br>&nbsp;&nbsp;Wind = 4km/h WNW<br>&nbsp;Total Precipitation = 0.79mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 0°C<br>&nbsp;&nbsp;Wind = 12km/h SSE<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 1°C<br>&nbsp;&nbsp;Wind = 7km/h WSW<br>&nbsp;Total Precipitation = 3.61mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 0°C<br>&nbsp;&nbsp;Wind = 1km/h N<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 0km/h WSW<br>&nbsp;Total Precipitation = 0.51mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-15
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = -1°C
+   Wind = 4km/h N
+ 7:00 PM:
+   Temperature = 2°C
+   Wind = 18km/h E
+ Total Precipitation = 3.99mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = -3°C
+   Wind = 2km/h E
+ 7:00 PM:
+   Temperature = 2°C
+   Wind = 9km/h SE
+ Total Precipitation = 1.7mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = -2°C
+   Wind = 0km/h WSW
+ 7:00 PM:
+   Temperature = 1°C
+   Wind = 0km/h ENE
+ Total Precipitation = 2.03mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 4km/h N<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 18km/h E<br>&nbsp;Total Precipitation = 3.99mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -3°C<br>&nbsp;&nbsp;Wind = 2km/h E<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 9km/h SE<br>&nbsp;Total Precipitation = 1.7mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = -2°C<br>&nbsp;&nbsp;Wind = 0km/h WSW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 1°C<br>&nbsp;&nbsp;Wind = 0km/h ENE<br>&nbsp;Total Precipitation = 2.03mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+SAEG_Vanderhoof data written to Excel
+SAEG_Parsnip data written to Excel
+SAEG_Crooked data written to Excel
+File has been uploaded
+Weather Summary - 2020-10-16
+SAEG_VANDERHOOF
+ 7:00 AM:
+   Temperature = 0°C
+   Wind = 5km/h NW
+ 7:00 PM:
+   Temperature = 2°C
+   Wind = 6km/h NE
+ Total Precipitation = 16.61mm
+
+SAEG_PARSNIP
+ 7:00 AM:
+   Temperature = 1°C
+   Wind = 6km/h NNW
+ 7:00 PM:
+   Temperature = -1°C
+   Wind = 2km/h NW
+ Total Precipitation = 8.71mm
+
+SAEG_CROOKED
+ 7:00 AM:
+   Temperature = 0°C
+   Wind = 0km/h NNW
+ 7:00 PM:
+   Temperature = -1°C
+   Wind = 0km/h E
+ Total Precipitation = 16.76mm
+
+
+<p><font size="+1"><b>SAEG_VANDERHOOF</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 0°C<br>&nbsp;&nbsp;Wind = 5km/h NW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = 2°C<br>&nbsp;&nbsp;Wind = 6km/h NE<br>&nbsp;Total Precipitation = 16.61mm</p><p><font size="+1"><b>SAEG_PARSNIP</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 1°C<br>&nbsp;&nbsp;Wind = 6km/h NNW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 2km/h NW<br>&nbsp;Total Precipitation = 8.71mm</p><p><font size="+1"><b>SAEG_CROOKED</b></font><br><b>&nbsp;7:00 AM:</b><br>&nbsp;&nbsp;Temperature = 0°C<br>&nbsp;&nbsp;Wind = 0km/h NNW<br><b>&nbsp;7:00 PM:</b><br>&nbsp;&nbsp;Temperature = -1°C<br>&nbsp;&nbsp;Wind = 0km/h E<br>&nbsp;Total Precipitation = 16.76mm</p>
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com']
+Email SENT
+SAEG_Vanderhoof data written to Excel
+SAEG_Parsnip data written to Excel
+SAEG_Crooked data written to Excel
+File has been uploaded

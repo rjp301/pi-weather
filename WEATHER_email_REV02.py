@@ -11,7 +11,7 @@ import datetime as dt
 import os
 
 wu = WUndergroundAPI(
-    api_key="1e81c4e2de6e476e81c4e2de6e476e21",
+    api_key="24050802f4fe4bc7850802f4fe9bc7c4",
     units=units.METRIC_UNITS)
 
 class PWS(object):
@@ -158,10 +158,10 @@ print(emails)
 
 # Send Email
 to = emails
-contents = f"Hello,\n\nPlease see attached weather summary for {yesterday_text}. \
-    You can open the attached file in a web browser.\n\nThanks,\n\n\
+contents = f"Hello,<br><br>Please see attached weather summary for {yesterday_text}. \
+    You can open the attached file in a web browser.<br><br>Thanks,<br><br>\
     <span style=\"color:#c00000;font-weight:bold;\">Riley Paul</span>\
-    , E.I.T.\n<span style=\"font-weight:bold;\">Junior Project Engineer\n\
+    , E.I.T.<br><span style=\"font-weight:bold;\">Junior Project Engineer<br>\
     Mobile:</span> 403.998.2856"
 
 try:

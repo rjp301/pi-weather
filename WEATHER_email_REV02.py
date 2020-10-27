@@ -41,7 +41,7 @@ yesterday_text = dt.date.strftime(yesterday,"%Y-%m-%d")
 subject = "Weather Summary - " + yesterday_text
 print(subject)
 
-hr_of_interest = [7,19]
+hr_of_interest = [7,13,19]
 
 result_table = {}
 result_table["Weather Station"] = []
@@ -55,10 +55,17 @@ station_results = []
 
 for station in stations:
     result_table["Weather Station"].append(station.name)
-    try:
-        history = wu.history(date=yesterday,granularity="hourly",station_id=station.ID)["observations"]
-        station.hr_record = {}
+    
+    try: history = wu.history(date=yesterday,granularity="hourly",station_id=station.ID)["observations"]
 
+    except Exception as e:
+        print(e)
+        print(f"{station.name}'s hourly data could not be reached")
+        
+        station.hr_record = {hr:{"wind": "OFFLINE", "temp": "OFFLINE"} for hr in range(0,25)}
+        
+    else:
+        station.hr_record = {}
         for index,record in enumerate(history):
             time = dt.datetime.strptime(record["obsTimeLocal"], "%Y-%m-%d %H:%M:%S")
             
@@ -71,10 +78,6 @@ for station in stations:
 
             station.hr_record[time.hour] = {"wind": wind_str, "temp": temp_str}
 
-    except Exception as e:
-        print(e)
-        print(f"{station.name}'s hourly data could not be reached")
-
     try:
         total_precip = wu.history(date=yesterday,granularity="daily",station_id=station.ID)["observations"][0]["metric"]["precipTotal"]
         station.precip = f"{total_precip}mm"
@@ -82,6 +85,7 @@ for station in stations:
     except Exception as e:
         print(e)
         print(f"{station.name}'s daily data could not be reached")
+        station.precip = "OFFLINE"
 
 
     # Add Values to Dictionary
@@ -158,6 +162,7 @@ print(emails)
 
 # Send Email
 to = emails
+#to = "rpaul@saenergygroup.com"
 contents = f"Hello,<br><br>Please see attached weather summary for {yesterday_text}. \
     You can open the attached file in a web browser.<br><br>Thanks,<br><br>\
     <span style=\"color:#c00000;font-weight:bold;\">Riley Paul</span>\

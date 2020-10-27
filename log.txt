@@ -566,3 +566,95 @@ SAEG_Vanderhoof data written to Excel
 SAEG_Parsnip data written to Excel
 SAEG_Crooked data written to Excel
 File has been uploaded
+Weather Summary - 2020-10-17
+   Weather Station 7AM Temp   7AM Wind 7PM Temp 7PM Wind   Precip
+0  SAEG_Vanderhoof     -1°C   12km/h E  NO DATA  NO DATA    0.0mm
+1     SAEG_Parsnip     -3°C    4km/h N  NO DATA  NO DATA    0.0mm
+2     SAEG_Crooked     -2°C   0km/h SE  NO DATA  NO DATA   0.25mm
+3      SAEG_Salmon     -3°C  3km/h SSE  NO DATA  NO DATA    0.0mm
+4      SAEG_Stuart     22°C   0km/h NE  NO DATA  NO DATA  16.26mm
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-18
+   Weather Station 7AM Temp  7AM Wind 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     -5°C   9km/h E     -3°C    2km/h E  16.61mm
+1     SAEG_Parsnip     -9°C   4km/h W     -1°C  15km/h SE    0.0mm
+2     SAEG_Crooked     -7°C  2km/h NW     -2°C  0km/h SSW    0.0mm
+3      SAEG_Salmon     -8°C   0km/h S     -3°C    1km/h W    0.0mm
+4      SAEG_Stuart     -5°C  11km/h E     -2°C  3km/h ESE    0.0mm
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-19
+   Weather Station 7AM Temp   7AM Wind 7PM Temp    7PM Wind  Precip
+0  SAEG_Vanderhoof     -3°C    0km/h E     -1°C    5km/h NE   3.0mm
+1     SAEG_Parsnip     -3°C   2km/h SE      0°C  13km/h ESE   0.2mm
+2     SAEG_Crooked     -2°C  0km/h SSW     -1°C     0km/h W  0.51mm
+3      SAEG_Salmon     -2°C    1km/h W     -1°C     3km/h E  0.51mm
+4      SAEG_Stuart     -2°C  0km/h ESE     -1°C     2km/h W  3.81mm
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-20
+   Weather Station 7AM Temp   7AM Wind 7PM Temp   7PM Wind  Precip
+0  SAEG_Vanderhoof     -8°C    4km/h N     -1°C    9km/h N  2.31mm
+1     SAEG_Parsnip      0°C  5km/h ESE      0°C   5km/h SE   0.0mm
+2     SAEG_Crooked     -1°C  0km/h NNW      0°C   0km/h SW  1.27mm
+3      SAEG_Salmon     -3°C    0km/h E     -2°C  0km/h ESE  4.06mm
+4      SAEG_Stuart     -4°C    2km/h W     -1°C  1km/h WSW  1.52mm
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-21
+   Weather Station 7AM Temp   7AM Wind 7PM Temp    7PM Wind  Precip
+0  SAEG_Vanderhoof     -3°C   6km/h NE     -3°C  12km/h ENE  2.31mm
+1     SAEG_Parsnip     -4°C    8km/h N     -6°C     7km/h N   0.0mm
+2     SAEG_Crooked     -5°C   1km/h SE     -5°C     7km/h E   0.0mm
+3      SAEG_Salmon     -5°C  1km/h SSW     -5°C   4km/h WSW  0.25mm
+4      SAEG_Stuart     -2°C  6km/h NNE     -3°C  10km/h ENE   0.0mm
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-22
+   Weather Station 7AM Temp   7AM Wind 7PM Temp    7PM Wind Precip
+0  SAEG_Vanderhoof    -13°C    3km/h E     -5°C  10km/h ENE  0.0mm
+1     SAEG_Parsnip    -10°C   3km/h NE     -8°C   4km/h WNW  0.0mm
+2     SAEG_Crooked     -9°C   0km/h SE     -8°C     0km/h E  0.0mm
+3      SAEG_Salmon    -11°C  1km/h SSE     -8°C   0km/h WNW  0.0mm
+4      SAEG_Stuart     -8°C  4km/h NNE     -6°C     3km/h E  0.0mm
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-23
+   Weather Station 7AM Temp    7AM Wind  ... 7PM Temp    7PM Wind Precip
+0  SAEG_Vanderhoof     -8°C  13km/h ENE  ...     -7°C  10km/h NNE  0.0mm
+1     SAEG_Parsnip    -11°C   3km/h NNW  ...     -8°C    11km/h N  0.0mm
+2     SAEG_Crooked     -9°C     3km/h E  ...     -8°C     5km/h E  0.0mm
+3      SAEG_Salmon    -10°C     6km/h S  ...     -9°C   4km/h WNW  0.0mm
+4      SAEG_Stuart     -9°C    7km/h NE  ...     -7°C    8km/h NE  0.0mm
+
+[5 rows x 8 columns]
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-24
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp  7PM Wind Precip
+0  SAEG_Vanderhoof    -12°C    9km/h N  ...     -8°C   3km/h N  0.0mm
+1     SAEG_Parsnip    -15°C  2km/h ENE  ...     -7°C   2km/h W  0.0mm
+2     SAEG_Crooked    -15°C  0km/h ESE  ...     -8°C   0km/h E  0.0mm
+3      SAEG_Salmon    -15°C    1km/h S  ...     -9°C  1km/h SE  0.0mm
+4      SAEG_Stuart    -13°C   3km/h NW  ...     -8°C  4km/h SE  0.0mm
+
+[5 rows x 8 columns]
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-25
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind Precip
+0  SAEG_Vanderhoof    -15°C    4km/h N  ...  NO DATA    NO DATA  0.0mm
+1     SAEG_Parsnip    -12°C  9km/h ENE  ...     -5°C   9km/h SE  0.0mm
+2     SAEG_Crooked    -12°C    0km/h E  ...     -5°C  1km/h ENE  0.0mm
+3      SAEG_Salmon    -12°C  4km/h NNE  ...     -6°C  9km/h NNE  0.0mm
+4      SAEG_Stuart    -13°C   2km/h SE  ...     -5°C   4km/h SE  0.0mm
+
+[5 rows x 8 columns]
+['rpaul@saenergygroup.com', 'pgunn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'SJouvet@saenergygroup.com', 'aburkinshaw@saenergygroup.com', 'krollefstad@saenergygroup.com']
+Email SENT
+Weather Summary - 2020-10-26
+
+SAEG_Vanderhoof's hourly data could not be reached
+
+SAEG_Vanderhoof's daily data could not be reached

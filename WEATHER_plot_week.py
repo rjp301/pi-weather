@@ -1,67 +1,59 @@
 import pandas as pd
-from pandas import Timestamp as ts
-from pandas import Timedelta as td
-import os
+import datetime as dt
 
 import matplotlib
 import matplotlib.pyplot as plt
-
+from pprint import pprint
 from wunderground_pws import WUndergroundAPI, units
-from sys import platform
-import dropbox
-
-def upload_to_dbx(fname_in,fname_out):
-    app_token = "pHLSHepyv2wAAAAAAAAAAepvG4Kkl_HQv3e9yn1l0Lwn1RKN1L-4_ISQHHHrRgNo"
-    dbx = dropbox.Dropbox(app_token)
-
-    with open(fname_in,"rb") as file:
-        dbx.files_upload(file.read(),fname_out,mode=dropbox.files.WriteMode.overwrite)
 
 wu = WUndergroundAPI(
-    api_key="1e81c4e2de6e476e81c4e2de6e476e21",
+    api_key="24050802f4fe4bc7850802f4fe9bc7c4",
     units=units.METRIC_UNITS)
 
-class PWS(object):
-    # Personal Weather Station object containing all pertinent information
-    def __init__(self,name,ID,key):
-        self.name = name
-        self.ID = ID
-        self.key = key
+# Dates
+week_ending = dt.date(year=2020,month=10,day=25)
+week_dates = [week_ending + dt.timedelta(days=i) for i in range(0-week_ending.weekday(),7-week_ending.weekday())]
+week_start = week_dates[0]
+years = list(range(2009,2020))
 
-stations = [
-    PWS("SAEG_Vanderhoof","IVANDE4","8nYFNJMH"),
-    PWS("SAEG_Parsnip","IREGIO56","vBCqMKqj")]
-    # PWS("SAEG_Stuart","IBULKL8","xKoizTAr"),
-    # PWS("SAEG_Anzac","IREGIO58","d6MfuO8f")]
+fname = f"E:\\Dropbox (SA Energy Group)\\34_Weather\\DATA_historical\\1098D90 - Vanderhoof\\CGL - Weather - Vanderhoof - Summary.xlsx"
+raw_data = pd.read_excel(fname,sheet_name="Summary - Rainfall")
 
-if platform.startswith('linux'): fname_data = "/home/pi/weather/DATA_historical/CGL - Weather Summary - Vanderhoof - 1098D90.xlsx"
-else: fname_data = "DATA_historical\\CGL - Weather Summary - Vanderhoof - 1098D90.xlsx"
+print(raw_data["Date/Time"][7].strftime("%Y-%m-%d"))
 
-data = pd.read_excel(fname_data,index_col=0)
-print(data)
+week_data = {}
+for day in week_dates:
+    day_string = day.strftime("%Y-%m-%d")
+    week_data[day_string] = []
+    for year in years:
+        value = raw_data.loc[(raw_data["Month"] == day.month) & (raw_data["Day"] == day.day),[year]][year].iloc[0]
+        week_data[day_string].append(value)
 
-today = ts("2020-10-07")
-dates = [today + td(days=i) for i in range(0-today.weekday(),7-today.weekday())]
-labels = [date.strftime("%Y-%m-%d") for date in dates]
+pprint(week_data)
 
-actual = [wu.history(date=date,granularity="daily",station_id=stations[0].ID)["observations"][0]["metric"]["precipTotal"] for date in dates]
-average = [data["Max"][date] for date in dates]
-week_start = dates[0].strftime("%Y-%m-%d")
+labels = []
+hist_values = []
+for x,y in week_data.items():
+    labels.append(x)
+    hist_values.append(max(y))
 
-if platform.startswith('linux'): fname_fig = f"/home/pi/weather/PLOT_Weekly_Rainfall - {week_start}.png"
-else: fname_fig = f"PLOT_Weekly_Rainfall - {week_start}.png"
+actual = [wu.history(date=date,granularity="daily",station_id="IVANDE4")["observations"][0]["metric"]["precipTotal"] for date in week_dates]
+# actual = [2.79,0.71,0.79,3.99,16.61,0,0]
+pprint(actual)
 
-plt.plot(dates,actual,label="Actual",color="red",marker="o")
-plt.plot(dates,average,label="10-year Maximum",color="gray",marker="o")
+fname_fig = f"PLOT_Weekly_Rainfall - {week_start}.png"
+
+plt.plot(week_dates,actual,label="Actual",color="red",marker="o")
+plt.plot(week_dates,hist_values,label="10-year Daily Max",color="gray",marker="o")
 
 plt.grid(axis="y")
 
 leg_labels = ["Current (IVANDE4)","10yr Historical Max (1098D90)"]
 leg = plt.legend(leg_labels, bbox_to_anchor=(0.,1.15,1.,.102),prop ={'size':10},loc=10,ncol=2,title=f"Weekly Rainfall Summary for Week of {week_start}")                                         
-leg.get_title().set_fontsize('12') 
+leg.get_title().set_fontsize('12')
 
 plt.ylabel("Total Rain (mm)")
-plt.xticks(ticks=dates,labels=labels)
+plt.xticks(ticks=week_dates,labels=labels)
 plt.tight_layout()
 
 fig = plt.gcf()
@@ -69,8 +61,5 @@ fig.set_size_inches(8,4)
 fig.savefig(fname_fig,dpi=300)
 plt.show()
 
-fname_out = f"/5_ENG-CGLS34/42_Weather/PLOT_Weekly_Rainfall - {week_start}.png"
-upload_to_dbx(fname_fig,fname_out)
-print("File has been uploaded")
-os.remove(fname_fig)
-print("File has been deleted")
+fname_out = f"PLOT_Weekly_Rainfall - {week_start}.png"
+print("DONE")

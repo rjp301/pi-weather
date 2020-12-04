@@ -1,17 +1,14 @@
-import pandas as pd
-
-from wunderground_pws import WUndergroundAPI, units
-
-import yagmail
 from pprint import pprint
 from sys import platform
+from wunderground_pws import WUndergroundAPI, units
 
 import datetime as dt
-
+import pandas as pd
+import yagmail
 import os
 
 wu = WUndergroundAPI(
-    api_key="24050802f4fe4bc7850802f4fe9bc7c4",
+    api_key="ea1b7935159d43c29b7935159dd3c2fe",
     units=units.METRIC_UNITS)
 
 class PWS(object):
@@ -97,7 +94,7 @@ for station in stations:
 
         else:
             result_table[hr_txt + " Temp"].append("NO DATA")
-            result_table[hr_txt + " Wind"].append("NO DATA")  
+            result_table[hr_txt + " Wind"].append("NO DATA")
 
     if station.precip: result_table["Precip"].append(station.precip)
     else: result_table["Precip"].append("NO DATA")
@@ -151,13 +148,10 @@ with open(fname_html,"w") as file:
 
 # Acquire emails
 if platform.startswith('linux'): fname_emails = "/home/pi/weather/email_list.txt"
-else: fname_emails = "email_list.txt"
+else: fname_emails = "01_Code\\email_list.txt"
 
-emails = []
 with open(fname_emails,newline="\r\n") as file:
-    rows = file.read().splitlines()
-    for row in rows:
-        emails.append(row)
+    emails = [row for row in file.read().splitlines()]
 print(emails)
 
 # Send Email
@@ -170,7 +164,7 @@ contents = f"Hello,<br><br>Please see attached weather summary for {yesterday_te
     Mobile:</span> 403.998.2856"
 
 try:
-    yag = yagmail.SMTP("rpaul.aecon@gmail.com","rzcxcrjefxusollv")
+    yag = yagmail.SMTP("rpaul.aecon@gmail.com","wzlanqevzalhnztf")
     yag.send(to=to,subject=subject,contents=contents,attachments=fname_html)
     print("Email SENT")
 except:

@@ -11,7 +11,7 @@ wu = WUndergroundAPI(
     units=units.METRIC_UNITS)
 
 # Dates
-week_ending = dt.date(year=2020,month=10,day=25)
+week_ending = dt.date(year=2020,month=11,day=1)
 week_dates = [week_ending + dt.timedelta(days=i) for i in range(0-week_ending.weekday(),7-week_ending.weekday())]
 week_start = week_dates[0]
 years = list(range(2009,2020))
@@ -37,8 +37,8 @@ for x,y in week_data.items():
     labels.append(x)
     hist_values.append(max(y))
 
-actual = [wu.history(date=date,granularity="daily",station_id="IVANDE4")["observations"][0]["metric"]["precipTotal"] for date in week_dates]
-# actual = [2.79,0.71,0.79,3.99,16.61,0,0]
+# actual = [wu.history(date=date,granularity="daily",station_id="IVANDE4")["observations"][0]["metric"]["precipTotal"] for date in week_dates]
+actual = [0,4.8,0,6.1,5.11,0,5.11]
 pprint(actual)
 
 fname_fig = f"PLOT_Weekly_Rainfall - {week_start}.png"

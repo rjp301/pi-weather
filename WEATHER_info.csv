@@ -1,0 +1,8 @@
+﻿,loc_text,loc_lat,loc_lon,PWS_name,PWS_id,PWS_key,CAN_id,WWO_id
+VAN,"Vanderhoof, BC",54.05608,-124.02993,SAEG_Vanderhoof,IVANDE4,8nYFNJMH,1098D90,3
+PAR,Parsnip Camp,54.76181,-122.49811,SAEG_Parsnip,IREGIO56,vBCqMKqj,,4
+CRO,Crooked River,54.653556,-122.752946,SAEG_Crooked,IREGIO61,xzvVa8U1,,
+SAL,Salmon River,54.394,-123.171,SAEG_Salmon,IREGIO64,HwajIWff,,
+STU,Stuart River,54.174476,-123.683109,SAEG_Stuart,IBULKL8,xKoizTAr,,
+PG,"Prince George, BC",53.9171,-122.75,,,,1096468,2
+BL,Bear Lake,54.493,-122.683,,,,,1

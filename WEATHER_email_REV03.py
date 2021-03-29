@@ -8,7 +8,7 @@ import yagmail
 import os 
 
 wu = WUndergroundAPI(
-    api_key="ea1b7935159d43c29b7935159dd3c2fe",
+    api_key="ee026438a7544b0d826438a7544b0d01",
     units=units.METRIC_UNITS)
 
 class PWS(object):
@@ -40,70 +40,52 @@ print(subject)
 
 hr_of_interest = [7,13,19]
 
-result_table = {}
-result_table["Weather Station"] = []
-for hr_num in hr_of_interest:
-    hr_txt = dt.time(hour=hr_num).strftime("%I%p").lstrip("0")
-    result_table[hr_txt + " Temp"] = []
-    result_table[hr_txt + " Wind"] = []
-result_table["Precip"] = []
-
+result_table = pd.DataFrame()
 station_results = []
 
-for station in stations:
-    result_table["Weather Station"].append(station.name)
+for index,station in enumerate(stations):
+    result_table.at[index,"Weather Station"] = station.name
     
-    try: history = wu.history(date=yesterday,granularity="hourly",station_id=station.ID)["observations"]
-
+    try:
+        history = wu.history(date=yesterday,granularity="hourly",station_id=station.ID)["observations"]
     except Exception as e:
         print(e)
         print(f"{station.name}'s hourly data could not be reached")
-        
         station.hr_record = {hr:{"wind": "OFFLINE", "temp": "OFFLINE"} for hr in range(0,25)}
-        
     else:
         station.hr_record = {}
-        for index,record in enumerate(history):
+        for _,record in enumerate(history):
             time = dt.datetime.strptime(record["obsTimeLocal"], "%Y-%m-%d %H:%M:%S")
-            
             temp = record["metric"]["tempAvg"]
             temp_str = f"{temp}°C"
-
             wind_speed = record["metric"]["windspeedHigh"]
             wind_dir = deg_to_compass(float(record["winddirAvg"]))
             wind_str = f"{wind_speed}km/h {wind_dir}"
-
             station.hr_record[time.hour] = {"wind": wind_str, "temp": temp_str}
 
     try:
         total_precip = wu.history(date=yesterday,granularity="daily",station_id=station.ID)["observations"][0]["metric"]["precipTotal"]
         station.precip = f"{total_precip}mm"
-    
     except Exception as e:
         print(e)
         print(f"{station.name}'s daily data could not be reached")
         station.precip = "OFFLINE"
 
-
-    # Add Values to Dictionary
     for hr_num in hr_of_interest:
         hr_txt = dt.time(hour=hr_num).strftime("%I%p").lstrip("0")
         if hr_num in station.hr_record:
-            result_table[hr_txt + " Temp"].append(station.hr_record[hr_num]["temp"])
-            result_table[hr_txt + " Wind"].append(station.hr_record[hr_num]["wind"])
-
+            result_table.at[index,hr_txt + " Temp"] = station.hr_record[hr_num]["temp"]
+            result_table.at[index,hr_txt + " Wind"] = station.hr_record[hr_num]["wind"]
         else:
-            result_table[hr_txt + " Temp"].append("NO DATA")
-            result_table[hr_txt + " Wind"].append("NO DATA")
+            result_table.at[index,hr_txt + " Temp"] = "NO DATA"
+            result_table.at[index,hr_txt + " Wind"] = "NO DATA"
 
-    if station.precip: result_table["Precip"].append(station.precip)
-    else: result_table["Precip"].append("NO DATA")
-
-df = pd.DataFrame(data=result_table)
-print(df)
+    if station.precip: result_table.at[index,"Precip"] = station.precip
+    else: result_table.at[index,"Precip"] = "NO DATA"
 
 # Add HTML Styling
-df_html = df.to_html(index=False)
+print(result_table)
+df_html = result_table.to_html(index=False)
 
 df_html = df_html.replace(
     "<table border=\"1\" class=\"dataframe\">",
@@ -139,35 +121,33 @@ html_string = f"""
 </html>.
 """
 
-if platform.startswith('linux'): fname_html = f"/home/pi/weather/Weather Summary - {yesterday_text}.html"
-else: fname_html = f"Weather Summary - {yesterday_text}.html"
+if platform.startswith('linux'): 
+    fname_html = f"/home/pi/weather/Weather Summary - {yesterday_text}.html"
+    fname_emails = "/home/pi/weather/email_list.csv"
+    fname_kmz = "/home/pi/weather/SAEG Weather Stations.kmz"
+else: 
+    fname_html = f"Weather Summary - {yesterday_text}.html"
+    fname_emails = "01_Code\\email_list.csv"
+    fname_kmz = "SAEG Weather Stations.kmz"
 
 with open(fname_html,"w") as file:
     file.seek(0)
     file.write(html_string)
 
-# Acquire emails
-if platform.startswith('linux'): fname_emails = "/home/pi/weather/email_list.txt"
-else: fname_emails = "01_Code\\email_list.txt"
-
-with open(fname_emails,newline="\r\n") as file:
-    emails = [row for row in file.read().splitlines()]
+emails = pd.read_csv(fname_emails,header=None)[0].tolist()
 print(emails)
 
 # Send Email
 to = emails
-#to = "rpaul@saenergygroup.com"
 contents = f"Hello,<br><br>Please see attached weather summary for {yesterday_text}. \
-    You can open the attached file in a web browser.<br><br>Thanks,<br><br>\
-    <span style=\"color:#c00000;font-weight:bold;\">Riley Paul</span>\
-    , E.I.T.<br><span style=\"font-weight:bold;\">Junior Project Engineer<br>\
-    Mobile:</span> 403.998.2856"
+    You can open the attached file in a web browser."
 
 try:
-    yag = yagmail.SMTP("rpaul.aecon@gmail.com","wzlanqevzalhnztf")
-    yag.send(to=to,subject=subject,contents=contents,attachments=fname_html)
+    yag = yagmail.SMTP("saeg.weather@gmail.com","SA_CGL_S34")
+    yag.send(to=to,subject=subject,attachments=[fname_html,fname_kmz])
     print("Email SENT")
-except:
+except Exception as e:
+    print(e)
     print("Email not sent")
 
 os.remove(fname_html)

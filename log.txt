@@ -658,3 +658,653 @@ Weather Summary - 2020-10-26
 SAEG_Vanderhoof's hourly data could not be reached
 
 SAEG_Vanderhoof's daily data could not be reached
+CGL S34 Weather Summary - 2021-03-29
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind   Precip
+0  SAEG_Vanderhoof     -5°C    9km/h E  ...      2°C  17km/h WNW   0.79mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE     OFFLINE  OFFLINE
+2     SAEG_Crooked     -9°C  0km/h ESE  ...     -2°C   0km/h SSW    0.0mm
+3      SAEG_Salmon    -11°C   0km/h SE  ...      1°C  12km/h ESE   0.25mm
+4      SAEG_Stuart     -6°C    2km/h E  ...  NO DATA     NO DATA    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+'/home/pi/weather/SAEG Weather Stations.kmz' is not a valid filepath
+Email not sent
+CGL S34 Weather Summary - 2021-03-30
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind   Precip
+0  SAEG_Vanderhoof     -3°C  6km/h WNW  ...      6°C    16km/h W    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE     OFFLINE  OFFLINE
+2     SAEG_Crooked     -6°C    2km/h W  ...      3°C     1km/h N    0.0mm
+3      SAEG_Salmon     -7°C  1km/h ESE  ...      5°C  13km/h ESE    0.0mm
+4      SAEG_Stuart     -3°C  0km/h WNW  ...  NO DATA     NO DATA    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-03-31
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+
+SAEG_Stuart's hourly data could not be reached
+
+SAEG_Stuart's daily data could not be reached
+   Weather Station 7AM Temp    7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof      2°C   10km/h SW  ...      6°C   4km/h SW    0.0mm
+1     SAEG_Parsnip  OFFLINE     OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      1°C     1km/h W  ...      3°C  1km/h ESE    0.0mm
+3      SAEG_Salmon      2°C  10km/h ENE  ...      4°C    2km/h N    0.0mm
+4      SAEG_Stuart  OFFLINE     OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-01
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+
+SAEG_Stuart's hourly data could not be reached
+
+SAEG_Stuart's daily data could not be reached
+   Weather Station 7AM Temp    7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     -3°C   5km/h ENE  ...      2°C  8km/h WNW   0.79mm
+1     SAEG_Parsnip  OFFLINE     OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      0°C   1km/h WSW  ...      2°C  6km/h WSW    0.0mm
+3      SAEG_Salmon      1°C  15km/h NNE  ...      2°C   10km/h E    0.0mm
+4      SAEG_Stuart  OFFLINE     OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-02
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof      1°C   7km/h SE  ...      4°C    9km/h E    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -2°C    2km/h W  ...      2°C  0km/h SSW    0.0mm
+3      SAEG_Salmon     -2°C  0km/h ENE  ...      1°C   4km/h NE    0.0mm
+4      SAEG_Stuart  NO DATA    NO DATA  ...  NO DATA    NO DATA    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-03
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof      0°C    6km/h E  ...      4°C  3km/h NNW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -4°C  0km/h SSW  ...      2°C   0km/h NW    0.0mm
+3      SAEG_Salmon     -1°C    3km/h N  ...      2°C  2km/h NNW    0.0mm
+4      SAEG_Stuart     -1°C    6km/h S  ...  NO DATA    NO DATA    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-04
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24891f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2489510>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2489230>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24896d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24894f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2489210>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24891f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2489230>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2489530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210404&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24894f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's daily data could not be reached
+   Weather Station 7AM Temp 7AM Wind  ... 7PM Temp 7PM Wind   Precip
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+[Errno -3] Temporary failure in name resolution
+Email not sent
+CGL S34 Weather Summary - 2021-04-05
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f14f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f11f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f1510>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f1630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f14f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f14d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f1190>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f1510>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f1590>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210405&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f14f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's daily data could not be reached
+   Weather Station 7AM Temp 7AM Wind  ... 7PM Temp 7PM Wind   Precip
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+[Errno -3] Temporary failure in name resolution
+Email not sent
+CGL S34 Weather Summary - 2021-04-06
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471250>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471570>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471290>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471730>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471270>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471250>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471290>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471590>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210406&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2471550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's daily data could not be reached
+   Weather Station 7AM Temp 7AM Wind  ... 7PM Temp 7PM Wind   Precip
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+[Errno -3] Temporary failure in name resolution
+Email not sent
+CGL S34 Weather Summary - 2021-04-07
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24984b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2498450>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Vanderhoof's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24981f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IREGIO56 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2498630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Parsnip's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2498530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2498150>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Crooked's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2498170>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24981f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Salmon's daily data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/hourly?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2498470>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's hourly data could not be reached
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/history/daily?apiKey=ee026438a7544b0d826438a7544b0d01&units=m&format=json&date=20210407&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2498530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SAEG_Stuart's daily data could not be reached
+   Weather Station 7AM Temp 7AM Wind  ... 7PM Temp 7PM Wind   Precip
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+[Errno -3] Temporary failure in name resolution
+Email not sent
+CGL S34 Weather Summary - 2021-04-08
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind   Precip
+0  SAEG_Vanderhoof  NO DATA    NO DATA  ...      1°C   24km/h SW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE     OFFLINE  OFFLINE
+2     SAEG_Crooked     -6°C  0km/h ESE  ...      3°C  11km/h WSW    0.0mm
+3      SAEG_Salmon     -7°C  2km/h SSE  ...      2°C    27km/h E    0.0mm
+4      SAEG_Stuart     -3°C  7km/h NNW  ...  NO DATA     NO DATA    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-09
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind   Precip
+0  SAEG_Vanderhoof      0°C  14km/h SE  ...      1°C    9km/h NW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE     OFFLINE  OFFLINE
+2     SAEG_Crooked      0°C  1km/h ENE  ...      1°C  11km/h WSW   1.02mm
+3      SAEG_Salmon     -2°C    6km/h N  ...      1°C  19km/h ESE   0.51mm
+4      SAEG_Stuart     -2°C    5km/h S  ...      1°C     5km/h W    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-10
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp    7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     -4°C  10km/h WSW  ...      3°C  3km/h WNW    0.0mm
+1     SAEG_Parsnip  OFFLINE     OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -6°C   0km/h WSW  ...     -1°C    0km/h N   0.51mm
+3      SAEG_Salmon     -5°C     1km/h E  ...     -1°C  2km/h ENE   1.02mm
+4      SAEG_Stuart     -4°C    9km/h NW  ...      2°C  5km/h WNW   0.25mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-11
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp  7PM Wind   Precip
+0  SAEG_Vanderhoof     -3°C    6km/h W  ...      4°C   5km/h E   0.61mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE   OFFLINE  OFFLINE
+2     SAEG_Crooked     -3°C  3km/h WNW  ...      2°C  0km/h SE    0.0mm
+3      SAEG_Salmon     -6°C  6km/h ESE  ...      3°C   1km/h E   0.25mm
+4      SAEG_Stuart     -3°C   7km/h NW  ...      2°C   3km/h W    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-12
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind   Precip
+0  SAEG_Vanderhoof     -3°C    5km/h E  ...      8°C  11km/h ENE    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE     OFFLINE  OFFLINE
+2     SAEG_Crooked     -5°C  3km/h ESE  ...      4°C     0km/h E    0.0mm
+3      SAEG_Salmon     -7°C    0km/h E  ...      6°C   4km/h NNE    0.0mm
+4      SAEG_Stuart     -5°C   2km/h SW  ...      6°C   4km/h ESE    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-13
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     -5°C    4km/h E  ...     12°C  4km/h NNW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -4°C    0km/h E  ...      8°C  0km/h ENE    0.0mm
+3      SAEG_Salmon     -5°C  1km/h NNE  ...      8°C  0km/h NNE    0.0mm
+4      SAEG_Stuart     -3°C  4km/h ESE  ...      9°C    3km/h W    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-14
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     -2°C  2km/h NNE  ...     16°C  8km/h ENE    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -4°C  0km/h ENE  ...     11°C   0km/h SE    0.0mm
+3      SAEG_Salmon     -4°C  1km/h NNE  ...     13°C  0km/h SSW    0.0mm
+4      SAEG_Stuart     -2°C    0km/h W  ...     13°C  4km/h ENE    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-15
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof      0°C  4km/h ENE  ...     19°C    6km/h E    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      0°C  3km/h ESE  ...     14°C  0km/h ENE    0.0mm
+3      SAEG_Salmon      0°C    1km/h S  ...     15°C   1km/h SE    0.0mm
+4      SAEG_Stuart      0°C    0km/h E  ...     14°C   3km/h NW    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-16
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof      1°C    2km/h E  ...     20°C  7km/h NNE    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      0°C  0km/h ENE  ...     15°C    0km/h E    0.0mm
+3      SAEG_Salmon     -1°C   0km/h SE  ...     16°C  2km/h SSE    0.0mm
+4      SAEG_Stuart      1°C   0km/h NW  ...     16°C  3km/h SSW    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-17
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp  7PM Wind   Precip
+0  SAEG_Vanderhoof      2°C   4km/h NE  ...     21°C   7km/h N    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE   OFFLINE  OFFLINE
+2     SAEG_Crooked      1°C    0km/h E  ...     14°C  2km/h SE    0.0mm
+3      SAEG_Salmon     -1°C  0km/h SSE  ...     16°C  0km/h SE    0.0mm
+4      SAEG_Stuart      0°C   0km/h SW  ...     18°C  4km/h SE    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-18
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp    7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof      5°C  16km/h NNE  ...     21°C    0km/h W   0.61mm
+1     SAEG_Parsnip  OFFLINE     OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      5°C     9km/h E  ...      5°C  1km/h ENE    0.0mm
+3      SAEG_Salmon      4°C     8km/h W  ...      7°C  3km/h WNW    0.0mm
+4      SAEG_Stuart      5°C  12km/h NNE  ...      9°C  8km/h ENE    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-19
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp  7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     19°C   0km/h W  ...     21°C    0km/h W    0.0mm
+1     SAEG_Parsnip  OFFLINE   OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -1°C  2km/h NE  ...      8°C  1km/h WSW    0.0mm
+3      SAEG_Salmon     -2°C  2km/h SE  ...     11°C   4km/h SE    0.0mm
+4      SAEG_Stuart     -1°C   5km/h N  ...     12°C  4km/h ESE    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-20
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     19°C    0km/h W  ...     20°C  0km/h WSW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -3°C  0km/h WSW  ...     12°C    0km/h W    0.0mm
+3      SAEG_Salmon     -2°C   0km/h SE  ...     15°C   4km/h SE    0.0mm
+4      SAEG_Stuart     -2°C   1km/h SE  ...     16°C   11km/h W    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-21
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...     20°C   0km/h WSW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE     OFFLINE  OFFLINE
+2     SAEG_Crooked      3°C  1km/h WSW  ...      1°C  10km/h ESE   1.02mm
+3      SAEG_Salmon      0°C    2km/h S  ...      1°C     8km/h S    0.0mm
+4      SAEG_Stuart      1°C    1km/h W  ...      3°C    20km/h N    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-22
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...     20°C  0km/h WSW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked     -2°C    3km/h E  ...      2°C   0km/h SW    0.0mm
+3      SAEG_Salmon     -4°C    2km/h S  ...      6°C  3km/h SSE    0.0mm
+4      SAEG_Stuart     -2°C  7km/h NNE  ...      7°C    6km/h E    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-23
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...     20°C  0km/h WSW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      1°C    4km/h E  ...      5°C  1km/h ENE    0.0mm
+3      SAEG_Salmon     -1°C    2km/h S  ...      6°C    1km/h W    0.0mm
+4      SAEG_Stuart     -3°C  1km/h ESE  ...      8°C    4km/h E    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-24
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...     20°C  0km/h WSW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      1°C    4km/h E  ...      5°C  6km/h ENE    0.0mm
+3      SAEG_Salmon     -1°C    5km/h S  ...      7°C  5km/h SSW    0.0mm
+4      SAEG_Stuart      1°C  13km/h NE  ...      8°C  9km/h ENE    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-25
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...     20°C  0km/h WSW   0.61mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      1°C    4km/h E  ...      7°C  0km/h WSW    0.0mm
+3      SAEG_Salmon      0°C   3km/h SE  ...     10°C   7km/h SE    0.0mm
+4      SAEG_Stuart      2°C    8km/h N  ...     10°C  15km/h NW    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-26
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...     20°C   0km/h WSW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE     OFFLINE  OFFLINE
+2     SAEG_Crooked      1°C    3km/h W  ...     14°C   14km/h SW    0.0mm
+3      SAEG_Salmon     -1°C  0km/h ESE  ...     14°C  21km/h ESE    0.0mm
+4      SAEG_Stuart     -1°C    1km/h W  ...     14°C  29km/h WNW    0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-27
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...     17°C  0km/h WSW    0.0mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      3°C  0km/h WSW  ...      4°C    0km/h W   2.29mm
+3      SAEG_Salmon      4°C  6km/h ENE  ...      3°C    6km/h N   3.05mm
+4      SAEG_Stuart      5°C  6km/h WSW  ...      5°C  7km/h SSE   2.54mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-28
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind   Precip
+0  SAEG_Vanderhoof     18°C  0km/h WSW  ...      7°C    9km/h E   4.29mm
+1     SAEG_Parsnip  OFFLINE    OFFLINE  ...  OFFLINE    OFFLINE  OFFLINE
+2     SAEG_Crooked      3°C   0km/h SW  ...      7°C  0km/h ESE    6.6mm
+3      SAEG_Salmon      3°C   5km/h NE  ...      6°C  5km/h NNE   3.56mm
+4      SAEG_Stuart      4°C  2km/h WSW  ...      7°C  7km/h SSW   7.87mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-29
+
+SAEG_Vanderhoof's hourly data could not be reached
+
+SAEG_Vanderhoof's daily data could not be reached
+
+SAEG_Parsnip's hourly data could not be reached
+
+SAEG_Parsnip's daily data could not be reached
+
+SAEG_Crooked's hourly data could not be reached
+
+SAEG_Crooked's daily data could not be reached
+
+SAEG_Salmon's hourly data could not be reached
+
+SAEG_Salmon's daily data could not be reached
+
+SAEG_Stuart's hourly data could not be reached
+
+SAEG_Stuart's daily data could not be reached
+   Weather Station 7AM Temp 7AM Wind  ... 7PM Temp 7PM Wind   Precip
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE  OFFLINE
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com']
+Email SENT
+CGL S34 Weather Summary - 2021-04-30
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind  Precip
+0  SAEG_Vanderhoof      8°C   10km/h W  ...     11°C  18km/h WNW   0.2mm
+1     SAEG_Parsnip      6°C    8km/h E  ...      6°C  12km/h ESE   4.8mm
+2     SAEG_Crooked      6°C    3km/h N  ...      6°C   0km/h WSW  2.29mm
+3      SAEG_Salmon      7°C  9km/h ENE  ...      9°C   3km/h ESE  2.29mm
+4      SAEG_Stuart      9°C    7km/h S  ...     11°C  14km/h WNW  0.51mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com']
+Email SENT
+CGL S34 Weather Summary - 2021-05-01
+   Weather Station 7AM Temp    7AM Wind  ... 7PM Temp   7PM Wind  Precip
+0  SAEG_Vanderhoof      4°C   8km/h WNW  ...     11°C   17km/h W   0.0mm
+1     SAEG_Parsnip      2°C   13km/h SE  ...      7°C  23km/h NW   3.3mm
+2     SAEG_Crooked      3°C   5km/h WSW  ...      7°C    3km/h E  1.27mm
+3      SAEG_Salmon      3°C   7km/h ESE  ...     11°C   9km/h SE  1.02mm
+4      SAEG_Stuart      5°C  21km/h WNW  ...     11°C   15km/h W   0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com']
+Email SENT
+CGL S34 Weather Summary - 2021-05-02
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp    7PM Wind  Precip
+0  SAEG_Vanderhoof      2°C   6km/h SW  ...     12°C  15km/h ESE   0.2mm
+1     SAEG_Parsnip      0°C    9km/h E  ...     11°C   13km/h SE   0.2mm
+2     SAEG_Crooked      0°C    3km/h W  ...      9°C     1km/h N  1.52mm
+3      SAEG_Salmon      0°C  0km/h SSW  ...     10°C    6km/h NE  0.25mm
+4      SAEG_Stuart      2°C   2km/h NW  ...     13°C     8km/h E   0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com']
+Email SENT
+CGL S34 Weather Summary - 2021-05-03
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind  Precip
+0  SAEG_Vanderhoof      5°C  5km/h SSE  ...     12°C   12km/h W  0.79mm
+1     SAEG_Parsnip      2°C   2km/h SE  ...      7°C   28km/h S  2.79mm
+2     SAEG_Crooked      2°C  2km/h NNW  ...      7°C    4km/h S  2.54mm
+3      SAEG_Salmon      2°C   4km/h NE  ...      8°C   4km/h NE  1.78mm
+4      SAEG_Stuart      3°C  2km/h SSW  ...     11°C  14km/h SW  1.02mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com', 'mmorton@saenergygroup.com']
+Email SENT
+CGL S34 Weather Summary - 2021-05-04
+   Weather Station 7AM Temp    7AM Wind  ... 7PM Temp   7PM Wind  Precip
+0  SAEG_Vanderhoof      5°C    11km/h W  ...     12°C    8km/h W   0.0mm
+1     SAEG_Parsnip      4°C  12km/h ESE  ...     11°C    9km/h S   0.3mm
+2     SAEG_Crooked      4°C    3km/h NW  ...      9°C    1km/h W  1.27mm
+3      SAEG_Salmon      3°C   6km/h ESE  ...      9°C  2km/h ESE  0.51mm
+4      SAEG_Stuart      5°C   10km/h NW  ...     10°C   5km/h NW   0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com', 'mmorton@saenergygroup.com']
+Email SENT
+CGL S34 Weather Summary - 2021-05-05
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp   7PM Wind Precip
+0  SAEG_Vanderhoof      2°C    9km/h E  ...     16°C   17km/h E  0.0mm
+1     SAEG_Parsnip      2°C   10km/h E  ...     13°C  13km/h SE  0.0mm
+2     SAEG_Crooked      2°C  4km/h WSW  ...     14°C   3km/h NE  0.0mm
+3      SAEG_Salmon  NO DATA    NO DATA  ...     13°C  4km/h WNW  0.0mm
+4      SAEG_Stuart  NO DATA    NO DATA  ...     15°C    8km/h E  0.0mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com', 'mmorton@saenergygroup.com']
+Email SENT
+CGL S34 Weather Summary - 2021-05-06
+   Weather Station 7AM Temp   7AM Wind  ... 7PM Temp 7PM Wind  Precip
+0  SAEG_Vanderhoof     10°C   23km/h E  ...  NO DATA  NO DATA  3.81mm
+1     SAEG_Parsnip      2°C  3km/h ESE  ...  NO DATA  NO DATA   0.0mm
+2     SAEG_Crooked      4°C  4km/h ENE  ...  NO DATA  NO DATA  0.51mm
+3      SAEG_Salmon     10°C  8km/h NNW  ...  NO DATA  NO DATA  3.05mm
+4      SAEG_Stuart      8°C    6km/h E  ...  NO DATA  NO DATA  2.79mm
+
+[5 rows x 8 columns]
+['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com', 'mmorton@saenergygroup.com']
+Email SENT

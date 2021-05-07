@@ -26,7 +26,7 @@ def deg_to_compass(num):
 
 stations = [
     PWS("SAEG_Vanderhoof","IVANDE4","8nYFNJMH","54.05608, -124.02993"),
-    PWS("SAEG_Parsnip","IREGIO56","vBCqMKqj","54.76181, -122.49811"),
+    PWS("SAEG_Parsnip","IREGIO82","021B6rFM","54.76181, -122.49811"),
     PWS("SAEG_Crooked","IREGIO61","xzvVa8U1","54.653556, -122.752946"),
     PWS("SAEG_Salmon","IREGIO64","HwajIWff","54.394, -123.171"),
     PWS("SAEG_Stuart","IBULKL8","xKoizTAr","54.174476, -123.683109")]
@@ -35,7 +35,7 @@ today = dt.date.today()
 yesterday = today - dt.timedelta(days=1)
 yesterday_text = dt.date.strftime(yesterday,"%Y-%m-%d")
 
-subject = "Weather Summary - " + yesterday_text
+subject = "CGL S34 Weather Summary - " + yesterday_text
 print(subject)
 
 hr_of_interest = [7,13,19]
@@ -139,8 +139,7 @@ print(emails)
 
 # Send Email
 to = emails
-contents = f"Hello,<br><br>Please see attached weather summary for {yesterday_text}. \
-    You can open the attached file in a web browser."
+contents = f"For some reason the only data collected yesterday for several of the stations was from 3PM-6PM. I have included data from 4PM for this one time just to give you something from yesterday."
 
 try:
     yag = yagmail.SMTP("saeg.weather@gmail.com","SA_CGL_S34")

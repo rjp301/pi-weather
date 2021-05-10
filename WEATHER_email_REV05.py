@@ -130,7 +130,7 @@ result["Weather Station"] = stations["NAME"].tolist()
 
 for index,station in stations.iterrows():
     hr_data = gather_hourly(station["ID"],today)
-    print(hr_data)
+    # print(hr_data)
     
     if hr_data.empty:
         for hr in hrs_of_interest:
@@ -157,9 +157,10 @@ for index,station in stations.iterrows():
     yesterday_hrs = [i for i in yesterday_hrs if i in hr_data.index]
     if yesterday_hrs:
         yesterday_rain = hr_data.loc[yesterday_hrs,"metric.precipTotal"].tolist()
-        for i in yesterday_rain: print(i)
         yesterday_max = max(yesterday_rain)
-        # print("yesterday_max =",yesterday_max)
+    else:
+        result.at[index,"Precip (overnight)"] = "NO DATA"
+        continue
 
     # find max rainfall from midnight to 5AM --> x2
     today_hrs = [dt.datetime.combine(today,dt.time(hour=i)) for i in range(6)]
@@ -167,7 +168,9 @@ for index,station in stations.iterrows():
     if today_hrs:
         today_rain = hr_data.loc[today_hrs,"metric.precipTotal"].tolist()
         today_max = max(today_rain)
-        # print("today_max =",today_max)
+    else:
+        result.at[index,"Precip (overnight)"] = "NO DATA"
+        continue
 
     # find rainfall around 5PM yesterday --> x1
     evening_hours = [dt.datetime.combine(yesterday,dt.time(hour=i)) for i in range(16,19)]
@@ -175,10 +178,11 @@ for index,station in stations.iterrows():
     if evening_hours:
         evening_rain = hr_data.loc[evening_hours,"metric.precipTotal"].tolist()
         evening_min = min(evening_rain)
-        # print("evening_min =",evening_min)
+    else:
+        result.at[index,"Precip (overnight)"] = "NO DATA"
+        continue
     
-    try: result.at[index,"Precip (overnight)"] = f"{yesterday_max - evening_min + today_max}mm"
-    except: result.at[index,"Precip (overnight)"] = "NO DATA"
+    result.at[index,"Precip (overnight)"] = f"{yesterday_max - evening_min + today_max}mm"
 
 print(result)
 

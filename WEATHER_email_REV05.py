@@ -9,7 +9,7 @@ from pprint import pprint
 from wunderground_pws import WUndergroundAPI, units
 
 wu = WUndergroundAPI(
-    api_key="ee026438a7544b0d826438a7544b0d01",
+    api_key="6dad6ffc9f2844e1ad6ffc9f2884e1c7",
     default_station_id="IVANDE4",
     units=units.METRIC_UNITS,)
 
@@ -45,6 +45,7 @@ def gather_hourly(station_id,date):
         data = data.set_index("time_rnd")
         data.index.name = None
         data = data.sort_index(ascending=False)
+        data = data[~data.index.duplicated(keep="first")]
         return data
     else:
         print("Hourly data for",station_id,"on",date,"unreachable")
@@ -100,10 +101,12 @@ def format_data(data,title):
         file.seek(0)
         file.write(html_string)
 
+print(dt.datetime.now())
+
 hrs_of_interest = [7,13,19]
 
 today = dt.date.today()
-today = dt.date(year=2021,month=5,day=7)
+# today = dt.date(year=2021,month=5,day=7)
 yesterday = today - dt.timedelta(days=1)
 yesterday_txt = yesterday.strftime("%Y-%m-%d")
 
@@ -130,6 +133,7 @@ result["Weather Station"] = stations["NAME"].tolist()
 
 for index,station in stations.iterrows():
     hr_data = gather_hourly(station["ID"],today)
+    # print(station["NAME"])
     # print(hr_data)
     
     if hr_data.empty:
@@ -191,7 +195,7 @@ format_data(result,subject)
 
 # Send email
 to = pd.read_csv(fname_emails,header=None)[0].tolist()
-to = "rileypaul96@gmail.com"
+# to = "rileypaul96@gmail.com"
 
 try:
     yag = yagmail.SMTP("saeg.weather@gmail.com","SA_CGL_S34")

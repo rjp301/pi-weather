@@ -32,7 +32,7 @@ def gather_hourly(station_id,date):
 
     datasets = []
     for i in range(2):
-        date_of_interest = date - dt.timedelta(days=i)
+        date_of_interest = date + dt.timedelta(days=i)
         try:
             history = wu.history(date_of_interest,station_id=station_id)
             datasets.append(pd.json_normalize(history["observations"]))
@@ -102,19 +102,15 @@ def format_data(data,title):
         file.seek(0)
         file.write(html_string)
 
-def rain_range(datetime,offset=2):
-    global hr_data
-    
-    hr_beg = datetime - dt.timedelta(hours=offset)
-    hr_end = datetime + dt.timedelta(hours=offset)
-    
-    data = hr_data.reset_index()
-    data = data[data["index"].between(hr_beg,hr_end)]
-    return data["metric.precipTotal"].tolist()
+def rain_total(dataframe):
+    precip_rate_max = dataframe["metric.precipRate"].max()
+    precip_total_max = dataframe["metric.precipTotal"].max()
+    return precip_total_max - dataframe.at[0,"metric.precipTotal"] if precip_rate_max > 0 else 0
 
 today = dt.date.today()
-yesterday = today - dt.timedelta(days=1)
+yesterday = today - dt.timedelta(days=5)
 yesterday_txt = yesterday.strftime("%Y-%m-%d")
+print(yesterday_txt)
 
 subject = "CGL S34 Weather Summary - " + yesterday_txt
 
@@ -144,9 +140,9 @@ result = pd.DataFrame(columns=columns)
 result["Name"] = stations["NAME"].tolist()
 
 for index,station in stations.iterrows():
-    # if index != 0: continue
+    # if index != 3: continue
 
-    hr_data = gather_hourly(station["ID"],today)
+    hr_data = gather_hourly(station["ID"],yesterday)
     # print(station["NAME"])
     # print(hr_data)
     
@@ -160,17 +156,25 @@ for index,station in stations.iterrows():
 
     for rng in rng_of_interest:
         yesterday_beg = dt.datetime.combine(yesterday,dt.time(hour=0))
-        rain_beg = min(rain_range(yesterday_beg + dt.timedelta(hours=rng[0])))
-        rain_end = max(rain_range(yesterday_beg + dt.timedelta(hours=rng[1])))
-        rain_mid = max(rain_range(yesterday_beg + dt.timedelta(hours=24)))
+        hr_beg = yesterday_beg + dt.timedelta(hours=rng[0])
+        hr_end = yesterday_beg + dt.timedelta(hours=rng[1])
+        hr_mid = yesterday_beg + dt.timedelta(hours=24)
+        
+        data = hr_data.copy().reset_index()
+        data = data[data["index"].between(hr_beg,hr_end)].reset_index(drop=True)
+        data.sort_values("index",inplace=True)
+        data.reset_index(drop=True,inplace=True)
+        # print(data)
 
         if rng[0] < 24 and rng[1] > 24:
-            rain_tot = rain_mid - rain_beg + rain_end
+            pre_mid = data[data["index"] < hr_mid].reset_index(drop=True)
+            post_mid = data[data["index"] >= hr_mid].reset_index(drop=True)
+            rain_tot = rain_total(pre_mid) + rain_total(post_mid)
 
         else:
-            rain_tot = rain_end - rain_beg
+            rain_tot = rain_total(data)
 
-        result.at[index,f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm"
+        if len(data) > 0: result.at[index,f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm" 
 
 print(result)
 
@@ -178,7 +182,7 @@ format_data(result,subject)
 
 # Send email
 to = pd.read_csv(fname_emails,header=None)[0].tolist()
-to = "rileypaul96@gmail.com"
+# to = "rileypaul96@gmail.com"
 
 try:
     yag = yagmail.SMTP("saeg.weather@gmail.com","SA_CGL_S34")

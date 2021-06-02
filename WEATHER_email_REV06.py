@@ -108,7 +108,7 @@ def rain_total(dataframe):
     return precip_total_max - dataframe.at[0,"metric.precipTotal"] if precip_rate_max > 0 else 0
 
 today = dt.date.today()
-yesterday = today - dt.timedelta(days=5)
+yesterday = today - dt.timedelta(days=1)
 yesterday_txt = yesterday.strftime("%Y-%m-%d")
 print(yesterday_txt)
 

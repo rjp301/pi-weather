@@ -142,7 +142,11 @@ result["Name"] = stations["NAME"].tolist()
 for index,station in stations.iterrows():
     # if index != 3: continue
 
-    hr_data = gather_hourly(station["ID"],yesterday)
+    hr_data = pd.DataFrame()
+    i = 0
+    while hr_data.empty and  i < 5:
+        hr_data = gather_hourly(station["ID"],yesterday)
+        i += 1
     # print(station["NAME"])
     # print(hr_data)
     

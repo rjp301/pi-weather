@@ -54,7 +54,7 @@ def gather_hourly(station_id,date):
 def format_data(data,title):
     global fname_html,hrs_of_interest,rng_of_interest
 
-    df_html = data.to_html(index=False,na_rep="")
+    df_html = data.to_html(index=False,na_rep="NO DATA")
     df_html = df_html.replace(
         "<table border=\"1\" class=\"dataframe\">",
         "<table border=\"1\" class=\"dataframe\" \
@@ -150,7 +150,11 @@ for index,station in stations.iterrows():
     # print(station["NAME"])
     # print(hr_data)
     
-    if hr_data.empty: continue
+    if hr_data.empty:
+        for index_c,entry in enumerate(result.columns):
+            if index_c == 0: continue
+            result.at[index,entry] = "OFFLINE"
+        continue
 
     for hr in hrs_of_interest:
         index_dt = dt.datetime.combine(yesterday,dt.time(hour=hr))
@@ -168,9 +172,11 @@ for index,station in stations.iterrows():
         data = data[data["index"].between(hr_beg,hr_end)].reset_index(drop=True)
         data.sort_values("index",inplace=True)
         data.reset_index(drop=True,inplace=True)
-        # print(data)
 
-        if rng[0] < 24 and rng[1] > 24:
+        if len(data) <= 4:
+            rain_tot = None
+
+        elif rng[0] < 24 and rng[1] > 24:
             pre_mid = data[data["index"] < hr_mid].reset_index(drop=True)
             post_mid = data[data["index"] >= hr_mid].reset_index(drop=True)
             rain_tot = rain_total(pre_mid) + rain_total(post_mid)
@@ -178,7 +184,7 @@ for index,station in stations.iterrows():
         else:
             rain_tot = rain_total(data)
 
-        if len(data) > 0: result.at[index,f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm" 
+        result.at[index,f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm" if rain_tot else "NO DATA"
 
 print(result)
 
@@ -186,7 +192,7 @@ format_data(result,subject)
 
 # Send email
 to = pd.read_csv(fname_emails,header=None)[0].tolist()
-# to = "rileypaul96@gmail.com"
+to = "rileypaul96@gmail.com"
 
 try:
     yag = yagmail.SMTP("saeg.weather@gmail.com","SA_CGL_S34")

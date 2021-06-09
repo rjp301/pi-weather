@@ -184,7 +184,7 @@ for index,station in stations.iterrows():
         else:
             rain_tot = rain_total(data)
 
-        result.at[index,f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm" if rain_tot else "NO DATA"
+        result.at[index,f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm" if rain_tot != None else "NO DATA"
 
 print(result)
 
@@ -192,7 +192,7 @@ format_data(result,subject)
 
 # Send email
 to = pd.read_csv(fname_emails,header=None)[0].tolist()
-to = "rileypaul96@gmail.com"
+# to = "rileypaul96@gmail.com"
 
 try:
     yag = yagmail.SMTP("saeg.weather@gmail.com","SA_CGL_S34")

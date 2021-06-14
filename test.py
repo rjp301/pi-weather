@@ -1,5 +1,3 @@
-mid = 4
-offset = 3
+import pandas as pd
 
-times = [mid + (i-offset) for i in range(offset*2+1)]
-print(times)
+print(len(pd.DataFrame()))

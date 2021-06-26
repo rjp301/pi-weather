@@ -28,32 +28,25 @@ def deg_to_compass(num):
     arr = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"]
     return arr[val % 16]
 
-def gather_hourly(station_id,date):
+def gather_hourly(station_id):
     wu = WUndergroundAPI(
         api_key="6072a9791ae24987b2a9791ae2d987c7",
         default_station_id="IVANDE4",
         units=units.METRIC_UNITS,)
 
-    datasets = []
-    for i in range(2):
-        date_of_interest = date + dt.timedelta(days=i)
-        try:
-            history = wu.history(date_of_interest,station_id=station_id)
-            datasets.append(pd.json_normalize(history["observations"]))
-        except Exception as e:
-            print(e)
-            print(station_id,"is unreachable on",date_of_interest)
-
-    if datasets:
-        data = pd.concat(datasets)
+    try:
+        history = wu.hourly(station_id)["observations"]
+        data = pd.json_normalize(history)
         data["time_rnd"] = [round_hr(date_from_str(i)) for i in data["obsTimeLocal"].tolist()]
         data = data.set_index("time_rnd")
         data.index.name = None
         data = data.sort_index(ascending=False)
         data = data[~data.index.duplicated(keep="first")]
         return data
-    else:
-        print("Hourly data for",station_id,"on",date,"unreachable")
+
+    except Exception as e:
+        print(e)
+        print(f"Hourly data for {station_id} unreachable")
         return pd.DataFrame()
 
 def format_data(data,title):
@@ -127,7 +120,7 @@ def summary(date,stations):
 
     for index,station in stations.iterrows():
         
-        hr_data = gather_hourly(station["ID"],yesterday)
+        hr_data = gather_hourly(station["ID"])
         # if len(hr_data) < 30:
         #     print("Trying again in three minutes")
         #     time.sleep(3*60)
@@ -135,9 +128,6 @@ def summary(date,stations):
 
         hr_data["station_name"] = station["NAME"]
         hr_datas.append(hr_data)
-
-        # print(station["NAME"])
-        # print(hr_data)
         
         if len(hr_data) < 18:
             for index_c,entry in enumerate(result.columns):
@@ -175,8 +165,7 @@ def summary(date,stations):
 
             result.at[index,f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm" if rain_tot != None else "NO DATA"
 
-    hr_data = pd.concat(hr_datas)
-    hr_data = hr_data.reset_index()
+    hr_data = pd.concat(hr_datas).reset_index()
 
     return result,hr_data
 
@@ -211,7 +200,7 @@ def main():
         file.write(format_data(result,subject))
 
     emails = pd.read_csv(fname_emails,header=None)[0].tolist()
-    # emails = ["rileypaul96@gmail.com"]
+    emails = ["rileypaul96@gmail.com"]
     
     attachments = [fname_html,fname_kmz]
     send_email(emails,subject,attachments)

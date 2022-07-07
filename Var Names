@@ -1,0 +1,33 @@
+- Precipitation
+
+"metric.precipTotal"
+
+- Humidity - High / Avg. / Low
+
+"humidityHigh"
+"humidityLow"
+"humidityAvg"
+
+- Temperature - High / Avg. / Low
+
+"metric.tempHigh"
+"metric.tempLow"
+"metric.tempAvg"
+
+- UV
+
+"metric.headindexAvg
+
+- Solar Rad
+
+"solarRadiationHigh"
+
+- Snowfall
+
+N/A
+
+- Wind
+
+"metric.windspeedAvg"
+
+(High and Low also provided)

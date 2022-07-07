@@ -200,7 +200,7 @@ def main():
         file.write(format_data(result,subject))
 
     emails = pd.read_csv(fname_emails,header=None)[0].tolist()
-    emails = ["rileypaul96@gmail.com"]
+    #emails = ["rileypaul96@gmail.com"]
     
     attachments = [fname_html,fname_kmz]
     send_email(emails,subject,attachments)

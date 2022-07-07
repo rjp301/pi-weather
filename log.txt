@@ -1308,3 +1308,3399 @@ CGL S34 Weather Summary - 2021-05-06
 [5 rows x 8 columns]
 ['pgunn@saenergygroup.com', 'squinn@saenergygroup.com', 'rmucenski@saenergygroup.com', 'sbazzo@saenergygroup.com', 'efochocki@shaw.ca', 'tdrager@saenergygroup.com', 'dholdis@saenergygroup.com', 'dmacdonald@saenergygroup.com', 'rpaul.aecon@gmail.com', 'jmueller@saenergygroup.com', 'mmorton@saenergygroup.com']
 Email SENT
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     15°C     29°C  ...    0.0mm    0.0mm     0.0mm
+1     SAEG_Parsnip     17°C     30°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     17°C     30°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     19°C     29°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     18°C     34°C  ...    0.0mm    0.0mm     0.0mm
+1     SAEG_Parsnip     16°C     33°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     17°C     33°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     23°C     32°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     19°C     34°C  ...    0.0mm    0.0mm     0.0mm
+1     SAEG_Parsnip     19°C     36°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     20°C     36°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     23°C     32°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     18°C     35°C  ...    0.0mm    0.0mm     0.0mm
+1     SAEG_Parsnip     19°C     35°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     20°C     35°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     24°C     34°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     18°C     31°C  ...    0.0mm    0.0mm     0.0mm
+1     SAEG_Parsnip     20°C     33°C  ...    0.0mm    3.8mm     3.5mm
+2     SAEG_Crooked     21°C     32°C  ...    0.0mm    1.5mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     21°C     31°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     17°C     27°C  ...    0.0mm    0.0mm     0.0mm
+1     SAEG_Parsnip     18°C     26°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     15°C     27°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     17°C     26°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     13°C     23°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     12°C     22°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     15°C     23°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon      NaN     22°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     14°C     22°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     13°C     23°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     13°C     22°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     13°C     22°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     21°C     25°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     15°C     22°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     13°C     23°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     12°C     20°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     13°C     21°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     12°C     23°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     13°C     20°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     10°C     24°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     11°C     23°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     13°C     24°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     10°C     24°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     14°C     23°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     10°C     27°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     11°C     25°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     12°C     27°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     10°C     21°C  ...   1.3mm   0.0mm     1.3mm
+4      SAEG_Stuart     15°C     25°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     11°C     28°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     13°C     28°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     13°C     29°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     11°C     28°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     17°C     27°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof      9°C     25°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     10°C     24°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     10°C     25°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon      8°C     24°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     14°C     24°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     12°C     26°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     11°C     27°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     10°C     26°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     11°C     26°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     15°C     25°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     14°C     23°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     12°C     23°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     13°C     24°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     12°C     23°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     15°C     22°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     15°C     22°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     13°C     21°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     13°C     21°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     14°C     21°C  ...   0.0mm   0.5mm     0.0mm
+4      SAEG_Stuart     13°C     21°C  ...   0.0mm   0.2mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     14°C     16°C  ...   0.0mm   1.3mm     0.0mm
+1     SAEG_Parsnip     13°C     13°C  ...   2.8mm   5.6mm     2.3mm
+2     SAEG_Crooked     13°C     14°C  ...   2.8mm   0.0mm     3.0mm
+3      SAEG_Salmon     12°C     15°C  ...   0.5mm   0.0mm     0.5mm
+4      SAEG_Stuart     13°C     13°C  ...   1.0mm   0.0mm     1.3mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     11°C     15°C  ...   0.5mm   5.3mm     0.0mm
+1     SAEG_Parsnip     10°C     13°C  ...   0.0mm   0.0mm     6.1mm
+2     SAEG_Crooked     11°C     13°C  ...   7.4mm  11.7mm     7.6mm
+3      SAEG_Salmon     10°C     13°C  ...   8.9mm   7.4mm     9.4mm
+4      SAEG_Stuart      9°C     12°C  ...   0.0mm   0.5mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     11°C     17°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     11°C     15°C  ...   1.8mm   0.0mm     2.6mm
+2     SAEG_Crooked     10°C     14°C  ...   0.5mm   0.0mm    11.9mm
+3      SAEG_Salmon      9°C     17°C  ...   0.0mm   0.0mm     8.4mm
+4      SAEG_Stuart      9°C     16°C  ...   0.3mm   0.0mm     2.3mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     10°C     22°C  ...   0.0mm   6.4mm     0.0mm
+1     SAEG_Parsnip      9°C     22°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     10°C     22°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     10°C     23°C  ...   0.0mm   0.5mm     0.0mm
+4      SAEG_Stuart     13°C     21°C  ...   0.0mm   4.6mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof      NaN     14°C  ...   1.8mm   0.0mm     0.0mm
+1     SAEG_Parsnip      NaN     19°C  ...   0.0mm   1.0mm     4.8mm
+2     SAEG_Crooked     14°C     21°C  ...   2.3mm   1.3mm     2.3mm
+3      SAEG_Salmon     11°C     19°C  ...   0.8mm   0.0mm     1.8mm
+4      SAEG_Stuart     11°C     15°C  ...   0.0mm   0.0mm     4.6mm
+
+[5 rows x 10 columns]
+Email SENT to 11 recipients
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb252a9f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb252ab50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb252ac50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb252acf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb252adb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254c9b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254cb10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254cc10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254ccb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254cd70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f39b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f3b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f3c10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f3cb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f3d70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb25179d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2517b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2517c10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2517c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2517b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f5a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f5b70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f5c70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f5d10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f5dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24de970>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24deab0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24debb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24debf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24deab0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24da9f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24dab50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24dac50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24dacf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24dadb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24b0a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24b0b70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24b0c70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24b0d10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24b0dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24d99d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24d9b30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24d9c30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24d9cd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24d9d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254b990>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254baf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254bbf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254bc90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb254bd50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb251b9b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb251bb10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb251bc10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb251bcb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb251bd70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb255e9b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb255eb10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb255ec10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb255ecb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb255ed70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb253ba90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb253bb50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb253bc50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb253bcf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb253bdb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     19°C     21°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     12°C     25°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     13°C     26°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     10°C     25°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     13°C     24°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     20°C     22°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     11°C     27°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     10°C     27°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     10°C     27°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     16°C     26°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     20°C     22°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     13°C     25°C  ...   1.5mm   4.6mm     6.1mm
+2     SAEG_Crooked     13°C     25°C  ...   3.6mm   0.5mm     3.8mm
+3      SAEG_Salmon     13°C     24°C  ...   1.3mm   0.2mm     1.5mm
+4      SAEG_Stuart     16°C     21°C  ...   0.0mm   0.2mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     19°C     21°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     12°C     12°C  ...   5.6mm   3.0mm     8.6mm
+2     SAEG_Crooked     10°C     12°C  ...   2.8mm   0.0mm     3.0mm
+3      SAEG_Salmon     10°C     17°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     10°C     16°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     18°C     20°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip      9°C     16°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked      8°C     17°C  ...   0.2mm   0.0mm     0.2mm
+3      SAEG_Salmon      8°C     18°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart      8°C     19°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     18°C     19°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     10°C     19°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     10°C     20°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon      7°C     21°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     10°C     21°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     12°C     18°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     14°C     17°C  ...   0.5mm   0.0mm     0.5mm
+2     SAEG_Crooked     12°C     18°C  ...   0.8mm   0.0mm     0.8mm
+3      SAEG_Salmon     11°C     17°C  ...   0.2mm   0.0mm     0.2mm
+4      SAEG_Stuart     12°C     18°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     20°C     22°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     13°C     15°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     14°C     15°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     13°C     15°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     13°C     17°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     20°C     23°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     10°C     18°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     10°C      NaN  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon     11°C      NaN  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     12°C      NaN  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 14 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     20°C     23°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip      7°C     24°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked      8°C     26°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon      9°C     26°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     14°C     26°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     20°C     24°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     12°C     28°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked     10°C     28°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon      9°C     27°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart     17°C     28°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     21°C     22°C  ...   0.0mm   0.5mm     0.0mm
+1     SAEG_Parsnip     16°C     21°C  ...   0.3mm   6.9mm     0.3mm
+2     SAEG_Crooked     17°C     21°C  ...   0.2mm   5.3mm     0.2mm
+3      SAEG_Salmon     15°C     22°C  ...   0.5mm   4.8mm     0.0mm
+4      SAEG_Stuart     19°C     22°C  ...   0.0mm   1.5mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     16°C     22°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     15°C     19°C  ...   5.9mm   0.0mm    13.5mm
+2     SAEG_Crooked     15°C     17°C  ...   6.1mm   0.0mm    11.9mm
+3      SAEG_Salmon     14°C     17°C  ...   4.1mm   0.0mm    10.2mm
+4      SAEG_Stuart     14°C     17°C  ...   1.5mm   0.0mm     3.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof      5°C     16°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip      5°C     16°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked      6°C     17°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon      3°C     17°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart      7°C     16°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof      6°C     20°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip      6°C     19°C  ...   0.0mm   0.0mm     0.0mm
+2     SAEG_Crooked      5°C     20°C  ...   0.0mm   0.0mm     0.0mm
+3      SAEG_Salmon      3°C     19°C  ...   0.0mm   0.0mm     0.0mm
+4      SAEG_Stuart      8°C     19°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+              Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof     12°C     18°C  ...   0.0mm   0.0mm     0.0mm
+1     SAEG_Parsnip     12°C     13°C  ...   1.2mm   0.0mm     1.2mm
+2     SAEG_Crooked     11°C     14°C  ...   1.0mm   0.0mm     1.0mm
+3      SAEG_Salmon     10°C     17°C  ...   0.2mm   0.0mm     0.2mm
+4      SAEG_Stuart     13°C     17°C  ...   0.0mm   0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+1     SAEG_Parsnip      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+2     SAEG_Crooked      6°C     16°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      4°C     16°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      5°C     14°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IREGIO82 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked      9°C     13°C  ...    7.9mm    0.3mm     8.1mm
+3      SAEG_Salmon      9°C     12°C  ...    5.8mm    0.8mm     6.9mm
+4      SAEG_Stuart     10°C     12°C  ...    6.1mm    0.0mm     6.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO82 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked     10°C     17°C  ...    0.0mm    1.3mm     1.3mm
+3      SAEG_Salmon      8°C     17°C  ...    0.0mm    1.0mm     1.0mm
+4      SAEG_Stuart     10°C     17°C  ...    2.0mm    0.0mm     2.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO82 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked      9°C     13°C  ...    1.5mm    0.5mm     2.0mm
+3      SAEG_Salmon      8°C     12°C  ...    1.5mm    0.0mm     1.5mm
+4      SAEG_Stuart      9°C     13°C  ...    1.5mm    0.0mm     1.5mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO82 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked      9°C     14°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      8°C     15°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      9°C     13°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO82 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked      2°C     13°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      2°C     11°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      4°C     12°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked      8°C     14°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      8°C     14°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      8°C     15°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C     16°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      4°C     18°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      1°C     18°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      8°C     16°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C     18°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      0°C     19°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -1°C     20°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      6°C     20°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2519990>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2519af0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2519bf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2519c90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2519d50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb25729b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2572b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2572c10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2572cb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb2572d70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IVANDE4 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f4a90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IVANDE4 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO82 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f4b70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO82 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO61 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f4c70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO61 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IREGIO64 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f4d10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IREGIO64 unreachable
+HTTPSConnectionPool(host='api.weather.com', port=443): Max retries exceeded with url: /v2/pws/observations/hourly/7day?apiKey=6072a9791ae24987b2a9791ae2d987c7&units=m&format=json&stationId=IBULKL8 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0xb24f4dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+[Errno -3] Temporary failure in name resolution
+Email not sent
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C     15°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      6°C     17°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      3°C     16°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      7°C     17°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      7°C     18°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      7°C     21°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      6°C     20°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      8°C     18°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     10°C     14°C  ...    0.0mm    2.5mm     2.2mm
+2     SAEG_Crooked     10°C     15°C  ...    0.2mm    1.5mm     1.3mm
+3      SAEG_Salmon     10°C     16°C  ...    0.2mm    1.8mm     1.0mm
+4      SAEG_Stuart     12°C     15°C  ...    0.0mm    2.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      9°C     12°C  ...    0.0mm    0.0mm     0.8mm
+2     SAEG_Crooked      7°C     12°C  ...    0.0mm    0.0mm     0.8mm
+3      SAEG_Salmon      6°C     12°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      6°C     14°C  ...    0.0mm    0.0mm     2.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C     17°C  ...    0.2mm    0.0mm     0.2mm
+2     SAEG_Crooked      1°C     16°C  ...    0.0mm    0.5mm     0.0mm
+3      SAEG_Salmon      0°C     16°C  ...    0.0mm    0.2mm     0.0mm
+4      SAEG_Stuart      7°C     14°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     11°C     16°C  ...    0.3mm    0.0mm     0.6mm
+2     SAEG_Crooked     11°C     17°C  ...    0.0mm    0.0mm     0.5mm
+3      SAEG_Salmon      9°C     17°C  ...    0.0mm    0.0mm     0.5mm
+4      SAEG_Stuart     10°C     16°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      5°C     15°C  ...    1.0mm    0.5mm     1.5mm
+2     SAEG_Crooked      4°C     15°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      0°C     16°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      5°C     15°C  ...    1.0mm    0.0mm     1.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      3°C     13°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      4°C     14°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      0°C     15°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      5°C     14°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     10°C     10°C  ...   20.3mm    0.0mm    20.3mm
+2     SAEG_Crooked      9°C     10°C  ...    7.9mm    0.0mm     7.9mm
+3      SAEG_Salmon      7°C     12°C  ...    5.8mm    0.0mm     5.8mm
+4      SAEG_Stuart      8°C     13°C  ...    5.6mm    0.0mm     5.8mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      3°C      9°C  ...    0.0mm    0.3mm     0.3mm
+2     SAEG_Crooked      0°C     10°C  ...    0.0mm    0.0mm     0.2mm
+3      SAEG_Salmon      2°C     11°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      2°C     10°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      7°C  ...    0.0mm    0.0mm     0.2mm
+2     SAEG_Crooked     -1°C     10°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -3°C     11°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      1°C     10°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      7°C      6°C  ...    5.3mm    3.6mm     6.6mm
+2     SAEG_Crooked      7°C      6°C  ...    9.4mm    2.0mm     8.1mm
+3      SAEG_Salmon      4°C      NaN  ...    5.6mm    0.0mm     4.6mm
+4      SAEG_Stuart      7°C      5°C  ...    6.6mm    1.0mm     6.1mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      5°C      8°C  ...   11.1mm    9.9mm    16.7mm
+2     SAEG_Crooked      5°C     10°C  ...    5.6mm    2.0mm     8.4mm
+3      SAEG_Salmon      5°C      NaN  ...    1.8mm    0.0mm     3.1mm
+4      SAEG_Stuart      5°C      9°C  ...    1.5mm    0.0mm     2.8mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      6°C      9°C  ...    0.3mm    1.8mm    11.5mm
+2     SAEG_Crooked      5°C     10°C  ...    6.6mm    4.3mm    14.0mm
+3      SAEG_Salmon      2°C     13°C  ...    0.3mm    0.5mm     2.3mm
+4      SAEG_Stuart      4°C     13°C  ...    0.0mm    3.0mm     3.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      5°C     10°C  ...    0.5mm    7.3mm     7.0mm
+2     SAEG_Crooked      3°C     10°C  ...    1.5mm    4.6mm     4.6mm
+3      SAEG_Salmon     -1°C      NaN  ...    2.5mm    1.8mm     4.3mm
+4      SAEG_Stuart      2°C      9°C  ...    1.8mm    0.2mm     1.8mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      9°C     10°C  ...    6.4mm  NO DATA     8.2mm
+2     SAEG_Crooked      8°C     11°C  ...    3.3mm    2.0mm     7.1mm
+3      SAEG_Salmon      9°C     12°C  ...    0.5mm    0.2mm     2.3mm
+4      SAEG_Stuart      8°C     13°C  ...    2.8mm    0.2mm     3.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      3°C     10°C  ...    0.3mm    7.8mm     2.5mm
+2     SAEG_Crooked      2°C      9°C  ...    0.0mm    5.3mm     0.5mm
+3      SAEG_Salmon      2°C      9°C  ...    0.0mm    3.1mm     0.0mm
+4      SAEG_Stuart      3°C      8°C  ...    0.5mm    1.5mm     1.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      9°C     12°C  ...    0.8mm    5.3mm    11.0mm
+2     SAEG_Crooked      7°C     11°C  ...    0.2mm    3.3mm     7.4mm
+3      SAEG_Salmon      7°C     11°C  ...    0.0mm    3.3mm     4.6mm
+4      SAEG_Stuart      8°C     12°C  ...    0.0mm    2.3mm     1.5mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      8°C     12°C  ...    0.0mm    2.8mm     2.2mm
+2     SAEG_Crooked      7°C     12°C  ...    0.0mm    3.3mm     3.0mm
+3      SAEG_Salmon      7°C     11°C  ...    1.8mm    4.8mm     5.8mm
+4      SAEG_Stuart      7°C     10°C  ...    2.5mm    4.6mm     4.8mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      9°C     13°C  ...    5.3mm    5.1mm    13.0mm
+2     SAEG_Crooked      8°C     14°C  ...    3.0mm    8.1mm    12.2mm
+3      SAEG_Salmon      9°C      NaN  ...    3.8mm   14.0mm    21.3mm
+4      SAEG_Stuart      8°C     13°C  ...    1.8mm    0.3mm     6.1mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     10°C     14°C  ...    0.2mm    0.3mm     1.8mm
+2     SAEG_Crooked      9°C     14°C  ...    2.0mm    0.2mm     4.1mm
+3      SAEG_Salmon      9°C     13°C  ...    2.0mm    0.0mm     2.3mm
+4      SAEG_Stuart     10°C     12°C  ...    1.3mm    0.0mm     1.5mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      6°C     10°C  ...    0.8mm    0.0mm     1.0mm
+2     SAEG_Crooked      5°C     11°C  ...    0.5mm    0.0mm     0.5mm
+3      SAEG_Salmon      5°C     13°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      7°C     11°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      5°C      6°C  ...    8.4mm    4.5mm     8.2mm
+2     SAEG_Crooked      2°C      7°C  ...    6.6mm    2.8mm     4.3mm
+3      SAEG_Salmon      3°C      8°C  ...    2.5mm    0.3mm     2.5mm
+4      SAEG_Stuart      3°C      8°C  ...    1.3mm    0.5mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      7°C     14°C  ...    0.2mm    0.0mm     9.6mm
+2     SAEG_Crooked      6°C     13°C  ...    0.2mm    0.0mm    10.4mm
+3      SAEG_Salmon      7°C      NaN  ...    0.0mm    0.0mm    13.7mm
+4      SAEG_Stuart      8°C     15°C  ...    0.0mm    0.0mm     6.6mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C     10°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      3°C     10°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      1°C      NaN  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      3°C      9°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      8°C     10°C  ...    0.5mm    0.0mm     0.5mm
+2     SAEG_Crooked      7°C     11°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      9°C     10°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C      7°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      3°C      8°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      0°C      8°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -2°C      7°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -3°C      8°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -3°C      NaN  ...  NO DATA  NO DATA     0.0mm
+4      SAEG_Stuart      0°C      7°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      2°C  ...    2.8mm    0.3mm     3.1mm
+2     SAEG_Crooked      2°C      1°C  ...   11.7mm    2.0mm    12.7mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      0°C      1°C  ...    2.5mm    0.0mm     2.5mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      2°C  ...   12.2mm    0.0mm    12.4mm
+2     SAEG_Crooked      1°C      3°C  ...    3.1mm    0.0mm     4.6mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      0°C      2°C  ...    6.3mm    0.0mm     6.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      3°C  ...    0.3mm    0.0mm     0.3mm
+2     SAEG_Crooked      0°C      5°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     -2°C      5°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      6°C  ...    0.0mm    2.8mm     0.0mm
+2     SAEG_Crooked     -3°C      6°C  ...    0.2mm    1.3mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      0°C      6°C  ...    0.0mm    0.3mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      5°C      7°C  ...    1.0mm    3.3mm     8.1mm
+2     SAEG_Crooked      4°C      8°C  ...    0.8mm    1.5mm     4.6mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      4°C      8°C  ...    6.1mm    0.2mm     8.4mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      5°C  ...    1.8mm    0.0mm     1.8mm
+2     SAEG_Crooked     -1°C      6°C  ...    0.2mm    0.0mm     0.2mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      0°C      6°C  ...    0.8mm    0.3mm     1.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -3°C      3°C  ...    0.3mm    0.0mm     0.3mm
+2     SAEG_Crooked     -3°C      3°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     -2°C      5°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      1°C  ...    4.5mm    2.6mm     7.1mm
+2     SAEG_Crooked     -1°C      0°C  ...    0.2mm    0.0mm     0.2mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      1°C      0°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      4°C  ...    0.0mm    2.3mm     0.0mm
+2     SAEG_Crooked      0°C      2°C  ...    3.6mm    1.3mm     3.6mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     -3°C      3°C  ...    3.8mm    0.0mm     3.8mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      5°C  ...    1.5mm    4.4mm     5.0mm
+2     SAEG_Crooked      1°C      5°C  ...    0.2mm    2.3mm     2.5mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      1°C      8°C  ...    0.0mm    1.5mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      3°C      6°C  ...   11.9mm    3.8mm    16.8mm
+2     SAEG_Crooked      4°C      7°C  ...    5.3mm    4.1mm     7.1mm
+3      SAEG_Salmon      3°C      NaN  ...    0.0mm  NO DATA     0.0mm
+4      SAEG_Stuart      3°C      9°C  ...    1.5mm    1.3mm     2.5mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C      3°C  ...   20.8mm    1.1mm    28.0mm
+2     SAEG_Crooked      4°C      4°C  ...   18.8mm    0.2mm    25.4mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      4°C      6°C  ...    9.7mm    3.8mm    13.7mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      2°C  ...    0.0mm    0.0mm     0.2mm
+2     SAEG_Crooked      2°C      2°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA    0.0mm   NO DATA
+4      SAEG_Stuart      1°C      3°C  ...    0.5mm    0.0mm     4.6mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      2°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -2°C      0°C  ...    0.2mm    0.0mm     0.2mm
+3      SAEG_Salmon     -6°C      NaN  ...    0.0mm  NO DATA     0.0mm
+4      SAEG_Stuart     -4°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      0°C      4°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      0°C      2°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      3°C  ...    0.0mm    2.1mm     1.6mm
+2     SAEG_Crooked     -1°C      7°C  ...    0.5mm    2.3mm     2.3mm
+3      SAEG_Salmon     -4°C      NaN  ...    0.0mm  NO DATA     0.0mm
+4      SAEG_Stuart      2°C      6°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      0°C      9°C  ...    0.0mm    0.0mm     0.5mm
+2     SAEG_Crooked     -1°C      7°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      3°C      8°C  ...    0.0mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      5°C     13°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      2°C     12°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart     10°C     12°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      0°C      9°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -3°C     10°C  ...    0.2mm    0.0mm     0.2mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart      2°C      7°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      6°C  ...    0.3mm    3.8mm     0.3mm
+2     SAEG_Crooked     -3°C      7°C  ...    0.2mm    3.5mm     0.2mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      1°C      8°C  ...    0.0mm    2.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      3°C      9°C  ...    1.0mm    1.5mm     4.7mm
+2     SAEG_Crooked      3°C     10°C  ...    0.5mm    1.8mm     4.1mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      3°C      7°C  ...    0.0mm    0.0mm     4.1mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      5°C      7°C  ...    5.9mm    1.0mm     8.2mm
+2     SAEG_Crooked      5°C      8°C  ...    3.6mm    0.8mm     5.8mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      5°C      7°C  ...    0.2mm    1.8mm     0.8mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C      6°C  ...    1.6mm    0.0mm     2.6mm
+2     SAEG_Crooked      2°C      5°C  ...    0.2mm    0.0mm     2.0mm
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      1°C      6°C  ...    0.0mm    0.0mm     1.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      5°C  ...    0.0mm    0.5mm     0.5mm
+2     SAEG_Crooked      0°C      7°C  ...    0.0mm    0.5mm     0.5mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA    0.0mm     0.0mm
+4      SAEG_Stuart      0°C      7°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -3°C      0°C  ...    0.2mm    0.0mm     0.2mm
+2     SAEG_Crooked     -5°C      1°C  ...    0.2mm    0.0mm     0.2mm
+3      SAEG_Salmon     -4°C      2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -4°C      1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -7°C      1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -7°C      1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -9°C      2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -7°C      2°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -9°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked    -10°C      0°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon    -11°C      2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -6°C      0°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -7°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -6°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon    -12°C      1°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -7°C      0°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -5°C      0°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -4°C      2°C  ...    0.5mm    0.0mm     0.5mm
+3      SAEG_Salmon     -3°C      6°C  ...    0.8mm    2.3mm     0.8mm
+4      SAEG_Stuart     -2°C      5°C  ...    1.0mm    1.3mm     1.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      3°C      5°C  ...    7.7mm    2.5mm     8.6mm
+2     SAEG_Crooked      0°C      5°C  ...   12.7mm    0.5mm    11.4mm
+3      SAEG_Salmon      4°C      NaN  ...  NO DATA  NO DATA     5.8mm
+4      SAEG_Stuart      3°C      5°C  ...    6.4mm    1.3mm     6.9mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      3°C      4°C  ...    9.4mm    5.1mm    15.3mm
+2     SAEG_Crooked      3°C      5°C  ...   10.7mm    0.2mm     8.9mm
+3      SAEG_Salmon      3°C      NaN  ...    0.0mm    1.3mm    14.2mm
+4      SAEG_Stuart      5°C      5°C  ...   10.4mm    3.1mm    16.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      0°C      2°C  ...    2.3mm    2.8mm     6.1mm
+2     SAEG_Crooked     -1°C      0°C  ...    4.6mm    0.8mm     9.7mm
+3      SAEG_Salmon      NaN      NaN  ...    3.6mm  NO DATA     3.6mm
+4      SAEG_Stuart      2°C      4°C  ...    1.5mm    0.0mm     1.5mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      0°C  ...    0.3mm    0.0mm     0.3mm
+2     SAEG_Crooked     -3°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart     -3°C      0°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -2°C      0°C  ...    0.2mm    0.0mm     0.2mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart     -6°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C      1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -2°C      0°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart     -5°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -2°C      0°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      0°C      1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart     -1°C      2°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      3°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -1°C      3°C  ...    1.3mm    0.0mm     1.3mm
+3      SAEG_Salmon      NaN      4°C  ...    0.2mm    0.0mm     2.0mm
+4      SAEG_Stuart     -1°C      4°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -5°C      2°C  ...    0.0mm    0.7mm     0.0mm
+2     SAEG_Crooked     -5°C      3°C  ...    0.8mm    0.8mm     0.2mm
+3      SAEG_Salmon     -2°C      3°C  ...    0.5mm    0.8mm     0.5mm
+4      SAEG_Stuart     -2°C      3°C  ...    0.0mm    0.8mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      6°C  ...    3.3mm    0.0mm     4.8mm
+2     SAEG_Crooked      1°C      5°C  ...    4.3mm    0.0mm     5.6mm
+3      SAEG_Salmon      NaN      7°C  ...    1.5mm    0.0mm     3.0mm
+4      SAEG_Stuart      1°C      7°C  ...    0.0mm    0.0mm     0.8mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      4°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -1°C      4°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      0°C      3°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -1°C      3°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      0°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -1°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon      0°C      NaN  ...    0.0mm    0.2mm     0.2mm
+4      SAEG_Stuart     -1°C      0°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -1°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -2°C      0°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -2°C      0°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -2°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -5°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -4°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -5°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -7°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -4°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -5°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -6°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -6°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -3°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -3°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -3°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -4°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -3°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -5°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -9°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -6°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -4°C     -7°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon     -2°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      0°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      1°C  ...   11.2mm    6.9mm    14.6mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon      0°C      0°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -1°C      0°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      4°C  ...    4.6mm    0.0mm     9.4mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon      1°C      4°C  ...    1.3mm    0.0mm     1.5mm
+4      SAEG_Stuart      1°C      6°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -5°C      0°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon     -4°C      1°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -3°C      2°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -2°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon     -4°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -4°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      2°C      3°C  ...   11.9mm    0.0mm    11.9mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon      0°C      3°C  ...    5.3mm    0.0mm     5.3mm
+4      SAEG_Stuart      0°C      5°C  ...    2.0mm    0.0mm     2.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -1°C      1°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -1°C      1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -6°C     -1°C  ...    0.0mm    0.5mm     0.5mm
+2     SAEG_Crooked     -9°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -8°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -4°C     -1°C  ...    0.0mm    0.5mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C      5°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      2°C      5°C  ...    7.9mm    0.0mm     8.1mm
+3      SAEG_Salmon      0°C      6°C  ...    0.2mm    0.0mm     0.2mm
+4      SAEG_Stuart      0°C      8°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -2°C      0°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -3°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -5°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -3°C      1°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      4°C      1°C  ...    7.9mm    0.0mm     7.9mm
+2     SAEG_Crooked      1°C      2°C  ...    0.2mm    0.0mm     0.2mm
+3      SAEG_Salmon     -1°C      NaN  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart      2°C      2°C  ...    1.5mm    0.0mm     1.5mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      3°C  ...    0.2mm    2.6mm     2.8mm
+2     SAEG_Crooked      0°C      3°C  ...    0.2mm    1.0mm     1.0mm
+3      SAEG_Salmon      2°C      2°C  ...    0.5mm    0.0mm     0.8mm
+4      SAEG_Stuart      1°C      2°C  ...    0.2mm    0.0mm     0.2mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -3°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -6°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -6°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -6°C     -1°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -4°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -9°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon    -13°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -8°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -5°C     -5°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked    -10°C     -6°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -9°C     -7°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -9°C     -7°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -17°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked    -19°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon    -21°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart    -12°C     -9°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -13°C     -8°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked    -15°C    -10°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon    -17°C     -9°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart    -14°C    -11°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -7°C     -5°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -8°C     -6°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -9°C     -7°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -8°C     -6°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -6°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -7°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -6°C     -2°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -6°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -6°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -8°C     -6°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -9°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -8°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -5°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -7°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+3      SAEG_Salmon     -7°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -5°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -3°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked     -7°C     -4°C  ...    0.0mm  NO DATA     0.0mm
+3      SAEG_Salmon     -8°C      NaN  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -6°C     -5°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -6°C     -5°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon    -13°C     -9°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart    -10°C     -7°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -10°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon     -9°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart     -9°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -20°C    -16°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon    -19°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart    -16°C    -15°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -15°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3      SAEG_Salmon    -16°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart    -14°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -16°C    -17°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon    -15°C    -16°C  ...    0.0mm    0.0mm     0.0mm
+4      SAEG_Stuart    -17°C    -16°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -29°C    -21°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart    -22°C    -18°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -17°C    -15°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart    -14°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -24°C    -19°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart    -21°C    -15°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -26°C    -20°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart    -21°C    -20°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -14°C    -11°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+4      SAEG_Stuart    -15°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -13°C    -11°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -11°C    -10°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -22°C    -16°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -22°C    -17°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -21°C    -20°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -21°C    -20°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -24°C    -24°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -26°C    -24°C  ...    0.0mm  NO DATA     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -29°C    -23°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -36°C    -28°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -25°C    -23°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -34°C      NaN  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -25°C    -21°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -34°C    -26°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -13°C     -9°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+
+Hourly data for IBULKL8 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -5°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -24°C    -25°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -26°C    -23°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -27°C    -26°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -28°C    -26°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -27°C    -27°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -28°C    -27°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -27°C    -24°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -23°C    -19°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -22°C    -18°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -26°C    -20°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart    -21°C    -16°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip    -17°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     -7°C     -3°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+
+Hourly data for IREGIO64 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip     -7°C     -4°C  ...    0.0mm    0.0mm     0.0mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart     -1°C      0°C  ...    0.0mm    0.0mm     0.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      3°C  ...   12.2mm    1.8mm    13.5mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      0°C      4°C  ...    2.3mm    0.2mm     2.3mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IVANDE4 unreachable
+
+Hourly data for IREGIO61 unreachable
+              Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Vanderhoof  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+1     SAEG_Parsnip      1°C      2°C  ...    2.5mm    2.1mm     4.9mm
+2     SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3      SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+4      SAEG_Stuart      0°C      0°C  ...    1.5mm    2.0mm     3.0mm
+
+[5 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IREGIO61 unreachable
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      2°C  ...    0.5mm    0.0mm     1.0mm
+1  SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2   SAEG_Salmon      NaN      NaN  ...    0.0mm  NO DATA     0.0mm
+3   SAEG_Stuart      0°C      1°C  ...    1.3mm    0.0mm     2.3mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IREGIO61 unreachable
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      3°C  ...    0.7mm    0.3mm     1.0mm
+1  SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart      0°C      1°C  ...    0.5mm    0.0mm     0.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IREGIO61 unreachable
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      3°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart      0°C      1°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IREGIO61 unreachable
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      0°C      0°C  ...    0.0mm    5.4mm     0.0mm
+1  SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart      0°C      0°C  ...    0.0mm  NO DATA     2.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      2°C  ...    4.3mm    0.0mm    11.9mm
+1  SAEG_Crooked  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart      3°C      2°C  ...    0.5mm    0.0mm     0.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -19°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked    -20°C    -13°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart    -17°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IREGIO64 unreachable
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -18°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked    -16°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart    -13°C    -10°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+
+Hourly data for IREGIO64 unreachable
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      3°C  ...    1.3mm    0.0mm     1.3mm
+1  SAEG_Crooked      0°C      2°C  ...    2.5mm    0.0mm     2.5mm
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart      0°C      2°C  ...    1.8mm    0.0mm     1.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      2°C  ...    2.8mm    0.0mm     2.8mm
+1  SAEG_Crooked      0°C      1°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart      1°C      3°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      3°C      3°C      4°C  ...   11km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      0°C      0°C      1°C  ...  0km/h NNW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      0°C      1°C      0°C  ...    0km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      1°C      4°C      2°C  ...  3km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      6°C      1°C  ...  1km/h SSE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -1°C      6°C      1°C  ...   0km/h NW   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon     -2°C      7°C     -2°C  ...  0km/h WSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      1°C      6°C      2°C  ...    4km/h S   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C     -1°C     -1°C  ...   4km/h SE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -8°C      0°C     -3°C  ...    0km/h W   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon     -5°C      3°C     -4°C  ...  0km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C      3°C     -2°C  ...   3km/h NE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C      2°C     -1°C  ...  1km/h ENE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -5°C      1°C     -3°C  ...    0km/h S   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -5°C      1°C     -4°C  ...    1km/h N   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -5°C      2°C      2°C  ...    4km/h S   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -11°C     -2°C     -5°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -10°C     -3°C     -6°C  ...   0km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -14°C      NaN      NaN  ...        NaN   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C     -1°C     -3°C  ...  2km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -14°C     -5°C     -8°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -17°C     -4°C     -9°C  ...   0km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -14°C     -2°C     -5°C  ...  1km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -8°C     -2°C     -3°C  ...  5km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -10°C      1°C     -1°C  ...   5km/h SE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -12°C     -1°C     -2°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -7°C      NaN     -2°C  ...    2km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C     -1°C     -1°C  ...  4km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C     -1°C      0°C  ...  9km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -4°C     -2°C     -1°C  ...  0km/h NNW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C     -2°C     -1°C  ...    4km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C     -2°C     -1°C  ...  4km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...  7PM Wind 5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      1°C      0°C  ...  2km/h SW   0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked      0°C      1°C     -1°C  ...   0km/h S   1.0mm    0.2mm     1.3mm
+2   SAEG_Salmon     -1°C      NaN      NaN  ...       NaN   0.0mm  NO DATA     0.0mm
+3   SAEG_Stuart     -1°C      1°C     -1°C  ...  4km/h SW   0.8mm    0.0mm     0.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -13°C    -10°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked    -14°C    -10°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart    -12°C     -8°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -16°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked    -18°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart    -16°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -21°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked    -22°C    -15°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart    -20°C    -14°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -13°C    -12°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked    -13°C    -10°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart    -11°C     -8°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      0°C      2°C  ...    7.1mm    2.8mm     9.7mm
+1  SAEG_Crooked     -1°C      1°C  ...    3.0mm    0.5mm     3.3mm
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart     -1°C      3°C  ...    3.3mm    0.0mm     3.3mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      4°C  ...    1.3mm    0.2mm     1.7mm
+1  SAEG_Crooked      2°C      4°C  ...    3.0mm    0.0mm     3.0mm
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart      2°C      4°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      4°C      6°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked      2°C      7°C  ...    1.3mm    0.0mm     1.5mm
+2   SAEG_Salmon  OFFLINE  OFFLINE  ...  OFFLINE  OFFLINE   OFFLINE
+3   SAEG_Stuart      3°C      6°C  ...    0.0mm  NO DATA     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      4°C      5°C  ...    0.0mm   0.0mm     1.8mm
+1  SAEG_Crooked      3°C      6°C  ...    0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA   0.0mm     0.0mm
+3   SAEG_Stuart      2°C      6°C  ...    0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      NaN      3°C  ...   0.5mm   1.2mm     1.7mm
+1  SAEG_Crooked      NaN      2°C  ...   0.0mm   0.5mm     0.5mm
+2   SAEG_Salmon      NaN      3°C  ...   0.8mm   0.8mm     1.5mm
+3   SAEG_Stuart      NaN      3°C  ...   0.2mm   0.3mm     0.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      3°C      5°C  ...   1.6mm    0.0mm     1.6mm
+1  SAEG_Crooked      2°C      4°C  ...   0.2mm    0.0mm     0.2mm
+2   SAEG_Salmon      1°C      4°C  ...   0.0mm  NO DATA     0.0mm
+3   SAEG_Stuart      3°C      7°C  ...   0.5mm    0.0mm     0.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ...  5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      5°C      6°C  ...    0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked      2°C      6°C  ...    0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon      NaN      NaN  ...  NO DATA  NO DATA   NO DATA
+3   SAEG_Stuart      4°C      6°C  ...    0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -10°C      0°C      0°C  ...  2km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -9°C      1°C     -1°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      NaN      3°C     -1°C  ...  1km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -6°C      3°C      1°C  ...    0km/h E   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      4°C      3°C  ...    1km/h S   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -1°C      3°C      1°C  ...    0km/h N   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -2°C      3°C      2°C  ...  1km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C      3°C      3°C  ...  3km/h ESE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C      3°C      1°C  ...  0km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -4°C      2°C      1°C  ...  0km/h NNE   0.0mm   2.5mm     0.0mm
+2   SAEG_Salmon     -4°C      3°C      0°C  ...  0km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C      3°C      2°C  ...  4km/h NNW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C     -2°C     -5°C  ...  0km/h SSW   0.3mm   0.0mm     0.3mm
+1  SAEG_Crooked     -1°C     -1°C     -1°C  ...  0km/h ENE   0.8mm   0.0mm     3.8mm
+2   SAEG_Salmon     -1°C      NaN     -3°C  ...    0km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      0°C      2°C      0°C  ...  1km/h SSW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -10°C     -1°C     -2°C  ...  1km/h WSW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -3°C      2°C      0°C  ...   0km/h SE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -7°C      NaN      1°C  ...    8km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      2°C      0°C  ...  5km/h SSW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...  7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -5°C      0°C     -1°C  ...  10km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -10°C      3°C      1°C  ...   0km/h N   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -9°C      3°C      2°C  ...  6km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C      3°C      3°C  ...   3km/h E   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...  7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      4°C      7°C      5°C  ...  5km/h SW   0.5mm   0.0mm     0.5mm
+1  SAEG_Crooked      2°C      7°C      3°C  ...  0km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      NaN      7°C      3°C  ...   1km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      4°C      6°C      5°C  ...   3km/h S   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM  5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C      4°C  ...   0.0mm    0.0mm     0.0mm
+1  SAEG_Crooked      2°C      4°C  ...   0.0mm    0.0mm     0.0mm
+2   SAEG_Salmon      2°C      5°C  ...   0.0mm  NO DATA     0.0mm
+3   SAEG_Stuart      3°C      5°C  ...   0.0mm    0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      1°C      0°C  ...  2km/h WNW   4.0mm   0.0mm     4.0mm
+1  SAEG_Crooked      2°C      2°C      0°C  ...  0km/h SSW   2.3mm   0.0mm     2.3mm
+2   SAEG_Salmon      NaN      2°C      0°C  ...  2km/h WSW   1.0mm   0.0mm     1.3mm
+3   SAEG_Stuart      0°C      2°C     -1°C  ...    3km/h S   2.0mm   0.3mm     2.3mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -16°C    -14°C  ...   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -15°C    -11°C  ...   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -14°C    -10°C  ...   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -14°C    -13°C  ...   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -21°C    -15°C  ...   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -21°C    -13°C  ...   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -23°C    -12°C  ...   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -22°C    -15°C  ...   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -28°C    -12°C    -14°C  ...  1km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -28°C    -12°C    -14°C  ...    0km/h E   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -23°C    -10°C    -14°C  ...  0km/h WSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -21°C    -12°C    -14°C  ...  2km/h ESE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -13°C    -11°C    -13°C  ...  0km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -13°C    -11°C    -14°C  ...  0km/h SSE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -13°C    -11°C    -15°C  ...  0km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -14°C    -12°C    -12°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -20°C     -8°C     -8°C  ...  2km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -22°C    -10°C     -9°C  ...   0km/h SE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -19°C    -10°C    -13°C  ...   0km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -14°C     -9°C    -10°C  ...  1km/h NNW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -8°C     -2°C     -5°C  ...  1km/h ESE   0.5mm   0.0mm     0.5mm
+1  SAEG_Crooked    -13°C     -2°C     -5°C  ...  0km/h NNE   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon    -16°C     -3°C     -6°C  ...  0km/h ESE   1.3mm   0.0mm     1.3mm
+3   SAEG_Stuart    -15°C     -4°C     -4°C  ...   3km/h NE   0.5mm   0.0mm     0.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -11°C     -2°C     -2°C  ...    4km/h E   0.3mm   0.0mm     0.3mm
+1  SAEG_Crooked    -13°C     -1°C     -3°C  ...  0km/h NNE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -6°C     -1°C     -2°C  ...  1km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -5°C     -2°C     -2°C  ...   6km/h NE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C      0°C     -1°C  ...    3km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -3°C      1°C     -1°C  ...   0km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -1°C      NaN     -1°C  ...  0km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -2°C      0°C     -2°C  ...  1km/h NNE   0.2mm   0.0mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C      0°C      0°C  ...  0km/h WSW   0.5mm   0.0mm     0.5mm
+1  SAEG_Crooked     -3°C      2°C      0°C  ...   0km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -2°C      2°C      0°C  ...    0km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C      1°C      1°C  ...  5km/h NNW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C      2°C      0°C  ...  1km/h WSW   6.9mm   0.2mm     7.1mm
+1  SAEG_Crooked     -1°C      2°C      0°C  ...   0km/h NW   1.5mm   0.0mm     1.5mm
+2   SAEG_Salmon     -2°C      3°C      NaN  ...        NaN   0.5mm   0.8mm     1.3mm
+3   SAEG_Stuart     -1°C      4°C      3°C  ...  5km/h NNE   0.0mm   0.2mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -5°C      0°C      0°C  ...  4km/h WNW   2.3mm   0.0mm     2.3mm
+1  SAEG_Crooked     -3°C      2°C      0°C  ...  0km/h ESE   0.8mm   0.0mm     0.8mm
+2   SAEG_Salmon     -2°C      6°C      0°C  ...    0km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C      4°C      2°C  ...   7km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C      1°C      0°C  ...    0km/h E   1.3mm   0.0mm     1.3mm
+1  SAEG_Crooked     -3°C      2°C      0°C  ...   0km/h NE   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon     -3°C      2°C      1°C  ...  0km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      1°C      1°C  ...  0km/h NNW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C      2°C     -2°C  ...  0km/h WSW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -2°C      3°C     -2°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C      2°C     -2°C  ...    0km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      1°C      0°C  ...    0km/h S   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -9°C      1°C     -4°C  ...  0km/h WNW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -9°C      2°C     -3°C  ...   0km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -11°C      3°C     -3°C  ...    0km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -7°C      4°C      1°C  ...  0km/h WSW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -14°C      0°C      1°C  ...    8km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -14°C      2°C      0°C  ...   0km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -11°C      1°C      2°C  ...    0km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -5°C      3°C      5°C  ...  1km/h SSE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -3°C      1°C     -2°C  ...  5km/h WNW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -3°C      3°C     -1°C  ...   0km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      0°C      3°C     -1°C  ...  3km/h SSE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      0°C      3°C     -1°C  ...  14km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -17°C     -3°C     -7°C  ...  7km/h WNW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -15°C     -1°C     -6°C  ...  0km/h NNE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -13°C     -2°C     -6°C  ...  1km/h SSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -10°C     -2°C     -5°C  ...  11km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -22°C     -5°C     -5°C  ...    3km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -22°C     -3°C     -5°C  ...  0km/h WNW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -20°C     -3°C     -5°C  ...   1km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -15°C     -3°C     -5°C  ...  2km/h ESE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -10°C      0°C      0°C  ...    3km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -10°C      1°C     -1°C  ...   0km/h NW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -9°C      0°C      0°C  ...  4km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -8°C     -1°C      0°C  ...   4km/h SE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -3°C     -1°C      0°C  ...  9km/h ENE   0.0mm   0.2mm     0.2mm
+1  SAEG_Crooked     -3°C      0°C      0°C  ...   0km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C     -1°C      0°C  ...  3km/h ESE   0.0mm   0.2mm     0.0mm
+3   SAEG_Stuart     -2°C      0°C      1°C  ...  4km/h ENE   2.0mm   0.5mm     2.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -3°C      3°C      1°C  ...    6km/h E   2.1mm   0.0mm     2.1mm
+1  SAEG_Crooked     -6°C      5°C      1°C  ...  0km/h NNE   6.3mm   0.0mm     6.3mm
+2   SAEG_Salmon     -6°C      6°C      0°C  ...   0km/h SE   6.6mm   0.0mm     6.9mm
+3   SAEG_Stuart     -3°C      7°C      2°C  ...  0km/h ENE   0.2mm   0.0mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -7°C     -1°C     -2°C  ...  2km/h WNW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -8°C      2°C      0°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -7°C      5°C      2°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C      5°C      4°C  ...   4km/h NE   0.0mm   1.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -5°C      6°C      4°C  ...   1km/h SW   4.8mm   0.2mm     4.8mm
+1  SAEG_Crooked     -6°C      8°C      6°C  ...  0km/h SSW   4.8mm   0.0mm     4.8mm
+2   SAEG_Salmon     -2°C      9°C      3°C  ...  0km/h SSW   2.8mm   0.0mm     2.8mm
+3   SAEG_Stuart      0°C      9°C      7°C  ...  0km/h SSE   0.0mm   0.0mm     2.3mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...  7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      6°C      6°C  ...   4km/h S   0.8mm   0.0mm     2.0mm
+1  SAEG_Crooked      1°C      6°C      5°C  ...  0km/h SW   0.5mm   0.0mm     0.5mm
+2   SAEG_Salmon      2°C      NaN      5°C  ...  5km/h SW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      2°C      6°C      5°C  ...  7km/h SE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      4°C      6°C  ...    3km/h E   0.0mm   1.0mm     0.0mm
+1  SAEG_Crooked     -2°C      6°C      5°C  ...  0km/h NNE   0.0mm   0.2mm     0.0mm
+2   SAEG_Salmon      0°C      5°C      5°C  ...   0km/h SW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -2°C      6°C      5°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      3°C      6°C  ...   4km/h SW   2.1mm   0.0mm     3.1mm
+1  SAEG_Crooked      1°C      6°C      5°C  ...   0km/h SW   0.3mm   0.0mm     0.5mm
+2   SAEG_Salmon      1°C      5°C      5°C  ...  9km/h SSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      2°C      4°C      3°C  ...   3km/h SE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C      5°C      6°C  ...  6km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -3°C      6°C      5°C  ...   0km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -5°C      4°C      5°C  ...    4km/h S   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      5°C      4°C  ...  6km/h ESE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      3°C      1°C  ...    3km/h E   4.8mm   0.0mm     4.8mm
+1  SAEG_Crooked     -1°C      2°C      1°C  ...  0km/h ESE   5.6mm   0.0mm     5.6mm
+2   SAEG_Salmon      0°C      1°C      2°C  ...  1km/h ESE   5.1mm   0.0mm     5.1mm
+3   SAEG_Stuart      1°C      0°C      2°C  ...  6km/h SSE   4.1mm   0.0mm     4.1mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -5°C      2°C      3°C  ...    7km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -6°C      3°C      2°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -9°C      2°C      0°C  ...   6km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -6°C      2°C     -1°C  ...  9km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      0°C      3°C      5°C  ...    8km/h E   2.5mm   0.0mm     2.5mm
+1  SAEG_Crooked      0°C      5°C      6°C  ...    0km/h N   5.1mm   0.0mm     5.1mm
+2   SAEG_Salmon      0°C      6°C      7°C  ...  0km/h ESE   0.2mm   0.0mm     0.2mm
+3   SAEG_Stuart      1°C      6°C      7°C  ...  1km/h ESE   0.2mm   0.5mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      3°C      5°C  ...   3.3mm   0.0mm     3.3mm
+1  SAEG_Crooked      3°C      5°C  ...   4.6mm   0.0mm     4.6mm
+2   SAEG_Salmon      3°C      5°C  ...   5.1mm   0.0mm     5.1mm
+3   SAEG_Stuart      2°C      6°C  ...   3.5mm   0.0mm     4.1mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      7°C      4°C      6°C  ...   8km/h SW   2.8mm   0.0mm     2.8mm
+1  SAEG_Crooked      5°C      5°C      4°C  ...  0km/h SSW   1.0mm   0.0mm     1.0mm
+2   SAEG_Salmon      5°C      5°C      2°C  ...  3km/h SSW   0.5mm   0.0mm     0.5mm
+3   SAEG_Stuart      4°C      4°C      4°C  ...    7km/h S   0.2mm   0.0mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -3°C      4°C      5°C  ...    3km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -4°C      6°C      4°C  ...    0km/h W   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -6°C      6°C      5°C  ...   2km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C      4°C      5°C  ...  5km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C      0°C      2°C  ...  1km/h WSW   0.8mm   0.0mm     0.8mm
+1  SAEG_Crooked     -3°C      2°C      3°C  ...    0km/h E   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon      0°C      4°C      5°C  ...  1km/h NNW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C      4°C      4°C  ...   5km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -5°C      5°C      3°C  ...    0km/h E   0.2mm   0.0mm     0.0mm
+1  SAEG_Crooked     -7°C      5°C      3°C  ...   0km/h NE   0.0mm   0.2mm     0.0mm
+2   SAEG_Salmon     -6°C      5°C      3°C  ...  1km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      3°C      3°C  ...    0km/h E   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ... 7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C      5°C      5°C  ...  4km/h W   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -1°C      5°C      5°C  ...  0km/h E   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -2°C      5°C      6°C  ...  0km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      3°C      5°C  ...  1km/h W   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -3°C      7°C      6°C  ...  2km/h SSW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -3°C      9°C      6°C  ...  0km/h WSW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C      8°C      9°C  ...    2km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -2°C      7°C      8°C  ...    1km/h W   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -5°C      9°C      7°C  ...    1km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -7°C      9°C      9°C  ...   0km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -5°C      8°C     10°C  ...  3km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C      8°C     10°C  ...  6km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      7°C      6°C  ...  5km/h SSW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      2°C      8°C      5°C  ...   1km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      3°C      6°C      5°C  ...  5km/h WSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      2°C      7°C      5°C  ...  6km/h SSE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C      4°C      5°C  ...   6km/h SW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -1°C      5°C      5°C  ...  1km/h SSW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -2°C      4°C      5°C  ...   10km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -2°C      5°C      4°C  ...    5km/h S   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -8°C      1°C      2°C  ...    6km/h E   3.3mm   0.2mm     3.5mm
+1  SAEG_Crooked     -7°C      1°C      2°C  ...    0km/h N   1.3mm   0.5mm     1.8mm
+2   SAEG_Salmon     -6°C      0°C      3°C  ...   5km/h SE   1.0mm   0.0mm     1.0mm
+3   SAEG_Stuart     -3°C      0°C      2°C  ...  2km/h ENE   0.8mm   0.5mm     1.3mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -3°C      5°C      6°C  ...  4km/h ESE   0.3mm   0.0mm     0.3mm
+1  SAEG_Crooked     -4°C      5°C      5°C  ...   0km/h NE   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon     -3°C      5°C      5°C  ...   2km/h SE   0.2mm   0.0mm     0.2mm
+3   SAEG_Stuart     -3°C      4°C      5°C  ...  5km/h ESE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      4°C      3°C      1°C  ...    7km/h E   2.3mm   0.0mm     2.3mm
+1  SAEG_Crooked      3°C      4°C      1°C  ...  0km/h WNW   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon      4°C      2°C      4°C  ...  3km/h WSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      3°C      3°C      3°C  ...   5km/h SE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C      0°C      2°C  ...  1km/h ESE   0.5mm   0.0mm     0.5mm
+1  SAEG_Crooked     -3°C      1°C      1°C  ...  0km/h ENE   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon     -3°C      1°C      3°C  ...    4km/h W   0.2mm   0.0mm     0.2mm
+3   SAEG_Stuart     -3°C      1°C      3°C  ...    3km/h W   0.5mm   0.0mm     0.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      0°C      3°C  ...   1.5mm   0.0mm     1.5mm
+1  SAEG_Crooked     -1°C      4°C  ...   0.2mm   0.0mm     0.2mm
+2   SAEG_Salmon     -2°C      3°C  ...   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -2°C      3°C  ...   1.8mm   0.0mm     1.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -5°C      4°C      4°C  ...    8km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -5°C      5°C      4°C  ...  0km/h NNW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -7°C      4°C      4°C  ...  7km/h SSE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C      3°C      3°C  ...   15km/h E   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      9°C      5°C  ...    3km/h E   1.7mm   3.4mm     4.8mm
+1  SAEG_Crooked      0°C      8°C      5°C  ...  0km/h NNE   3.3mm   2.6mm     4.8mm
+2   SAEG_Salmon      1°C      8°C      5°C  ...   1km/h SW   1.8mm   0.2mm     2.0mm
+3   SAEG_Stuart      1°C      8°C      5°C  ...  2km/h NNE   0.8mm   2.0mm     2.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      4°C      6°C  ...   6.6mm   0.0mm     7.9mm
+1  SAEG_Crooked      3°C      5°C  ...   8.1mm   0.0mm    10.4mm
+2   SAEG_Salmon      3°C      5°C  ...   4.6mm   0.0mm     5.8mm
+3   SAEG_Stuart      3°C      5°C  ...   1.0mm   0.0mm     1.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C      3°C      3°C  ...    5km/h W   1.0mm   0.0mm     1.0mm
+1  SAEG_Crooked     -2°C      4°C      3°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C      3°C      4°C  ...  3km/h WSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      4°C      1°C  ...   6km/h SE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C      2°C      3°C  ...    5km/h N   0.3mm   0.0mm     0.3mm
+1  SAEG_Crooked     -4°C      4°C      3°C  ...   3km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -4°C      5°C      4°C  ...    2km/h E   0.5mm   0.0mm     0.5mm
+3   SAEG_Stuart     -3°C      2°C      2°C  ...  15km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -8°C     -4°C     -6°C  ...  12km/h NW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -8°C     -1°C     -5°C  ...  4km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -9°C      1°C     -4°C  ...  8km/h WNW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -6°C      0°C     -5°C  ...  27km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -10°C     -8°C     -7°C  ...    7km/h N   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -11°C     -5°C     -7°C  ...  15km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -11°C     -4°C     -5°C  ...  6km/h SSE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -12°C     -6°C     -6°C  ...  20km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -14°C     -3°C     -2°C  ...  11km/h NE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked    -12°C     -2°C     -2°C  ...   9km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -14°C     -2°C      0°C  ...  3km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -13°C     -4°C     -1°C  ...  14km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip    -11°C     -1°C      1°C  ...  6km/h NNE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -9°C      0°C      1°C  ...   8km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon    -11°C      1°C      1°C  ...    2km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart    -10°C     -1°C      1°C  ...  10km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...  7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -7°C      2°C      3°C  ...   2km/h W   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -6°C      3°C      3°C  ...   0km/h E   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -8°C      2°C      3°C  ...   1km/h S   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -7°C      0°C      2°C  ...  5km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -6°C      3°C      1°C  ...   4km/h NW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -7°C      3°C      2°C  ...   1km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -7°C      3°C      4°C  ...    2km/h S   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -4°C      3°C      3°C  ...  7km/h WNW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -6°C      5°C      5°C  ...    3km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -7°C      7°C      7°C  ...  1km/h NNE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -8°C      6°C      7°C  ...  3km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -5°C      6°C      6°C  ...   6km/h NE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -6°C      3°C  ...   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -4°C      4°C  ...   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C      5°C  ...   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      3°C  ...   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -3°C     -2°C      0°C  ...  3km/h WSW   0.2mm   0.0mm     0.2mm
+1  SAEG_Crooked     -4°C     -1°C      1°C  ...   0km/h SW   2.5mm   1.0mm     3.6mm
+2   SAEG_Salmon     -5°C     -2°C      0°C  ...  0km/h WSW   0.5mm   1.5mm     2.0mm
+3   SAEG_Stuart     -5°C     -2°C      0°C  ...   2km/h NW   0.2mm   0.5mm     0.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -8°C      1°C      2°C  ...    4km/h N   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -8°C      2°C      3°C  ...   1km/h NE   0.5mm   0.0mm     0.5mm
+2   SAEG_Salmon    -10°C      3°C      2°C  ...  1km/h ENE   0.2mm   0.0mm     0.2mm
+3   SAEG_Stuart     -6°C      2°C      3°C  ...  8km/h NNE   0.2mm   0.0mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -7°C      7°C     10°C  ...  2km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -3°C      7°C      8°C  ...   1km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -4°C      7°C     10°C  ...  1km/h WSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -3°C      5°C      8°C  ...   0km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -4°C     11°C     11°C  ...  4km/h SSW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -5°C     11°C     11°C  ...  2km/h SSW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -5°C     10°C     11°C  ...   3km/h SW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C     11°C     11°C  ...   3km/h SE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C     11°C     11°C  ...  3km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -4°C     12°C     12°C  ...   0km/h NW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -5°C     11°C     12°C  ...  4km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      1°C     11°C     12°C  ...    8km/h E   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...  7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C     11°C     11°C  ...   9km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      1°C     11°C     12°C  ...  1km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      2°C     11°C     11°C  ...   6km/h E   0.5mm   0.0mm     0.3mm
+3   SAEG_Stuart      4°C     11°C     11°C  ...  9km/h NE   0.2mm   0.0mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      3°C      5°C      4°C  ...    6km/h E   5.9mm   0.7mm     6.6mm
+1  SAEG_Crooked      3°C      6°C      5°C  ...   0km/h NE   2.0mm   1.8mm     3.8mm
+2   SAEG_Salmon      4°C      9°C      8°C  ...  3km/h ESE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      4°C      5°C      7°C  ...  5km/h ESE   0.0mm   0.8mm     0.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C      7°C      9°C  ...   2km/h SW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -2°C      7°C      9°C  ...  1km/h SSW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -4°C      8°C      8°C  ...   3km/h SW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -2°C      9°C      8°C  ...  2km/h NNE   0.2mm   0.0mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C      7°C      8°C  ...  7km/h WSW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -3°C      7°C      9°C  ...   0km/h SW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -4°C      9°C      9°C  ...   1km/h SW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -2°C      8°C      7°C  ...  4km/h SSE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C      8°C      8°C  ...    3km/h W   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -1°C      9°C      9°C  ...  1km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C     10°C      9°C  ...  2km/h WSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     -1°C     10°C      8°C  ...  6km/h ESE   0.0mm   0.2mm     0.2mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      7°C     10°C  ...   4km/h NW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      1°C      7°C      9°C  ...  0km/h NNE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -2°C      8°C     10°C  ...    1km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      0°C      9°C      9°C  ...  8km/h NNW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -2°C     11°C     12°C  ...    5km/h N   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      1°C     12°C     12°C  ...   7km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      0°C     13°C     13°C  ...    1km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      1°C     11°C     12°C  ...  6km/h NNE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C     13°C     12°C  ...  1km/h ENE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      0°C     14°C     14°C  ...  0km/h NNE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -2°C     14°C     13°C  ...  1km/h ENE   0.0mm   0.5mm     0.0mm
+3   SAEG_Stuart      2°C     13°C     13°C  ...  9km/h ENE   0.0mm   1.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      7°C      8°C  ...    3km/h E   6.6mm   0.0mm     6.6mm
+1  SAEG_Crooked      3°C      9°C     10°C  ...  0km/h SSW   2.5mm   0.0mm     2.5mm
+2   SAEG_Salmon      4°C      8°C     11°C  ...    5km/h W   0.3mm   0.0mm     1.0mm
+3   SAEG_Stuart      4°C      7°C     11°C  ...   4km/h SW   0.5mm   0.0mm     1.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      7°C      6°C  ...    6km/h E   2.6mm   2.5mm     2.6mm
+1  SAEG_Crooked      3°C      8°C      8°C  ...  0km/h NNW   0.8mm   1.8mm     0.8mm
+2   SAEG_Salmon      0°C      6°C      8°C  ...  1km/h ESE   0.8mm   1.3mm     0.8mm
+3   SAEG_Stuart      3°C      6°C      8°C  ...   5km/h SE   1.0mm   0.5mm     1.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      3°C      8°C      7°C  ...    2km/h E   2.5mm   7.7mm    10.7mm
+1  SAEG_Crooked      4°C      9°C      7°C  ...    0km/h E   0.8mm   3.6mm     0.0mm
+2   SAEG_Salmon      4°C      9°C      7°C  ...  3km/h WNW   0.8mm   3.8mm     0.8mm
+3   SAEG_Stuart      4°C      8°C      6°C  ...  2km/h WSW   0.2mm   3.6mm     1.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      8°C     10°C  ...   2km/h NE   0.0mm   3.8mm     5.1mm
+1  SAEG_Crooked      2°C      8°C     10°C  ...  1km/h ENE   0.0mm   5.1mm     8.4mm
+2   SAEG_Salmon      2°C      8°C      9°C  ...   0km/h NE   0.0mm   1.5mm     6.3mm
+3   SAEG_Stuart      2°C      7°C      8°C  ...  8km/h NNW   0.3mm   0.0mm     3.6mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      3°C      6°C      4°C  ...    4km/h E   6.6mm   1.0mm    11.7mm
+1  SAEG_Crooked      4°C      3°C      4°C  ...   0km/h SW  14.7mm   0.8mm    20.6mm
+2   SAEG_Salmon      3°C      2°C      3°C  ...  3km/h WSW  20.3mm   4.6mm    21.6mm
+3   SAEG_Stuart      2°C      3°C      3°C  ...   4km/h SW   7.4mm   2.5mm     8.6mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      5°C      5°C  ...    3km/h S   4.1mm   3.5mm     5.7mm
+1  SAEG_Crooked      2°C      6°C      4°C  ...  0km/h SSW   3.8mm   5.3mm     7.9mm
+2   SAEG_Salmon      1°C      5°C      7°C  ...  2km/h WSW   4.8mm   1.0mm    10.4mm
+3   SAEG_Stuart      0°C      4°C      8°C  ...  5km/h SSW   3.8mm   0.0mm     5.6mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      5°C      5°C  ...    5km/h W   3.3mm   0.2mm     6.6mm
+1  SAEG_Crooked      1°C      6°C      4°C  ...  0km/h ESE   0.3mm   0.8mm     3.8mm
+2   SAEG_Salmon      1°C      6°C      6°C  ...    2km/h W   0.5mm   1.3mm     2.0mm
+3   SAEG_Stuart      1°C      3°C      5°C  ...  1km/h WNW   4.8mm   1.3mm     5.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      0°C      5°C      5°C  ...   4km/h SW   2.6mm   0.2mm     2.5mm
+1  SAEG_Crooked      0°C      2°C      5°C  ...   0km/h SW   3.6mm   0.2mm     3.8mm
+2   SAEG_Salmon      0°C      5°C      5°C  ...  1km/h WNW   0.5mm   0.5mm     0.8mm
+3   SAEG_Stuart      0°C      5°C      5°C  ...    7km/h W   3.3mm   0.2mm     3.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      6°C      9°C  ...  5km/h ENE   0.8mm   0.0mm     1.3mm
+1  SAEG_Crooked      3°C     10°C      9°C  ...   1km/h NE   0.0mm   0.0mm     0.2mm
+2   SAEG_Salmon      2°C      9°C     10°C  ...  9km/h SSE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      2°C      9°C     10°C  ...  6km/h SSE   0.2mm   0.0mm     0.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      2°C      7°C      7°C  ...    8km/h E   0.0mm   2.0mm     1.4mm
+1  SAEG_Crooked      2°C      9°C      8°C  ...   3km/h NE   0.0mm   2.5mm     0.2mm
+2   SAEG_Salmon      1°C      8°C      3°C  ...  5km/h WSW   3.0mm   5.6mm     7.6mm
+3   SAEG_Stuart      1°C      7°C      3°C  ...  5km/h SSW   4.1mm   6.1mm     9.9mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp  ... 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      0°C     12°C  ...   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      0°C     14°C  ...   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -1°C     13°C  ...   0.2mm   0.0mm     1.3mm
+3   SAEG_Stuart      3°C     12°C  ...   0.0mm   0.0mm     0.5mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      1°C      8°C      6°C  ...    5km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      1°C      7°C      8°C  ...  1km/h SSW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      2°C      6°C      9°C  ...    7km/h S   0.0mm   0.0mm     0.5mm
+3   SAEG_Stuart      1°C      7°C      7°C  ...   4km/h SE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     -1°C     10°C     11°C  ...  4km/h ESE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     -1°C     11°C     11°C  ...  1km/h WSW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     -3°C     10°C     11°C  ...   4km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart      1°C      9°C     10°C  ...  6km/h ENE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      3°C     12°C     12°C  ...  7km/h ENE   0.5mm   5.7mm     1.7mm
+1  SAEG_Crooked      3°C     15°C     10°C  ...   1km/h NE   0.0mm   3.1mm     0.0mm
+2   SAEG_Salmon      6°C     15°C      8°C  ...  1km/h ENE   0.5mm   3.5mm     3.0mm
+3   SAEG_Stuart      5°C     13°C      9°C  ...   5km/h NE   1.3mm   0.5mm     0.8mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      6°C      6°C      6°C  ...  6km/h SSE   4.1mm   0.7mm     9.9mm
+1  SAEG_Crooked      6°C      6°C      9°C  ...  1km/h SSW   2.5mm   0.0mm     6.9mm
+2   SAEG_Salmon      7°C      6°C     10°C  ...  3km/h WSW   3.6mm   0.0mm     4.8mm
+3   SAEG_Stuart      7°C      7°C     11°C  ...    7km/h S   2.0mm   0.0mm     3.0mm
+
+[4 rows x 10 columns]
+Email SENT to 13 recipients
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      8°C     22°C     24°C  ...    2km/h S   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked      9°C     23°C     23°C  ...    1km/h W   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      6°C     22°C     25°C  ...   1km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     12°C     22°C     24°C  ...  1km/h ESE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 7-20020aa79107000000b0051826824d90sm5226768pfh.177 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     10°C     25°C     26°C  ...    6km/h W   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     11°C     26°C     23°C  ...   0km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      9°C     25°C     27°C  ...  0km/h ENE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     14°C     25°C     26°C  ...    2km/h E   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials t6-20020a170902b20600b0016a1e2d148csm6957574plr.32 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     11°C     26°C     22°C  ...  9km/h NNW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     12°C     26°C     23°C  ...   3km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      9°C     25°C     26°C  ...  3km/h SSW   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     16°C     25°C     26°C  ...   7km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials h13-20020aa79f4d000000b0052529d527e7sm9270085pfr.80 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     13°C     23°C     19°C  ...   4km/h SE   0.0mm   3.8mm     0.0mm
+1  SAEG_Crooked     15°C     23°C     14°C  ...  0km/h WSW   1.3mm  14.2mm     4.3mm
+2   SAEG_Salmon     14°C     23°C     12°C  ...   0km/h SE   7.9mm  13.0mm    16.5mm
+3   SAEG_Stuart     14°C     19°C     11°C  ...  1km/h ESE  27.4mm   6.6mm    33.3mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials nu4-20020a17090b1b0400b001eaec814132sm5909414pjb.3 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     12°C     21°C     25°C  ...  2km/h SSW   0.0mm   0.0mm     4.6mm
+1  SAEG_Crooked     13°C     21°C     22°C  ...   0km/h SW   0.0mm   0.0mm    11.7mm
+2   SAEG_Salmon     12°C     21°C     23°C  ...   3km/h SE   0.0mm   0.0mm     3.3mm
+3   SAEG_Stuart     12°C     20°C     21°C  ...   4km/h SE   0.0mm   0.0mm     0.8mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d4-20020a170902654400b00168aed83c63sm13265367pln.237 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     11°C     22°C     25°C  ...  8km/h WSW   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     12°C     23°C     23°C  ...  3km/h SSW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     11°C     23°C     21°C  ...    0km/h W   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     12°C     22°C     20°C  ...    1km/h W   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g10-20020a170902934a00b0016a11b9aeaasm15222515plp.225 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     12°C     14°C     18°C  ...  6km/h NNW   7.6mm   0.0mm     7.6mm
+1  SAEG_Crooked     11°C     14°C     18°C  ...  4km/h ENE   2.8mm   0.0mm     2.8mm
+2   SAEG_Salmon     10°C     15°C     17°C  ...   1km/h SE   4.8mm   0.0mm     4.8mm
+3   SAEG_Stuart     14°C     19°C     19°C  ...  11km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials x20-20020aa79574000000b0050dc7628183sm17900140pfq.93 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      9°C     20°C     22°C  ...    7km/h N   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     11°C     20°C     21°C  ...  3km/h ENE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      9°C     20°C     23°C  ...  2km/h SSE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     11°C     19°C     22°C  ...  6km/h WNW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials l14-20020a170903244e00b001674f2e1c3asm19089356pls.74 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip      9°C     22°C     24°C  ...   9km/h NE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     13°C     22°C     23°C  ...   8km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon      9°C     23°C     24°C  ...    4km/h N   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     11°C     21°C     23°C  ...  15km/h NW   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials s7-20020a17090302c700b00168e83eda56sm20983979plk.3 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     12°C     21°C     21°C  ...   12km/h E   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     15°C     22°C     22°C  ...   4km/h NE   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     11°C     22°C     21°C  ...    0km/h E   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     14°C     22°C     14°C  ...  1km/h NNE   0.0mm   2.8mm     2.8mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials s1-20020a170902ea0100b0015e8d4eb2ddsm7470137plg.295 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     12°C     20°C     20°C  ...  6km/h ENE   0.0mm   0.0mm     0.0mm
+1  SAEG_Crooked     14°C     18°C     16°C  ...  0km/h NNW   0.0mm   0.0mm     0.0mm
+2   SAEG_Salmon     13°C     21°C     17°C  ...   2km/h SE   0.0mm   0.0mm     0.0mm
+3   SAEG_Stuart     13°C     19°C     16°C  ...    6km/h E   0.0mm   0.0mm     0.5mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials m17-20020a170902db1100b0016a275623c1sm17786982plx.219 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     11°C     21°C     23°C  ...  7km/h ENE   0.0mm   4.8mm     4.8mm
+1  SAEG_Crooked     13°C     21°C     17°C  ...    1km/h W   5.8mm   0.2mm     3.3mm
+2   SAEG_Salmon     13°C     21°C     20°C  ...  3km/h ESE   4.3mm   4.3mm     0.0mm
+3   SAEG_Stuart     13°C     19°C     15°C  ...  4km/h ESE   0.0mm  26.4mm    25.4mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9-20020a170902654900b0016357fd0fd1sm27886697pln.69 - gsmtp')
+Email not sent

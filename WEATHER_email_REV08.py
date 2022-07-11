@@ -1,15 +1,12 @@
 import pandas as pd
-import numpy as np
 import datetime as dt
-import yagmail
-import time
+import os
 
-from os import remove
-from sys import platform
-from pprint import pprint
+from send_email import send_email
+
 from wunderground_pws import WUndergroundAPI, units
 
-def fname_to_pi(fname): return f"/home/pi/weather/{fname}" if platform.startswith('linux') else fname
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
 hrs_of_interest = [7,13,19]
 rng_of_interest = [(5,17),(17,29),(0,24)]
@@ -50,53 +47,29 @@ def gather_hourly(station_id):
         return pd.DataFrame()
 
 def format_data(data,title):
-    global hrs_of_interest,rng_of_interest
+    global hrs_of_interest,rng_of_interest,dir_path
+
+    fname_style = os.path.join(dir_path,"style.html")
+    with open(fname_style) as file:
+        style = file.read()
+
 
     df_html = data.to_html(index=False,na_rep="NO DATA")
-    df_html = df_html.replace(
-        "<table border=\"1\" class=\"dataframe\">",
-        "<table border=\"1\" class=\"dataframe\" \
-            cell-spacing=0 cell_padding=0 \
-            style=\"width: 100%; \
-            font-size: 11pt; \
-            font-family: Arial, Helvetica, sans-serif; \
-            border-collapse: collapse; \
-            border: 1px solid silver;\">"
-    )
-    
+
     df_html = df_html.replace(
         "<thead>",
-        f"""<thead>
-            <tr style="text-align: right;">
-                <th style=\"padding: 5px; text-align: left; background-color: #c00000; color: white;\">Weather Station</th>
-                <th colspan="{len(hrs_of_interest)}" style=\"padding: 5px; text-align: left; background-color: #c00000; color: white;\">Temperature</th>
-                <th colspan="{len(hrs_of_interest)}" style=\"padding: 5px; text-align: left; background-color: #c00000; color: white;\">Wind</th>
-                <th colspan="{len(rng_of_interest)}" style=\"padding: 5px; text-align: left; background-color: #c00000; color: white;\">Precipitation</th>
-            </tr>"""
+        f"""
+        <thead>
+            <tr style="color: #f2f2f2;">
+                <th>Weather Station</th>
+                <th colspan="{len(hrs_of_interest)}">Temperature</th>
+                <th colspan="{len(hrs_of_interest)}">Wind</th>
+                <th colspan="{len(rng_of_interest)}">Precipitation</th>
+            </tr>
+            """
     )
 
-    df_html = df_html.replace(
-        "<th>",
-        "<th style=\"padding: 5px; text-align: left;\">"
-        )
-
-    df_html = df_html.replace(
-        "<td>",
-        "<td style=\"padding: 5px; text-align: left;\">"
-    )
-
-    html_string = f"""
-    <html>
-    <head><title>HTML Pandas Dataframe with CSS</title></head>
-    <body>
-        <h2 style=\"font-size: 14pt; font-family: Arial, Helvetica, sans-serif;\">{title}</h2>
-        
-        {df_html}
-    </body>
-    </html>.
-    """
-
-    return html_string
+    return style + df_html
 
 def rain_total(dataframe):
     precip_rate_max = dataframe["metric.precipRate"].max()
@@ -169,42 +142,35 @@ def summary(date,stations):
 
     return result,hr_data
 
-def send_email(emails,subject,attachments):
-    try:
-        yag = yagmail.SMTP("saeg.weather@gmail.com","SA_CGL_S34")
-        yag.send(emails,subject,attachments)
-        print(f"Email SENT to {len(emails)} recipients")
-    except Exception as e:
-        print(e)
-        print("Email not sent")
-
 def main():
     today = dt.date.today()
     yesterday = today - dt.timedelta(days=1)
     yesterday_txt = yesterday.strftime("%Y-%m-%d")
     subject = "CGL S34 Weather Summary - " + yesterday_txt
 
-    fname_html = fname_to_pi(f"Weather Summary - {yesterday_txt}.html")
-    fname_stations = fname_to_pi("weather_stations.csv")
-    fname_csv = fname_to_pi("weather_results.csv")
-    fname_emails = fname_to_pi("email_list.csv")
-    fname_kmz = fname_to_pi("SAEG Weather Stations.kmz")  
+    fname_html = os.path.join(dir_path,(f"Weather Summary - {yesterday_txt}.html"))
+    fname_stations = os.path.join(dir_path,("weather_stations.csv"))
+    fname_csv = os.path.join(dir_path,("weather_results.csv"))
+    fname_emails = os.path.join(dir_path,("email_list.csv"))
+    fname_kmz = os.path.join(dir_path,("SAEG Weather Stations.kmz")  )
 
     stations = pd.read_csv(fname_stations)
     result,hr_data = summary(yesterday,stations)
     hr_data.to_csv(fname_csv,index=False)
     print(result)
 
+    html = format_data(result,subject)
+
     with open(fname_html,"w") as file:
         file.seek(0)
-        file.write(format_data(result,subject))
+        file.write(html)
 
-    emails = pd.read_csv(fname_emails,header=None)[0].tolist()
-    #emails = ["rileypaul96@gmail.com"]
+    # emails = pd.read_csv(fname_emails,header=None)[0].tolist()
+    emails = ["rileypaul96@gmail.com"]
     
     attachments = [fname_html,fname_kmz]
-    send_email(emails,subject,attachments)
-    remove(fname_html)
+    send_email(emails,subject,html)
+    os.remove(fname_html)
 
 if __name__ == "__main__":
     main()

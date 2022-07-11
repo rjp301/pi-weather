@@ -30,7 +30,7 @@ def deg_to_compass(num):
 
 def gather_hourly(station_id):
     wu = WUndergroundAPI(
-        api_key="6072a9791ae24987b2a9791ae2d987c7",
+        api_key="ac2dee03eb4042faadee03eb4002fa4a",
         default_station_id="IVANDE4",
         units=units.METRIC_UNITS,)
 

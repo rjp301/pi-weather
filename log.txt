@@ -4704,3 +4704,39 @@ Email not sent
 [4 rows x 10 columns]
 (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9-20020a170902654900b0016357fd0fd1sm27886697pln.69 - gsmtp')
 Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...  7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     13°C     18°C     16°C  ...  3km/h SW  20.0mm   1.3mm    21.6mm
+1  SAEG_Crooked     13°C     19°C     15°C  ...   0km/h S   4.1mm   0.5mm     7.4mm
+2   SAEG_Salmon     12°C     18°C     16°C  ...   2km/h W   1.8mm   0.3mm    10.7mm
+3   SAEG_Stuart     11°C     17°C     17°C  ...   2km/h S   6.3mm   0.0mm     7.4mm
+
+[4 rows x 10 columns]
+(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials n3-20020a170902e54300b00161a9df4de8sm30073460plf.145 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     12°C     14°C     18°C  ...    8km/h E   2.5mm   2.3mm     4.8mm
+1  SAEG_Crooked     11°C     16°C     17°C  ...  2km/h NNE   1.3mm   0.5mm     1.8mm
+2   SAEG_Salmon     11°C     18°C     14°C  ...  5km/h SSE   0.0mm   1.0mm     1.0mm
+3   SAEG_Stuart     11°C     17°C     15°C  ...    6km/h E   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a11-20020a1709027e4b00b001624965d83bsm1127152pln.228 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     10°C     17°C     19°C  ...  5km/h SSW   0.5mm   0.0mm     0.5mm
+1  SAEG_Crooked     11°C     14°C     17°C  ...  2km/h SSE   1.5mm   0.0mm     1.5mm
+2   SAEG_Salmon      9°C     15°C     18°C  ...  5km/h WSW   1.8mm   0.0mm     1.8mm
+3   SAEG_Stuart      9°C     17°C     17°C  ...  6km/h ESE   0.0mm   0.0mm     0.0mm
+
+[4 rows x 10 columns]
+(534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor z6-20020a170903018600b0016be5f24aaesm2578515plg.163 - gsmtp')
+Email not sent
+           Name 7AM Temp 1PM Temp 7PM Temp  ...   7PM Wind 5AM-5PM 5PM-5AM 12AM-12AM
+0  SAEG_Parsnip     11°C     18°C     16°C  ...    5km/h E   0.0mm   1.0mm     0.0mm
+1  SAEG_Crooked     13°C     19°C     16°C  ...  0km/h NNW   0.2mm   0.2mm     0.2mm
+2   SAEG_Salmon     10°C     18°C     15°C  ...  4km/h SSE   1.0mm   0.2mm     1.0mm
+3   SAEG_Stuart     10°C     16°C     15°C  ...    7km/h E   0.2mm   0.2mm     0.2mm
+
+[4 rows x 10 columns]
+(534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor b4-20020a630c04000000b0040d22243295sm4004195pgl.79 - gsmtp')
+Email not sent

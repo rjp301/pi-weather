@@ -165,8 +165,8 @@ def main():
         file.seek(0)
         file.write(html)
 
-    # emails = pd.read_csv(fname_emails,header=None)[0].tolist()
-    emails = ["rileypaul96@gmail.com"]
+    emails = pd.read_csv(fname_emails,header=None)[0].tolist()
+    # emails = ["rileypaul96@gmail.com"]
     
     attachments = [fname_html,fname_kmz]
     send_email(emails,subject,html)

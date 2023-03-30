@@ -45,6 +45,12 @@
   <body>
     <table border="1" class="dataframe">
       <thead>
+        <tr style="color: #f2f2f2">
+          <th>Weather Station</th>
+          <th colspan="{{len_hrs}}">Temperature</th>
+          <th colspan="{{len_hrs}}">Wind</th>
+          <th colspan="{{len_rng}}">Precipitation</th>
+        </tr>
         <tr style="text-align: right">
           {{#columns}}
           <th>{{this}}</th>

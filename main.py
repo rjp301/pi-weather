@@ -30,16 +30,20 @@ for _,station in stations.iterrows():
   history["response"] = json.loads(response)
   raw_data.append(history)
 
-  # summary = summarizeData(history)
-  # summaries.append(summaries)
+  summary = summarizeData(history)
+  summaries.append(summary)
+
+result = pd.concat(summaries,axis=1).T
+print(result)
 
 fname = os.path.join("data","weatherData.json")
 with open(fname,"w") as file: 
   file.write(json.dumps(raw_data))
   
-
 fname_summaries = os.path.join("data","weatherSummary.json")
 with open(fname_summaries,"w") as file: 
-  file.write(json.dumps(summaries))
-  
-run_node("library/sendEmail.js",fname_summaries)
+  file.write(json.dumps(result.to_dict(orient="tight")))
+
+run_node("library/renderHtml.js")
+
+# run_node("library/sendEmail.js",fname_summaries)

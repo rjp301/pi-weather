@@ -51,5 +51,5 @@ with open(fname_summaries,"w") as file:
 subject = f"CGL S34 Weather Summary - {yesterday:%Y-%m-%d}"
 
 run_node("library/renderHtml.js")
-email_result = run_node("library/sendEmail.js",subject)
+email_result = run_node("library/sendEmail.js",[subject])
 print(email_result)

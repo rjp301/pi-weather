@@ -3,8 +3,7 @@ import datetime as dt
 import json
 import os
 
-hrs_of_interest = [7,13,19]
-rng_of_interest = [(5,17),(17,29),(0,24)]
+
 
 def round_hr(then):
   return dt.datetime(
@@ -34,7 +33,12 @@ def rain_total(dataframe:pd.DataFrame) -> float:
   if precip_rate_max <= 0: return 0
   return precip_total_max - dataframe.at[0,"metric.precipTotal"]
 
-def summarizeData(history:dict) -> dict:
+def summarizeData(
+    history:dict,
+    yesterday:dt.date,
+    hrs_of_interest:list,
+    rng_of_interest:list
+  ) -> dict:
   station = history["station"]
   
   columns = ["Name"]
@@ -58,7 +62,6 @@ def summarizeData(history:dict) -> dict:
   )
   # print(data)
 
-  yesterday = dt.date.today() - dt.timedelta(days=1)
 
   # if len(data) < 18:
   #   print(f"Station has not reported for last 18 hours")

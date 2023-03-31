@@ -1,22 +1,24 @@
 import pandas as pd
 import datetime as dt
-import subprocess
 import json
 import os
 
 from library.summarizeData import summarizeData
+from library.run_node import run_node
 
-def run_node(fname:str,args:list = []) -> str:
-  p = subprocess.Popen(["node", fname, *args], stdout=subprocess.PIPE)
-  return p.stdout.read().decode("utf-8")
+# Define parameters
+hrs_of_interest = [7,13,19]
+rng_of_interest = [(5,17),(17,29),(0,24)]
+yesterday = dt.date.today() - dt.timedelta(days=1)
 
-fname_stations = os.path.join("data","weatherStations.csv")
-stations = pd.read_csv(fname_stations)
-print(stations)
+# Get list of all weather stations
+stations = pd.read_csv(os.path.join("data","weatherStations.csv"))
 
-raw_data = []
+# Initialize results
+data = []
 summaries = []
 
+# Fetch and summarize history for all stations
 for _,station in stations.iterrows():
   try: 
     response = run_node("library/fetchWeatherData.js",[station["id"]])
@@ -28,22 +30,26 @@ for _,station in stations.iterrows():
   history = {}
   history["station"] = station.to_dict()
   history["response"] = json.loads(response)
-  raw_data.append(history)
+  data.append(history)
 
-  summary = summarizeData(history)
+  summary = summarizeData(history,yesterday,hrs_of_interest,rng_of_interest)
   summaries.append(summary)
 
 result = pd.concat(summaries,axis=1).T
 print(result)
 
+# Save raw data
 fname = os.path.join("data","weatherData.json")
 with open(fname,"w") as file: 
-  file.write(json.dumps(raw_data))
-  
+  file.write(json.dumps(data))
+
+# Save summary
 fname_summaries = os.path.join("data","weatherSummary.json")
 with open(fname_summaries,"w") as file: 
   file.write(json.dumps(result.to_dict(orient="tight")))
 
-run_node("library/renderHtml.js")
+subject = f"CGL S34 Weather Summary - {yesterday:%Y-%m-%d}"
 
-# run_node("library/sendEmail.js",fname_summaries)
+run_node("library/renderHtml.js")
+email_result = run_node("library/sendEmail.js",subject)
+print(email_result)

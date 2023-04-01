@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 dotenv.config();
 
-export async function sendEmail(subject) {
+export async function sendEmail(subject, testFlag) {
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -19,8 +19,12 @@ export async function sendEmail(subject) {
 
   const html = await fs.readFile("./html/summary.html", "utf-8");
 
+  const emails = (await fs.readFile("./data/email_list.csv", "utf-8"))
+    .replace(/\r\n/g, "\n")
+    .split("\n");
+
   const msg = {
-    to: "rileypaul96@gmail.com",
+    to: testFlag === "--email-test" ? "rileypaul96@gmail.com" : emails,
     subject,
     html,
   };
@@ -34,4 +38,4 @@ export async function sendEmail(subject) {
   });
 }
 
-await sendEmail(process.argv[2]);
+await sendEmail(process.argv[2], process.argv[3]);

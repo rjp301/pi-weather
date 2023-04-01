@@ -1,11 +1,20 @@
 import pandas as pd
 import datetime as dt
+import argparse
 import json
 import os
 
 from library.summarizeData import summarizeData
 from library.run_node import run_node
 from library.dataframe_to_dict import dataframe_to_dict
+
+parser = argparse.ArgumentParser(
+  prog="Weather Summary Email",
+  description="Fetch data from constellation of personal weather stations and send to email recipients",
+  formatter_class=argparse.ArgumentDefaultsHelpFormatter
+)
+parser.add_argument("-t","--test",action="store_true")
+args = parser.parse_args()
 
 # Define parameters
 hrs_of_interest = [7,13,19]
@@ -53,6 +62,9 @@ with open(fname_summaries,"w") as file:
 
 subject = f"CGL S34 Weather Summary - {yesterday:%Y-%m-%d}"
 
+
 run_node("library/renderHtml.js")
-email_result = run_node("library/sendEmail.js",[subject])
+
+email_test = "--email-test" if args.test else "--email-all"
+email_result = run_node("library/sendEmail.js",[subject,email_test])
 print(email_result)

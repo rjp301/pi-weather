@@ -47,7 +47,7 @@ with open("weather_results.csv") as f:
     array = np.loadtxt(f, delimeter=",")
     weather_list = list(reader)
     
-print weather_list(f):
+print weather_list (f):
 
 doc.build(Story)
 

@@ -5,6 +5,7 @@ import os
 
 from library.summarizeData import summarizeData
 from library.run_node import run_node
+from library.dataframe_to_dict import dataframe_to_dict
 
 # Define parameters
 hrs_of_interest = [7,13,19]
@@ -46,7 +47,9 @@ with open(fname,"w") as file:
 # Save summary
 fname_summaries = os.path.join("data","weatherSummary.json")
 with open(fname_summaries,"w") as file: 
-  file.write(json.dumps(result.to_dict(orient="tight")))
+  result_dict = dataframe_to_dict(result)
+  result_json = json.dumps(result_dict).replace("NaN","null")
+  file.write(result_json)
 
 subject = f"CGL S34 Weather Summary - {yesterday:%Y-%m-%d}"
 

@@ -100,7 +100,7 @@ def summarizeData(
 
     result[f"{hr_txt(rng[0])}-{hr_txt(rng[1])}"] = f"{rain_tot:.1f}mm" if rain_tot != None else "NO DATA"
   
-  return result
+  return result.fillna("NO DATA")
 
 if __name__ == "__main__":
   with open("data/weatherData.json") as file:

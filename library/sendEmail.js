@@ -1,6 +1,8 @@
 import fs from "fs/promises";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
+import path from "path";
+import { fileURLToPath } from "url";
 dotenv.config();
 
 export async function sendEmail(subject, testFlag) {
@@ -17,12 +19,12 @@ export async function sendEmail(subject, testFlag) {
     },
   });
 
-  const current_path = path.dirname(__filename)
+  const PATH = path.dirname(fileURLToPath(import.meta.url))
 
-  const fname_html = path.join(current_path,"..","html","summary.html")
+  const fname_html = path.join(PATH,"..","html","summary.html")
   const html = await fs.readFile(fname_html, "utf-8");
 
-  const fname_emails = path.join(current_path,"..","data","email_list.csv")
+  const fname_emails = path.join(PATH,"..","data","email_list.csv")
   const emails = (await fs.readFile(fname_emails, "utf-8"))
     .replace(/\r\n/g, "\n")
     .split("\n");

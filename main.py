@@ -16,7 +16,10 @@ parser = argparse.ArgumentParser(
   formatter_class=argparse.ArgumentDefaultsHelpFormatter
 )
 parser.add_argument("-t","--test",action="store_true")
+parser.add_argument("-m","--mac",action="store_true")
 args = parser.parse_args()
+
+node_path = "node" if args.mac else "/usr/bin/node"
 
 # Define parameters
 hrs_of_interest = [7,13,19]
@@ -33,7 +36,7 @@ summaries = []
 # Fetch and summarize history for all stations
 for _,station in stations.iterrows():
   try: 
-    response = run_node("library/fetchWeatherData.js",[station["id"]])
+    response = run_node("library/fetchWeatherData.js",[station["id"]],node_path=node_path)
   except Exception as e:
     print(e)
     print(f"Could not fetch hourly data for {station['name']}")
@@ -65,8 +68,8 @@ with open(fname_summaries,"w") as file:
 subject = f"CGL S34 Weather Summary - {yesterday:%Y-%m-%d}"
 
 
-run_node("library/renderHtml.js")
+run_node("library/renderHtml.js",node_path=node_path)
 
 email_test = "--email-test" if args.test else "--email-all"
-email_result = run_node("library/sendEmail.js",[subject,email_test])
+email_result = run_node("library/sendEmail.js",[subject,email_test],node_path=node_path)
 print(email_result)

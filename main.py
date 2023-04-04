@@ -36,7 +36,11 @@ summaries = []
 # Fetch and summarize history for all stations
 for _,station in stations.iterrows():
   try: 
-    response = run_node("library/fetchWeatherData.js",[station["id"]],node_path=node_path)
+    response = run_node(
+      fname=os.path.join(PATH,"library","fetchWeatherData.js"),
+      args=[station["id"]],
+      node_path=node_path
+    )
   except Exception as e:
     print(e)
     print(f"Could not fetch hourly data for {station['name']}")
@@ -68,8 +72,8 @@ with open(fname_summaries,"w") as file:
 subject = f"CGL S34 Weather Summary - {yesterday:%Y-%m-%d}"
 
 
-run_node("library/renderHtml.js",node_path=node_path)
+run_node(os.path.join(PATH,"library","renderHtml.js"),node_path=node_path)
 
 email_test = "--email-test" if args.test else "--email-all"
-email_result = run_node("library/sendEmail.js",[subject,email_test],node_path=node_path)
+email_result = run_node(os.path.join(PATH,"library","sendEmail.js"),[subject,email_test],node_path=node_path)
 print(email_result)

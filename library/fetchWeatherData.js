@@ -1,6 +1,10 @@
 import axios from "axios";
 import dotenv from "dotenv";
-dotenv.config();
+import { fileURLToPath } from "url";
+import path from "path";
+
+const PATH = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: path.join(PATH, "..", ".env") });
 
 async function fetchWeatherData(stationId) {
   const options = {

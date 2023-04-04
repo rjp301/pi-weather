@@ -9,6 +9,7 @@ from library.run_node import run_node
 from library.dataframe_to_dict import dataframe_to_dict
 
 PATH = os.path.dirname(__file__)
+# os.chdir(PATH)
 
 parser = argparse.ArgumentParser(
   prog="Weather Summary Email",

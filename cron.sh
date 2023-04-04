@@ -1,2 +1,2 @@
 #!/bin/sh
-python /root/pi-weather/main.py -t
+python /root/pi-weather/main.py

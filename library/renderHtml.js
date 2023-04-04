@@ -1,10 +1,15 @@
 import fs from "fs/promises"
 import Handlebars from "handlebars"
+import path from "path"
 
-const source = await fs.readFile("./html/summary_template.html","utf-8")
+const current_path = path.dirname(__filename)
+
+const fname_template = path.join(current_path,"..","html","summary_template.html")
+const source = await fs.readFile(fname_template,"utf-8")
 const template = Handlebars.compile(source)
 
-const data = JSON.parse(await fs.readFile("./data/weatherSummary.json"))
+const fname_summary = path.join(current_path,"..","html","weatherSummary.json")
+const data = JSON.parse(await fs.readFile(fname_summary))
 data["len_hrs"] = data.columns.filter(i => i.includes("Temp")).length
 data["len_rng"] = data.columns.filter(i => i.includes("-")).length
 

@@ -1,8 +1,6 @@
 import pandas as pd
 import datetime as dt
 import json
-import os
-
 
 
 def round_hr(then):

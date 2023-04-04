@@ -17,9 +17,13 @@ export async function sendEmail(subject, testFlag) {
     },
   });
 
-  const html = await fs.readFile("./html/summary.html", "utf-8");
+  const current_path = path.dirname(__filename)
 
-  const emails = (await fs.readFile("./data/email_list.csv", "utf-8"))
+  const fname_html = path.join(current_path,"..","html","summary.html")
+  const html = await fs.readFile(fname_html, "utf-8");
+
+  const fname_emails = path.join(current_path,"..","data","email_list.csv")
+  const emails = (await fs.readFile(fname_emails, "utf-8"))
     .replace(/\r\n/g, "\n")
     .split("\n");
 

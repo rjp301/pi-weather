@@ -1,7 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,node,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,node,macos
 
-data/*
+data/weatherData.json
+data/weatherSummary.json
+html/summary.html
 
 ### macOS ###
 # General

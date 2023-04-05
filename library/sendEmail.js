@@ -24,7 +24,7 @@ export async function sendEmail(subject, testFlag) {
   const fname_html = path.join(PATH, "..", "html", "summary.html");
   const html = await fs.readFile(fname_html, "utf-8");
 
-  const fname_emails = path.join(PATH, "..", "data", "email_list.csv");
+  const fname_emails = path.join(PATH, "..", "config", "email_list.csv");
   const emails = (await fs.readFile(fname_emails, "utf-8"))
     .replace(/\r\n/g, "\n")
     .split("\n");

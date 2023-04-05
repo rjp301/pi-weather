@@ -28,7 +28,7 @@ rng_of_interest = [(5,17),(17,29),(0,24)]
 yesterday = dt.date.today() - dt.timedelta(days=1)
 
 # Get list of all weather stations
-stations = pd.read_csv(os.path.join(PATH,"data","weatherStations.csv"))
+stations = pd.read_csv(os.path.join(PATH,"config","weatherStations.csv"))
 
 # Initialize results
 data = []

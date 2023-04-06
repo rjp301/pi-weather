@@ -31,7 +31,7 @@ def rain_total(dataframe:pd.DataFrame) -> float:
   if precip_rate_max <= 0: return 0
   return precip_total_max - dataframe.at[0,"metric.precipTotal"]
 
-def summarizeData(
+def summarize_data(
     history:dict,
     yesterday:dt.date,
     hrs_of_interest:list,
@@ -101,12 +101,12 @@ def summarizeData(
   return result.fillna("NO DATA")
 
 if __name__ == "__main__":
-  with open("data/weatherData.json") as file:
+  with open("data/weather_data.json") as file:
     datasets = json.loads(file.read())
 
   summaries = []
   for dataset in datasets:
-    summary = summarizeData(dataset)
+    summary = summarize_data(dataset)
     summaries.append(summary)
 
   data = pd.concat(summaries,axis=1).T

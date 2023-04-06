@@ -4,9 +4,10 @@ import argparse
 import json
 import os
 
-from library.summarizeData import summarizeData
+from library.summarize_data import summarize_data
 from library.run_node import run_node
 from library.dataframe_to_dict import dataframe_to_dict
+from library.fetch_weather_data import fetch_weather_data
 
 PATH = os.path.dirname(__file__)
 # os.chdir(PATH)
@@ -36,30 +37,23 @@ summaries = []
 
 # Fetch and summarize history for all stations
 for _,station in stations.iterrows():
-  try: 
-    response = run_node(
-      fname=os.path.join(PATH,"library","fetchWeatherData.js"),
-      args=[station["id"]],
-      node_path=node_path
-    )
-  except Exception as e:
-    print(e)
+  response = fetch_weather_data(station["id"])
+  if response == "null":
     print(f"Could not fetch hourly data for {station['name']}")
-    continue
   
-  history = {}
-  history["station"] = station.to_dict()
-  history["response"] = json.loads(response)
-  data.append(history)
+  station_info = {}
+  station_info["station"] = station.to_dict()
+  station_info["response"] = json.loads(response)
+  data.append(station_info)
 
-  summary = summarizeData(history,yesterday,hrs_of_interest,rng_of_interest)
+  summary = summarize_data(station_info,yesterday,hrs_of_interest,rng_of_interest)
   summaries.append(summary)
 
 result = pd.concat(summaries,axis=1).T
 print(result)
 
 # Save raw data
-fname = os.path.join(PATH,"data","weatherData.json")
+fname = os.path.join(PATH,"data","weather_data.json")
 with open(fname,"w") as file: 
   file.write(json.dumps(data))
 

@@ -1,33 +1,34 @@
 # Weather Reporting
 
-Function run as a CRON job for fetching weather data from the Weather Underground API, summarizing that data using Pandas and distributing it using the Gmail API.
-
-Each function of the script is written in the most appropriate language for the job. Python is used for data manipulation and NodeJS is used for interfacing with APIs and generating HTML from templates.
+NodeJS Function run as a CRON job which fetches weather observation data from a private constellation of weather stations along a remote construction site using the Weather Underground API, summarizes that data, and distributes the summary to key decision makers via email.
 
 ## Data
 
-**_data/email_list.csv_**
+**_data/emailList.csv_**
 CSV file containing every recipient of the weather summary email.
 
-**_data/weatherStations.csv_** 
-CSV file containing the name and id of the weather stations that are included in the summary table.
+**_data/weatherStations.json_** 
+JSON file containing the name and id of the weather stations that are included in the summary table.
 
 ## Modules
 
 **_library/fetchWeatherData.js_**
-NodeJS function using the Axios library to fetch data from the Weather Underground server.
+Fetch data from the Weather Underground server using the Axios library.
 
-**_library/summarizeData.py_**
-Python script using the Pandas library to summarize weather data over the specified time ranges and save to JSON file.
+**_library/summarizeStation.js_**
+Summarize weather observation data from a station over the given time ranges for wind, temperature and rainfall.
+
+**_library/summarizeStations.js_**
+Fetch and summarize weather observation data from every weather station in the weatherStations.json file. Defines time ranges over which to summarize rainfall and points in time in which to report temperature and wind.
 
 **_library/renderHtml.js_**
-NodeJS function using the handlebars templating engine to generate HTML table with formatting from summarized data.
+Generate a nicely formatting HTML table using the Handlebars templating engine from the summarized data for all weather stations.
 
 **_library/sendEmail.js_**
-NodeJS function using the nodemailer library to interface with Gmail API to deliver formatted table using saeg.weather@gmail.com email address.
+Interface with the SendGrid API to send emails to all recipients.
 
-**_main.py_**
-Entry point into the function written in Python. Defines time ranges over which to summarize rainfall and points in time in which to report temperature and wind. Runs all modules in the function one after another.
+**_index.js_**
+Entry point into the function. Runs all modules in the function one after another. Uses the Commander framework to create a basic CLI.
 
 ## Notes
 

@@ -8,10 +8,10 @@ import renderHtml from "./library/renderHtml.js";
 import sendEmail from "./library/sendEmail.js";
 import summarizeStations from "./library/summarizeStations.js";
 
-program.option("-t", "--test");
-program.parse();
+program.option("-t, --test", "Send email only to developer").parse();
 
 const options = program.opts();
+console.log(options);
 
 const result = await summarizeStations();
 console.table(result.data);

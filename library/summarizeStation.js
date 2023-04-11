@@ -84,7 +84,7 @@ function getRain(rng, data) {
   return `${totalRain}mm`;
 }
 
-export default function summarizeData(
+export default function summarizeStation(
   data = [],
   hrsInterest = [],
   rngInterest = []

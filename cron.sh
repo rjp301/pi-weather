@@ -1,2 +1,3 @@
 #!/bin/sh
-python /root/pi-weather/main.py
+cd ~/pi-weather/
+/usr/bin/node .

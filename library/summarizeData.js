@@ -7,10 +7,6 @@ function roundMinutes(dateText) {
     : date.startOf("hour");
 }
 
-function formatHr(hr) {
-  return DateTime.fromObject({ hour: hr % 24 }).toFormat("ha");
-}
-
 function degToCompass(num) {
   var val = Math.floor(num / 22.5 + 0.5);
   var arr = [
@@ -102,28 +98,10 @@ export default function summarizeData(
 
   console.table(data);
 
-  const result = {};
-  result.columns = ["Name"];
-  result.columns = [
-    ...result.columns,
-    ...hrsInterest.map((hr) => formatHr(hr) + " Temp"),
-  ];
-  result.columns = [
-    ...result.columns,
-    ...hrsInterest.map((hr) => formatHr(hr) + " Wind"),
-  ];
-  result.columns = [
-    ...result.columns,
-    ...rngInterest.map((rng) => formatHr(rng[0]) + "-" + formatHr(rng[1])),
-  ];
-
-  result.data = ["SAEG_Crooked"];
-  result.data = [...result.data, ...hrsInterest.map((hr) => getTemp(hr, data))];
-  result.data = [...result.data, ...hrsInterest.map((hr) => getWind(hr, data))];
-  result.data = [
-    ...result.data,
-    ...rngInterest.map((rng) => getRain(rng, data)),
-  ];
+  let result = [];
+  result = [...result, ...hrsInterest.map((hr) => getTemp(hr, data))];
+  result = [...result, ...hrsInterest.map((hr) => getWind(hr, data))];
+  result = [...result, ...rngInterest.map((rng) => getRain(rng, data))];
 
   return result;
 }

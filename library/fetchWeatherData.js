@@ -1,12 +1,6 @@
 import axios from "axios";
-import dotenv from "dotenv";
-import { fileURLToPath } from "url";
-import path from "path";
 
-const PATH = path.dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: path.join(PATH, "..", ".env") });
-
-async function fetchWeatherData(stationId) {
+export default async function fetchWeatherData(stationId) {
   const options = {
     url: "/observations/hourly/7day",
     baseURL: "https://api.weather.com/v2/pws/",
@@ -22,11 +16,9 @@ async function fetchWeatherData(stationId) {
 
   try {
     const { data } = await axios(options);
-    const text = JSON.stringify(data);
-    process.stdout.write(text);
+    return data;
   } catch (err) {
-    process.stderr.write(JSON.stringify(err));
+    console.error(err);
+    return {};
   }
 }
-
-await fetchWeatherData(process.argv[2]);

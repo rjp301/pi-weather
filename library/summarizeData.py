@@ -28,6 +28,8 @@ def rain_total(dataframe:pd.DataFrame) -> float:
   precip_rate_max = dataframe["metric.precipRate"].max()
   precip_total_max = dataframe["metric.precipTotal"].max()
 
+  if dataframe.empty: return 0
+
   if precip_rate_max <= 0: return 0
   return precip_total_max - dataframe.at[0,"metric.precipTotal"]
 
@@ -58,7 +60,10 @@ def summarizeData(
     .set_index("time_rnd")
     .sort_index(ascending=False)
   )
-  # print(data)
+
+  if data.empty: return result.fillna("NO DATA")
+
+  print(data)
 
 
   # if len(data) < 18:

@@ -7,7 +7,7 @@ import { fileURLToPath } from "url";
 const PATH = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.join(PATH, "..", ".env") });
 
-export async function sendEmail(subject, testFlag) {
+export default async function sendEmail(subject, testFlag) {
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,

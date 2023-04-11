@@ -1,11 +1,15 @@
 import fs from "fs/promises";
 import dotenv from "dotenv";
 import { DateTime } from "luxon";
+import sgMail from "@sendgrid/mail";
 
 dotenv.config();
+sgMail.setApiKey(process.env.SG_API_KEY);
 
 import fetchWeatherData from "./library/fetchWeatherData.js";
 import summarizeData from "./library/summarizeData.js";
+import renderHtml from "./library/renderHtml.js";
+import sendEmail from "./library/sendEmail.js";
 
 function formatHr(hr) {
   return DateTime.fromObject({ hour: hr % 24 }).toFormat("ha");
@@ -46,3 +50,22 @@ result.data = await Promise.all(
 );
 
 console.table(result.data);
+
+const html = await renderHtml(result);
+const yesterday = DateTime.now().minus({ day: 1 }).toFormat("yyyy-LL-dd");
+
+const msg = {
+  to: "rileypaul96@gmail.com",
+  from: "saeg.weather@gmail.com",
+  subject: `CGL S34 Weather Summary - ${yesterday}`,
+  html,
+};
+
+sgMail
+  .send(msg)
+  .then((response) => {
+    console.log(response[0].statusCode, "Mail sent with SendGrid");
+  })
+  .catch((error) => {
+    console.error(error);
+  });

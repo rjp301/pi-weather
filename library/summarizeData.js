@@ -96,7 +96,7 @@ export default function summarizeData(
     }))
     .sort((a, b) => b.epoch - a.epoch);
 
-  console.table(data);
+  // console.table(data);
 
   let result = [];
   result = [...result, ...hrsInterest.map((hr) => getTemp(hr, data))];

@@ -11,7 +11,6 @@ import summarizeStations from "./library/summarizeStations.js";
 program.option("-t, --test", "Send email only to developer").parse();
 
 const options = program.opts();
-console.log(options);
 
 const result = await summarizeStations();
 console.table(result.data);
@@ -19,5 +18,6 @@ console.table(result.data);
 const html = await renderHtml(result);
 const yesterday = DateTime.now().minus({ day: 1 }).toFormat("yyyy-LL-dd");
 const subject = `CGL S34 Weather Summary - ${yesterday}`;
+console.log(subject)
 
 await sendEmail(subject, html, options.test);

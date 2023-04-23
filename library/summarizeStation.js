@@ -7,6 +7,11 @@ function roundMinutes(dateText) {
     : date.startOf("hour");
 }
 
+function roundDigits(num, digits = 1) {
+  const factor = Math.pow(10, digits);
+  return Math.round(num * factor) / factor;
+}
+
 function degToCompass(num) {
   var val = Math.floor(num / 22.5 + 0.5);
   var arr = [
@@ -81,7 +86,7 @@ function getRain(rng, data) {
   const postMidnight = relevantObs.filter((obs) => obs.obsTimeRnd >= timeMid);
   const totalRain = rainTotal(preMidnight) + rainTotal(postMidnight);
 
-  return `${totalRain}mm`;
+  return `${roundDigits(totalRain, 2)}mm`;
 }
 
 export default function summarizeStation(

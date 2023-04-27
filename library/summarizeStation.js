@@ -86,7 +86,7 @@ function getRain(rng, data) {
   const postMidnight = relevantObs.filter((obs) => obs.obsTimeRnd >= timeMid);
   const totalRain = rainTotal(preMidnight) + rainTotal(postMidnight);
 
-  return `${roundDigits(totalRain, 2)}mm`;
+  return `${totalRain.toFixed(1)}mm`;
 }
 
 export default function summarizeStation(

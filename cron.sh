@@ -1,3 +1,3 @@
 #!/bin/sh
 cd ~/pi-weather/
-/usr/bin/node .
+/usr/bin/ts-node-esm .

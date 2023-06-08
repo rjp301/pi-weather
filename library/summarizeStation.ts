@@ -65,6 +65,24 @@ function getWind(hr: number, data: ModWeatherObservation[]) {
     : "NO DATA";
 }
 
+function maxTemp(data: ModWeatherObservation[]) {
+  const filtered = data.filter(
+    (obs) => typeof obs.metric.tempHigh === "number"
+  );
+  const result = Math.max(
+    ...(filtered.map((obs) => obs.metric.tempHigh) as number[])
+  );
+  return typeof result === "number" ? `${result}°C` : "NO DATA";
+}
+
+function minTemp(data: ModWeatherObservation[]) {
+  const filtered = data.filter((obs) => typeof obs.metric.tempLow === "number");
+  const result = Math.min(
+    ...(filtered.map((obs) => obs.metric.tempLow) as number[])
+  );
+  return typeof result === "number" ? `${result}°C` : "NO DATA";
+}
+
 /**
  * Determine the total rainfal for a given 24 hours period.
  * Rainfall rate resets every 24 hours so must take the
@@ -127,11 +145,11 @@ export default function summarizeStation(response: WeatherFetch): string[] {
     .map((obs) => ({ ...obs, obsTimeRnd: roundMinutes(obs.obsTimeUtc) }))
     .sort((a, b) => b.epoch - a.epoch);
 
-  let result: string[] = [];
-  result = [...result, ...timesOfInterest.hours.map((hr) => getTemp(hr, data))];
-  result = [...result, ...timesOfInterest.hours.map((hr) => getWind(hr, data))];
-  result = [
-    ...result,
+  let result: string[] = [
+    ...timesOfInterest.hours.map((hr) => getTemp(hr, data)),
+    maxTemp(data),
+    minTemp(data),
+    ...timesOfInterest.hours.map((hr) => getWind(hr, data)),
     ...timesOfInterest.ranges.map((rng) => getRain(rng, data)),
   ];
 

@@ -17,30 +17,31 @@ function formatHr(hr: number) {
 }
 
 export default async function summarizeStations() {
-  const result: SummarizedWeather = { columns: [], data: [] };
-  result.columns = ["Name"];
-  result.columns = [
-    ...result.columns,
-    ...timesOfInterest.hours.map((hr) => formatHr(hr) + " Temp"),
-  ];
-  result.columns = [
-    ...result.columns,
-    ...timesOfInterest.hours.map((hr) => formatHr(hr) + " Wind"),
-  ];
-  result.columns = [
-    ...result.columns,
-    ...timesOfInterest.ranges.map(
-      (rng) => formatHr(rng.beg) + "-" + formatHr(rng.end)
+  const result: SummarizedWeather = {
+    columns: [
+      "Name",
+      ...timesOfInterest.hours.map((hr) => formatHr(hr)),
+      "Max",
+      "Min",
+      ...timesOfInterest.hours.map((hr) => formatHr(hr)),
+      ...timesOfInterest.ranges.map(
+        (rng) => formatHr(rng.beg) + "-" + formatHr(rng.end)
+      ),
+    ],
+    data: await Promise.all(
+      weatherStations.map(async (station) => {
+        const response = await fetchWeatherData(station.id);
+        const summary = summarizeStation(response);
+        return [station.name, ...summary];
+      })
     ),
-  ];
-
-  result.data = await Promise.all(
-    weatherStations.map(async (station) => {
-      const response = await fetchWeatherData(station.id);
-      const summary = summarizeStation(response);
-      return [station.name, ...summary];
-    })
-  );
+    headers: [
+      { name: "Name", colspan: 1 },
+      { name: "Temperature", colspan: timesOfInterest.hours.length + 2 },
+      { name: "Wind", colspan: timesOfInterest.hours.length },
+      { name: "Precipitation", colspan: timesOfInterest.ranges.length },
+    ],
+  };
 
   return result;
 }

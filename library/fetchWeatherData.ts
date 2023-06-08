@@ -1,6 +1,10 @@
 import axios from "axios";
+import dotenv from "dotenv";
+import WeatherFetch from "../types/fetch";
 
-export default async function fetchWeatherData(stationId) {
+dotenv.config();
+
+const fetchWeatherData = async (stationId: string): Promise<WeatherFetch> => {
   const options = {
     url: "/observations/hourly/7day",
     baseURL: "https://api.weather.com/v2/pws/",
@@ -16,9 +20,11 @@ export default async function fetchWeatherData(stationId) {
 
   try {
     const { data } = await axios(options);
-    return data;
+    const { observations } = data;
+    return { success: true, observations };
   } catch (err) {
-    console.error(err);
-    return {};
+    return { success: false, error: err };
   }
-}
+};
+
+export default fetchWeatherData;

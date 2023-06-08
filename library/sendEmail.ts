@@ -2,7 +2,11 @@ import fs from "fs/promises";
 import path from "path";
 import sgMail from "@sendgrid/mail";
 
-export default async function sendEmail(subject, html, testFlag) {
+export default async function sendEmail(
+  subject: string,
+  html: string,
+  testFlag: boolean
+) {
   // const transporter = nodemailer.createTransport({
   //   host: "smtp.gmail.com",
   //   port: 465,
@@ -15,6 +19,11 @@ export default async function sendEmail(subject, html, testFlag) {
   //     refreshToken: process.env.OAUTH_REFRESH_TOKEN,
   //   },
   // });
+
+  if (process.env.SG_API_KEY === undefined) {
+    console.log("Could not send email because no API key")
+    return
+  }
 
   sgMail.setApiKey(process.env.SG_API_KEY);
 

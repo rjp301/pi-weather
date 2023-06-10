@@ -12,22 +12,22 @@ JSON file containing the name and id of the weather stations that are included i
 
 ## Modules
 
-**_library/fetchWeatherData.js_**
+**_library/fetchWeatherData.ts_**
 Fetch data from the Weather Underground server using the Axios library.
 
-**_library/summarizeStation.js_**
+**_library/summarizeStation.ts_**
 Summarize weather observation data from a station over the given time ranges for wind, temperature and rainfall.
 
-**_library/summarizeStations.js_**
+**_library/summarizeStations.ts_**
 Fetch and summarize weather observation data from every weather station in the weatherStations.json file. Defines time ranges over which to summarize rainfall and points in time in which to report temperature and wind.
 
-**_library/renderHtml.js_**
+**_library/renderHtml.ts_**
 Generate a nicely formatting HTML table using the Handlebars templating engine from the summarized data for all weather stations.
 
-**_library/sendEmail.js_**
+**_library/sendEmail.ts_**
 Interface with the SendGrid API to send emails to all recipients.
 
-**_index.js_**
+**_index.ts_**
 Entry point into the function. Runs all modules in the function one after another. Uses the Commander framework to create a basic CLI.
 
 ## Notes

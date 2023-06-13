@@ -4,9 +4,9 @@ import { program } from "commander";
 
 dotenv.config();
 
-import renderHtml from "./library/renderHtml.ts";
-import sendEmail from "./library/sendEmail.ts";
-import summarizeStations from "./library/summarizeStations.ts";
+import renderHtml from "./library/renderHtml.js";
+import sendEmail from "./library/sendEmail.js";
+import summarizeStations from "./library/summarizeStations.js";
 
 program.option("-t, --test", "Send email only to developer").parse();
 
@@ -18,6 +18,6 @@ console.table(result.data);
 const html = await renderHtml(result);
 const yesterday = DateTime.now().minus({ day: 1 }).toFormat("yyyy-LL-dd");
 const subject = `CGL S34 Weather Summary - ${yesterday}`;
-console.log(subject)
+console.log(subject);
 
 await sendEmail(subject, html, options.test);

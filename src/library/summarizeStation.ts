@@ -1,11 +1,13 @@
 import { DateTime } from "luxon";
+import importJson from "./importJson.js";
 
 import type WeatherFetch from "../types/fetch";
 import type WeatherObservation from "../types/observation";
 import type TimesOfInterest from "../types/interest";
 
-import timesOfInterestData from "../data/timesOfInterest.json" assert { type: "json" };
-const timesOfInterest: TimesOfInterest = timesOfInterestData as TimesOfInterest;
+const timesOfInterest = (await importJson(
+  "data/timesOfInterest.json"
+)) as TimesOfInterest;
 
 type ModWeatherObservation = WeatherObservation & { obsTimeRnd: DateTime };
 

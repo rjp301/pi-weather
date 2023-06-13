@@ -1,16 +1,19 @@
 import fetchWeatherData from "./fetchWeatherData.js";
 import summarizeStation from "./summarizeStation.js";
+import importJson from "./importJson.js";
 import { DateTime } from "luxon";
 
-import type Station from "../types/station.js";
+import type Station from "../types/station";
 import type TimesOfInterest from "../types/interest";
-import type SummarizedWeather from "../types/summarized.js";
+import type SummarizedWeather from "../types/summarized";
 
-import timesOfInterestData from "../data/timesOfInterest.json" assert { type: "json" };
-const timesOfInterest: TimesOfInterest = timesOfInterestData as TimesOfInterest;
+const timesOfInterest = (await importJson(
+  "data/timesOfInterest.json"
+)) as TimesOfInterest;
 
-import stationData from "../data/weatherStations.json" assert { type: "json" };
-const weatherStations: Station[] = stationData as Station[];
+const weatherStations = (await importJson(
+  "data/weatherStations.json"
+)) as Station[];
 
 function formatHr(hr: number) {
   return DateTime.fromObject({ hour: hr % 24 }).toFormat("ha");

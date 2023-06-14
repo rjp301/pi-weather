@@ -142,10 +142,11 @@ export default function summarizeStation(response: WeatherFetch): string[] {
     return Array(num_columns).fill("OFFLINE");
   }
 
-  // add rounded time and sort
+  // add rounded time, sort and filter for past 24 hours
   const data = response.observations
     .map((obs) => ({ ...obs, obsTimeRnd: roundMinutes(obs.obsTimeUtc) }))
-    .sort((a, b) => b.epoch - a.epoch);
+    .sort((a, b) => b.epoch - a.epoch)
+    .filter((obs) => obs.obsTimeRnd >= yesterdayBeg);
 
   let result: string[] = [
     ...timesOfInterest.hours.map((hr) => getTemp(hr, data)),

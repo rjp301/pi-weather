@@ -1,6 +1,6 @@
 import fetchWeatherData from "./fetchWeatherData.js";
 import summarizeStation from "./summarizeStation.js";
-import importJson from "./importJson.js";
+import importJson from "../utils/importJson.js";
 import { DateTime } from "luxon";
 
 import type Station from "../types/station";

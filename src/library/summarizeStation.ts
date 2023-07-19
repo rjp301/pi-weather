@@ -1,9 +1,10 @@
 import { DateTime } from "luxon";
-import importJson from "./importJson.js";
+import importJson from "../utils/importJson.js";
 
 import type WeatherFetch from "../types/fetch";
 import type WeatherObservation from "../types/observation";
 import type TimesOfInterest from "../types/interest";
+import  roundMinutes  from "../utils/roundMinutes.js";
 
 const timesOfInterest = (await importJson(
   "data/timesOfInterest.json"
@@ -14,13 +15,6 @@ type ModWeatherObservation = WeatherObservation & { obsTimeRnd: DateTime };
 const yesterdayBeg = DateTime.now()
   .set({ hour: 0, minute: 0, second: 0, millisecond: 0 })
   .minus({ days: 1 });
-
-function roundMinutes(dateText: string) {
-  const date = DateTime.fromISO(dateText);
-  return date.minute >= 30
-    ? date.plus({ hour: 1 }).startOf("hour")
-    : date.startOf("hour");
-}
 
 function roundDigits(num: number, digits = 1) {
   const factor = Math.pow(10, digits);

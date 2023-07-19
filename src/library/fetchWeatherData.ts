@@ -4,7 +4,9 @@ import WeatherFetch from "../types/fetch";
 
 dotenv.config();
 
-const fetchWeatherData = async (stationId: string): Promise<WeatherFetch> => {
+export default async function fetchWeatherData(
+  stationId: string
+): Promise<WeatherFetch> {
   const options = {
     url: "/observations/hourly/7day",
     baseURL: "https://api.weather.com/v2/pws/",
@@ -25,6 +27,4 @@ const fetchWeatherData = async (stationId: string): Promise<WeatherFetch> => {
   } catch (err) {
     return { success: false, error: err };
   }
-};
-
-export default fetchWeatherData;
+}

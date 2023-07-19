@@ -43,6 +43,6 @@ export default async function fetchWeatherData(
   );
   const observations = responses
     .flatMap((r) => r.observations || [])
-    .sort((a, b) => b.epoch - a.epoch);
+    .sort((a, b) => a.epoch - b.epoch);
   return { success: observations.length > 0, observations };
 }

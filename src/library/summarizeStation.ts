@@ -71,8 +71,8 @@ function rainTotal(temp: ModWeatherObservation[]) {
   );
   const precipTotalBeg = temp[0].metric.precipTotal as number;
 
-  if (precipRateMax <= 0) return 0;
-  return precipTotalMax - precipTotalBeg;
+  if (precipRateMax === 0) return 0;
+  return Math.max(precipTotalMax - precipTotalBeg, 0);
 }
 
 function getRain(

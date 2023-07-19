@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import sgMail from "@sendgrid/mail";
+import importList from "src/utils/importList";
 
 export default async function sendEmail(
   subject: string,
@@ -21,16 +22,14 @@ export default async function sendEmail(
   // });
 
   if (process.env.SG_API_KEY === undefined) {
-    console.log("Could not send email because no API key")
-    return
+    console.log("Could not send email because no API key");
+    return;
   }
 
   sgMail.setApiKey(process.env.SG_API_KEY);
 
   const fname_emails = path.join("data", "emailList.csv");
-  const emails = (await fs.readFile(fname_emails, "utf-8"))
-    .replace(/\r\n/g, "\n")
-    .split("\n");
+  const emails = await importList(fname_emails);
 
   const msg = {
     to: testFlag ? "rileypaul96@gmail.com" : emails,

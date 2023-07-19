@@ -4,7 +4,8 @@ import importJson from "../utils/importJson.js";
 import type WeatherFetch from "../types/fetch";
 import type WeatherObservation from "../types/observation";
 import type TimesOfInterest from "../types/interest";
-import  roundMinutes  from "../utils/roundMinutes.js";
+import roundMinutes from "../utils/roundMinutes.js";
+import degToCompass from "../utils/degToCompass.js";
 
 const timesOfInterest = (await importJson(
   "data/timesOfInterest.json"
@@ -21,34 +22,11 @@ function roundDigits(num: number, digits = 1) {
   return Math.round(num * factor) / factor;
 }
 
-function degToCompass(num: number) {
-  var val = Math.floor(num / 22.5 + 0.5);
-  var arr = [
-    "N",
-    "NNE",
-    "NE",
-    "ENE",
-    "E",
-    "ESE",
-    "SE",
-    "SSE",
-    "S",
-    "SSW",
-    "SW",
-    "WSW",
-    "W",
-    "WNW",
-    "NW",
-    "NNW",
-  ];
-  return arr[val % 16];
-}
-
 function getTemp(hr: number, data: ModWeatherObservation[]) {
   const time = yesterdayBeg.plus({ hour: hr });
   const obs = data.find((obs) => obs.obsTimeRnd.equals(time));
   return typeof obs?.metric.tempAvg === "number"
-    ? `${obs?.metric.tempAvg}°C`
+    ? `${obs.metric.tempAvg}°C`
     : "NO DATA";
 }
 
@@ -130,7 +108,7 @@ function getRain(
 
 export default function summarizeStation(response: WeatherFetch): string[] {
   const num_columns =
-    timesOfInterest.hours.length * 2 + timesOfInterest.ranges.length;
+    timesOfInterest.hours.length * 2 + 2 + timesOfInterest.ranges.length;
 
   if (!response.observations) {
     return Array(num_columns).fill("OFFLINE");

@@ -13,25 +13,21 @@ const timesOfInterest = (await importJson(
 
 type ModWeatherObservation = WeatherObservation & { obsTimeRnd: DateTime };
 
-const yesterdayBeg = DateTime.now()
-  .set({ hour: 0, minute: 0, second: 0, millisecond: 0 })
-  .minus({ days: 1 });
-
 function roundDigits(num: number, digits = 1) {
   const factor = Math.pow(10, digits);
   return Math.round(num * factor) / factor;
 }
 
-function getTemp(hr: number, data: ModWeatherObservation[]) {
-  const time = yesterdayBeg.plus({ hour: hr });
+function getTemp(day: DateTime, hr: number, data: ModWeatherObservation[]) {
+  const time = day.plus({ hour: hr });
   const obs = data.find((obs) => obs.obsTimeRnd.equals(time));
   return typeof obs?.metric.tempAvg === "number"
     ? `${obs.metric.tempAvg}°C`
     : "NO DATA";
 }
 
-function getWind(hr: number, data: ModWeatherObservation[]) {
-  const time = yesterdayBeg.plus({ hour: hr });
+function getWind(day: DateTime, hr: number, data: ModWeatherObservation[]) {
+  const time = day.plus({ hour: hr });
   const obs = data.find((obs) => obs.obsTimeRnd.equals(time));
   return typeof obs?.metric.windspeedAvg === "number" &&
     typeof obs?.winddirAvg === "number"
@@ -39,18 +35,20 @@ function getWind(hr: number, data: ModWeatherObservation[]) {
     : "NO DATA";
 }
 
-function maxTemp(data: ModWeatherObservation[]) {
-  const filtered = data.filter(
-    (obs) => typeof obs.metric.tempHigh === "number"
-  );
+function maxTemp(day: DateTime, data: ModWeatherObservation[]) {
+  const filtered = data
+    .filter((obs) => obs.obsTimeRnd.day === day.day)
+    .filter((obs) => typeof obs.metric.tempHigh === "number");
   const result = Math.max(
     ...(filtered.map((obs) => obs.metric.tempHigh) as number[])
   );
   return typeof result === "number" ? `${result}°C` : "NO DATA";
 }
 
-function minTemp(data: ModWeatherObservation[]) {
-  const filtered = data.filter((obs) => typeof obs.metric.tempLow === "number");
+function minTemp(day: DateTime, data: ModWeatherObservation[]) {
+  const filtered = data
+    .filter((obs) => obs.obsTimeRnd.day === day.day)
+    .filter((obs) => typeof obs.metric.tempHigh === "number");
   const result = Math.min(
     ...(filtered.map((obs) => obs.metric.tempLow) as number[])
   );
@@ -78,12 +76,13 @@ function rainTotal(temp: ModWeatherObservation[]) {
 }
 
 function getRain(
+  day: DateTime,
   rng: { beg: number; end: number },
   data: ModWeatherObservation[]
 ) {
-  const timeBeg = yesterdayBeg.plus({ hour: rng.beg });
-  const timeEnd = yesterdayBeg.plus({ hour: rng.end });
-  const timeMid = yesterdayBeg.plus({ hour: 24 });
+  const timeBeg = day.plus({ hour: rng.beg });
+  const timeEnd = day.plus({ hour: rng.end });
+  const timeMid = day.plus({ hour: 24 });
 
   // console.log("timeBeg",timeBeg.toString())
   // console.log("timeEnd",timeEnd.toString())
@@ -106,26 +105,26 @@ function getRain(
   return `${totalRain.toFixed(1)}mm`;
 }
 
-export default function summarizeStation(response: WeatherFetch): string[] {
+export default function summarizeStation(
+  response: WeatherFetch,
+  date: DateTime
+): string[] {
   const num_columns =
     timesOfInterest.hours.length * 2 + 2 + timesOfInterest.ranges.length;
-
-  if (!response.observations) {
-    return Array(num_columns).fill("OFFLINE");
-  }
+  if (!response.observations) return Array(num_columns).fill("OFFLINE");
 
   // add rounded time, sort and filter for past 24 hours
-  const data = response.observations
-    .map((obs) => ({ ...obs, obsTimeRnd: roundMinutes(obs.obsTimeUtc) }))
-    .sort((a, b) => b.epoch - a.epoch)
-    .filter((obs) => obs.obsTimeRnd >= yesterdayBeg);
+  const data = response.observations.map((obs) => ({
+    ...obs,
+    obsTimeRnd: roundMinutes(obs.obsTimeUtc),
+  }));
 
   let result: string[] = [
-    ...timesOfInterest.hours.map((hr) => getTemp(hr, data)),
-    maxTemp(data),
-    minTemp(data),
-    ...timesOfInterest.hours.map((hr) => getWind(hr, data)),
-    ...timesOfInterest.ranges.map((rng) => getRain(rng, data)),
+    ...timesOfInterest.hours.map((hr) => getTemp(date, hr, data)),
+    maxTemp(date, data),
+    minTemp(date, data),
+    ...timesOfInterest.hours.map((hr) => getWind(date, hr, data)),
+    ...timesOfInterest.ranges.map((rng) => getRain(date, rng, data)),
   ];
 
   return result;

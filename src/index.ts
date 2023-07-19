@@ -12,12 +12,15 @@ program.option("-t, --test", "Send email only to developer").parse();
 
 const options = program.opts();
 
-const result = await summarizeStations();
+const yesterday = DateTime.now()
+  .set({ hour: 0, minute: 0, second: 0, millisecond: 0 })
+  .minus({ day: 1 });
+
+const result = await summarizeStations(yesterday);
 console.table(result.data);
 
 const html = await htmlSummary(result);
-const yesterday = DateTime.now().minus({ day: 1 }).toFormat("yyyy-LL-dd");
-const subject = `CGL S34 Weather Summary - ${yesterday}`;
+const subject = `CGL S34 Weather Summary - ${yesterday.toFormat("yyyy-LL-dd")}`;
 console.log(subject);
 
 await sendEmail(subject, html, options.test);

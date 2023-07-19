@@ -19,7 +19,7 @@ function formatHr(hr: number) {
   return DateTime.fromObject({ hour: hr % 24 }).toFormat("ha");
 }
 
-export default async function summarizeStations() {
+export default async function summarizeStations(date: DateTime) {
   const result: SummarizedWeather = {
     columns: [
       "Name",
@@ -33,8 +33,8 @@ export default async function summarizeStations() {
     ],
     data: await Promise.all(
       weatherStations.map(async (station) => {
-        const response = await fetchWeatherData(station.id);
-        const summary = summarizeStation(response);
+        const response = await fetchWeatherData(station.id, date);
+        const summary = summarizeStation(response, date);
         return [station.name, ...summary];
       })
     ),

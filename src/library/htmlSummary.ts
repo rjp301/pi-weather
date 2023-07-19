@@ -1,7 +1,7 @@
 import path from "path";
 
-import SummarizedWeather from "src/types/summarized.js";
-import renderHtml from "src/utils/renderHtml.js";
+import SummarizedWeather from "../types/summarized.js";
+import renderHtml from "../utils/renderHtml.js";
 
 export default async function htmlSummary(data: SummarizedWeather) {
   const fname_template = path.join("html", "summary_template.html");

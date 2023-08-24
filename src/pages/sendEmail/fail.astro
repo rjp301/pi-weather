@@ -1,0 +1,29 @@
+---
+import { Button } from "@/components/ui/button";
+
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import CenteredCard from "@/layouts/CenteredCard.astro";
+
+const date = Astro.url.searchParams.get("date");
+---
+
+<CenteredCard>
+  <CardHeader>
+    <CardTitle>Email Not Sent</CardTitle>
+    <CardDescription>
+      Could not send weather summary to recipients
+    </CardDescription>
+  </CardHeader>
+  <CardFooter>
+    <a href={date ? `/${date}` : "/"} class="w-full">
+      <Button className="w-full">Return to Summary</Button>
+    </a>
+  </CardFooter>
+</CenteredCard>

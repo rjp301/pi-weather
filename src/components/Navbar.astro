@@ -1,0 +1,51 @@
+---
+import { Button } from "./ui/button";
+import logo from "@/logo.png";
+
+interface Page {
+  name: string;
+  link: string;
+}
+
+const pages: Page[] = [
+  { name: "Summary", link: "/" },
+  { name: "Emails", link: "/emails" },
+  { name: "Stations", link: "/stations" },
+];
+
+const currentPage = (link: string, pages: Page[]) => {
+  if (
+    link === "/" &&
+    pages
+      .filter((page) => page.link !== "/")
+      .every((page) => !Astro.url.pathname.startsWith(page.link))
+  )
+    return true;
+
+  return Astro.url.pathname.startsWith(link);
+};
+---
+
+<nav
+  class="bg-card shadow border-b flex items-center justify-between px-6 py-2"
+>
+  <span class="flex gap-2">
+    <img src={logo} alt="SA Energy Logo" class="h-6" />
+    <h1 class="font-medium">CGL S34 Weather Summary</h1>
+  </span>
+  <ul class="flex gap-2">
+    {
+      pages.map((page) => (
+        <li>
+          <a href={page.link}>
+            <Button
+              variant={currentPage(page.link, pages) ? "secondary" : "ghost"}
+            >
+              {page.name}
+            </Button>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

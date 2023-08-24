@@ -1,0 +1,49 @@
+---
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import type SummarizedWeather from "@/lib/types/summarized";
+import type { DateTime } from "luxon";
+
+interface Props {
+  summary: SummarizedWeather;
+  date: DateTime;
+}
+
+const { summary, date } = Astro.props;
+---
+
+<Table>
+  <TableCaption>{`Weather Summary for ${date.toISODate()}`}</TableCaption>
+  <TableHeader>
+    <TableRow className="bg-red-600 hover:bg-red-700">
+      {
+        summary.headers.map((header) => (
+          <TableHead className="text-white" colSpan={header.colspan}>
+            {header.name}
+          </TableHead>
+        ))
+      }
+    </TableRow>
+    <TableRow>
+      {summary.columns.map((column) => <TableHead>{column}</TableHead>)}
+    </TableRow>
+  </TableHeader>
+  <TableBody>
+    {
+      summary.data.map((row) => (
+        <TableRow>
+          {row.map((item) => (
+            <TableCell>{item}</TableCell>
+          ))}
+        </TableRow>
+      ))
+    }
+  </TableBody>
+</Table>

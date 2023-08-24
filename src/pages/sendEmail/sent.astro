@@ -1,0 +1,33 @@
+---
+import { Button } from "@/components/ui/button";
+import Layout from "@/layouts/Layout.astro";
+
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import CenteredCard from "@/layouts/CenteredCard.astro";
+
+const test = Boolean(Astro.url.searchParams.get("test"));
+const date = Astro.url.searchParams.get("date");
+---
+
+<CenteredCard>
+  <CardHeader>
+    <CardTitle>{test ? "Test" : ""} Email Sent</CardTitle>
+    <CardDescription>
+      You have a weather summary{date ? ` for ${date}` : ""} to {
+        test ? "the developer" : "all recipients"
+      }
+    </CardDescription>
+  </CardHeader>
+  <CardFooter>
+    <a href={date ? `/${date}` : "/"} class="w-full">
+      <Button className="w-full">Return to Summary</Button>
+    </a>
+  </CardFooter>
+</CenteredCard>

@@ -1,0 +1,36 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getCollection, getEntry } from "astro:content";
+
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
+const emails = await getEntry("emails", "emails");
+console.log(emails.data);
+---
+
+<Layout>
+  <Table>
+    <TableHeader>
+      <TableRow>
+        <TableHead>Email</TableHead>
+      </TableRow>
+    </TableHeader>
+    <TableBody>
+      {
+        emails.data.map((email) => (
+          <TableRow>
+            <TableCell>{email}</TableCell>
+          </TableRow>
+        ))
+      }
+    </TableBody>
+  </Table>
+</Layout>

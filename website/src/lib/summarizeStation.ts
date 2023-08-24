@@ -1,11 +1,11 @@
 import type { DateTime } from "luxon";
-import importJson from "../utils/importJson.js";
+import importJson from "./utils/importJson.js";
 
-import type WeatherFetch from "../types/fetch.js";
-import type WeatherObservation from "../types/observation.js";
-import type TimesOfInterest from "../types/interest.js";
-import roundMinutes from "../utils/roundMinutes.js";
-import degToCompass from "../utils/degToCompass.js";
+import type WeatherFetch from "./types/fetch.js";
+import type WeatherObservation from "./types/observation.js";
+import type TimesOfInterest from "./types/interest.js";
+import roundMinutes from "./utils/roundMinutes.js";
+import degToCompass from "./utils/degToCompass.js";
 
 const timesOfInterest = (await importJson(
   "data/timesOfInterest.json"

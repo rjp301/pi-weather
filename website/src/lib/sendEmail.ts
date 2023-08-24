@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import sgMail from "@sendgrid/mail";
-import importList from "../utils/importList.js";
+import importList from "./utils/importList.js";
 
 export default async function sendEmail(
   subject: string,

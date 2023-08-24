@@ -1,7 +1,7 @@
 import axios from "axios";
 import dotenv from "dotenv";
-import WeatherFetch from "../types/fetch";
-import { DateTime } from "luxon";
+import type WeatherFetch from "./types/fetch";
+import type { DateTime } from "luxon";
 
 dotenv.config();
 

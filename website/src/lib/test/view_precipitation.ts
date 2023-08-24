@@ -1,5 +1,5 @@
 import { DateTime } from "luxon";
-import fetchWeatherData from "../functions/fetchWeatherData.js";
+import fetchWeatherData from "../fetchWeatherData.js";
 import type WeatherObservation from "../types/observation.js";
 import roundMinutes from "../utils/roundMinutes.js";
 

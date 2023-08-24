@@ -1,11 +1,11 @@
 import fetchWeatherData from "./fetchWeatherData.js";
 import summarizeStation from "./summarizeStation.js";
-import importJson from "../utils/importJson.js";
+import importJson from "./utils/importJson.js";
 import { DateTime } from "luxon";
 
-import type Station from "../types/station.js";
-import type TimesOfInterest from "../types/interest.js";
-import type SummarizedWeather from "../types/summarized.js";
+import type Station from "./types/station.js";
+import type TimesOfInterest from "./types/interest.js";
+import type SummarizedWeather from "./types/summarized.js";
 
 const timesOfInterest = (await importJson(
   "data/timesOfInterest.json"

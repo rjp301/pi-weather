@@ -10,22 +10,19 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import CenteredCard from "@/layouts/CenteredCard.astro";
 ---
 
-<Layout>
-  <div class="flex items-center justify-center h-full">
-    <Card className="mt-20 w-72">
-      <CardHeader>
-        <CardTitle>404 Error</CardTitle>
-        <CardDescription>
-          Uh-oh! Looks like this page does not exist
-        </CardDescription>
-      </CardHeader>
-      <CardFooter>
-        <a href="/" class="w-full">
-          <Button className="w-full">Return to Main Page</Button>
-        </a>
-      </CardFooter>
-    </Card>
-  </div>
-</Layout>
+<CenteredCard>
+  <CardHeader>
+    <CardTitle>404 Error</CardTitle>
+    <CardDescription>
+      Uh-oh! Looks like this page does not exist
+    </CardDescription>
+  </CardHeader>
+  <CardFooter>
+    <a href="/" class="w-full">
+      <Button className="w-full">Return to Main Page</Button>
+    </a>
+  </CardFooter>
+</CenteredCard>

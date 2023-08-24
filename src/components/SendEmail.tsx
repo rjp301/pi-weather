@@ -12,7 +12,7 @@ export function SendEmail(props: Props) {
   const [test, setTest] = useState(true);
   return (
     <form
-      action={`/sendEmail/?date=${dateString}&test=${test}`}
+      action={`${Astro.url.origin}/sendEmail/?date=${dateString}&test=${test}`}
       method="post"
       className="flex gap-4"
     >

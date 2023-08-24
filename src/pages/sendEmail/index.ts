@@ -17,7 +17,7 @@ export const post: APIRoute = async ({ url, params, redirect }) => {
   const subject = `CGL S34 Weather Summary - ${date.toFormat("yyyy-LL-dd")}`;
 
   try {
-    await sendEmail(subject, html, true);
+    await sendEmail(subject, html, test);
     return redirect(`/sendEmail/sent?${url.searchParams.toString()}`);
   } catch {
     console.log("Could not send email");

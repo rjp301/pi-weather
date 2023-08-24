@@ -34,6 +34,7 @@ function maxTemp(day: DateTime, data: ModWeatherObservation[]) {
   const filtered = data
     .filter((obs) => obs.obsTimeRnd.day === day.day)
     .filter((obs) => typeof obs.metric.tempHigh === "number");
+  if (filtered.length === 0) return "NO DATA";
   const result = Math.max(
     ...(filtered.map((obs) => obs.metric.tempHigh) as number[])
   );
@@ -44,6 +45,7 @@ function minTemp(day: DateTime, data: ModWeatherObservation[]) {
   const filtered = data
     .filter((obs) => obs.obsTimeRnd.day === day.day)
     .filter((obs) => typeof obs.metric.tempHigh === "number");
+  if (filtered.length === 0) return "NO DATA";
   const result = Math.min(
     ...(filtered.map((obs) => obs.metric.tempLow) as number[])
   );

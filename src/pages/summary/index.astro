@@ -3,26 +3,14 @@ import summarizeStations from "@/lib/summarizeStations";
 import { DateTime } from "luxon";
 import { getCollection, getEntry } from "astro:content";
 
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
 import Layout from "@/layouts/Layout.astro";
 import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
 import { Button } from "@/components/ui/button";
-import { SendEmail } from "@/components/SendEmail";
 
-const dateString = Astro.params.date;
-if (!dateString) return new Response(null, { status: 404 });
-
+const dateString = Astro.url.searchParams.get("date") || "";
 const date = DateTime.fromISO(dateString);
-if (date.invalidReason) return new Response(null, { status: 404 });
+if (date.invalidReason) return Astro.redirect("/");
 
 const stations = await getCollection("stations");
 const timesOfInterest = await getEntry("timesOfInterest", "timesOfInterest");
@@ -37,7 +25,13 @@ const summary = await summarizeStations(
 <Layout>
   <div class="flex gap-4 justify-between items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
-    <SendEmail client:load dateString={dateString} />
+    <form
+      action={`/sendEmail/?${Astro.params.searchParams?.toString()}`}
+      method="post"
+      class="flex gap-4"
+    >
+      <Button>Email to Recipients</Button>
+    </form>
   </div>
   <br />
   <SummaryTable summary={summary} date={date} />

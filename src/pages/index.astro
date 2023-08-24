@@ -1,11 +1,8 @@
 ---
-import { DatePicker } from "@/components/DatePicker";
-import { Button } from "@/components/ui/button";
 import Layout from "@/layouts/Layout.astro";
+import { DatePicker } from "@/components/DatePicker";
 ---
 
 <Layout>
-  <div class="flex gap-4 justify-between items-center">
-    <DatePicker client:load />
-  </div>
+  <DatePicker client:load />
 </Layout>

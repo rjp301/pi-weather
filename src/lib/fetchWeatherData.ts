@@ -15,7 +15,7 @@ async function fetchDailyWeatherData(
     method: "get",
     headers: { "content-type": "application/x-www-form-urlencoded" },
     params: {
-      apiKey: process.env.WU_API_KEY,
+      apiKey: import.meta.env.WU_API_KEY,
       format: "json",
       units: "m",
       stationId,

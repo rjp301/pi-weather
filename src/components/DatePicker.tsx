@@ -22,10 +22,7 @@ export function DatePicker(props: Props) {
   const [date, setDate] = React.useState(currentDate);
 
   return (
-    <form
-      action={date ? `/${DateTime.fromJSDate(date).toISODate()}` : "/"}
-      className="flex items-center gap-2"
-    >
+    <div className="flex items-center gap-2">
       <Popover>
         <PopoverTrigger asChild>
           <Button
@@ -48,9 +45,19 @@ export function DatePicker(props: Props) {
           />
         </PopoverContent>
       </Popover>
-      <Button type="submit" variant="secondary" disabled={currentDate === date}>
-        Go to Date
-      </Button>
-    </form>
+      <a
+        href={
+          date ? `/summary?date=${DateTime.fromJSDate(date).toISODate()}` : "/"
+        }
+      >
+        <Button
+          type="submit"
+          variant="secondary"
+          disabled={currentDate === date}
+        >
+          Go to Date
+        </Button>
+      </a>
+    </div>
   );
 }

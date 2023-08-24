@@ -1,7 +1,17 @@
 ---
+import { DatePicker } from "@/components/DatePicker";
+import { Button } from "@/components/ui/button";
 import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout >
-	hello
+<Layout>
+  <form action="/api/summarize" method="post">
+    <div class="flex items-center gap-4">
+      <DatePicker client:load />
+      <Button type="submit">Summarize Weather</Button>
+    </div>
+
+    <Button>Send Email</Button>
+    <Button variant="secondary">Send Test Email</Button>
+  </form>
 </Layout>

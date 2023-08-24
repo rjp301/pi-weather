@@ -1,12 +1,10 @@
-import fs from "fs/promises";
-import path from "path";
 import sgMail from "@sendgrid/mail";
-import importList from "./utils/importList.js";
+import { getEntry } from "astro:content";
 
 export default async function sendEmail(
   subject: string,
   html: string,
-  testFlag: boolean,
+  testFlag: boolean
 ) {
   // const transporter = nodemailer.createTransport({
   //   host: "smtp.gmail.com",
@@ -28,11 +26,11 @@ export default async function sendEmail(
 
   sgMail.setApiKey(process.env.SG_API_KEY);
 
-  const fname_emails = path.join("data", "emailList.csv");
-  const emails = await importList(fname_emails);
+  const emails = await getEntry("emails", "emails");
+  const testEmails = await getEntry("emails", "testEmails");
 
   const msg = {
-    to: testFlag ? "rileypaul96@gmail.com" : emails,
+    to: testFlag ? testEmails.data : emails.data,
     from: "saeg.weather@gmail.com",
     subject,
     html,

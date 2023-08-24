@@ -1,0 +1,59 @@
+---
+import summarizeStations from "@/lib/summarizeStations";
+import { DateTime } from "luxon";
+import { getCollection, getEntry } from "astro:content";
+
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import Layout from "@/layouts/Layout.astro";
+
+const dateString = Astro.params.date;
+if (!dateString) return new Response(null, { status: 500 });
+
+const stations = await getCollection("stations");
+const timesOfInterest = await getEntry("timesOfInterest", "timesOfInterest");
+
+const date = DateTime.fromISO(dateString);
+const summary = await summarizeStations(
+  stations.map((station) => station.data),
+  date,
+  timesOfInterest.data
+);
+console.log(summary);
+---
+
+<Layout>
+  <Table>
+    <TableCaption>{`Weather Summary for ${dateString}`}</TableCaption>
+    <TableHeader>
+      <TableRow>
+        {
+          summary.headers.map((header) => (
+            <TableHead colSpan={header.colspan}>{header.name}</TableHead>
+          ))
+        }
+      </TableRow>
+      <TableRow>
+        {summary.columns.map((column) => <TableHead>{column}</TableHead>)}
+      </TableRow>
+    </TableHeader>
+    <TableBody>
+      {
+        summary.data.map((row) => (
+          <TableRow>
+            {row.map((item) => (
+              <TableCell>{item}</TableCell>
+            ))}
+          </TableRow>
+        ))
+      }
+    </TableBody>
+  </Table>
+</Layout>

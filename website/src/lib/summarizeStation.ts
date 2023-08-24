@@ -1,15 +1,10 @@
 import type { DateTime } from "luxon";
-import importJson from "./utils/importJson.js";
 
 import type WeatherFetch from "./types/fetch.js";
 import type WeatherObservation from "./types/observation.js";
 import type TimesOfInterest from "./types/interest.js";
 import roundMinutes from "./utils/roundMinutes.js";
 import degToCompass from "./utils/degToCompass.js";
-
-const timesOfInterest = (await importJson(
-  "data/timesOfInterest.json"
-)) as TimesOfInterest;
 
 type ModWeatherObservation = WeatherObservation & { obsTimeRnd: DateTime };
 
@@ -107,7 +102,8 @@ function getRain(
 
 export default function summarizeStation(
   response: WeatherFetch,
-  date: DateTime
+  date: DateTime,
+  timesOfInterest: TimesOfInterest
 ): string[] {
   const num_columns =
     timesOfInterest.hours.length * 2 + 2 + timesOfInterest.ranges.length;

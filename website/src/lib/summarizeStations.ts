@@ -1,25 +1,20 @@
 import fetchWeatherData from "./fetchWeatherData.js";
 import summarizeStation from "./summarizeStation.js";
-import importJson from "./utils/importJson.js";
 import { DateTime } from "luxon";
 
 import type Station from "./types/station.js";
 import type TimesOfInterest from "./types/interest.js";
 import type SummarizedWeather from "./types/summarized.js";
 
-const timesOfInterest = (await importJson(
-  "data/timesOfInterest.json"
-)) as TimesOfInterest;
-
-const weatherStations = (await importJson(
-  "data/weatherStations.json"
-)) as Station[];
-
 function formatHr(hr: number) {
   return DateTime.fromObject({ hour: hr % 24 }).toFormat("ha");
 }
 
-export default async function summarizeStations(date: DateTime) {
+export default async function summarizeStations(
+  weatherStations: Station[],
+  date: DateTime,
+  timesOfInterest: TimesOfInterest
+) {
   const result: SummarizedWeather = {
     columns: [
       "Name",
@@ -34,7 +29,7 @@ export default async function summarizeStations(date: DateTime) {
     data: await Promise.all(
       weatherStations.map(async (station) => {
         const response = await fetchWeatherData(station.id, date);
-        const summary = summarizeStation(response, date);
+        const summary = summarizeStation(response, date, timesOfInterest);
         return [station.name, ...summary];
       })
     ),

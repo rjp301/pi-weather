@@ -1,0 +1,29 @@
+---
+import { Button } from "./ui/button";
+
+const pages: { name: string; link: string }[] = [
+  { name: "Summary", link: "/" },
+  { name: "Emails", link: "/emails" },
+  { name: "Stations", link: "/stations" },
+];
+---
+
+<nav class="bg-card shadow border-b p-2">
+  <ul class="flex">
+    {
+      pages.map((page) => {
+        const currentPage = Astro.url.pathname === page.link;
+
+        return (
+          <li>
+            <a href={page.link}>
+              <Button variant={currentPage ? "outline" : "link"}>
+                {page.name}
+              </Button>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</nav>

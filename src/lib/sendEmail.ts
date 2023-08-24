@@ -43,6 +43,7 @@ export default async function sendEmail(
     })
     .catch((error) => {
       console.error(error);
+      throw new Error(error);
     });
 
   // transporter.sendMail(msg, function (error, info) {

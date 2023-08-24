@@ -21,6 +21,10 @@ export function DatePicker(props: Props) {
 
   const [date, setDate] = React.useState(currentDate);
 
+  React.useEffect(() => {
+    console.log(date);
+  }, [date]);
+
   return (
     <div className="flex items-center gap-2">
       <Popover>

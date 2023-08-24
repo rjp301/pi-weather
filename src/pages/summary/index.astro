@@ -28,7 +28,7 @@ const summary = await summarizeStations(
 <Layout>
   <div class="flex gap-4 justify-between items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
-    <SendEmail dateString={date.toISODate() || ""} />
+    <SendEmail client:load dateString={date.toISODate() || ""} />
   </div>
   <br />
   <SummaryTable summary={summary} date={date} />

@@ -1,12 +1,12 @@
 // Example: A cheatsheet of many common Zod datatypes
 import { z, defineCollection } from "astro:content";
 
-defineCollection({
+const emails = defineCollection({
   type: "data",
   schema: z.array(z.string()),
 });
 
-defineCollection({
+const stations = defineCollection({
   type: "data",
   schema: z.object({
     name: z.string(),
@@ -16,3 +16,5 @@ defineCollection({
     exclude: z.boolean().optional(),
   }),
 });
+
+export const collections = { emails, stations };

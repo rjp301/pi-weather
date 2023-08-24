@@ -1,5 +1,41 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
+const stations = await getCollection("stations");
 ---
 
-<Layout>stations</Layout>
+<Layout>
+  <Table>
+    <TableHeader>
+      <TableRow>
+        <TableHead>Name</TableHead>
+        <TableHead>ID</TableHead>
+        <TableHead>Latitude</TableHead>
+        <TableHead>Longitude</TableHead>
+      </TableRow>
+    </TableHeader>
+    <TableBody>
+      {
+        stations.map((station) => (
+          <TableRow>
+            <TableCell className="font-medium">{station.data.name}</TableCell>
+            <TableCell >{station.data.id}</TableCell>
+            <TableCell >{station.data.lat}</TableCell>
+            <TableCell >{station.data.lon}</TableCell>
+          </TableRow>
+        ))
+      }
+    </TableBody>
+  </Table>
+</Layout>

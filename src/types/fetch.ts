@@ -4,6 +4,6 @@ type WeatherFetch = {
   success: boolean;
   observations?: WeatherObservation[];
   error?: any;
-}
+};
 
 export default WeatherFetch;

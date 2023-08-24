@@ -5,7 +5,7 @@ import path from "path";
 export default async function renderHtml(
   data: {},
   fname_template: string,
-  fname_save?: string
+  fname_save?: string,
 ) {
   const source = await fs.readFile(fname_template, "utf-8");
   const template = Handlebars.compile(source);

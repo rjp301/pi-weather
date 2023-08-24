@@ -6,7 +6,7 @@ import importList from "../utils/importList.js";
 export default async function sendEmail(
   subject: string,
   html: string,
-  testFlag: boolean
+  testFlag: boolean,
 ) {
   // const transporter = nodemailer.createTransport({
   //   host: "smtp.gmail.com",

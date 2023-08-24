@@ -8,11 +8,11 @@ import type TimesOfInterest from "../types/interest";
 import type SummarizedWeather from "../types/summarized";
 
 const timesOfInterest = (await importJson(
-  "data/timesOfInterest.json"
+  "data/timesOfInterest.json",
 )) as TimesOfInterest;
 
 const weatherStations = (await importJson(
-  "data/weatherStations.json"
+  "data/weatherStations.json",
 )) as Station[];
 
 function formatHr(hr: number) {
@@ -28,7 +28,7 @@ export default async function summarizeStations(date: DateTime) {
       "Min",
       ...timesOfInterest.hours.map((hr) => formatHr(hr)),
       ...timesOfInterest.ranges.map(
-        (rng) => formatHr(rng.beg) + "-" + formatHr(rng.end)
+        (rng) => formatHr(rng.beg) + "-" + formatHr(rng.end),
       ),
     ],
     data: await Promise.all(
@@ -36,7 +36,7 @@ export default async function summarizeStations(date: DateTime) {
         const response = await fetchWeatherData(station.id, date);
         const summary = summarizeStation(response, date);
         return [station.name, ...summary];
-      })
+      }),
     ),
     headers: [
       { name: "Name", colspan: 1 },

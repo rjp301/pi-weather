@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 import fetchWeatherData from "../library/fetchWeatherData.js";
 import type WeatherObservation from "../types/observation.js";
-import  roundMinutes from "../utils/roundMinutes.js";
+import roundMinutes from "../utils/roundMinutes.js";
 
 const getPrecip = (obs: WeatherObservation) => {
   const { obsTimeUtc } = obs;
@@ -10,7 +10,7 @@ const getPrecip = (obs: WeatherObservation) => {
   return { time, precipRate, precipTotal };
 };
 
-const data = await fetchWeatherData("IREGIO82",DateTime.fromISO("2023-07-16"));
+const data = await fetchWeatherData("IREGIO82", DateTime.fromISO("2023-07-16"));
 // console.log(data);
 const metrics = data.observations?.map(getPrecip);
 console.table(metrics);

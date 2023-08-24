@@ -9,7 +9,7 @@ NodeJS Function run as a CRON job which fetches weather observation data from a 
 **_data/emailList.csv_**
 CSV file containing every recipient of the weather summary email.
 
-**_data/weatherStations.json_** 
+**_data/weatherStations.json_**
 JSON file containing the name and id of the weather stations that are included in the summary table.
 
 **_data/timesOfInterest.json_**
@@ -36,6 +36,7 @@ Interface with the SendGrid API to send emails to all recipients.
 Entry point into the function. Runs all modules in the function one after another. Uses the Commander framework to create a basic CLI.
 
 ## Running
+
 Compile Typescript and run using Node.JS
 
 `tsc && node dist`

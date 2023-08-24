@@ -38,6 +38,6 @@ type WeatherObservation = {
     precipRate: number | null;
     precipTotal: number | null;
   };
-}
+};
 
 export default WeatherObservation;

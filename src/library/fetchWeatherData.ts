@@ -7,7 +7,7 @@ dotenv.config();
 
 async function fetchDailyWeatherData(
   stationId: string,
-  date: DateTime
+  date: DateTime,
 ): Promise<WeatherFetch> {
   const options = {
     url: "/history/hourly",
@@ -34,12 +34,12 @@ async function fetchDailyWeatherData(
 
 export default async function fetchWeatherData(
   stationId: string,
-  date: DateTime
+  date: DateTime,
 ): Promise<WeatherFetch> {
   // return fetchDailyWeatherData(stationId, date);
   const dates = [date, date.plus({ days: 1 }), date.minus({ days: 1 })];
   const responses = await Promise.all(
-    dates.map((d) => fetchDailyWeatherData(stationId, d))
+    dates.map((d) => fetchDailyWeatherData(stationId, d)),
   );
   const observations = responses
     .flatMap((r) => r.observations || [])

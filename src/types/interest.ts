@@ -3,4 +3,4 @@ type TimesOfInterest = {
   ranges: { beg: number; end: number }[];
 };
 
-export default TimesOfInterest
+export default TimesOfInterest;

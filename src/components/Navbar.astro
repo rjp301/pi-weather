@@ -1,6 +1,5 @@
 ---
 import { Button } from "./ui/button";
-import logo from "@/logo.png";
 
 interface Page {
   name: string;
@@ -26,7 +25,7 @@ const currentPage = (link: string) => {
   class="bg-card shadow border-b flex items-center justify-between px-6 py-2"
 >
   <a href="/" class="flex gap-2">
-    <img src={logo} alt="SA Energy Logo" class="h-6" />
+    <img src={"/logo.png"} alt="SA Energy Logo" class="h-6" />
     <h1 class="font-medium">CGL S34 Weather Summary</h1>
   </a>
   <ul class="flex gap-2">

@@ -19,12 +19,12 @@ export default async function sendEmail(
   //   },
   // });
 
-  if (process.env.SG_API_KEY === undefined) {
+  if (import.meta.env.SG_API_KEY === undefined) {
     console.log("Could not send email because no API key");
-    return;
+    throw new Error("no SendGrid API key");
   }
 
-  sgMail.setApiKey(process.env.SG_API_KEY);
+  sgMail.setApiKey(import.meta.env.SG_API_KEY);
 
   const emails = await getEntry("emails", "emails");
   const testEmails = await getEntry("emails", "testEmails");

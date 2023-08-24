@@ -1,5 +1,6 @@
 ---
 import { Button } from "./ui/button";
+import { CardTitle } from "./ui/card";
 
 const pages: { name: string; link: string }[] = [
   { name: "Summary", link: "/" },
@@ -8,8 +9,11 @@ const pages: { name: string; link: string }[] = [
 ];
 ---
 
-<nav class="bg-card shadow border-b p-2">
-  <ul class="flex">
+<nav
+  class="bg-card shadow border-b flex items-center justify-between px-6 py-2"
+>
+  <h1 class="font-medium">CGL S34 Weather Summary</h1>
+  <ul class="flex gap-2">
     {
       pages.map((page) => {
         const currentPage = Astro.url.pathname === page.link;
@@ -17,7 +21,7 @@ const pages: { name: string; link: string }[] = [
         return (
           <li>
             <a href={page.link}>
-              <Button variant={currentPage ? "outline" : "link"}>
+              <Button variant={currentPage ? "secondary" : "ghost"}>
                 {page.name}
               </Button>
             </a>

@@ -22,7 +22,7 @@ const date = Astro.url.searchParams.get("date");
     </CardDescription>
   </CardHeader>
   <CardFooter>
-    <a href={date ? `/${date}` : "/"} class="w-full">
+    <a href={date ? `/summary?date=${date}` : "/"} class="w-full">
       <Button className="w-full">Return to Summary</Button>
     </a>
   </CardFooter>

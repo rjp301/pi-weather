@@ -7,10 +7,13 @@ import Layout from "@/layouts/Layout.astro";
 import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
 import { Button } from "@/components/ui/button";
+import { SendEmail } from "@/components/SendEmail";
 
+const yesterday = DateTime.now().minus({ days: 1 });
 const dateString = Astro.url.searchParams.get("date") || "";
 const date = DateTime.fromISO(dateString);
-if (date.invalidReason) return Astro.redirect("/");
+if (date.invalidReason)
+  return Astro.redirect(`/summary?date=${yesterday.toISODate()}`);
 
 const stations = await getCollection("stations");
 const timesOfInterest = await getEntry("timesOfInterest", "timesOfInterest");
@@ -25,13 +28,7 @@ const summary = await summarizeStations(
 <Layout>
   <div class="flex gap-4 justify-between items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
-    <form
-      action={`/sendEmail/?${Astro.params.searchParams?.toString()}`}
-      method="post"
-      class="flex gap-4"
-    >
-      <Button>Email to Recipients</Button>
-    </form>
+    <SendEmail dateString={date.toISODate() || ""} />
   </div>
   <br />
   <SummaryTable summary={summary} date={date} />

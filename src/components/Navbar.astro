@@ -8,13 +8,16 @@ interface Page {
 }
 
 const pages: Page[] = [
-  { name: "Summary", link: "/" },
+  { name: "Summary", link: "/summary" },
   { name: "Emails", link: "/emails" },
   { name: "Stations", link: "/stations" },
 ];
 
 const currentPage = (link: string) => {
-  if (link === "/") return pages.filter(page => page.link !== "/").every(page => !Astro.url.pathname.startsWith(page.link))
+  if (link === "/")
+    return pages
+      .filter((page) => page.link !== "/")
+      .every((page) => !Astro.url.pathname.startsWith(page.link));
   return Astro.url.pathname.startsWith(link);
 };
 ---
@@ -22,18 +25,16 @@ const currentPage = (link: string) => {
 <nav
   class="bg-card shadow border-b flex items-center justify-between px-6 py-2"
 >
-  <span class="flex gap-2">
+  <a href="/" class="flex gap-2">
     <img src={logo} alt="SA Energy Logo" class="h-6" />
     <h1 class="font-medium">CGL S34 Weather Summary</h1>
-  </span>
+  </a>
   <ul class="flex gap-2">
     {
       pages.map((page) => (
         <li>
           <a href={page.link}>
-            <Button
-              variant={currentPage(page.link) ? "secondary" : "ghost"}
-            >
+            <Button variant={currentPage(page.link) ? "secondary" : "ghost"}>
               {page.name}
             </Button>
           </a>

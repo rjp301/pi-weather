@@ -4,9 +4,9 @@ import { program } from "commander";
 
 dotenv.config();
 
-import sendEmail from "./library/sendEmail.js";
-import summarizeStations from "./library/summarizeStations.js";
-import htmlSummary from "./library/htmlSummary.js";
+import sendEmail from "./functions/sendEmail.js";
+import summarizeStations from "./functions/summarizeStations.js";
+import htmlSummary from "./functions/htmlSummary.js";
 
 program.option("-t, --test", "Send email only to developer").parse();
 

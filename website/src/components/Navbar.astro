@@ -1,6 +1,6 @@
 ---
 import { Button } from "./ui/button";
-import { CardTitle } from "./ui/card";
+import logo from "@/logo.png";
 
 const pages: { name: string; link: string }[] = [
   { name: "Summary", link: "/" },
@@ -12,7 +12,10 @@ const pages: { name: string; link: string }[] = [
 <nav
   class="bg-card shadow border-b flex items-center justify-between px-6 py-2"
 >
-  <h1 class="font-medium">CGL S34 Weather Summary</h1>
+  <span class="flex gap-2">
+    <img src={logo} alt="SA Energy Logo" class="h-6" />
+    <h1 class="font-medium">CGL S34 Weather Summary</h1>
+  </span>
   <ul class="flex gap-2">
     {
       pages.map((page) => {

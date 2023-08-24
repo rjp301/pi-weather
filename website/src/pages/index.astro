@@ -5,13 +5,10 @@ import Layout from "@/layouts/Layout.astro";
 ---
 
 <Layout>
-  <form action="/api/summarize" method="post">
-    <div class="flex items-center gap-4">
-      <DatePicker client:load />
-      <Button type="submit">Summarize Weather</Button>
-    </div>
-
-    <Button>Send Email</Button>
-    <Button variant="secondary">Send Test Email</Button>
-  </form>
+  <div class="flex gap-4 justify-between items-center">
+    <DatePicker client:load />
+    <form action="/api/sendEmail/yesterday">
+      <Button>Send Email</Button>
+    </form>
+  </div>
 </Layout>

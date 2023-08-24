@@ -26,7 +26,6 @@ if (date.invalidReason) return new Response(null, { status: 404 });
 const stations = await getCollection("stations");
 const timesOfInterest = await getEntry("timesOfInterest", "timesOfInterest");
 
-console.log(date);
 const summary = await summarizeStations(
   stations.map((station) => station.data),
   date,
@@ -38,7 +37,7 @@ const summary = await summarizeStations(
   <div class="flex gap-4 justify-between items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
     <form action={`/api/sendEmail/${dateString}`}>
-      <Button>Email Summary</Button>
+      <Button>Send Email Summary</Button>
     </form>
   </div>
   <br />

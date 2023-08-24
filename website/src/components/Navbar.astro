@@ -2,11 +2,28 @@
 import { Button } from "./ui/button";
 import logo from "@/logo.png";
 
-const pages: { name: string; link: string }[] = [
+interface Page {
+  name: string;
+  link: string;
+}
+
+const pages: Page[] = [
   { name: "Summary", link: "/" },
   { name: "Emails", link: "/emails" },
   { name: "Stations", link: "/stations" },
 ];
+
+const currentPage = (link: string, pages: Page[]) => {
+  if (
+    link === "/" &&
+    pages
+      .filter((page) => page.link !== "/")
+      .every((page) => !Astro.url.pathname.startsWith(page.link))
+  )
+    return true;
+
+  return Astro.url.pathname.startsWith(link);
+};
 ---
 
 <nav
@@ -18,19 +35,17 @@ const pages: { name: string; link: string }[] = [
   </span>
   <ul class="flex gap-2">
     {
-      pages.map((page) => {
-        const currentPage = Astro.url.pathname === page.link;
-
-        return (
-          <li>
-            <a href={page.link}>
-              <Button variant={currentPage ? "secondary" : "ghost"}>
-                {page.name}
-              </Button>
-            </a>
-          </li>
-        );
-      })
+      pages.map((page) => (
+        <li>
+          <a href={page.link}>
+            <Button
+              variant={currentPage(page.link, pages) ? "secondary" : "ghost"}
+            >
+              {page.name}
+            </Button>
+          </a>
+        </li>
+      ))
     }
   </ul>
 </nav>

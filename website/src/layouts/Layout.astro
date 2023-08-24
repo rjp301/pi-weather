@@ -14,8 +14,10 @@ import "@/globals.css";
     <header>
       <Navbar />
     </header>
-    <main class="max-w-3xl mx-auto p-4 overflow-auto">
-      <slot />
+    <main class="overflow-auto">
+      <div class="max-w-3xl mx-auto p-4">
+        <slot />
+      </div>
     </main>
   </body>
 </html>

@@ -37,7 +37,7 @@ const summary = await summarizeStations(
   <div class="flex gap-4 justify-between items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
     <form action={`/api/sendEmail/${dateString}`}>
-      <Button>Send Email Summary</Button>
+      <Button>Email to Recipients</Button>
     </form>
   </div>
   <br />

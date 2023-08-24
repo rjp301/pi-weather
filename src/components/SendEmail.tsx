@@ -11,14 +11,14 @@ export function SendEmail(props: Props) {
   const { dateString } = props;
   const [test, setTest] = useState(true);
   return (
-    <form action={`/api/sendEmail/?date=${dateString}&test=${test}`} method="post">
+    <form
+      action={`/sendEmail/?date=${dateString}&test=${test}`}
+      method="post"
+      className="flex gap-4"
+    >
       <div className="flex items-center space-x-2">
-        <Switch
-          id="airplane-mode"
-          checked={test}
-          onCheckedChange={(e) => setTest(e.valueOf)}
-        />
-        <Label htmlFor="airplane-mode">Airplane Mode</Label>
+        <Switch checked={test} onCheckedChange={(e) => setTest(e.valueOf())} />
+        <Label>Test Email</Label>
       </div>
       <Button>Email to Recipients</Button>
     </form>

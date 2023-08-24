@@ -16,6 +16,7 @@ import Layout from "@/layouts/Layout.astro";
 import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
 import { Button } from "@/components/ui/button";
+import { SendEmail } from "@/components/SendEmail";
 
 const dateString = Astro.params.date;
 if (!dateString) return new Response(null, { status: 404 });
@@ -36,9 +37,7 @@ const summary = await summarizeStations(
 <Layout>
   <div class="flex gap-4 justify-between items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
-    <form action={`/api/sendEmail/${dateString}`}>
-      <Button>Email to Recipients</Button>
-    </form>
+    <SendEmail client:load dateString={dateString} />
   </div>
   <br />
   <SummaryTable summary={summary} date={date} />

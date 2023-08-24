@@ -3,8 +3,6 @@ import summarizeStations from "@/lib/summarizeStations";
 import sendEmail from "@/lib/sendEmail";
 import { DateTime } from "luxon";
 import { getCollection, getEntry } from "astro:content";
-import template from "@/templates/summary_template.html"
-console.log(template)
 
 export const post: APIRoute = async ({ url, params, redirect }) => {
   const test = Boolean(url.searchParams.get("test"));
@@ -23,10 +21,13 @@ export const post: APIRoute = async ({ url, params, redirect }) => {
     timesOfInterest.data
   );
 
+  const html = await fetch(`${url.origin}/${dateString}/raw`).then(res => res.text())
+  console.log(html)
+
   const subject = `CGL S34 Weather Summary - ${date.toFormat("yyyy-LL-dd")}`;
 
   try {
-    await sendEmail(subject, "hello", true);
+    await sendEmail(subject, html, true);
     return redirect(`/sendEmail/sent?test=${test}&date=${dateString}`);
   } catch {
     console.log("Could not send email");

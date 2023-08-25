@@ -19,6 +19,14 @@ const stations = await Astro.locals.pb
 ---
 
 <Layout>
+  <div class="flex justify-between w-full">
+    <h2 class="font-bold">Weather Stations</h2>
+    <a href="/stations/new">
+      <Button variant="outline">
+        <i class="fa-solid fa-plus mr-2"></i> Add Station
+      </Button>
+    </a>
+  </div>
   <Table>
     <TableHeader>
       <TableRow>
@@ -61,12 +69,4 @@ const stations = await Astro.locals.pb
       }
     </TableBody>
   </Table>
-  <br />
-  <div class="flex justify-end w-full">
-    <a href="/stations/new">
-      <Button variant="outline">
-        <i class="fa-solid fa-plus mr-2"></i> Add Weather Station
-      </Button>
-    </a>
-  </div>
 </Layout>

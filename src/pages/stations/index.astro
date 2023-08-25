@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
+import { TrashIcon, Pencil1Icon } from "@radix-ui/react-icons";
+import { Button } from "@/components/ui/button";
+
+const stations = await Astro.locals.pb
+  .collection("weather_stations")
+  .getFullList();
+---
+
+<Layout>
+  <Table>
+    <TableHeader>
+      <TableRow>
+        <TableHead>Name</TableHead>
+        <TableHead>ID</TableHead>
+        <TableHead>Latitude</TableHead>
+        <TableHead>Longitude</TableHead>
+        <TableHead>Edit</TableHead>
+        <TableHead>Delete</TableHead>
+      </TableRow>
+    </TableHeader>
+    <TableBody>
+      {
+        stations.map((station) => (
+          <TableRow>
+            <TableCell className="font-medium">{station.name}</TableCell>
+            <TableCell>{station.wu_id}</TableCell>
+            <TableCell>{station.lat}</TableCell>
+            <TableCell>{station.lon}</TableCell>
+            <TableCell className="w-10 text-center">
+              <a href={`/stations/${station.id}`}>
+                <Button size="icon" variant="ghost" className="h-8 w-8">
+                  <i class="fa-solid fa-edit" />
+                </Button>
+              </a>
+            </TableCell>
+            <TableCell className="w-10 text-center">
+              <form action={`/api/stations/${station.id}/delete`} method="post">
+                <Button
+                  size="icon"
+                  variant="ghost"
+                  className="h-8 w-8 hover:text-destructive"
+                >
+                  <i class="fa-solid fa-trash" />
+                </Button>
+              </form>
+            </TableCell>
+          </TableRow>
+        ))
+      }
+    </TableBody>
+  </Table>
+  <br />
+  <div class="flex justify-end w-full">
+    <a href="/stations/new">
+      <Button variant="outline">
+        <i class="fa-solid fa-plus mr-2"></i> Add Weather Station
+      </Button>
+    </a>
+  </div>
+</Layout>

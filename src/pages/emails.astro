@@ -1,7 +1,5 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { getCollection, getEntry } from "astro:content";
-
 import {
   Table,
   TableBody,
@@ -11,9 +9,9 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import type { Record } from "pocketbase";
 
-const emails = await getEntry("emails", "emails");
-console.log(emails.data);
+const emails = await Astro.locals.pb.collection("emails").getFullList();
 ---
 
 <Layout>
@@ -25,9 +23,9 @@ console.log(emails.data);
     </TableHeader>
     <TableBody>
       {
-        emails.data.map((email) => (
+        emails.map((email: Record) => (
           <TableRow>
-            <TableCell>{email}</TableCell>
+            <TableCell>{email.email}</TableCell>
           </TableRow>
         ))
       }

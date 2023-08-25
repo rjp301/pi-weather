@@ -1,0 +1,77 @@
+---
+import CenteredCard from "@/layouts/CenteredCard.astro";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+
+if (!Astro.params.id) return new Response(null, { status: 404 });
+
+const station = await Astro.locals.pb
+  .collection("weather_stations")
+  .getOne(Astro.params.id);
+console.log(station);
+---
+
+<CenteredCard>
+  <Card>
+    <CardHeader>
+      <CardTitle>{station.name}</CardTitle>
+      <CardDescription>Edit this weather station</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <form
+        action={`/api/stations/${station.id}`}
+        method="post"
+        class="grid grid-cols-2 gap-2"
+      >
+        <div>
+          <Label>Name</Label>
+          <Input
+            type="text"
+            name="name"
+            value={station.name}
+            placeholder="Name"
+          />
+        </div>
+        <div>
+          <Label>ID</Label>
+          <Input
+            type="text"
+            name="wu_id"
+            value={station.wu_id}
+            placeholder="ID"
+          />
+        </div>
+        <div>
+          <Label>Latitude</Label>
+          <Input
+            type="number"
+            name="lat"
+            value={station.lat}
+            placeholder="Latitude"
+          />
+        </div>
+        <div>
+          <Label>Longitude</Label>
+          <Input
+            type="number"
+            name="lon"
+            value={station.lon}
+            placeholder="Longitude"
+          />
+        </div>
+      </form>
+    </CardContent>
+    <CardFooter>
+
+    </CardFooter>
+  </Card>
+</CenteredCard>

@@ -1,0 +1,67 @@
+---
+import CenteredCard from "@/layouts/CenteredCard.astro";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+
+---
+
+<CenteredCard>
+  <Card>
+    <CardHeader>
+      <CardTitle>New Weather Station</CardTitle>
+      <CardDescription>Edit this weather station</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <form
+        action={`/api/stations`}
+        method="post"
+        class="grid grid-cols-2 gap-2"
+      >
+        <div>
+          <Label>Name</Label>
+          <Input
+            type="text"
+            name="name"
+            placeholder="Name"
+          />
+        </div>
+        <div>
+          <Label>ID</Label>
+          <Input
+            type="text"
+            name="wu_id"
+            placeholder="ID"
+          />
+        </div>
+        <div>
+          <Label>Latitude</Label>
+          <Input
+            type="number"
+            name="lat"
+            placeholder="Latitude"
+          />
+        </div>
+        <div>
+          <Label>Longitude</Label>
+          <Input
+            type="number"
+            name="lon"
+            placeholder="Longitude"
+          />
+        </div>
+      </form>
+    </CardContent>
+    <CardFooter>
+
+    </CardFooter>
+  </Card>
+</CenteredCard>

@@ -1,13 +1,11 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-
-import { Card } from "@/components/ui/card";
+import Layout from "./Layout.astro";
 ---
 
 <Layout>
-  <div class="flex items-center justify-center h-full">
-    <Card className="mt-20 w-72">
+  <div class="flex justify-center pt-24">
+    <div class="w-[300px]">
       <slot />
-    </Card>
+    </div>
   </div>
 </Layout>

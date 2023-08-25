@@ -19,26 +19,51 @@ const currentPage = (link: string) => {
       .every((page) => !Astro.url.pathname.startsWith(page.link));
   return Astro.url.pathname.startsWith(link);
 };
+
+const { user } = Astro.locals;
 ---
 
 <nav
   class="bg-card shadow border-b flex items-center justify-between px-6 py-2"
 >
-  <a href="/" class="flex gap-2">
-    <img src={"/logo.png"} alt="SA Energy Logo" class="h-6" />
-    <h1 class="font-medium">CGL S34 Weather Summary</h1>
-  </a>
-  <ul class="flex gap-2">
+  <div class="flex gap-4 items-center">
+    <a href="/" class="flex gap-2">
+      <img src={"/logo.png"} alt="SA Energy Logo" class="h-6" />
+      <h1 class="font-medium">CGL S34 Weather Summary</h1>
+    </a>
+    <ul class="flex gap-2">
+      {
+        pages.map((page) => (
+          <li>
+            <a href={page.link}>
+              <Button variant={currentPage(page.link) ? "secondary" : "ghost"}>
+                {page.name}
+              </Button>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+  <div class="flex gap-4 items-center">
     {
-      pages.map((page) => (
-        <li>
-          <a href={page.link}>
-            <Button variant={currentPage(page.link) ? "secondary" : "ghost"}>
-              {page.name}
+      user ? (
+        <>
+          <div>{user.username}</div>
+          <form action="/api/auth/logout" method="post">
+            <Button type="submit" variant="secondary">
+              Logout
             </Button>
+          </form>
+        </>
+      ) : (
+        <>
+          <div class="text-muted-foreground">Guest</div>
+          <a href="/auth">
+            <Button>Login</Button>
           </a>
-        </li>
-      ))
+        </>
+      )
     }
-  </ul>
+  </div>
 </nav>

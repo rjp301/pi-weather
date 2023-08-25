@@ -1,0 +1,10 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import AuthCard from "@/components/AuthCard";
+import CenteredCard from "@/layouts/CenteredCard.astro";
+---
+
+<CenteredCard>
+  <AuthCard client:load />
+</CenteredCard>

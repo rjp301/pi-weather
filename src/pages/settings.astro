@@ -1,0 +1,57 @@
+---
+import CenteredCard from "@/layouts/CenteredCard.astro";
+
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
+
+const { user } = Astro.locals;
+---
+
+<CenteredCard>
+  <form action="/api/settings" method="post">
+    <Card>
+      <CardHeader>
+        <CardTitle>Settings</CardTitle>
+        <CardDescription>Edit configuration settings</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div class="grid gap-2">
+          <div>
+            <Label>Weather Underground API Key</Label>
+            <Input
+              type="password"
+              name="wu_api_key"
+              defaultValue={user.wu_api_key}
+              placeholder="API Key"
+              required
+            />
+          </div>
+          <div>
+            <Label>Time of Interest</Label>
+            <Textarea
+              name="times_of_interest"
+              defaultValue={JSON.stringify(user.times_of_interest, null, 2)}
+              placeholder="Time of Interest"
+              required
+            />
+          </div>
+        </div>
+      </CardContent>
+      <CardFooter className="grid gap-2">
+        <Button type="submit">
+          <i class="fa-solid fa-save mr-2"></i> Save
+        </Button>
+      </CardFooter>
+    </Card>
+  </form>
+</CenteredCard>

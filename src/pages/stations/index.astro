@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 
 const stations = await Astro.locals.pb
   .collection("weather_stations")
-  .getFullList();
+  .getFullList({ sort: "-created" });
 ---
 
 <Layout>

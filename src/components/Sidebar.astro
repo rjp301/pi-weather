@@ -31,20 +31,22 @@ const currentPage = (link: string) => {
 };
 ---
 
-<ul class="grid gap-2">
-  {
-    pages.map((page) => (
-      <li class="w-full">
-        <a href={page.link} class="w-full">
-          <Button
-            variant={currentPage(page.link) ? "secondary" : "ghost"}
-            className="w-full justify-start"
-          >
-            <FontAwesomeIcon icon={page.icon} className="h-4 w-4 mr-2" />
-            {page.name}
-          </Button>
-        </a>
-      </li>
-    ))
-  }
-</ul>
+<nav>
+  <ul class="grid gap-2">
+    {
+      pages.map((page) => (
+        <li class="w-full">
+          <a href={page.link} class="w-full">
+            <Button
+              variant={currentPage(page.link) ? "secondary" : "ghost"}
+              className="w-full justify-start"
+            >
+              <FontAwesomeIcon icon={page.icon} className="h-4 w-4 mr-2" />
+              {page.name}
+            </Button>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

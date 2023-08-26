@@ -21,7 +21,6 @@ if (!Astro.params.id) return new Response(null, { status: 404 });
 const station = await Astro.locals.pb
   .collection("weather_stations")
   .getOne(Astro.params.id);
-console.log(station);
 ---
 
 <CenteredCard>

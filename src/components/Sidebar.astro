@@ -1,0 +1,42 @@
+---
+import { Button } from "./ui/button";
+
+interface Page {
+  name: string;
+  link: string;
+  icon: string;
+}
+
+const pages: Page[] = [
+  { name: "Weather", link: "/weather", icon: "fa-solid fa-cloud" },
+  { name: "Emails", link: "/emails", icon: "fa-solid fa-at" },
+  { name: "Stations", link: "/stations", icon: "fa-solid fa-satellite-dish" },
+  { name: "Settings", link: "/settings", icon: "fa-solid fa-gear" },
+];
+
+const currentPage = (link: string) => {
+  if (link === "/")
+    return pages
+      .filter((page) => page.link !== "/")
+      .every((page) => !Astro.url.pathname.startsWith(page.link));
+  return Astro.url.pathname.startsWith(link);
+};
+---
+
+<ul class="grid gap-2">
+  {
+    pages.map((page) => (
+      <li class="w-full">
+        <a href={page.link} class="w-full">
+          <Button
+            variant={currentPage(page.link) ? "secondary" : "ghost"}
+            className="w-full justify-start"
+          >
+            <i class:list={["mr-2", page.icon]} />
+            {page.name}
+          </Button>
+        </a>
+      </li>
+    ))
+  }
+</ul>

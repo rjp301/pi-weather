@@ -1,26 +1,6 @@
 ---
 import { Button } from "./ui/button";
 
-interface Page {
-  name: string;
-  link: string;
-}
-
-const pages: Page[] = [
-  { name: "Weather", link: "/weather" },
-  { name: "Emails", link: "/emails" },
-  { name: "Stations", link: "/stations" },
-  { name: "Settings", link: "/settings" },
-];
-
-const currentPage = (link: string) => {
-  if (link === "/")
-    return pages
-      .filter((page) => page.link !== "/")
-      .every((page) => !Astro.url.pathname.startsWith(page.link));
-  return Astro.url.pathname.startsWith(link);
-};
-
 const { user } = Astro.locals;
 ---
 
@@ -32,19 +12,6 @@ const { user } = Astro.locals;
       <img src={"/logo.png"} alt="SA Energy Logo" class="h-6" />
       <h1 class="font-medium">CGL S34 Weather Summary</h1>
     </a>
-    <ul class="flex gap-2">
-      {
-        pages.map((page) => (
-          <li>
-            <a href={page.link}>
-              <Button variant={currentPage(page.link) ? "secondary" : "ghost"}>
-                {page.name}
-              </Button>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
   </div>
   <div class="flex gap-4 items-center">
     {

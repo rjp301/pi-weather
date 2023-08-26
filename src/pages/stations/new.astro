@@ -17,8 +17,10 @@ import { Button } from "@/components/ui/button";
   <form action={`/api/stations`} method="post">
     <Card>
       <CardHeader>
-        <CardTitle>New Weather Station</CardTitle>
-        <CardDescription>Values should match those on Weather Underground</CardDescription>
+        <CardTitle>Add Weather Station</CardTitle>
+        <CardDescription>
+          Values should match those on Weather Underground
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <div class="grid grid-cols-2 gap-2">
@@ -47,8 +49,8 @@ import { Button } from "@/components/ui/button";
         <a href="/stations" class="w-full">
           <Button variant="secondary" type="button" className="w-full">
             <i class="fa-solid fa-cancel mr-2"></i> Cancel
-          </Button></a
-        >
+          </Button>
+        </a>
       </CardFooter>
     </Card>
   </form>

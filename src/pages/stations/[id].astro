@@ -70,8 +70,15 @@ console.log(station);
         </div>
       </form>
     </CardContent>
-    <CardFooter>
-
+    <CardFooter className="grid grid-cols-2 gap-2">
+      <Button type="submit">
+        <i class="fa-solid fa-save mr-2"></i> Save
+      </Button>
+      <a href="/stations" class="w-full">
+        <Button variant="secondary" type="button" className="w-full">
+          <i class="fa-solid fa-cancel mr-2"></i> Cancel
+        </Button>
+      </a>
     </CardFooter>
   </Card>
 </CenteredCard>

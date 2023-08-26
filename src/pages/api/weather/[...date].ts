@@ -1,23 +1,56 @@
+import fetchWeatherData from "@/lib/fetchWeatherData";
 import summarizeStations from "@/lib/summarizeStations";
+import type Station from "@/lib/types/station";
 import type { APIRoute } from "astro";
-import { getCollection, getEntry } from "astro:content";
 import { DateTime } from "luxon";
 
-export const get: APIRoute = async ({ params, redirect }) => {
-  const dateString = params.date;
-  if (!dateString) return new Response(null, { status: 404 });
+export const get: APIRoute = async ({ params, redirect, locals }) => {
+  const dateString = params.date || "";
+  const summaryId = dateString.padEnd(15, "0");
 
-  const date = DateTime.fromISO(dateString);
-  if (date.invalidReason) return new Response(null, { status: 404 });
+  try {
+    const cachedSummary = await locals.pb
+      .collection("weather_summaries")
+      .getOne(summaryId);
+    console.log("using cached data");
+    return new Response(JSON.stringify({ data: cachedSummary.summary }));
+  } catch {
+    console.log("fetching new data from weather underground");
 
+    const date = DateTime.fromISO(dateString);
+    if (date.invalidReason)
+      return new Response(JSON.stringify({ error: "invalid date" }), {
+        status: 404,
+      });
 
-  const stations = await getCollection("stations");
-  const timesOfInterest = await getEntry("timesOfInterest", "timesOfInterest");
-  const summary = await summarizeStations(
-    stations.map((station) => station.data),
-    date,
-    timesOfInterest.data
-  );
+    const stationRecords = await locals.pb
+      .collection("weather_stations")
+      .getFullList();
+    const stations: Station[] = stationRecords.map((record) => ({
+      id: record.wu_id,
+      name: record.name,
+      lat: record.lat,
+      lon: record.lon,
+    }));
 
-  return new Response(JSON.stringify(summary));
+    if (!locals.user)
+      return new Response(JSON.stringify({ error: "no user info" }), {
+        status: 500,
+      });
+    const { times_of_interest, wu_api_key } = locals.user;
+
+    const responses = await Promise.all(
+      stations.map((station) => fetchWeatherData(station, date, wu_api_key))
+    );
+    const summary = summarizeStations(responses, date, times_of_interest);
+
+    await locals.pb.collection("weather_summaries").create({
+      id: summaryId,
+      user: locals.user.id,
+      response: responses,
+      summary,
+    });
+
+    return new Response(JSON.stringify({ data: summary }));
+  }
 };

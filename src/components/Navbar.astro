@@ -7,7 +7,7 @@ interface Page {
 }
 
 const pages: Page[] = [
-  { name: "Summary", link: "/summary" },
+  { name: "Weather", link: "/weather" },
   { name: "Emails", link: "/emails" },
   { name: "Stations", link: "/stations" },
   { name: "Settings", link: "/settings" },
@@ -52,7 +52,7 @@ const { user } = Astro.locals;
         <>
           <div>{user.username}</div>
           <form action="/api/auth/logout" method="post">
-            <Button type="submit" variant="secondary">
+            <Button type="submit" variant="outline">
               Logout
             </Button>
           </form>

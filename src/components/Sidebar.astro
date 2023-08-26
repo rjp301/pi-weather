@@ -1,17 +1,25 @@
 ---
 import { Button } from "./ui/button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCloud,
+  faAt,
+  faSatelliteDish,
+  faGear,
+} from "@fortawesome/free-solid-svg-icons";
+import type { IconDefinition } from "@fortawesome/fontawesome-common-types";
 
 interface Page {
   name: string;
   link: string;
-  icon: string;
+  icon: IconDefinition;
 }
 
 const pages: Page[] = [
-  { name: "Weather", link: "/weather", icon: "fa-solid fa-cloud" },
-  { name: "Emails", link: "/emails", icon: "fa-solid fa-at" },
-  { name: "Stations", link: "/stations", icon: "fa-solid fa-satellite-dish" },
-  { name: "Settings", link: "/settings", icon: "fa-solid fa-gear" },
+  { name: "Weather", link: "/weather", icon: faCloud },
+  { name: "Emails", link: "/emails", icon: faAt },
+  { name: "Stations", link: "/stations", icon: faSatelliteDish },
+  { name: "Settings", link: "/settings", icon: faGear },
 ];
 
 const currentPage = (link: string) => {
@@ -32,7 +40,7 @@ const currentPage = (link: string) => {
             variant={currentPage(page.link) ? "secondary" : "ghost"}
             className="w-full justify-start"
           >
-            <i class:list={["mr-2", page.icon]} />
+            <FontAwesomeIcon icon={page.icon} className="h-4 w-4 mr-2" />
             {page.name}
           </Button>
         </a>

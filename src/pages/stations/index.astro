@@ -10,7 +10,9 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-import { TrashIcon, Pencil1Icon } from "@radix-ui/react-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrash, faPlus, faEdit } from "@fortawesome/free-solid-svg-icons";
+
 import { Button } from "@/components/ui/button";
 
 const stations = await Astro.locals.pb
@@ -23,7 +25,8 @@ const stations = await Astro.locals.pb
     <h2 class="font-bold">Weather Stations</h2>
     <a href="/stations/new">
       <Button variant="outline">
-        <i class="fa-solid fa-plus mr-2"></i> Add Station
+        <FontAwesomeIcon icon={faPlus} className="h-4 w-4 mr-2" />
+        Add Station
       </Button>
     </a>
   </div>
@@ -53,7 +56,7 @@ const stations = await Astro.locals.pb
                   variant="ghost"
                   className="h-8 w-8 hover:text-sky-500 text-muted-foreground"
                 >
-                  <i class="fa-solid fa-edit" />
+                  <FontAwesomeIcon icon={faEdit} className="h-4 w-4 mr-2" />
                 </Button>
               </a>
             </TableCell>
@@ -70,7 +73,7 @@ const stations = await Astro.locals.pb
                   variant="ghost"
                   className="h-8 w-8 hover:text-destructive text-muted-foreground"
                 >
-                  <i class="fa-solid fa-trash" />
+                  <FontAwesomeIcon icon={faTrash} className="h-4 w-4 mr-2" />
                 </Button>
               </form>
             </TableCell>

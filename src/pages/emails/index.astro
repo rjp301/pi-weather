@@ -1,5 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
+
 import {
   Table,
   TableBody,
@@ -22,7 +26,8 @@ const emails = await Astro.locals.pb
     <h2 class="font-bold">Distribution Emails</h2>
     <a href="/emails/new">
       <Button variant="outline">
-        <i class="fa-solid fa-plus mr-2"></i> Add Email
+        <FontAwesomeIcon icon={faPlus} className="h-4 w-4 mr-2" />
+        Add Email
       </Button>
     </a>
   </div>
@@ -51,7 +56,7 @@ const emails = await Astro.locals.pb
                   variant="ghost"
                   className="h-8 w-8 hover:text-destructive text-muted-foreground"
                 >
-                  <i class="fa-solid fa-trash" />
+                  <FontAwesomeIcon icon={faTrash} className="h-4 w-4 mr-2" />
                 </Button>
               </form>
             </TableCell>

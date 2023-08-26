@@ -21,64 +21,66 @@ console.log(station);
 ---
 
 <CenteredCard>
-  <Card>
-    <CardHeader>
-      <CardTitle>{station.name}</CardTitle>
-      <CardDescription>Edit this weather station</CardDescription>
-    </CardHeader>
-    <CardContent>
-      <form
-        action={`/api/stations/${station.id}`}
-        method="post"
-        class="grid grid-cols-2 gap-2"
-      >
-        <div>
-          <Label>Name</Label>
-          <Input
-            type="text"
-            name="name"
-            value={station.name}
-            placeholder="Name"
-          />
+  <form action={`/api/stations/${station.id}/update`} method="post">
+    <Card>
+      <CardHeader>
+        <CardTitle>{station.name}</CardTitle>
+        <CardDescription>Edit this weather station</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <Label>Name</Label>
+            <Input
+              type="text"
+              name="name"
+              defaultValue={station.name}
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div>
+            <Label>ID</Label>
+            <Input
+              type="text"
+              name="wu_id"
+              defaultValue={station.wu_id}
+              placeholder="ID"
+              required
+            />
+          </div>
+          <div>
+            <Label>Latitude</Label>
+            <Input
+              type="number"
+              name="lat"
+              defaultValue={station.lat}
+              placeholder="Latitude"
+              required
+            />
+          </div>
+          <div>
+            <Label>Longitude</Label>
+            <Input
+              type="number"
+              name="lon"
+              defaultValue={station.lon}
+              placeholder="Longitude"
+              required
+            />
+          </div>
         </div>
-        <div>
-          <Label>ID</Label>
-          <Input
-            type="text"
-            name="wu_id"
-            value={station.wu_id}
-            placeholder="ID"
-          />
-        </div>
-        <div>
-          <Label>Latitude</Label>
-          <Input
-            type="number"
-            name="lat"
-            value={station.lat}
-            placeholder="Latitude"
-          />
-        </div>
-        <div>
-          <Label>Longitude</Label>
-          <Input
-            type="number"
-            name="lon"
-            value={station.lon}
-            placeholder="Longitude"
-          />
-        </div>
-      </form>
-    </CardContent>
-    <CardFooter className="grid grid-cols-2 gap-2">
-      <Button type="submit">
-        <i class="fa-solid fa-save mr-2"></i> Save
-      </Button>
-      <a href="/stations" class="w-full">
-        <Button variant="secondary" type="button" className="w-full">
-          <i class="fa-solid fa-cancel mr-2"></i> Cancel
+      </CardContent>
+      <CardFooter className="grid grid-cols-2 gap-2">
+        <Button type="submit">
+          <i class="fa-solid fa-save mr-2"></i> Save
         </Button>
-      </a>
-    </CardFooter>
-  </Card>
+        <a href="/stations" class="w-full">
+          <Button variant="secondary" type="button" className="w-full">
+            <i class="fa-solid fa-cancel mr-2"></i> Cancel
+          </Button>
+        </a>
+      </CardFooter>
+    </Card>
+  </form>
 </CenteredCard>

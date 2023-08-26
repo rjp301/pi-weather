@@ -5,6 +5,10 @@ import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
 import { SendEmail } from "@/components/SendEmail";
 import getWeatherSummary from "@/lib/getWeatherSummary";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 
 const dateString = Astro.params.date || "";
 console.log(dateString);
@@ -23,7 +27,14 @@ const summary = await getWeatherSummary(
 <Layout>
   <div class="flex gap-4 justify-between items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
-    <SendEmail client:load dateString={date.toISODate() || ""} />
+    <form action="/api/emails/send" method="post" class="flex gap-4">
+      <input type="hidden" name="date" value={dateString} />
+      <div class="flex items-center space-x-2">
+        <Checkbox client:load id="terms" name="test" defaultChecked={true} />
+        <Label>Test</Label>
+      </div>
+      <Button type="submit">Email to Recipients</Button>
+    </form>
   </div>
   <br />
   <SummaryTable summary={summary} date={date} />

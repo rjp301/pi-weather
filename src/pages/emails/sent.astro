@@ -17,17 +17,19 @@ const date = Astro.url.searchParams.get("date");
 ---
 
 <CenteredCard>
-  <CardHeader>
-    <CardTitle>{test ? "Test" : ""} Email Sent</CardTitle>
-    <CardDescription>
-      You have a weather summary{date ? ` for ${date}` : ""} to {
-        test ? "the developer" : "all recipients"
-      }
-    </CardDescription>
-  </CardHeader>
-  <CardFooter>
-    <a href={date ? `/summary?date=${date}` : "/"} class="w-full">
-      <Button className="w-full">Return to Summary</Button>
-    </a>
-  </CardFooter>
+  <Card>
+    <CardHeader>
+      <CardTitle>{test ? "Test" : ""} Email Sent</CardTitle>
+      <CardDescription>
+        You have a weather summary{date ? ` for ${date}` : ""} to {
+          test ? "the developer" : "all recipients"
+        }
+      </CardDescription>
+    </CardHeader>
+    <CardFooter>
+      <a href={date ? `/summary?date=${date}` : "/"} class="w-full">
+        <Button className="w-full">Return to Summary</Button>
+      </a>
+    </CardFooter>
+  </Card>
 </CenteredCard>

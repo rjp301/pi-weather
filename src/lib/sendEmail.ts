@@ -19,6 +19,11 @@ export default async function sendEmail(
   //   },
   // });
 
+  if (html.length === 0) {
+    console.error("Must include content");
+    throw new Error("no Content");
+  }
+
   if (import.meta.env.SG_API_KEY === undefined) {
     console.log("Could not send email because no API key");
     throw new Error("no SendGrid API key");

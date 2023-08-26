@@ -15,15 +15,17 @@ const date = Astro.url.searchParams.get("date");
 ---
 
 <CenteredCard>
-  <CardHeader>
-    <CardTitle>Email Not Sent</CardTitle>
-    <CardDescription>
-      Could not send weather summary to recipients
-    </CardDescription>
-  </CardHeader>
-  <CardFooter>
-    <a href={date ? `/summary?date=${date}` : "/"} class="w-full">
-      <Button className="w-full">Return to Summary</Button>
-    </a>
-  </CardFooter>
+  <Card>
+    <CardHeader>
+      <CardTitle>Email Not Sent</CardTitle>
+      <CardDescription>
+        Could not send weather summary to recipients
+      </CardDescription>
+    </CardHeader>
+    <CardFooter>
+      <a href={date ? `/summary?date=${date}` : "/"} class="w-full">
+        <Button className="w-full">Return to Summary</Button>
+      </a>
+    </CardFooter>
+  </Card>
 </CenteredCard>

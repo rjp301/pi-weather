@@ -1,26 +1,32 @@
 import type { APIRoute } from "astro";
 import sendEmail from "@/lib/sendEmail";
-import { DateTime } from "luxon";
+import getWeatherSummary from "@/lib/getWeatherSummary";
 
-export const get: APIRoute = async ({ url, params, redirect }) => {
-  const test = Boolean(url.searchParams.get("test"));
-  const dateString = url.searchParams.get("date");
-  if (!dateString) return new Response(null, { status: 404 });
+export const post: APIRoute = async ({ url, request, redirect, locals }) => {
+  const formData = await request.formData();
 
-  const date = DateTime.fromISO(dateString);
-  if (date.invalidReason) return new Response(null, { status: 404 });
+  const test = formData.get("test") === "on";
+  const dateString = String(formData.get("date"));
 
-  const html = await fetch(`${url.origin}/summary/raw?date=${dateString}`).then(
-    (res) => res.text()
-  );
-
-  const subject = `CGL S34 Weather Summary - ${date.toFormat("yyyy-LL-dd")}`;
+  console.log(test, dateString);
 
   try {
+    const summary = await getWeatherSummary(
+      locals.pb,
+      locals.user.id,
+      dateString
+    );
+    const encodedSummary = encodeURI(JSON.stringify(summary));
+
+    const html = await fetch(
+      `${url.origin}/weather/${dateString}/raw?data=${encodedSummary}`
+    ).then((res) => res.text());
+
+    const subject = `CGL S34 Weather Summary - ${dateString}`;
     await sendEmail(subject, html, test);
-    return redirect(`/emails/sent?${url.searchParams.toString()}`);
+    return redirect(`/emails/sent?test=${test}`);
   } catch {
     console.log("Could not send email");
-    return redirect(`/emails/fail?${url.searchParams.toString()}`);
+    return redirect(`/emails/fail?test=${test}`);
   }
 };

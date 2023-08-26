@@ -4,18 +4,20 @@ import Layout from "@/layouts/Layout.astro";
 import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
 import { SendEmail } from "@/components/SendEmail";
+import getWeatherSummary from "@/lib/getWeatherSummary";
 
 const dateString = Astro.params.date || "";
 console.log(dateString);
 const date = DateTime.fromISO(dateString);
-if (date.invalidReason) return new Response(null, { status: 404 });
 
-const summary = await fetch(
-  `${Astro.url.origin}/api/weather/${Astro.params.date}`
-).then((res) => res.json());
-console.log(summary);
-const { data, error } = summary;
-if (error) return Astro.redirect(`/error`);
+if (date.invalidReason) return new Response(null, { status: 404 });
+if (!Astro.locals.user) return new Response(null, { status: 401 });
+
+const summary = await getWeatherSummary(
+  Astro.locals.pb,
+  Astro.locals.user.id,
+  dateString
+);
 ---
 
 <Layout>
@@ -24,5 +26,5 @@ if (error) return Astro.redirect(`/error`);
     <SendEmail client:load dateString={date.toISODate() || ""} />
   </div>
   <br />
-  <SummaryTable summary={data} date={date} />
+  <SummaryTable summary={summary} date={date} />
 </Layout>

@@ -27,6 +27,7 @@ export default function summarizeStations(
     ],
     data: responses.map((response) => {
       const summary = summarizeStation(response, date, timesOfInterest);
+      // if (summary.every((result) => result === "NO DATA")) return [];
       return [response.station.name, ...summary];
     }),
 

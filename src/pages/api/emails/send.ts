@@ -18,9 +18,9 @@ export const get: APIRoute = async ({ url, params, redirect }) => {
 
   try {
     await sendEmail(subject, html, test);
-    return redirect(`/sendEmail/sent?${url.searchParams.toString()}`);
+    return redirect(`/emails/sent?${url.searchParams.toString()}`);
   } catch {
     console.log("Could not send email");
-    return redirect(`/sendEmail/fail?${url.searchParams.toString()}`);
+    return redirect(`/emails/fail?${url.searchParams.toString()}`);
   }
 };

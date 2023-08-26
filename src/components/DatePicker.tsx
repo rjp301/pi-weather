@@ -50,9 +50,7 @@ export function DatePicker(props: Props) {
         </PopoverContent>
       </Popover>
       <a
-        href={
-          date ? `/weather?date=${DateTime.fromJSDate(date).toISODate()}` : "/"
-        }
+        href={date ? `/weather/${DateTime.fromJSDate(date).toISODate()}` : "/"}
       >
         <Button
           type="submit"

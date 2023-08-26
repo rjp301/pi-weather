@@ -48,7 +48,11 @@ const stations = await Astro.locals.pb
             <TableCell>{station.lon}</TableCell>
             <TableCell className="w-10 text-center">
               <a href={`/stations/${station.id}`}>
-                <Button size="icon" variant="ghost" className="h-8 w-8">
+                <Button
+                  size="icon"
+                  variant="ghost"
+                  className="h-8 w-8 hover:text-sky-500 text-muted-foreground"
+                >
                   <i class="fa-solid fa-edit" />
                 </Button>
               </a>
@@ -64,7 +68,7 @@ const stations = await Astro.locals.pb
                 <Button
                   size="icon"
                   variant="ghost"
-                  className="h-8 w-8 hover:text-destructive"
+                  className="h-8 w-8 hover:text-destructive text-muted-foreground"
                 >
                   <i class="fa-solid fa-trash" />
                 </Button>

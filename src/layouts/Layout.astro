@@ -1,8 +1,11 @@
 ---
 import Navbar from "@/components/Navbar.astro";
 import Sidebar from "@/components/Sidebar.astro";
+import Welcome from "@/components/Welcome.astro";
 import { ViewTransitions } from "astro:transitions";
 import "@/globals.css";
+
+const { user } = Astro.locals;
 ---
 
 <!DOCTYPE html>

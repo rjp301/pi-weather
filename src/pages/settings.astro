@@ -16,6 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import Layout from "@/layouts/Layout.astro";
 
 const { user } = Astro.locals;
 if (!user)
@@ -26,41 +27,43 @@ if (!user)
   );
 ---
 
-<CenteredCard>
-  <form action="/api/settings" method="post">
-    <Card>
-      <CardHeader>
-        <CardTitle>Settings</CardTitle>
-        <CardDescription>Edit configuration settings</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <div class="grid gap-2">
-          <div>
-            <Label>Weather Underground API Key</Label>
-            <Input
-              type="password"
-              name="wu_api_key"
-              defaultValue={user.wu_api_key}
-              placeholder="API Key"
-              required
-            />
+<Layout>
+  <CenteredCard>
+    <form action="/api/settings" method="post">
+      <Card>
+        <CardHeader>
+          <CardTitle>Settings</CardTitle>
+          <CardDescription>Edit configuration settings</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div class="grid gap-2">
+            <div>
+              <Label>Weather Underground API Key</Label>
+              <Input
+                type="password"
+                name="wu_api_key"
+                defaultValue={user.wu_api_key}
+                placeholder="API Key"
+                required
+              />
+            </div>
+            <div>
+              <Label>Time of Interest</Label>
+              <Textarea
+                name="times_of_interest"
+                defaultValue={JSON.stringify(user.times_of_interest, null, 2)}
+                placeholder="Time of Interest"
+                required
+              />
+            </div>
           </div>
-          <div>
-            <Label>Time of Interest</Label>
-            <Textarea
-              name="times_of_interest"
-              defaultValue={JSON.stringify(user.times_of_interest, null, 2)}
-              placeholder="Time of Interest"
-              required
-            />
-          </div>
-        </div>
-      </CardContent>
-      <CardFooter className="grid gap-2">
-        <Button type="submit">
-          <FontAwesomeIcon icon={faSave} className="h-4 w-4 mr-2" /> Save
-        </Button>
-      </CardFooter>
-    </Card>
-  </form>
-</CenteredCard>
+        </CardContent>
+        <CardFooter className="grid gap-2">
+          <Button type="submit">
+            <FontAwesomeIcon icon={faSave} className="h-4 w-4 mr-2" /> Save
+          </Button>
+        </CardFooter>
+      </Card>
+    </form>
+  </CenteredCard>
+</Layout>

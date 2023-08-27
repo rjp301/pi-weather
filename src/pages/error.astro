@@ -17,16 +17,18 @@ const msg =
   Astro.url.searchParams.get("msg") || "There was an expected problem";
 ---
 
-<CenteredCard>
-  <Card>
-    <CardHeader>
-      <CardTitle>{title}</CardTitle>
-      <CardDescription>{msg}</CardDescription>
-    </CardHeader>
-    <CardFooter>
-      <a href="/" class="w-full">
-        <Button className="w-full">Return to Main Page</Button>
-      </a>
-    </CardFooter>
-  </Card>
-</CenteredCard>
+<Layout>
+  <CenteredCard>
+    <Card>
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+        <CardDescription>{msg}</CardDescription>
+      </CardHeader>
+      <CardFooter>
+        <a href="/" class="w-full">
+          <Button className="w-full">Return to Main Page</Button>
+        </a>
+      </CardFooter>
+    </Card>
+  </CenteredCard>
+</Layout>

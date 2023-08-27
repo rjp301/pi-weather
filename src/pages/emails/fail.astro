@@ -10,22 +10,25 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import CenteredCard from "@/layouts/CenteredCard.astro";
+import Layout from "@/layouts/Layout.astro";
 
 const date = Astro.url.searchParams.get("date");
 ---
 
-<CenteredCard>
-  <Card>
-    <CardHeader>
-      <CardTitle>Email Not Sent</CardTitle>
-      <CardDescription>
-        Could not send weather summary to recipients
-      </CardDescription>
-    </CardHeader>
-    <CardFooter>
-      <a href={date ? `/summary?date=${date}` : "/"} class="w-full">
-        <Button className="w-full">Return to Summary</Button>
-      </a>
-    </CardFooter>
-  </Card>
-</CenteredCard>
+<Layout>
+  <CenteredCard>
+    <Card>
+      <CardHeader>
+        <CardTitle>Email Not Sent</CardTitle>
+        <CardDescription>
+          Could not send weather summary to recipients
+        </CardDescription>
+      </CardHeader>
+      <CardFooter>
+        <a href={date ? `/summary?date=${date}` : "/"} class="w-full">
+          <Button className="w-full">Return to Summary</Button>
+        </a>
+      </CardFooter>
+    </Card>
+  </CenteredCard>
+</Layout>

@@ -1,8 +1,27 @@
 ---
-import Welcome from "@/components/Welcome.astro";
-import Layout from "@/layouts/Layout.astro";
+import RootLayout from "@/layouts/RootLayout.astro";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 ---
 
-<Layout>
-  <Welcome />
-</Layout>
+<RootLayout>
+  <div class="w-full h-full py-16">
+    <div class="prose mx-auto">
+      <h1>Weather Digitizer</h1>
+      <p>
+        This is a tool to summarize the data from personal weather stations and
+        schedule email reports of that summary
+      </p>
+      <div>
+        <a href="/auth"><Button className="w-full">Get Started</Button></a>
+      </div>
+    </div>
+  </div>
+</RootLayout>

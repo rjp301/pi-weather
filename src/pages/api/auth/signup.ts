@@ -4,6 +4,8 @@ export const post: APIRoute = async ({ locals, request, redirect }) => {
   const formData = await request.formData();
   const userData = Object.fromEntries(formData);
 
+  if (locals.user) return redirect("/weather");
+
   try {
     await locals.pb.collection("users").create({ ...userData });
     await locals.pb
@@ -13,5 +15,5 @@ export const post: APIRoute = async ({ locals, request, redirect }) => {
     console.error("pocketbase error", err);
   }
 
-  return redirect("/");
+  return redirect("/weather");
 };

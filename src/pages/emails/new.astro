@@ -15,28 +15,31 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import Layout from "@/layouts/Layout.astro";
 ---
 
-<CenteredCard>
-  <form action={`/api/emails`} method="post">
-    <Card>
-      <CardHeader>
-        <CardTitle>Add Email</CardTitle>
-        <CardDescription>Add recipients of daily weather email</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <Input type="email" name="email" placeholder="Email" required />
-      </CardContent>
-      <CardFooter className="grid grid-cols-2 gap-2">
-        <Button type="submit">
-          <FontAwesomeIcon icon={faSave} className="h-4 w-4 mr-2" /> Save
-        </Button>
-        <a href="/emails" class="w-full">
-          <Button variant="secondary" type="button" className="w-full">
-            <FontAwesomeIcon icon={faCancel} className="h-4 w-4 mr-2" /> Cancel
+<Layout>
+  <CenteredCard>
+    <form action={`/api/emails`} method="post">
+      <Card>
+        <CardHeader>
+          <CardTitle>Add Email</CardTitle>
+          <CardDescription>Add recipients of daily weather email</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Input type="email" name="email" placeholder="Email" required />
+        </CardContent>
+        <CardFooter className="grid grid-cols-2 gap-2">
+          <Button type="submit">
+            <FontAwesomeIcon icon={faSave} className="h-4 w-4 mr-2" /> Save
           </Button>
-        </a>
-      </CardFooter>
-    </Card>
-  </form>
-</CenteredCard>
+          <a href="/emails" class="w-full">
+            <Button variant="secondary" type="button" className="w-full">
+              <FontAwesomeIcon icon={faCancel} className="h-4 w-4 mr-2" /> Cancel
+            </Button>
+          </a>
+        </CardFooter>
+      </Card>
+    </form>
+  </CenteredCard>
+</Layout>

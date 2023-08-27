@@ -4,6 +4,8 @@ import Layout from "@/layouts/Layout.astro";
 import AuthCard from "@/components/AuthCard";
 import CenteredCard from "@/layouts/CenteredCard.astro";
 import RootLayout from "@/layouts/RootLayout.astro";
+
+if (Astro.locals.user) return Astro.redirect("/weather");
 ---
 
 <RootLayout>

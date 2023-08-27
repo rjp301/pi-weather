@@ -2,7 +2,11 @@
 import Layout from "@/layouts/Layout.astro";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTrash,
+  faPlus,
+  faCircleCheck,
+} from "@fortawesome/free-solid-svg-icons";
 
 import {
   Table,
@@ -35,6 +39,7 @@ const emails = await Astro.locals.pb
     <TableHeader>
       <TableRow>
         <TableHead>Email</TableHead>
+        <TableHead>Tester</TableHead>
         <TableHead>Delete</TableHead>
       </TableRow>
     </TableHeader>
@@ -43,6 +48,14 @@ const emails = await Astro.locals.pb
         emails.map((email: Record) => (
           <TableRow>
             <TableCell>{email.email}</TableCell>
+            <TableCell className="w-10 text-center text-emerald-500">
+              {email.tester && (
+                <FontAwesomeIcon
+                  icon={faCircleCheck}
+                  className="h-4 w-4 mx-auto"
+                />
+              )}
+            </TableCell>
             <TableCell className="w-10 text-center">
               <form
                 action={`/api/emails/${email.id}/delete`}

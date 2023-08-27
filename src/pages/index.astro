@@ -1,20 +1,18 @@
 ---
 import RootLayout from "@/layouts/RootLayout.astro";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBolt } from "@fortawesome/free-solid-svg-icons";
 ---
 
 <RootLayout>
   <div class="w-full h-full py-16">
     <div class="prose mx-auto">
-      <h1>Weather Digitizer</h1>
+      <FontAwesomeIcon
+        icon={faBolt}
+        className="h-20 text-sky-500 mx-auto mb-16"
+      />
+      <h1 class="text-center">Weather Summarizer</h1>
       <p>
         This is a tool to summarize the data from personal weather stations and
         schedule email reports of that summary

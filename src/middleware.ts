@@ -35,7 +35,8 @@ export const onRequest = defineMiddleware(
       !(
         url.pathname.startsWith("/auth") ||
         url.pathname.startsWith("/api/auth") ||
-        url.pathname === "/"
+        url.pathname === "/" ||
+        url.pathname === "/api/send-all-emails"
       )
     )
       return redirect("/");

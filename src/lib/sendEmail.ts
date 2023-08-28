@@ -1,10 +1,9 @@
 import sgMail from "@sendgrid/mail";
-import { getEntry } from "astro:content";
 
 export default async function sendEmail(
+  emails: string[],
   subject: string,
-  html: string,
-  testFlag: boolean
+  html: string
 ) {
   // const transporter = nodemailer.createTransport({
   //   host: "smtp.gmail.com",
@@ -31,11 +30,8 @@ export default async function sendEmail(
 
   sgMail.setApiKey(import.meta.env.SG_API_KEY);
 
-  const emails = await getEntry("emails", "emails");
-  const testEmails = await getEntry("emails", "testEmails");
-
   const msg = {
-    to: testFlag ? testEmails.data : emails.data,
+    to: emails,
     from: "saeg.weather@gmail.com",
     subject,
     html,

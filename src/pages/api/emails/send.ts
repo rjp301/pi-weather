@@ -21,9 +21,15 @@ export const post: APIRoute = async ({ url, request, redirect, locals }) => {
     const html = await fetch(
       `${url.origin}/weather/${dateString}/raw?data=${encodedSummary}`
     ).then((res) => res.text());
-
     const subject = `CGL S34 Weather Summary - ${dateString}`;
-    await sendEmail(subject, html, test);
+    const emails = (
+      await locals.pb
+        .collection("emails")
+        .getFullList({ filter: test ? "tester = true" : "" })
+    ).map((record) => record.email);
+    console.log(emails)
+
+    await sendEmail(emails, subject, html);
     return redirect(`/emails/sent?test=${test}`);
   } catch {
     console.log("Could not send email");

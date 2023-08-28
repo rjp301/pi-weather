@@ -1,6 +1,8 @@
 ---
 import CenteredCard from "@/layouts/CenteredCard.astro";
 
+
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSave } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,14 +19,15 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import Layout from "@/layouts/Layout.astro";
+import { DateTime, } from "luxon";
 
 const { user } = Astro.locals;
-if (!user)
-  return Astro.redirect(
-    `/error?title=${encodeURI("Auth Error")}&msg=${encodeURI(
-      "Must be logged in to access this page"
-    )}`
-  );
+
+
+const timeZones = DateTime
+
+
+
 ---
 
 <Layout>

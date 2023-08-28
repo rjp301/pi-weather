@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 
 const { user } = Astro.locals;
+const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
 ---
 
 <div
@@ -19,7 +20,10 @@ const { user } = Astro.locals;
     {
       user ? (
         <>
-          <div>{user.username}</div>
+          <div class="flex gap-1 items-center">
+            <img src={imageUrl} alt="profile" class="h-6 mr-2" />
+            {user.username}
+          </div>
           <form action="/api/auth/logout" method="post">
             <Button type="submit" variant="outline">
               Logout

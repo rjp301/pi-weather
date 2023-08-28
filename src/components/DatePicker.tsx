@@ -1,4 +1,3 @@
-import * as React from "react";
 import { CalendarIcon } from "@radix-ui/react-icons";
 import { format } from "date-fns";
 
@@ -11,6 +10,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { DateTime } from "luxon";
+import { useEffect, useState } from "react";
 
 interface Props {
   currentDate?: Date;
@@ -19,10 +19,10 @@ interface Props {
 export function DatePicker(props: Props) {
   const { currentDate } = props;
 
-  const [date, setDate] = React.useState(currentDate);
+  const [date, setDate] = useState(currentDate);
 
-  React.useEffect(() => {
-    console.log(date);
+  useEffect(() => {
+    console.log("selected date", date);
   }, [date]);
 
   return (

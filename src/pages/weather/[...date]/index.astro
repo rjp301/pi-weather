@@ -13,7 +13,9 @@ import { faPaperPlane, faRefresh } from "@fortawesome/free-solid-svg-icons";
 
 const dateString = Astro.params.date || "";
 console.log(dateString);
-const date = DateTime.fromISO(dateString);
+const date = DateTime.fromISO(dateString, {
+  zone: Astro.locals.user.time_zone,
+});
 
 if (date.invalidReason) return new Response(null, { status: 404 });
 if (!Astro.locals.user) return new Response(null, { status: 401 });

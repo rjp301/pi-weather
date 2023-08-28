@@ -57,10 +57,10 @@ const { user } = Astro.locals;
             </div>
             <div class="grid gap-2">
               <Label htmlFor="time_zone">
-                Time Zone <a
+                Time Zone (<a
                   href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"
                   class="underline text-sky-500">Valid Options</a
-                >
+                >)
               </Label>
               <Input
                 type="text"
@@ -71,7 +71,7 @@ const { user } = Astro.locals;
                 required
               />
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <Label htmlFor="email_time">Email Distribution Time</Label>
               <TimeSlider client:load default={user.email_time} name="email_time" />
             </div>

@@ -33,8 +33,8 @@ import { Checkbox } from "@/components/ui/checkbox";
           <div class="grid gap-2">
             <Input type="email" name="email" placeholder="Email" required />
             <div class="flex items-center space-x-2">
-              <Checkbox client:load name="tester" />
-              <Label>Tester</Label>
+              <Checkbox client:load name="tester" id="tester" />
+              <Label htmlFor="tester">Tester</Label>
             </div>
           </div>
         </CardContent>

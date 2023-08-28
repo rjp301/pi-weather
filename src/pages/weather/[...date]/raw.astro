@@ -4,7 +4,7 @@ import { getWeatherSummary } from "@/lib/getWeatherSummary";
 import type SummarizedWeather from "@/lib/types/summarized";
 
 let summary: null | SummarizedWeather = JSON.parse(
-  decodeURI(Astro.url.searchParams.get("data") || "")
+  decodeURI(Astro.url.searchParams.get("data") || "null")
 );
 
 if (!summary && Astro.locals.user) {

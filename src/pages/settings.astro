@@ -1,8 +1,6 @@
 ---
 import CenteredCard from "@/layouts/CenteredCard.astro";
 
-
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSave } from "@fortawesome/free-solid-svg-icons";
 
@@ -19,15 +17,11 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import Layout from "@/layouts/Layout.astro";
-import { DateTime, } from "luxon";
+import { DateTime } from "luxon";
+import { Slider } from "@/components/ui/slider";
+import TimeSlider from "@/components/TimeSlider";
 
 const { user } = Astro.locals;
-
-
-const timeZones = DateTime
-
-
-
 ---
 
 <Layout>
@@ -39,25 +33,47 @@ const timeZones = DateTime
           <CardDescription>Edit configuration settings</CardDescription>
         </CardHeader>
         <CardContent>
-          <div class="grid gap-2">
-            <div>
-              <Label>Weather Underground API Key</Label>
+          <div class="grid gap-4">
+            <div class="grid gap-2">
+              <Label htmlFor="wu_api_key">Weather Underground API Key</Label>
               <Input
                 type="password"
+                id="wu_api_key"
                 name="wu_api_key"
                 defaultValue={user.wu_api_key}
                 placeholder="API Key"
                 required
               />
             </div>
-            <div>
-              <Label>Time of Interest</Label>
+            <div class="grid gap-2">
+              <Label htmlFor="times_of_interest">Time of Interest</Label>
               <Textarea
+                id="times_of_interest"
                 name="times_of_interest"
                 defaultValue={JSON.stringify(user.times_of_interest, null, 2)}
                 placeholder="Time of Interest"
                 required
               />
+            </div>
+            <div class="grid gap-2">
+              <Label htmlFor="time_zone">
+                Time Zone <a
+                  href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"
+                  class="underline text-sky-500">Valid Options</a
+                >
+              </Label>
+              <Input
+                type="text"
+                id="time_zone"
+                name="time_zone"
+                defaultValue={user.time_zone}
+                placeholder="Time Zone"
+                required
+              />
+            </div>
+            <div class="grid gap-4">
+              <Label htmlFor="email_time">Email Distribution Time</Label>
+              <TimeSlider client:load default={user.email_time} name="email_time" />
             </div>
           </div>
         </CardContent>

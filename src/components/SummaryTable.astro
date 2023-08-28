@@ -25,7 +25,7 @@ const { summary, date } = Astro.props;
     <TableRow className="bg-red-600 hover:bg-red-700">
       {
         summary.headers.map((header) => (
-          <TableHead className="text-white" colSpan={header.colspan}>
+          <TableHead className="text-white pt-1" colSpan={header.colspan}>
             {header.name}
           </TableHead>
         ))
@@ -47,3 +47,37 @@ const { summary, date } = Astro.props;
     }
   </TableBody>
 </Table>
+
+<style>
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+  }
+
+  thead {
+    background-color: #bf2929;
+  }
+
+  th,
+  td {
+    padding: 5px;
+    text-align: center;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>

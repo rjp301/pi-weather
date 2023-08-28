@@ -36,10 +36,14 @@ export const onRequest = defineMiddleware(
         url.pathname.startsWith("/auth") ||
         url.pathname.startsWith("/api/auth") ||
         url.pathname === "/" ||
-        url.pathname === "/api/send-all-emails"
+        url.pathname === "/api/send-all-emails" ||
+        (url.pathname.startsWith("/weather") &&
+          url.pathname.includes("/raw"))
       )
-    )
+    ) {
+      console.log(`blocked access to ${url.pathname}`);
       return redirect("/");
+    }
 
     // set cookie to latest authstore
     return response;

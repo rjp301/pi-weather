@@ -2,6 +2,7 @@
 import { DateTime } from "luxon";
 import { getWeatherSummary } from "@/lib/getWeatherSummary";
 import type SummarizedWeather from "@/lib/types/summarized";
+import SummaryTableOld from "@/components/SummaryTableOld.astro";
 
 let summary: null | SummarizedWeather = JSON.parse(
   decodeURI(Astro.url.searchParams.get("data") || "null")
@@ -32,67 +33,9 @@ if (!summary) return new Response(null, { status: 500 });
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style>
-      * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-      }
-
-      table {
-        border-collapse: collapse;
-        width: 100%;
-        border: 2px solid silver;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10pt;
-      }
-
-      thead {
-        background-color: #bf2929;
-      }
-
-      th,
-      td {
-        padding: 5px;
-        text-align: center;
-      }
-
-      th {
-        text-align: left;
-      }
-
-      tr:nth-child(even) {
-        background-color: #f2f2f2;
-      }
-    </style>
-
     <title>Document</title>
   </head>
   <body>
-    <table border="1" class="dataframe">
-      <thead>
-        <tr style="color: #f2f2f2">
-          {
-            summary.headers.map((header) => (
-              <th colspan={header.colspan}>{header.name}</th>
-            ))
-          }
-        </tr>
-        <tr style="text-align: right; background-color: #f2f2f2">
-          {summary.columns.map((column) => <th>{column}</th>)}
-        </tr>
-      </thead>
-      <tbody>
-        {
-          summary.data.map((row) => (
-            <tr>
-              {row.map((item) => (
-                <td>{item}</td>
-              ))}
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
+    <SummaryTableOld summary={summary} />
   </body>
 </html>

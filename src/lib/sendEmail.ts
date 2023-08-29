@@ -3,7 +3,8 @@ import sgMail from "@sendgrid/mail";
 export default async function sendEmail(
   emails: string[],
   subject: string,
-  html: string
+  html: string,
+  from: string
 ) {
   // const transporter = nodemailer.createTransport({
   //   host: "smtp.gmail.com",
@@ -32,7 +33,7 @@ export default async function sendEmail(
 
   const msg = {
     to: emails,
-    from: "saeg.weather@gmail.com",
+    from,
     subject,
     html,
   };

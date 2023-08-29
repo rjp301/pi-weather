@@ -17,7 +17,9 @@ const getSummary = async (
   const date = DateTime.fromISO(dateString);
   if (date.invalidReason) throw new Error("Invalid date");
 
-  const stationRecords = await pb.collection("weather_stations").getFullList();
+  const stationRecords = await pb
+    .collection("weather_stations")
+    .getFullList({ filter: `user = ${userId}` });
   const stations: Station[] = stationRecords.map((record) => ({
     id: record.wu_id,
     name: record.name,

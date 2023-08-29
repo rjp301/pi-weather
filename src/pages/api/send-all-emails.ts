@@ -1,8 +1,11 @@
 import { getWeatherSummary } from "@/lib/getWeatherSummary";
+import sendEmail from "@/lib/sendEmail";
 import type { APIRoute } from "astro";
 import { DateTime } from "luxon";
 
 export const get: APIRoute = async ({ locals, url }) => {
+  const test = url.searchParams.get("test");
+
   try {
     await locals.pb.admins.authWithPassword(
       import.meta.env.PB_AUTH_EMAIL,
@@ -11,14 +14,19 @@ export const get: APIRoute = async ({ locals, url }) => {
   } catch (err) {
     console.error("could not login as admin");
     console.error(err);
+    return new Response("could not login as admin", { status: 500 });
   }
 
   const users = await locals.pb.collection("users").getFullList();
-  const dateString = DateTime.now().minus({ days: 1 }).toISODate();
 
   for (let user of users) {
-    console.log(user.username);
-    const summary = await getWeatherSummary(locals.pb, user.id, "2023-08-26");
+    const currentHour = DateTime.now().setZone(user.time_zone).hour;
+    if (currentHour !== user.email_time) continue;
+
+    const dateString =
+      DateTime.now().setZone(user.time_zone).minus({ days: 1 }).toISODate() ||
+      "";
+    const summary = await getWeatherSummary(locals.pb, user.id, dateString);
     const encodedSummary = encodeURI(JSON.stringify(summary));
 
     const html = await fetch(
@@ -29,10 +37,20 @@ export const get: APIRoute = async ({ locals, url }) => {
       await locals.pb
         .collection("emails")
         .getFullList({ filter: `user = "${user.id}"` })
-    ).map((record) => record.email);
+    )
+      .filter((record) => (test ? record.tester : true))
+      .map((record) => record.email);
 
-    console.log(emails);
+    const subject = `${user.email_subject_prefix} - ${dateString}`;
+
+    try {
+      await sendEmail(emails, subject, html, user.email);
+      return new Response("success");
+    } catch {
+      console.log("Could not send email");
+      return new Response("failure", { status: 500 });
+    }
   }
 
-  return new Response(JSON.stringify(users));
+  return new Response("no emails sent");
 };

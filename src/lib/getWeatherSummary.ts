@@ -19,7 +19,7 @@ const getSummary = async (
 
   const stationRecords = await pb
     .collection("weather_stations")
-    .getFullList({ filter: `user = ${userId}` });
+    .getFullList({ filter: `user = "${userId}"` });
   const stations: Station[] = stationRecords.map((record) => ({
     id: record.wu_id,
     name: record.name,

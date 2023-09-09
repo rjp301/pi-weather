@@ -36,8 +36,6 @@ Specify the times of day you are interested in seeing summarized in your setting
 
 ## Troubleshooting
 
-### _Everything is 'NO DATA'_
+### _All cells say 'NO DATA'_
 
-sadf
-sadfasdf 
-asdfasd
+API key may have run out of uses or expired. Generate a new key on Weather Underground profile page and enter it into [Settings](/settings) page.

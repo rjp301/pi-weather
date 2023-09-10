@@ -18,6 +18,7 @@ export const get: APIRoute = async ({ locals, url }) => {
   }
 
   const users = await locals.pb.collection("users").getFullList();
+  let emailsSent = 0;
 
   for (let user of users) {
     const currentHour = DateTime.now().setZone(user.time_zone).hour;
@@ -45,12 +46,12 @@ export const get: APIRoute = async ({ locals, url }) => {
 
     try {
       await sendEmail(emails, subject, html, user.email);
-      return new Response("success");
+      console.log(`Sent emails for ${user.username}`);
+      emailsSent += 1;
     } catch {
-      console.log("Could not send email");
-      return new Response("failure", { status: 500 });
+      console.log(`Could not send emails for ${user.username}`);
     }
   }
 
-  return new Response("no emails sent");
+  return new Response(`Emails sent for ${emailsSent} users`);
 };

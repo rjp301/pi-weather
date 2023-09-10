@@ -22,6 +22,7 @@ export const get: APIRoute = async ({ locals, url }) => {
 
   for (let user of users) {
     const currentHour = DateTime.now().setZone(user.time_zone).hour;
+    console.log(currentHour, user.username);
     if (currentHour !== user.email_time) continue;
 
     const dateString =

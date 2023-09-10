@@ -6,69 +6,67 @@ interface Props {
 const { summary } = Astro.props;
 ---
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="color: #f2f2f2; text-align: left;">
+<div>
+  <table border="1" class="dataframe">
+    <thead style="background-color: #bf2929;">
+      <tr style="color: #f2f2f2; text-align: left;">
+        {
+          summary.headers.map((header) => (
+            <th colspan={header.colspan}>{header.name}</th>
+          ))
+        }
+      </tr>
+      <tr style="background-color: #f2f2f2">
+        {summary.columns.map((column) => <th>{column}</th>)}
+      </tr>
+    </thead>
+    <tbody>
       {
-        summary.headers.map((header) => (
-          <th colspan={header.colspan}>{header.name}</th>
+        summary.data.map((row) => (
+          <tr>
+            {row.map((item, idx) => (
+              <td
+                style={idx === 0 ? "font-weight: 500;" : "text-align: center;"}
+              >
+                {item}
+              </td>
+            ))}
+          </tr>
         ))
       }
-    </tr>
-    <tr style="background-color: #f2f2f2">
-      {summary.columns.map((column) => <th>{column}</th>)}
-    </tr>
-  </thead>
-  <tbody>
-    {
-      summary.data.map((row) => (
-        <tr>
-          {row.map((item, idx) => (
-            <td
-              style={idx === 0 ? "font-weight: 500;" : "text-align: center;"}
-            >
-              {item}
-            </td>
-          ))}
-        </tr>
-      ))
+    </tbody>
+  </table>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      line-height: 1rem;
     }
-  </tbody>
-</table>
 
-<style>
-  * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    line-height: 1rem;
-  }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 2px solid silver;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      color: black;
+      background-color: white;
+    }
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 2px solid silver;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    color: black;
-    background-color: white;
-  }
+    th,
+    td {
+      padding: 5px;
+    }
 
-  thead {
-    background-color: #bf2929;
-  }
+    td,
+    th:first-child {
+      text-align: left;
+    }
 
-  th,
-  td {
-    padding: 5px;
-  }
-
-  td,
-  th:first-child {
-    text-align: left;
-  }
-
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-</style>
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</div>

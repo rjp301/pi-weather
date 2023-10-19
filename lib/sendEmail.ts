@@ -1,12 +1,10 @@
-import fs from "fs/promises";
-import path from "path";
 import sgMail from "@sendgrid/mail";
-import importList from "../utils/importList.js";
 
 export default async function sendEmail(
+  emails: string[],
   subject: string,
   html: string,
-  testFlag: boolean,
+  from: string
 ) {
   // const transporter = nodemailer.createTransport({
   //   host: "smtp.gmail.com",
@@ -21,19 +19,21 @@ export default async function sendEmail(
   //   },
   // });
 
+  if (html.length === 0) {
+    console.error("Must include content");
+    throw new Error("no Content");
+  }
+
   if (process.env.SG_API_KEY === undefined) {
     console.log("Could not send email because no API key");
-    return;
+    throw new Error("no SendGrid API key");
   }
 
   sgMail.setApiKey(process.env.SG_API_KEY);
 
-  const fname_emails = path.join("data", "emailList.csv");
-  const emails = await importList(fname_emails);
-
   const msg = {
-    to: testFlag ? "rileypaul96@gmail.com" : emails,
-    from: "saeg.weather@gmail.com",
+    to: emails,
+    from,
     subject,
     html,
   };
@@ -45,6 +45,7 @@ export default async function sendEmail(
     })
     .catch((error) => {
       console.error(error);
+      throw new Error(error);
     });
 
   // transporter.sendMail(msg, function (error, info) {

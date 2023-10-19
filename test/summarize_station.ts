@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
-import fetchWeatherData from "../library/fetchWeatherData.js";
-import summarizeStation from "../library/summarizeStation.js";
-import WeatherObservation from "../types/observation.js";
+import fetchWeatherData from "../lib/fetchWeatherData.js";
+import summarizeStation from "../lib/summarizeStation.js";
+import type WeatherObservation from "../types/observation.js";
 import roundMinutes from "../utils/roundMinutes.js";
 
 export const getPrecip = (obs: WeatherObservation) => {

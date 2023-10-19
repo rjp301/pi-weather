@@ -1,13 +1,11 @@
 import axios from "axios";
-import dotenv from "dotenv";
-import WeatherFetch from "../types/fetch";
-import { DateTime } from "luxon";
-
-dotenv.config();
+import type WeatherFetch from "../types/fetch";
+import type { DateTime } from "luxon";
+import type Station from "../types/station";
 
 async function fetchDailyWeatherData(
-  stationId: string,
-  date: DateTime,
+  station: Station,
+  date: DateTime
 ): Promise<WeatherFetch> {
   const options = {
     url: "/history/hourly",
@@ -18,31 +16,32 @@ async function fetchDailyWeatherData(
       apiKey: process.env.WU_API_KEY,
       format: "json",
       units: "m",
-      stationId,
+      stationId: station.id,
       date: date.toFormat("yyyyLLdd"),
     },
   };
 
+  // console.log(`fetching ${station.name} for ${date.toISODate()}`);
   try {
     const { data } = await axios(options);
     const { observations } = data;
-    return { success: true, observations };
+    return { success: true, observations, station };
   } catch (err) {
-    return { success: false, error: err };
+    return { success: false, error: err, station };
   }
 }
 
 export default async function fetchWeatherData(
-  stationId: string,
-  date: DateTime,
+  station: Station,
+  date: DateTime
 ): Promise<WeatherFetch> {
   // return fetchDailyWeatherData(stationId, date);
   const dates = [date, date.plus({ days: 1 }), date.minus({ days: 1 })];
   const responses = await Promise.all(
-    dates.map((d) => fetchDailyWeatherData(stationId, d)),
+    dates.map((d) => fetchDailyWeatherData(station, d))
   );
   const observations = responses
     .flatMap((r) => r.observations || [])
     .sort((a, b) => a.epoch - b.epoch);
-  return { success: observations.length > 0, observations };
+  return { success: observations.length > 0, observations, station };
 }

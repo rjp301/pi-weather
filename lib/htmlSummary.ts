@@ -1,6 +1,6 @@
 import path from "path";
 
-import SummarizedWeather from "../types/summarized.js";
+import SummarizedWeather from "../src/types/summarized.js";
 import renderHtml from "../utils/renderHtml.js";
 
 export default async function htmlSummary(data: SummarizedWeather) {

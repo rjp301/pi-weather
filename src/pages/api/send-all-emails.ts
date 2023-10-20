@@ -1,21 +1,23 @@
-import { getWeatherSummary } from "@/lib/getWeatherSummary";
-import sendEmail from "@/lib/sendEmail";
 import type { APIRoute } from "astro";
 import { DateTime } from "luxon";
 
-export const get: APIRoute = async ({ locals, url }) => {
+import sgMail from "@sendgrid/mail";
+import { sendWeatherSummary } from "@/lib/sendWeatherSummary";
+sgMail.setApiKey(import.meta.env.SG_API_KEY!);
+
+export const GET: APIRoute = async ({ locals, url }) => {
   const test = url.searchParams.get("test");
 
-  try {
-    await locals.pb.admins.authWithPassword(
+  await locals.pb.admins
+    .authWithPassword(
       import.meta.env.PB_AUTH_EMAIL,
       import.meta.env.PB_AUTH_PASS
-    );
-  } catch (err) {
-    console.error("could not login as admin");
-    console.error(err);
-    return new Response("could not login as admin", { status: 500 });
-  }
+    )
+    .catch((err) => {
+      console.error("could not login as admin");
+      console.error(err);
+      return new Response("Could not login as admin", { status: 500 });
+    });
 
   const users = await locals.pb.collection("users").getFullList();
   let emailsSent = 0;
@@ -28,30 +30,14 @@ export const get: APIRoute = async ({ locals, url }) => {
     const dateString =
       DateTime.now().setZone(user.time_zone).minus({ days: 1 }).toISODate() ||
       "";
-    const summary = await getWeatherSummary(locals.pb, user.id, dateString);
-    const encodedSummary = encodeURI(JSON.stringify(summary));
 
-    const html = await fetch(
-      `${url.origin}/weather/${dateString}/raw?data=${encodedSummary}`
-    ).then((res) => res.text());
-
-    const emails = (
-      await locals.pb
-        .collection("emails")
-        .getFullList({ filter: `user = "${user.id}"` })
-    )
-      .filter((record) => (test ? record.tester : true))
-      .map((record) => record.email);
-
-    const subject = `${user.email_subject_prefix} - ${dateString}`;
-
-    try {
-      await sendEmail(emails, subject, html, user.email);
-      console.log(`Sent emails for ${user.username}`);
-      emailsSent += 1;
-    } catch {
-      console.log(`Could not send emails for ${user.username}`);
-    }
+    sendWeatherSummary({
+      pb: locals.pb,
+      test: test === "true",
+      origin: url.origin,
+      dateString,
+      user,
+    });
   }
 
   return new Response(`Emails sent for ${emailsSent} users`);

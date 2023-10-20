@@ -38,15 +38,9 @@ export default async function sendEmail(
     html,
   };
 
-  sgMail
-    .send(msg)
-    .then((response) => {
-      console.log(response[0].statusCode, "Mail sent with SendGrid");
-    })
-    .catch((error) => {
-      console.error(error);
-      throw new Error(error);
-    });
+  sgMail.send(msg).then((response) => {
+    console.log(response[0].statusCode, "Mail sent with SendGrid");
+  });
 
   // transporter.sendMail(msg, function (error, info) {
   //   if (error) {

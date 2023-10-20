@@ -16,7 +16,7 @@ export const SendEmail: React.FC<Props> = (props) => {
   const [testEmail, setTestEmail] = React.useState(true);
   const [sending, setSending] = React.useState(false);
 
-  const handleClick = () => {
+  const handleClick = async () => {
     setSending(true);
     const formData = new FormData();
     formData.append("date", dateString);
@@ -25,22 +25,33 @@ export const SendEmail: React.FC<Props> = (props) => {
     fetch("/api/send-email", {
       method: "POST",
       body: formData,
-    }).then((res) => {
-      console.log(res);
-      setSending(false);
-      if (!res.ok)
-        return toast({
+    })
+      .then((res) => {
+        console.log(res);
+        setSending(false);
+        if (!res.ok)
+          return res.json().then((body) =>
+            toast({
+              title: body.title,
+              description: body.description,
+              variant: "destructive",
+            })
+          );
+        toast({
+          title: "Email Sent",
+          description: `Weather summary sent for ${dateString} to ${
+            testEmail ? "testers" : "everyone"
+          }`,
+        });
+      })
+      .catch((err) => {
+        console.error(err);
+        toast({
           title: "Error",
-          description: res.statusText,
+          description: err.message,
           variant: "destructive",
         });
-      toast({
-        title: "Email Sent",
-        description: `Weather summary sent for ${dateString} to ${
-          testEmail ? "testers" : "everyone"
-        }`,
       });
-    });
   };
 
   return (

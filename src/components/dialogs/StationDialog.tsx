@@ -42,7 +42,7 @@ export const StationDialog: React.FC<Props> = (props) => {
       <DialogContent>
         <form
           action={data ? `/api/stations/${data.id}/update` : "/api/stations"}
-          method="post"
+          method="POST"
         >
           <DialogHeader>
             <DialogTitle>{data ? "Edit " : "Add "} Weather Station</DialogTitle>

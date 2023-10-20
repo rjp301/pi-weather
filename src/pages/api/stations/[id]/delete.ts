@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 
-export const post: APIRoute = async ({ locals, params, redirect }) => {
+export const POST: APIRoute = async ({ locals, params, redirect }) => {
   const { id } = params;
   if (!id) return new Response(null, { status: 404 });
 

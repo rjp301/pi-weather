@@ -57,7 +57,7 @@ const emails = await Astro.locals.pb
             <TableCell className="w-10 text-center">
               <form
                 action={`/api/emails/${email.id}/delete`}
-                method="post"
+                method="POST"
                 onsubmit="
                 return confirm('Are you sure you want to delete this?')
                 "

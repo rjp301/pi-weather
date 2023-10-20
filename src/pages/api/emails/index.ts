@@ -1,7 +1,7 @@
 import { randomString } from "@/lib/utils";
 import type { APIRoute } from "astro";
 
-export const post: APIRoute = async ({ locals, url, redirect, request }) => {
+export const POST: APIRoute = async ({ locals, url, redirect, request }) => {
   const formData = await request.formData();
   const email = formData.get("email");
   const tester = formData.get("tester") === "on";

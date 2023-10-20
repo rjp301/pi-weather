@@ -1,5 +1,4 @@
 ---
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSave } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,7 +20,7 @@ const { user } = Astro.locals;
 
 <Layout>
   <div class="max-w-3xl">
-    <form action="/api/settings" method="post">
+    <form action="/api/settings" method="POST">
       <CardHeader className="pt-0 px-0">
         <CardTitle>Settings</CardTitle>
         <CardDescription>Edit configuration settings</CardDescription>

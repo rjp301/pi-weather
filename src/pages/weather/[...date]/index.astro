@@ -31,7 +31,7 @@ const summary = await getWeatherSummary(
     <DatePicker client:load currentDate={date.toJSDate()} />
     <div class="flex items-center gap-2">
       <SendEmail client:load dateString={dateString} />
-      <form action="/api/refresh-weather" method="post">
+      <form action="/api/refresh-weather" method="POST">
         <input type="hidden" name="date" value={dateString} />
         <Button variant="secondary">
           <FontAwesomeIcon icon={faRefresh} className="h-4 w-4 mr-2" />

@@ -11,7 +11,7 @@ const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
   class="bg-card shadow border-b flex items-center justify-between px-6 py-2"
 >
   <a href="/" class="flex gap-3 items-center">
-    <FontAwesomeIcon icon={faBolt} className="h-5 text-primary" />
+    <FontAwesomeIcon icon={faBolt} className="h-5 text-sky-500" />
     <h1 class="font-medium">Weather Summarizer</h1>
   </a>
 
@@ -23,7 +23,7 @@ const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
             <img src={imageUrl} alt="profile" class="h-6 mr-2" />
             {user.username}
           </div>
-          <form action="/api/auth/logout" method="post">
+          <form action="/api/auth/logout" method="POST">
             <Button type="submit" variant="outline">
               Logout
             </Button>

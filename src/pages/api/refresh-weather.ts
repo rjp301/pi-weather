@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 import { updateWeatherSummary } from "@/lib/getWeatherSummary";
 
-export const post: APIRoute = async ({ url, request, redirect, locals }) => {
+export const POST: APIRoute = async ({ url, request, redirect, locals }) => {
   const formData = await request.formData();
 
   const dateString = String(formData.get("date"));

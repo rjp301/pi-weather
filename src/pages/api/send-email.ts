@@ -2,7 +2,7 @@ import type { APIRoute } from "astro";
 import sendEmail from "@/lib/sendEmail";
 import { getWeatherSummary } from "@/lib/getWeatherSummary";
 
-export const post: APIRoute = async ({ url, request, redirect, locals }) => {
+export const POST: APIRoute = async ({ url, request, redirect, locals }) => {
   const formData = await request.formData();
 
   const test = formData.get("test") === "on";

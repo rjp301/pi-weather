@@ -96,8 +96,8 @@ function getRain(
   if (relevantObs.length === 0) return "NO DATA";
 
   const preMidnight = relevantObs.filter((obs) => obs.obsTimeRnd < timeMid);
-  const postMidnight = relevantObs.filter((obs) => obs.obsTimeRnd >= timeMid);
-  const totalRain = rainTotal(preMidnight) + rainTotal(postMidnight);
+  const POSTMidnight = relevantObs.filter((obs) => obs.obsTimeRnd >= timeMid);
+  const totalRain = rainTotal(preMidnight) + rainTotal(POSTMidnight);
 
   return `${totalRain.toFixed(1)}mm`;
 }

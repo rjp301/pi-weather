@@ -21,7 +21,7 @@ export default function AuthCard(props: Props) {
         <TabsTrigger value="signup">Sign Up</TabsTrigger>
       </TabsList>
       <TabsContent value="login">
-        <form action="/api/auth/login" method="post">
+        <form action="/api/auth/login" method="POST">
           <Card>
             <CardHeader>
               <CardTitle>Login</CardTitle>
@@ -40,7 +40,7 @@ export default function AuthCard(props: Props) {
         </form>
       </TabsContent>
       <TabsContent value="signup">
-        <form action="/api/auth/signup" method="post">
+        <form action="/api/auth/signup" method="POST">
           <Card>
             <CardHeader>
               <CardTitle>Sign Up</CardTitle>

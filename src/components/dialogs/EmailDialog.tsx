@@ -21,7 +21,7 @@ export const EmailDialog: React.FC = () => (
       Add Email
     </DialogTrigger>
     <DialogContent>
-      <form action={`/api/emails`} method="post">
+      <form action={`/api/emails`} method="POST">
         <DialogHeader>
           <DialogTitle>Add Email</DialogTitle>
           <DialogDescription>

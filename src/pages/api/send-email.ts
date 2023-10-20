@@ -30,9 +30,9 @@ export const post: APIRoute = async ({ url, request, redirect, locals }) => {
     console.log(emails);
 
     await sendEmail(emails, subject, html, locals.user.email);
-    return redirect(`/emails/sent?test=${test}`);
+    return new Response("Email sent");
   } catch {
     console.log("Could not send email");
-    return redirect(`/emails/fail?test=${test}`);
+    return new Response("Could not send email", { status: 500 });
   }
 };

@@ -4,12 +4,11 @@ import Layout from "@/layouts/Layout.astro";
 import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
 import { getWeatherSummary } from "@/lib/getWeatherSummary";
-import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane, faRefresh } from "@fortawesome/free-solid-svg-icons";
+import { faRefresh } from "@fortawesome/free-solid-svg-icons";
+import { SendEmail } from "@/components/SendEmail";
 
 const dateString = Astro.params.date || "";
 console.log(dateString);
@@ -28,20 +27,10 @@ const summary = await getWeatherSummary(
 ---
 
 <Layout>
-  <div class="flex gap-4 justify-between items-center">
+  <div class="flex flex-col lg:flex-row gap-4 justify-between lg:items-center">
     <DatePicker client:load currentDate={date.toJSDate()} />
     <div class="flex items-center gap-2">
-      <form action="/api/emails/send" method="post" class="flex gap-4">
-        <input type="hidden" name="date" value={dateString} />
-        <div class="flex items-center space-x-2">
-          <Checkbox client:load id="test" name="test" defaultChecked={true} />
-          <Label htmlFor="test">Tester Emails Only</Label>
-        </div>
-        <Button type="submit">
-          <FontAwesomeIcon icon={faPaperPlane} className="h-4 w-4 mr-2" />
-          Send Summary
-        </Button>
-      </form>
+      <SendEmail client:load dateString={dateString} />
       <form action="/api/refresh-weather" method="post">
         <input type="hidden" name="date" value={dateString} />
         <Button variant="secondary">

@@ -10,10 +10,12 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+import { StationDialog } from "@/components/dialogs/StationDialog";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faPlus, faEdit } from "@fortawesome/free-solid-svg-icons";
 
 import { Button } from "@/components/ui/button";
+import { Plus } from "lucide-react";
 
 const stations = await Astro.locals.pb
   .collection("weather_stations")
@@ -23,12 +25,7 @@ const stations = await Astro.locals.pb
 <Layout>
   <div class="flex justify-between w-full items-center mb-2">
     <h2 class="font-bold">Weather Stations</h2>
-    <a href="/stations/new">
-      <Button variant="outline">
-        <FontAwesomeIcon icon={faPlus} className="h-4 w-4 mr-2" />
-        Add Station
-      </Button>
-    </a>
+    <StationDialog client:load />
   </div>
   <Table>
     <TableHeader>
@@ -50,15 +47,7 @@ const stations = await Astro.locals.pb
             <TableCell>{station.lat}</TableCell>
             <TableCell>{station.lon}</TableCell>
             <TableCell className="w-10 text-center">
-              <a href={`/stations/${station.id}`}>
-                <Button
-                  size="icon"
-                  variant="ghost"
-                  className="h-8 w-8 hover:text-sky-500 text-muted-foreground"
-                >
-                  <FontAwesomeIcon icon={faEdit} className="h-4 w-4" />
-                </Button>
-              </a>
+              <StationDialog data={station} client:load />
             </TableCell>
             <TableCell className="w-10 text-center">
               <form

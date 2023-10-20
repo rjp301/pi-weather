@@ -11,7 +11,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-import { AddEmail } from "@/components/dialogs/AddEmail";
+import { EmailDialog } from "@/components/dialogs/EmailDialog";
 import type { Record } from "pocketbase";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Delete, Plus } from "lucide-react";
@@ -24,7 +24,7 @@ const emails = await Astro.locals.pb
 <Layout>
   <div class="flex justify-between w-full items-center mb-2">
     <h2 class="font-bold">Distribution Emails</h2>
-    <AddEmail client:load />
+    <EmailDialog client:load />
   </div>
   <Table>
     <TableHeader>
@@ -65,3 +65,4 @@ const emails = await Astro.locals.pb
     </TableBody>
   </Table>
 </Layout>
+@/components/dialogs/EmailDialog

@@ -13,7 +13,7 @@ import { Input } from "../ui/input";
 import { Checkbox } from "../ui/checkbox";
 import { Label } from "../ui/label";
 
-export const AddEmail: React.FC = () => (
+export const EmailDialog: React.FC = () => (
   <Dialog>
     <DialogTrigger className={buttonVariants({ variant: "secondary" })}>
       <Plus className="h-4 w-4 mr-2" />

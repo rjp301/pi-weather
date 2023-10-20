@@ -1,11 +1,9 @@
 ---
-import CenteredCard from "@/layouts/CenteredCard.astro";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSave } from "@fortawesome/free-solid-svg-icons";
 
 import {
-  Card,
   CardContent,
   CardDescription,
   CardFooter,
@@ -17,9 +15,6 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import Layout from "@/layouts/Layout.astro";
-import { DateTime } from "luxon";
-import { Slider } from "@/components/ui/slider";
-import TimeSlider from "@/components/TimeSlider";
 
 const { user } = Astro.locals;
 ---
@@ -33,7 +28,7 @@ const { user } = Astro.locals;
       </CardHeader>
       <CardContent className="px-0">
         <div class="grid gap-4">
-          <div class="grid gap-2">
+          <div class="space-y-2">
             <Label htmlFor="wu_api_key">Weather Underground API Key</Label>
             <Input
               type="password"
@@ -44,17 +39,19 @@ const { user } = Astro.locals;
               required
             />
           </div>
-          <div class="grid gap-2">
+          <div class="space-y-2">
             <Label htmlFor="times_of_interest">Time of Interest</Label>
             <Textarea
               id="times_of_interest"
               name="times_of_interest"
+              className="font-mono"
+              rows={10}
               defaultValue={JSON.stringify(user.times_of_interest, null, 2)}
               placeholder="Time of Interest"
               required
             />
           </div>
-          <div class="grid gap-2">
+          <div class="space-y-2">
             <Label htmlFor="time_zone">
               Time Zone (<a
                 href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"
@@ -70,13 +67,9 @@ const { user } = Astro.locals;
               required
             />
           </div>
-          <div class="grid gap-2">
+          <div class="space-y-2">
             <Label htmlFor="email_time">Email Distribution Time</Label>
-            <TimeSlider
-              client:load
-              default={user.email_time}
-              name="email_time"
-            />
+            <Input type="time" defaultValue={user.email_time} />
           </div>
         </div>
       </CardContent>

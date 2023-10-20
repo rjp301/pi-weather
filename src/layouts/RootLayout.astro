@@ -1,4 +1,5 @@
 ---
+import { Toaster } from "@/components/ui/toaster";
 import "@/globals.css";
 ---
 
@@ -20,5 +21,6 @@ import "@/globals.css";
     >
       <slot />
     </div>
+    <Toaster client:load />
   </body>
 </html>

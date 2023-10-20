@@ -1,26 +1,27 @@
 ---
-import { Button } from "./ui/button";
 import {
-  type LucideIcon,
-  AtSign,
-  Cloud,
-  SatelliteDish,
-  Info,
-  Settings,
-} from "lucide-react";
+  faAt,
+  faCloud,
+  faGear,
+  faQuestion,
+  faSatelliteDish,
+  type IconDefinition,
+} from "@fortawesome/free-solid-svg-icons";
+import { Button } from "./ui/button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface Page {
   name: string;
   link: string;
-  icon: LucideIcon;
+  icon: IconDefinition;
 }
 
 const pages: Page[] = [
-  { name: "Weather", link: "/weather", icon: Cloud },
-  { name: "Emails", link: "/emails", icon: AtSign },
-  { name: "Stations", link: "/stations", icon: SatelliteDish },
-  { name: "Settings", link: "/settings", icon: Settings },
-  { name: "Help", link: "/help", icon: Info },
+  { name: "Weather", link: "/weather", icon: faCloud },
+  { name: "Emails", link: "/emails", icon: faAt },
+  { name: "Stations", link: "/stations", icon: faSatelliteDish },
+  { name: "Settings", link: "/settings", icon: faGear },
+  { name: "Help", link: "/help", icon: faQuestion },
 ];
 
 const currentPage = (link: string) => {
@@ -42,7 +43,7 @@ const currentPage = (link: string) => {
               variant={currentPage(page.link) ? "secondary" : "ghost"}
               className="w-full justify-start"
             >
-              <page.icon className="h-4 w-4 mr-2" />
+              <FontAwesomeIcon icon={page.icon} className="h-4 w-4 mr-2" />
               {page.name}
             </Button>
           </a>

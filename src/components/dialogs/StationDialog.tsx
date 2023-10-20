@@ -9,10 +9,11 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "../ui/button";
-import { Edit, Plus, Save } from "lucide-react";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
 import { Record } from "pocketbase";
+import { faEdit, faPlus, faSave } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface Props {
   data?: Record;
@@ -29,11 +30,11 @@ export const StationDialog: React.FC<Props> = (props) => {
             variant="ghost"
             className="h-8 w-8 text-muted-foreground"
           >
-            <Edit className="h-4 w-4" />
+            <FontAwesomeIcon icon={faEdit} className="h-4 w-4" />
           </Button>
         ) : (
           <Button variant="secondary">
-            <Plus className="h-4 w-4 mr-2" />
+            <FontAwesomeIcon icon={faPlus} className="h-4 w-4 mr-2" />
             Add Station
           </Button>
         )}
@@ -93,7 +94,7 @@ export const StationDialog: React.FC<Props> = (props) => {
           </div>
           <DialogFooter>
             <Button type="submit">
-              <Save className="h-4 w-4 mr-2" />
+              <FontAwesomeIcon icon={faSave} className="h-4 w-4 mr-2" />
               Save
             </Button>
           </DialogFooter>

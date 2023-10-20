@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faPlus, faEdit } from "@fortawesome/free-solid-svg-icons";
 
 import { Button } from "@/components/ui/button";
+import { CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const stations = await Astro.locals.pb
   .collection("weather_stations")
@@ -23,7 +24,12 @@ const stations = await Astro.locals.pb
 
 <Layout>
   <div class="flex justify-between w-full items-center mb-2">
-    <h2 class="font-bold">Weather Stations</h2>
+    <CardHeader className="p-0">
+      <CardTitle>Weather Stations</CardTitle>
+      <CardDescription>
+        Station information should match that on Weather Underground
+      </CardDescription>
+    </CardHeader>
     <StationDialog client:load />
   </div>
   <Table>

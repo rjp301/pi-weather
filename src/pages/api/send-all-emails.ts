@@ -1,9 +1,6 @@
 import type { APIRoute } from "astro";
 import { DateTime } from "luxon";
-
-import sgMail from "@sendgrid/mail";
 import { sendWeatherSummary } from "@/lib/sendWeatherSummary";
-sgMail.setApiKey(import.meta.env.SG_API_KEY!);
 
 export const GET: APIRoute = async ({ locals, url }) => {
   const test = url.searchParams.get("test");
@@ -32,7 +29,7 @@ export const GET: APIRoute = async ({ locals, url }) => {
       DateTime.now().setZone(user.time_zone).minus({ days: 1 }).toISODate() ||
       "";
 
-    sendWeatherSummary({
+    await sendWeatherSummary({
       pb: locals.pb,
       test: test === "true",
       origin: url.origin,

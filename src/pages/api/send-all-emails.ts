@@ -2,7 +2,7 @@ import type { APIRoute } from "astro";
 import { DateTime } from "luxon";
 import { sendWeatherSummary } from "@/lib/sendWeatherSummary";
 
-export const GET: APIRoute = async ({ locals, url }) => {
+export const POST: APIRoute = async ({ locals, url }) => {
   const test = url.searchParams.get("test");
 
   await locals.pb.admins

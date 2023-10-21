@@ -24,8 +24,9 @@ export const GET: APIRoute = async ({ locals, url }) => {
 
   for (let user of users) {
     const currentHour = DateTime.now().setZone(user.time_zone).hour;
-    console.log(currentHour, user.username);
-    if (currentHour !== user.email_time) continue;
+    const emailTime = DateTime.fromISO(user.email_time);
+    console.log(currentHour, emailTime.hour, user.username);
+    if (currentHour !== emailTime.hour) continue;
 
     const dateString =
       DateTime.now().setZone(user.time_zone).minus({ days: 1 }).toISODate() ||

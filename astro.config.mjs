@@ -13,5 +13,5 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
-  adapter: vercel({ analytics: true }),
+  adapter: vercel({ webAnalytics: true, speedInsights: true }),
 });

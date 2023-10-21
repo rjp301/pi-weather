@@ -14,6 +14,7 @@ import { faGear, faSignOut } from "@fortawesome/free-solid-svg-icons";
 import { SettingsDialog } from "./SettingsDialog";
 
 import type { Record } from "pocketbase";
+import { HelpDialog } from "./HelpDialog";
 
 interface Props {
   userObject: Record;
@@ -29,11 +30,10 @@ export const AccountMenu: React.FC<Props> = (props) => (
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent>
-      <DropdownMenuLabel>My Account</DropdownMenuLabel>
-      <DropdownMenuSeparator />
       <SettingsDialog initialSettings={props.userObject} />
+      <HelpDialog />
       <form action="/api/auth/logout" method="POST">
-        <Button size="sm" className="w-full justify-start" variant="ghost">
+        <Button className="w-full justify-start" variant="ghost">
           <FontAwesomeIcon icon={faSignOut} className="h-4 w-4 mr-2" />
           Logout
         </Button>

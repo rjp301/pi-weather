@@ -29,7 +29,7 @@ export const SettingsDialog: React.FC<Props> = (props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="ghost" size="sm" className="w-full justify-start">
+        <Button variant="ghost" className="w-full justify-start">
           <FontAwesomeIcon icon={faGear} className="h-4 w-4 mr-2" />
           Settings
         </Button>

@@ -14,6 +14,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import Layout from "@/layouts/Layout.astro";
+import TimeSlider from "@/components/TimeSlider";
 
 const { user } = Astro.locals;
 ---
@@ -68,7 +69,11 @@ const { user } = Astro.locals;
           </div>
           <div class="space-y-2">
             <Label htmlFor="email_time">Email Distribution Time</Label>
-            <Input type="time" defaultValue={user.email_time} />
+            <TimeSlider
+              client:load
+              default={user.email_time}
+              name="email_time"
+            />
           </div>
         </div>
       </CardContent>

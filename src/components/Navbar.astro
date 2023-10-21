@@ -2,6 +2,7 @@
 import { Button } from "./ui/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
+import { AccountMenu } from "@/components/dialogs/AccountMenu";
 
 const { user } = Astro.locals;
 const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
@@ -18,17 +19,7 @@ const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
   <div class="flex gap-4 items-center">
     {
       user ? (
-        <>
-          <div class="flex gap-1 items-center">
-            <img src={imageUrl} alt="profile" class="h-6 mr-2" />
-            {user.username}
-          </div>
-          <form action="/api/auth/logout" method="POST">
-            <Button type="submit" variant="outline">
-              Logout
-            </Button>
-          </form>
-        </>
+        <AccountMenu imageUrl={imageUrl} userObject={user} client:load />
       ) : (
         <>
           <div class="text-muted-foreground">Guest</div>

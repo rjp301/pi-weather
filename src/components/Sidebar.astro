@@ -14,33 +14,51 @@ interface Page {
   name: string;
   link: string;
   icon: IconDefinition;
+  active: (pathname: string) => boolean;
 }
 
 const pages: Page[] = [
-  { name: "Weather", link: "/weather", icon: faCloud },
-  { name: "Emails", link: "/emails", icon: faAt },
-  { name: "Stations", link: "/stations", icon: faSatelliteDish },
-  { name: "Settings", link: "/settings", icon: faGear },
-  { name: "Help", link: "/help", icon: faQuestion },
+  {
+    name: "Weather",
+    link: "/weather",
+    icon: faCloud,
+    active: (pathname) => pathname.startsWith("/weather"),
+  },
+  {
+    name: "Emails",
+    link: "/emails",
+    icon: faAt,
+    active: (pathname) => pathname.startsWith("/emails"),
+  },
+  {
+    name: "Stations",
+    link: "/stations",
+    icon: faSatelliteDish,
+    active: (pathname) => pathname.startsWith("/stations"),
+  },
+  {
+    name: "Settings",
+    link: "/settings",
+    icon: faGear,
+    active: (pathname) => pathname.startsWith("/settings"),
+  },
+  {
+    name: "Help",
+    link: "/help",
+    icon: faQuestion,
+    active: (pathname) => pathname.startsWith("/help"),
+  },
 ];
-
-const currentPage = (link: string) => {
-  if (link === "/")
-    return pages
-      .filter((page) => page.link !== "/")
-      .every((page) => !Astro.url.pathname.startsWith(page.link));
-  return Astro.url.pathname.startsWith(link);
-};
 ---
 
-<nav class="bg-card">
-  <ul class="grid gap-2">
+<nav class="bg-card p-2">
+  <ul class="grid gap-1">
     {
       pages.map((page) => (
         <li class="w-full">
           <a href={page.link} class="w-full">
             <Button
-              variant={currentPage(page.link) ? "secondary" : "ghost"}
+              variant={page.active(Astro.url.pathname) ? "secondary" : "ghost"}
               className="w-full justify-start"
             >
               <FontAwesomeIcon icon={page.icon} className="h-4 w-4 mr-2" />

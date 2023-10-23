@@ -30,8 +30,8 @@ export const AccountMenu: React.FC<Props> = (props) => (
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent>
-      <SettingsDialog initialSettings={props.userObject} />
-      <HelpDialog />
+      {/* <SettingsDialog initialSettings={props.userObject} />
+      <HelpDialog /> */}
       <form action="/api/auth/logout" method="POST">
         <Button className="w-full justify-start" variant="ghost">
           <FontAwesomeIcon icon={faSignOut} className="h-4 w-4 mr-2" />

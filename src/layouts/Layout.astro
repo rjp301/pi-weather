@@ -14,8 +14,10 @@ import RootLayout from "./RootLayout.astro";
       <aside class="bg-card z-0 shadow border-r min-w-[200px]">
         <Sidebar />
       </aside>
-      <div class="flex-1 p-4 w-full overflow-auto">
-        <slot />
+      <div class="flex-1 w-full overflow-auto">
+        <div class="container p-4">
+          <slot />
+        </div>
       </div>
     </main>
   </div>

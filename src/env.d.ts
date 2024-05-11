@@ -16,6 +16,8 @@ declare global {
     readonly PB_URL: string;
     readonly PB_AUTH_EMAIL: string;
     readonly PB_AUTH_PASS: string;
+    readonly DATABASE_URL: string;
+    readonly DATABASE_AUTH_TOKEN: string;
   }
   interface ImportMeta {
     readonly env: ImportMetaEnv;

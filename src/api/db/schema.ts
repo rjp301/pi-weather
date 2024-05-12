@@ -31,3 +31,23 @@ export type Email = typeof emails.$inferSelect;
 export type EmailInsert = typeof emails.$inferInsert;
 export const emailSchema = createSelectSchema(emails);
 export const emailInsertSchema = createInsertSchema(emails);
+
+export const settings = sqliteTable("setting", {
+  id: text("id").$defaultFn(uuid).primaryKey(),
+  userId: text("user_id").notNull(),
+});
+
+export type Setting = typeof settings.$inferSelect;
+export type SettingInsert = typeof settings.$inferInsert;
+export const settingSchema = createSelectSchema(settings);
+export const settingInsertSchema = createInsertSchema(settings);
+
+export const summaries = sqliteTable("summary", {
+  id: text("id").$defaultFn(uuid).primaryKey(),
+  userId: text("user_id").notNull(),
+});
+
+export type Summary = typeof summaries.$inferSelect;
+export type SummaryInsert = typeof summaries.$inferInsert;
+export const summarySchema = createSelectSchema(summaries);
+export const summaryInsertSchema = createInsertSchema(summaries);

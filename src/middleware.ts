@@ -30,20 +30,20 @@ export const onRequest = defineMiddleware(
     );
 
     // redirect if not logged in
-    if (
-      !locals.user &&
-      !(
-        url.pathname.startsWith("/auth") ||
-        url.pathname.startsWith("/api/auth") ||
-        url.pathname === "/" ||
-        url.pathname === "/api/send-all-emails" ||
-        (url.pathname.startsWith("/weather") &&
-          url.pathname.includes("/raw"))
-      )
-    ) {
-      console.log(`blocked access to ${url.pathname}`);
-      return redirect("/");
-    }
+    // if (
+    //   !locals.user &&
+    //   !(
+    //     url.pathname.startsWith("/auth") ||
+    //     url.pathname.startsWith("/api/auth") ||
+    //     url.pathname === "/" ||
+    //     url.pathname === "/api/send-all-emails" ||
+    //     (url.pathname.startsWith("/weather") &&
+    //       url.pathname.includes("/raw"))
+    //   )
+    // ) {
+    //   console.log(`blocked access to ${url.pathname}`);
+    //   return redirect("/");
+    // }
 
     // set cookie to latest authstore
     return response;

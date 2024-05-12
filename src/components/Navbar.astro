@@ -5,7 +5,7 @@ import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { AccountMenu } from "@/components/dialogs/AccountMenu";
 
 const { user } = Astro.locals;
-const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
+// const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
 ---
 
 <div
@@ -17,7 +17,7 @@ const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
   </a>
 
   <div class="flex gap-4 items-center">
-    {
+    <!-- {
       user ? (
         <AccountMenu imageUrl={imageUrl} userObject={user} client:load />
       ) : (
@@ -28,6 +28,6 @@ const imageUrl = Astro.locals.pb.files.getUrl(user, user.profile);
           </a>
         </>
       )
-    }
+    } -->
   </div>
 </div>

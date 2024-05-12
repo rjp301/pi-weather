@@ -1,4 +1,4 @@
-type WeatherObservation = {
+export type WeatherObservation = {
   stationID: string;
   tz: string;
   obsTimeUtc: string;
@@ -39,5 +39,3 @@ type WeatherObservation = {
     precipTotal: number | null;
   };
 };
-
-export default WeatherObservation;

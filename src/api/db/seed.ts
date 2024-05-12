@@ -1,29 +1,30 @@
 import { db } from ".";
-import {
-  stations as stationsTable,
-  type StationInsert,
-} from "./schema";
+import { stations as stationsTable, type StationInsert } from "./schema";
 
 const sampleStations: StationInsert[] = [
   {
+    userId: "1",
     name: "SAEG Crooked",
     wuKey: "IREGIO61",
     lat: 54.653556,
     lon: -122.752946,
   },
   {
+    userId: "1",
     name: "SAEG Parsnip",
     wuKey: "IREGIO82",
     lat: 54.76181,
     lon: -122.49811,
   },
   {
+    userId: "1",
     name: "SAEG Crocker",
     wuKey: "IREGIO125",
     lat: 54.895774,
     lon: -122.243683,
   },
   {
+    userId: "1",
     name: "SAEG Headwall",
     wuKey: "IREGIO134",
     lat: 55.08484,

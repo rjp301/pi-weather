@@ -49,6 +49,7 @@
     "drizzle-orm": "^0.30.10",
     "drizzle-zod": "^0.5.1",
     "hono": "^4.3.4",
+    "lucia": "^3.2.0",
     "lucide-react": "^0.288.0",
     "luxon": "^3.4.1",
     "pocketbase": "^0.16.0",

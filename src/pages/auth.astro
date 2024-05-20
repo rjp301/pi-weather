@@ -1,9 +1,9 @@
 ---
-import Layout from "@/layouts/Layout.astro";
+import Layout from "@/layouts/app-layout.astro";
 
 import AuthCard from "@/components/AuthCard";
-import CenteredCard from "@/layouts/CenteredCard.astro";
-import RootLayout from "@/layouts/RootLayout.astro";
+import CenteredCard from "@/layouts/centered-card.astro";
+import RootLayout from "@/layouts/root-layout.astro";
 
 if (Astro.locals.user) return Astro.redirect("/weather");
 ---

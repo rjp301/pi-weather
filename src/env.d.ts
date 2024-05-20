@@ -1,27 +1,7 @@
-/// <reference path="../.astro/types.d.ts" />
-import PocketBase from "pocketbase";
-
-/// <reference types="vite/client" />
 /// <reference types="astro/client" />
-
-declare global {
-  namespace App {
-    interface Locals {
-      pb: PocketBase;
-      user: PocketBase.authStore.model | undefined;
-    }
-  }
-  interface ImportMetaEnv {
-    readonly SG_API_KEY: string;
-    readonly PB_URL: string;
-    readonly PB_AUTH_EMAIL: string;
-    readonly PB_AUTH_PASS: string;
-    readonly DATABASE_URL: string;
-    readonly DATABASE_AUTH_TOKEN: string;
-  }
-  interface ImportMeta {
-    readonly env: ImportMetaEnv;
+declare namespace App {
+  interface Locals {
+    session: import("lucia").Session | null;
+    user: import("lucia").User | null;
   }
 }
-
-export {};

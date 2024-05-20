@@ -1,51 +1,23 @@
-import { defineMiddleware } from "astro/middleware";
-import PocketBase from "pocketbase";
-import { serializeNonPOJOs } from "./lib/utils";
+import { defineMiddleware } from "astro:middleware";
+import { type AppType } from "@/api/index";
+import { hc } from "hono/client";
 
-export const onRequest = defineMiddleware(
-  async ({ locals, request, url, redirect }, next) => {
-    locals.pb = new PocketBase(import.meta.env.PB_URL);
+const WHITE_LIST = ["/welcome", "/login", "/signup"];
 
-    // grab cookie from browser if exists
-    locals.pb.authStore.loadFromCookie(request.headers.get("cookie") || "");
+export const onRequest = defineMiddleware(async (context, next) => {
+  const { request, url } = context;
 
-    try {
-      if (locals.pb.authStore.isValid) {
-        await locals.pb.collection("users").authRefresh();
-        const user = serializeNonPOJOs(locals.pb.authStore.model);
-        locals.user = user;
-      }
-    } catch (_) {
-      locals.pb.authStore.clear();
-      locals.user = undefined;
-    }
-
-    // complete other actions
-    const response = await next();
-
-    // set cookie to latest authstore
-    response.headers.set(
-      "set-cookie",
-      locals.pb.authStore.exportToCookie({ secure: false })
-    );
-
-    // redirect if not logged in
-    // if (
-    //   !locals.user &&
-    //   !(
-    //     url.pathname.startsWith("/auth") ||
-    //     url.pathname.startsWith("/api/auth") ||
-    //     url.pathname === "/" ||
-    //     url.pathname === "/api/send-all-emails" ||
-    //     (url.pathname.startsWith("/weather") &&
-    //       url.pathname.includes("/raw"))
-    //   )
-    // ) {
-    //   console.log(`blocked access to ${url.pathname}`);
-    //   return redirect("/");
-    // }
-
-    // set cookie to latest authstore
-    return response;
+  if (url.pathname.startsWith("/api") || WHITE_LIST.includes(url.pathname)) {
+    return next();
   }
-);
+
+  const headers = Object.fromEntries(request.headers);
+  const client = hc<AppType>(url.origin, { headers });
+
+  const res = await client.api.auth.me.$get();
+  if (!res.ok || res.status !== 200) {
+    return context.redirect("/welcome");
+  }
+
+  return next();
+});

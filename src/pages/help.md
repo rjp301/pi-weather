@@ -1,5 +1,5 @@
 ---
-layout: "@/layouts/MarkdownLayout.astro"
+layout: "@/layouts/markdown-layout.astro"
 ---
 
 # How It Works

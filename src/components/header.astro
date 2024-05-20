@@ -1,0 +1,26 @@
+---
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBolt } from "@fortawesome/free-solid-svg-icons";
+import { hc } from "hono/client";
+import { type AppType } from "@/api";
+import UserAvatar from "./user-avatar";
+
+const headers = Object.fromEntries(Astro.request.headers);
+const client = hc<AppType>(Astro.url.origin, { headers });
+
+const res = await client.api.auth.me.$get();
+const user = await res.json();
+---
+
+<header
+  class="bg-card shadow border-b flex items-center justify-between px-6 py-2 z-50 min-h-[4rem]"
+>
+  <a href="/" class="flex gap-3 items-center">
+    <FontAwesomeIcon icon={faBolt} className="h-6 text-sky-500" />
+    <h1 class="font-bold text-2xl">Weather Summarizer</h1>
+  </a>
+
+  <div class="flex gap-4 items-center">
+    <UserAvatar user={user} client:load />
+  </div>
+</header>

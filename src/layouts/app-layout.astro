@@ -1,5 +1,5 @@
 ---
-import Navbar from "@/components/Navbar.astro";
+import Navbar from "@/components/header.astro";
 import Sidebar from "@/components/Sidebar.astro";
 import "@/globals.css";
 import RootLayout from "./root-layout.astro";
@@ -7,9 +7,7 @@ import RootLayout from "./root-layout.astro";
 
 <RootLayout>
   <div class="w-full h-full flex flex-col overflow-hidden">
-    <header class="z-50">
-      <Navbar />
-    </header>
+    <Navbar />
     <main class="flex flex-row flex-1 overflow-hidden">
       <aside class="bg-card z-0 shadow border-r min-w-[200px]">
         <Sidebar />

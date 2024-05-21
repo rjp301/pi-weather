@@ -26,14 +26,14 @@ const app = new Hono()
   })
   .post(
     "/",
-    zValidator("form", settingInsertSchema.omit({ userId: true })),
+    zValidator("json", settingInsertSchema.omit({ userId: true })),
     async (c) => {
       const userId = c.get("user")?.id;
       if (!userId) {
         return c.json({ error: "Unauthorized" }, 401);
       }
 
-      const body = c.req.valid("form");
+      const body = c.req.valid("json");
 
       const newSettings = await db
         .update(settingsTable)

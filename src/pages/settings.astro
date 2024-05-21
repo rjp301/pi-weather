@@ -16,6 +16,8 @@ import { Textarea } from "@/components/ui/textarea";
 import AppLayout from "@/layouts/app-layout.astro";
 import TimeSlider from "@/components/TimeSlider";
 
+import SettingsForm from "@/components/forms/settings-form";
+
 import { hc } from "hono/client";
 import { type AppType } from "@/api";
 
@@ -35,6 +37,7 @@ if (!settings) {
 ---
 
 <AppLayout>
+  <SettingsForm client:load initialData={settings} />
   <div>
     <form action="/api/settings" method="POST">
       <CardHeader className="pt-0 px-0">

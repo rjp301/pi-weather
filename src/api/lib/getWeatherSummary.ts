@@ -1,16 +1,16 @@
 import type PocketBase from "pocketbase";
-import type { SummarizedWeather } from "../../lib/types/summarized";
-import type { Station } from "../../lib/types/station";
+import type { SummarizedWeather } from "./types";
+import type { Station } from "@/api/db/schema";
 
 import { DateTime } from "luxon";
-import summarizeStations from "./summarizeStations";
+import summarizeStations from "../helpers/summarize-stations";
 import fetchWeatherData from "./fetchWeatherData";
-import type { WeatherFetch } from "../../lib/types/fetch";
+import type { WeatherFetch } from "./types";
 
 const getSummary = async (
   pb: PocketBase,
   userId: string,
-  dateString: string
+  dateString: string,
 ): Promise<{ summary: SummarizedWeather; responses: WeatherFetch[] }> => {
   console.log("fetching new data from weather underground");
 
@@ -31,7 +31,7 @@ const getSummary = async (
   const { times_of_interest, wu_api_key } = user;
 
   const responses = await Promise.all(
-    stations.map((station) => fetchWeatherData(station, date, wu_api_key))
+    stations.map((station) => fetchWeatherData(station, date, wu_api_key)),
   );
   const summary = summarizeStations(responses, date, times_of_interest);
 
@@ -41,7 +41,7 @@ const getSummary = async (
 export const getWeatherSummary = async (
   pb: PocketBase,
   userId: string,
-  dateString: string
+  dateString: string,
 ): Promise<SummarizedWeather> => {
   const summaryId = dateString.padEnd(15, "0");
 
@@ -67,7 +67,7 @@ export const getWeatherSummary = async (
 export const updateWeatherSummary = async (
   pb: PocketBase,
   userId: string,
-  dateString: string
+  dateString: string,
 ): Promise<void> => {
   const summaryId = dateString.padEnd(15, "0");
 

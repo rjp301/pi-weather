@@ -1,15 +1,15 @@
 import axios from "axios";
 import dotenv from "dotenv";
-import type { WeatherFetch } from "../../lib/types/fetch";
+import type { WeatherFetch } from "./types";
 import type { DateTime } from "luxon";
-import type { Station } from "../../lib/types/station";
+import type { Station } from "../db/schema";
 
 dotenv.config();
 
 async function fetchDailyWeatherData(
   station: Station,
   date: DateTime,
-  apiKey: string
+  apiKey: string,
 ): Promise<WeatherFetch> {
   const options = {
     url: "/history/hourly",
@@ -38,12 +38,12 @@ async function fetchDailyWeatherData(
 export default async function fetchWeatherData(
   station: Station,
   date: DateTime,
-  apiKey: string
+  apiKey: string,
 ): Promise<WeatherFetch> {
   // return fetchDailyWeatherData(stationId, date);
   const dates = [date, date.plus({ days: 1 }), date.minus({ days: 1 })];
   const responses = await Promise.all(
-    dates.map((d) => fetchDailyWeatherData(station, d, apiKey))
+    dates.map((d) => fetchDailyWeatherData(station, d, apiKey)),
   );
   const observations = responses
     .flatMap((r) => r.observations || [])

@@ -1,9 +1,11 @@
-import summarizeStation from "./summarizeStation.js";
+import summarizeStation from "./summarize-station.js";
 import { DateTime } from "luxon";
 
-import type { TimesOfInterest } from "./types.js";
-import type { SummarizedWeather } from "../../lib/types/summarized.js";
-import type { WeatherFetch } from "../../lib/types/fetch.js";
+import type {
+  TimesOfInterest,
+  SummarizedWeather,
+  WeatherFetch,
+} from "@/api/lib/types";
 
 function formatHr(hr: number) {
   return DateTime.fromObject({ hour: hr % 24 }).toFormat("ha");
@@ -12,7 +14,7 @@ function formatHr(hr: number) {
 export default function summarizeStations(
   responses: WeatherFetch[],
   date: DateTime,
-  timesOfInterest: TimesOfInterest
+  timesOfInterest: TimesOfInterest,
 ) {
   const result: SummarizedWeather = {
     columns: [
@@ -22,7 +24,7 @@ export default function summarizeStations(
       "Min",
       ...timesOfInterest.hours.map((hr) => formatHr(hr)),
       ...timesOfInterest.ranges.map(
-        (rng) => formatHr(rng.beg) + "-" + formatHr(rng.end)
+        (rng) => formatHr(rng.beg) + "-" + formatHr(rng.end),
       ),
     ],
     data: responses.map((response) => {

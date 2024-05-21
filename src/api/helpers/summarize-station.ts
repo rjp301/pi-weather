@@ -1,10 +1,12 @@
 import type { DateTime } from "luxon";
 
-import type { WeatherFetch } from "../../lib/types/fetch.js";
-import type { WeatherObservation } from "../../lib/types/observation.js";
-import type { TimesOfInterest } from "./types.js";
-import roundMinutes from "../helpers/roundMinutes.js";
-import degToCompass from "../helpers/degToCompass.js";
+import type {
+  WeatherObservation,
+  WeatherFetch,
+  TimesOfInterest,
+} from "../lib/types.js";
+import roundMinutes from "./round-minutes.js";
+import degToCompass from "./deg-to-compass.js";
 
 type ModWeatherObservation = WeatherObservation & { obsTimeRnd: DateTime };
 
@@ -36,7 +38,7 @@ function maxTemp(day: DateTime, data: ModWeatherObservation[]) {
     .filter((obs) => typeof obs.metric.tempHigh === "number");
   if (filtered.length === 0) return "NO DATA";
   const result = Math.max(
-    ...(filtered.map((obs) => obs.metric.tempHigh) as number[])
+    ...(filtered.map((obs) => obs.metric.tempHigh) as number[]),
   );
   return typeof result === "number" ? `${result}°C` : "NO DATA";
 }
@@ -47,7 +49,7 @@ function minTemp(day: DateTime, data: ModWeatherObservation[]) {
     .filter((obs) => typeof obs.metric.tempHigh === "number");
   if (filtered.length === 0) return "NO DATA";
   const result = Math.min(
-    ...(filtered.map((obs) => obs.metric.tempLow) as number[])
+    ...(filtered.map((obs) => obs.metric.tempLow) as number[]),
   );
   return typeof result === "number" ? `${result}°C` : "NO DATA";
 }
@@ -61,10 +63,10 @@ function rainTotal(temp: ModWeatherObservation[]) {
   if (temp.length === 0) return 0;
 
   const precipRateMax = Math.max(
-    ...(temp.map((obs) => obs.metric.precipRate) as number[])
+    ...(temp.map((obs) => obs.metric.precipRate) as number[]),
   );
   const precipTotalMax = Math.max(
-    ...(temp.map((obs) => obs.metric.precipTotal) as number[])
+    ...(temp.map((obs) => obs.metric.precipTotal) as number[]),
   );
   const precipTotalBeg = temp[0].metric.precipTotal as number;
 
@@ -75,7 +77,7 @@ function rainTotal(temp: ModWeatherObservation[]) {
 function getRain(
   day: DateTime,
   rng: { beg: number; end: number },
-  data: ModWeatherObservation[]
+  data: ModWeatherObservation[],
 ) {
   const timeBeg = day.plus({ hour: rng.beg });
   const timeEnd = day.plus({ hour: rng.end });
@@ -90,7 +92,7 @@ function getRain(
       obs.obsTimeRnd <= timeEnd &&
       obs.obsTimeRnd >= timeBeg &&
       obs.metric.precipRate !== null &&
-      obs.metric.precipTotal !== null
+      obs.metric.precipTotal !== null,
   );
 
   if (relevantObs.length === 0) return "NO DATA";
@@ -105,7 +107,7 @@ function getRain(
 export default function summarizeStation(
   response: WeatherFetch,
   date: DateTime,
-  timesOfInterest: TimesOfInterest
+  timesOfInterest: TimesOfInterest,
 ): string[] {
   const num_columns =
     timesOfInterest.hours.length * 2 + 2 + timesOfInterest.ranges.length;

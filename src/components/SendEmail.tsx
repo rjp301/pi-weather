@@ -35,7 +35,7 @@ export const SendEmail: React.FC<Props> = (props) => {
               title: body.title,
               description: body.description,
               variant: "destructive",
-            })
+            }),
           );
         toast({
           title: "Email Sent",
@@ -69,7 +69,7 @@ export const SendEmail: React.FC<Props> = (props) => {
       <Button type="submit" disabled={sending} onClick={handleClick}>
         <FontAwesomeIcon
           icon={sending ? faSpinner : faPaperPlane}
-          className={cn("h-4 w-4 mr-2", sending && "animate-spin")}
+          className={cn("mr-2 h-4 w-4", sending && "animate-spin")}
         />
         Send Summary
       </Button>

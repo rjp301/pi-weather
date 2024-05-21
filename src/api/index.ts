@@ -1,6 +1,7 @@
 import { Hono } from "hono";
 import type { Session, User } from "lucia";
 
+import stationRoutes from "./routes/stations";
 import authRoutes from "./routes/auth";
 import authMiddleware from "./middleware/auth";
 
@@ -14,6 +15,7 @@ app.use(authMiddleware);
 
 const routes = app
   .route("/auth", authRoutes)
+  .route("/stations", stationRoutes)
   .get("/", (c) => c.json({ message: "Hello Hono!" }));
 
 export default app;

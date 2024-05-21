@@ -1,5 +1,5 @@
 import { db } from ".";
-import { stations as stationsTable, type StationInsert } from "./schema";
+import { stationsTable as stationsTable, type StationInsert } from "./schema";
 
 const sampleStations: StationInsert[] = [
   {

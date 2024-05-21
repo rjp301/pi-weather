@@ -17,9 +17,14 @@ import { faTrash, faPlus, faEdit } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "@/components/ui/button";
 import { CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
-const stations = await Astro.locals.pb
-  .collection("weather_stations")
-  .getFullList({ sort: "-created" });
+import { hc } from "hono/client";
+import { type AppType } from "@/api";
+
+const headers = Object.fromEntries(Astro.request.headers);
+const client = hc<AppType>(Astro.url.origin, { headers });
+
+const res = await client.api.stations.$get();
+const stations = await res.json();
 ---
 
 <Layout>
@@ -48,7 +53,7 @@ const stations = await Astro.locals.pb
         stations.map((station) => (
           <TableRow>
             <TableCell className="font-medium">{station.name}</TableCell>
-            <TableCell>{station.wu_id}</TableCell>
+            <TableCell>{station.wuKey}</TableCell>
             <TableCell>{station.lat}</TableCell>
             <TableCell>{station.lon}</TableCell>
             <TableCell className="w-10 text-center">

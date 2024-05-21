@@ -11,12 +11,12 @@ import {
 import { Button } from "../ui/button";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
-import { Record } from "pocketbase";
 import { faEdit, faPlus, faSave } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import type { Station } from "@/api/db/schema";
 
 interface Props {
-  data?: Record;
+  data?: Station;
 }
 
 export const StationDialog: React.FC<Props> = (props) => {
@@ -34,7 +34,7 @@ export const StationDialog: React.FC<Props> = (props) => {
           </Button>
         ) : (
           <Button variant="secondary">
-            <FontAwesomeIcon icon={faPlus} className="h-4 w-4 mr-2" />
+            <FontAwesomeIcon icon={faPlus} className="mr-2 h-4 w-4" />
             Add Station
           </Button>
         )}
@@ -67,7 +67,7 @@ export const StationDialog: React.FC<Props> = (props) => {
                 type="text"
                 name="wu_id"
                 placeholder="ID"
-                defaultValue={data?.wu_id}
+                defaultValue={data?.wuKey}
                 required
               />
             </div>
@@ -94,7 +94,7 @@ export const StationDialog: React.FC<Props> = (props) => {
           </div>
           <DialogFooter>
             <Button type="submit">
-              <FontAwesomeIcon icon={faSave} className="h-4 w-4 mr-2" />
+              <FontAwesomeIcon icon={faSave} className="mr-2 h-4 w-4" />
               Save
             </Button>
           </DialogFooter>

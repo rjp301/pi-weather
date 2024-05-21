@@ -1,8 +1,12 @@
 import { eq } from "drizzle-orm";
 import { db } from ".";
 import {
+  emailsTable,
+  settingsTable,
   stationsTable as stationsTable,
   userTable,
+  type EmailInsert,
+  type SettingInsert,
   type StationInsert,
 } from "./schema";
 
@@ -47,9 +51,35 @@ const sampleStations: StationInsert[] = [
   },
 ];
 
+const sampleEmails: EmailInsert[] = [
+  {
+    userId,
+    email: "riley@gmail.com",
+  },
+  {
+    userId,
+    email: "riley2@gmail.com",
+  },
+  {
+    userId,
+    email: "rileypaul96@gmail.com",
+    tester: true,
+  },
+];
+
+const sampleSettings: SettingInsert = {
+  userId,
+};
+
 async function seed() {
   await db.delete(stationsTable);
   await db.insert(stationsTable).values(sampleStations);
+
+  await db.delete(emailsTable);
+  await db.insert(emailsTable).values(sampleEmails);
+
+  await db.delete(settingsTable);
+  await db.insert(settingsTable).values(sampleSettings);
 }
 
 seed()

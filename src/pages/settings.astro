@@ -13,13 +13,28 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-import Layout from "@/layouts/app-layout.astro";
+import AppLayout from "@/layouts/app-layout.astro";
 import TimeSlider from "@/components/TimeSlider";
 
-const { user } = Astro.locals;
+import { hc } from "hono/client";
+import { type AppType } from "@/api";
+
+const headers = Object.fromEntries(Astro.request.headers);
+const client = hc<AppType>(Astro.url.origin, { headers });
+
+const res = await client.api.settings.$get();
+const settings = await res.json();
+
+if ("error" in settings) {
+  throw new Error(settings.error);
+}
+
+if (!settings) {
+  throw new Error("No settings found");
+}
 ---
 
-<Layout>
+<AppLayout>
   <div>
     <form action="/api/settings" method="POST">
       <CardHeader className="pt-0 px-0">
@@ -34,7 +49,7 @@ const { user } = Astro.locals;
               type="password"
               id="wu_api_key"
               name="wu_api_key"
-              defaultValue={user.wu_api_key}
+              defaultValue={settings.wuApiKey ?? undefined}
               placeholder="API Key"
               required
             />
@@ -46,7 +61,7 @@ const { user } = Astro.locals;
               name="times_of_interest"
               className="font-mono"
               rows={10}
-              defaultValue={JSON.stringify(user.times_of_interest, null, 2)}
+              defaultValue={JSON.stringify(settings.timesOfInterest, null, 2)}
               placeholder="Time of Interest"
               required
             />
@@ -62,7 +77,7 @@ const { user } = Astro.locals;
               type="text"
               id="time_zone"
               name="time_zone"
-              defaultValue={user.time_zone}
+              defaultValue={settings.timeZone ?? undefined}
               placeholder="Time Zone"
               required
             />
@@ -71,7 +86,7 @@ const { user } = Astro.locals;
             <Label htmlFor="email_time">Email Distribution Time</Label>
             <TimeSlider
               client:load
-              default={user.email_time}
+              default={settings.emailTime ?? 0}
               name="email_time"
             />
           </div>
@@ -84,4 +99,4 @@ const { user } = Astro.locals;
       </CardFooter>
     </form>
   </div>
-</Layout>
+</AppLayout>

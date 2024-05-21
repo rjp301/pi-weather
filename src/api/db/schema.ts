@@ -2,6 +2,7 @@ import { sql } from "drizzle-orm";
 import { createInsertSchema, createSelectSchema } from "drizzle-zod";
 import { integer, real, sqliteTable, text } from "drizzle-orm/sqlite-core";
 import { v4 as uuid } from "uuid";
+import type { TimesOfInterest } from "@/lib/types/interest";
 
 export const userTable = sqliteTable("user", {
   id: text("id").$defaultFn(uuid).primaryKey().unique(),
@@ -67,6 +68,21 @@ export const settingsTable = sqliteTable("setting", {
   userId: text("user_id")
     .notNull()
     .references(() => userTable.id),
+  wuApiKey: text("wu_api_key").notNull().default("1234"),
+  timesOfInterest: text("times_of_interest", {
+    mode: "json",
+  })
+    .$type<TimesOfInterest>()
+    .default({
+      hours: [7, 13, 19],
+      ranges: [
+        { beg: 5, end: 17 },
+        { beg: 17, end: 29 },
+        { beg: 0, end: 24 },
+      ],
+    }),
+  timeZone: text("time_zone").notNull().default("America/Vancouver"),
+  emailTime: integer("email_time").notNull().default(5),
 });
 
 export type Setting = typeof settingsTable.$inferSelect;

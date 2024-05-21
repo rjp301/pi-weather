@@ -4,6 +4,7 @@ import stationRoutes from "./routes/stations";
 import authRoutes from "./routes/auth";
 import settingsRoutes from "./routes/settings";
 import emailsRoutes from "./routes/emails";
+import weatherRoutes from "./routes/weather";
 
 export const config = {
   runtime: "edge",
@@ -16,6 +17,7 @@ const routes = app
   .route("/emails", emailsRoutes)
   .route("/settings", settingsRoutes)
   .route("/stations", stationRoutes)
+  .route("/weather", weatherRoutes)
   .get("/", (c) => c.json({ message: "Hello Hono!" }));
 
 export default app;

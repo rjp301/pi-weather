@@ -1,26 +1,26 @@
 ---
 import { DateTime } from "luxon";
-import { getWeatherSummary } from "@/api/lib/getWeatherSummarymary";
-import type SummarizedWeather from "@/lib/types/summarized";
+import type { SummarizedWeather } from "@/api/lib/types";
 import SummaryTableOld from "@/components/SummaryTableOld.astro";
+import { createClient } from "@/lib/client";
+
+const client = createClient(Astro);
 
 let summary: null | SummarizedWeather = JSON.parse(
   decodeURI(Astro.url.searchParams.get("data") || "null")
 );
 
-if (!summary && Astro.locals.user) {
+if (!summary) {
   const dateString = Astro.params.date || "";
   console.log(dateString);
   const date = DateTime.fromISO(dateString);
 
   if (date.invalidReason) return new Response(null, { status: 404 });
-  if (!Astro.locals.user) return new Response(null, { status: 401 });
 
-  summary = await getWeatherSummary(
-    Astro.locals.pb,
-    Astro.locals.user.id,
-    dateString
-  );
+  const weatherRes = await client.api.weather[":date"].$get({
+    param: { date: Astro.params.date ?? "" },
+  });
+  summary = await weatherRes.json();
 }
 
 if (!summary) return new Response(null, { status: 500 });

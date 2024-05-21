@@ -1,24 +1,22 @@
 ---
-import { DateTime } from "luxon";
 import Layout from "@/layouts/app-layout.astro";
 import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
-import { getWeatherSummary } from "@/api/lib/getWeatherSummary";
 import { Button } from "@/components/ui/button";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRefresh } from "@fortawesome/free-solid-svg-icons";
 import { SendEmail } from "@/components/SendEmail";
 import { createClient } from "@/lib/client";
+import { DateTime } from "luxon";
 
 const client = createClient(Astro);
 
-const res = await client.api.settings.$get();
-const settings = await res.json();
-
+const settingsRes = await client.api.settings.$get();
+const settings = await settingsRes.json();
 if ("error" in settings) return new Response(null, { status: 401 });
 
-const dateString = Astro.params.date || "";
+const dateString = Astro.params.date ?? "";
 console.log(dateString);
 const date = DateTime.fromISO(dateString, {
   zone: settings.timeZone,
@@ -26,11 +24,10 @@ const date = DateTime.fromISO(dateString, {
 
 if (date.invalidReason) return new Response(null, { status: 404 });
 
-const summary = await getWeatherSummary(
-  Astro.locals.pb,
-  Astro.locals.user.id,
-  dateString
-);
+const weatherRes = await client.api.weather[":date"].$get({
+  param: { date: Astro.params.date ?? "" },
+});
+const weather = await weatherRes.json();
 ---
 
 <Layout>
@@ -48,5 +45,5 @@ const summary = await getWeatherSummary(
     </div>
   </div>
   <br />
-  <SummaryTable summary={summary} date={date} />
+  <SummaryTable summary={weather} date={date} />
 </Layout>

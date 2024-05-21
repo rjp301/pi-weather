@@ -9,6 +9,7 @@ import { eq } from "drizzle-orm";
 import { zValidator } from "@hono/zod-validator";
 import { z } from "zod";
 import { luciaToHonoCookieAttributes } from "../helpers/cookie-attributes";
+import authMiddleware from "../middleware/auth";
 
 const app = new Hono()
   .get("/login/github", async (c) => {
@@ -104,7 +105,7 @@ const app = new Hono()
       }
     },
   )
-  .get("/logout", async (c) => {
+  .get("/logout", authMiddleware, async (c) => {
     const session = c.get("session");
 
     if (!session) {
@@ -123,7 +124,7 @@ const app = new Hono()
 
     return c.redirect("/");
   })
-  .get("/me", async (c) => {
+  .get("/me", authMiddleware, async (c) => {
     const user = c.get("user");
     if (!user) {
       return c.json(null, 401);

@@ -1,20 +1,15 @@
 import { Hono } from "hono";
-import type { Session, User } from "lucia";
 
 import stationRoutes from "./routes/stations";
 import authRoutes from "./routes/auth";
 import settingsRoutes from "./routes/settings";
 import emailsRoutes from "./routes/emails";
 
-import authMiddleware from "./middleware/auth";
-
 export const config = {
   runtime: "edge",
 };
 
 const app = new Hono().basePath("/api");
-
-app.use(authMiddleware);
 
 const routes = app
   .route("/auth", authRoutes)
@@ -25,10 +20,3 @@ const routes = app
 
 export default app;
 export type AppType = typeof routes;
-
-declare module "hono" {
-  interface ContextVariableMap {
-    session: Session | null;
-    user: User | null;
-  }
-}

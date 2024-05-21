@@ -2,7 +2,11 @@ import { sql } from "drizzle-orm";
 import { createInsertSchema, createSelectSchema } from "drizzle-zod";
 import { integer, real, sqliteTable, text } from "drizzle-orm/sqlite-core";
 import { v4 as uuid } from "uuid";
-import type { TimesOfInterest } from "@/api/lib/types";
+import {
+  SummarizedWeather,
+  WeatherFetch,
+  type TimesOfInterest,
+} from "@/api/lib/types";
 
 export const userTable = sqliteTable("user", {
   id: text("id").$defaultFn(uuid).primaryKey().unique(),
@@ -56,6 +60,9 @@ export const emailsTable = sqliteTable("email", {
     .references(() => userTable.id),
   email: text("email").notNull(),
   tester: integer("tester", { mode: "boolean" }).notNull().default(false),
+  createdAt: text("created_at")
+    .default(sql`(CURRENT_TIMESTAMP)`)
+    .notNull(),
 });
 
 export type Email = typeof emailsTable.$inferSelect;
@@ -80,9 +87,13 @@ export const settingsTable = sqliteTable("setting", {
         { beg: 17, end: 29 },
         { beg: 0, end: 24 },
       ],
-    }),
+    })
+    .notNull(),
   timeZone: text("time_zone").notNull().default("America/Vancouver"),
   emailTime: integer("email_time").notNull().default(5),
+  createdAt: text("created_at")
+    .default(sql`(CURRENT_TIMESTAMP)`)
+    .notNull(),
 });
 
 export type Setting = typeof settingsTable.$inferSelect;
@@ -95,6 +106,16 @@ export const summariesTable = sqliteTable("summary", {
   userId: text("user_id")
     .notNull()
     .references(() => userTable.id),
+  date: text("date").notNull(),
+  summary: text("summary", { mode: "json" })
+    .notNull()
+    .$type<SummarizedWeather>(),
+  responses: text("responses", { mode: "json" })
+    .notNull()
+    .$type<WeatherFetch[]>(),
+  createdAt: text("created_at")
+    .default(sql`(CURRENT_TIMESTAMP)`)
+    .notNull(),
 });
 
 export type Summary = typeof summariesTable.$inferSelect;

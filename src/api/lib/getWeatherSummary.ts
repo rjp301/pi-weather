@@ -4,7 +4,7 @@ import type { Station } from "@/api/db/schema";
 
 import { DateTime } from "luxon";
 import summarizeStations from "../helpers/summarize-stations";
-import fetchWeatherData from "./fetchWeatherData";
+import fetchWeatherData from "../helpers/fetch-weather-data";
 import type { WeatherFetch } from "./types";
 
 const getSummary = async (

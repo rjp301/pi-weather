@@ -18,9 +18,14 @@ import { faCheckCircle, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
-const emails = await Astro.locals.pb
-  .collection("emails")
-  .getFullList({ sort: "-created" });
+import { hc } from "hono/client";
+import { type AppType } from "@/api";
+
+const headers = Object.fromEntries(Astro.request.headers);
+const client = hc<AppType>(Astro.url.origin, { headers });
+
+const res = await client.api.emails.$get();
+const emails = await res.json();
 ---
 
 <Layout>
@@ -43,7 +48,7 @@ const emails = await Astro.locals.pb
     </TableHeader>
     <TableBody>
       {
-        emails.map((email: Record) => (
+        emails.map((email) => (
           <TableRow>
             <TableCell>{email.email}</TableCell>
             <TableCell className="w-10 text-center text-emerald-500">
@@ -76,4 +81,4 @@ const emails = await Astro.locals.pb
       }
     </TableBody>
   </Table>
-</Layout>@/components/dialogs/EmailDialog
+</Layout>

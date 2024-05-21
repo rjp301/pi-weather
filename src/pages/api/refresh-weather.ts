@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { updateWeatherSummary } from "@/lib/getWeatherSummary";
+import { updateWeatherSummary } from "@/api/lib/getWeatherSummary";
 
 export const POST: APIRoute = async ({ url, request, redirect, locals }) => {
   const formData = await request.formData();

@@ -17,12 +17,9 @@ import AppLayout from "@/layouts/app-layout.astro";
 import TimeSlider from "@/components/TimeSlider";
 
 import SettingsForm from "@/components/forms/settings-form";
+import { createClient } from "@/lib/client";
 
-import { hc } from "hono/client";
-import { type AppType } from "@/api";
-
-const headers = Object.fromEntries(Astro.request.headers);
-const client = hc<AppType>(Astro.url.origin, { headers });
+const client = createClient(Astro);
 
 const res = await client.api.settings.$get();
 const settings = await res.json();

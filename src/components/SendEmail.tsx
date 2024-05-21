@@ -4,7 +4,7 @@ import { faPaperPlane, faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { Checkbox } from "./ui/checkbox";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";
-import { toast } from "./ui/use-toast";
+import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -31,14 +31,11 @@ export const SendEmail: React.FC<Props> = (props) => {
         setSending(false);
         if (!res.ok)
           return res.json().then((body) =>
-            toast({
-              title: body.title,
+            toast.error(body.title, {
               description: body.description,
-              variant: "destructive",
             }),
           );
-        toast({
-          title: "Email Sent",
+        toast("Email Sent", {
           description: `Weather summary sent for ${dateString} to ${
             testEmail ? "testers" : "everyone"
           }`,
@@ -46,10 +43,8 @@ export const SendEmail: React.FC<Props> = (props) => {
       })
       .catch((err) => {
         console.error(err);
-        toast({
-          title: "Error",
+        toast("Error", {
           description: err.message,
-          variant: "destructive",
         });
       });
   };

@@ -1,11 +1,11 @@
 import type PocketBase from "pocketbase";
-import type { SummarizedWeather } from "./types/summarized";
-import type { Station } from "./types/station";
+import type { SummarizedWeather } from "../../lib/types/summarized";
+import type { Station } from "../../lib/types/station";
 
 import { DateTime } from "luxon";
 import summarizeStations from "./summarizeStations";
 import fetchWeatherData from "./fetchWeatherData";
-import type { WeatherFetch } from "./types/fetch";
+import type { WeatherFetch } from "../../lib/types/fetch";
 
 const getSummary = async (
   pb: PocketBase,

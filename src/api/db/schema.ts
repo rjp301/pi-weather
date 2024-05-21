@@ -2,7 +2,7 @@ import { sql } from "drizzle-orm";
 import { createInsertSchema, createSelectSchema } from "drizzle-zod";
 import { integer, real, sqliteTable, text } from "drizzle-orm/sqlite-core";
 import { v4 as uuid } from "uuid";
-import type { TimesOfInterest } from "@/lib/types/interest";
+import type { TimesOfInterest } from "@/api/lib/types";
 
 export const userTable = sqliteTable("user", {
   id: text("id").$defaultFn(uuid).primaryKey().unique(),

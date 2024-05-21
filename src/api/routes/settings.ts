@@ -3,7 +3,7 @@ import { db } from "@/api/db";
 import { settingInsertSchema, settingsTable } from "../db/schema";
 import { eq } from "drizzle-orm";
 import { zValidator } from "@hono/zod-validator";
-import type { TimesOfInterest } from "@/lib/types/interest";
+import type { TimesOfInterest } from "@/api/lib/types";
 
 const app = new Hono()
   .get("/", async (c) => {

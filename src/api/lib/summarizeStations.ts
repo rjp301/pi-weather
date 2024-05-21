@@ -1,9 +1,9 @@
 import summarizeStation from "./summarizeStation.js";
 import { DateTime } from "luxon";
 
-import type { TimesOfInterest } from "./types/interest.js";
-import type { SummarizedWeather } from "./types/summarized.js";
-import type { WeatherFetch } from "./types/fetch.js";
+import type { TimesOfInterest } from "./types.js";
+import type { SummarizedWeather } from "../../lib/types/summarized.js";
+import type { WeatherFetch } from "../../lib/types/fetch.js";
 
 function formatHr(hr: number) {
   return DateTime.fromObject({ hour: hr % 24 }).toFormat("ha");

@@ -1,6 +1,6 @@
 ---
 import { DateTime } from "luxon";
-import { getWeatherSummary } from "@/lib/getWeatherSummary";
+import { getWeatherSummary } from "@/api/lib/getWeatherSummarymary";
 import type SummarizedWeather from "@/lib/types/summarized";
 import SummaryTableOld from "@/components/SummaryTableOld.astro";
 
@@ -26,7 +26,7 @@ if (!summary && Astro.locals.user) {
 if (!summary) return new Response(null, { status: 500 });
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

@@ -3,21 +3,28 @@ import { DateTime } from "luxon";
 import Layout from "@/layouts/app-layout.astro";
 import SummaryTable from "@/components/SummaryTable.astro";
 import { DatePicker } from "@/components/DatePicker";
-import { getWeatherSummary } from "@/lib/getWeatherSummary";
+import { getWeatherSummary } from "@/api/lib/getWeatherSummary";
 import { Button } from "@/components/ui/button";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRefresh } from "@fortawesome/free-solid-svg-icons";
 import { SendEmail } from "@/components/SendEmail";
+import { createClient } from "@/lib/client";
+
+const client = createClient(Astro);
+
+const res = await client.api.settings.$get();
+const settings = await res.json();
+
+if ("error" in settings) return new Response(null, { status: 401 });
 
 const dateString = Astro.params.date || "";
 console.log(dateString);
 const date = DateTime.fromISO(dateString, {
-  zone: Astro.locals.user.time_zone,
+  zone: settings.timeZone,
 });
 
 if (date.invalidReason) return new Response(null, { status: 404 });
-if (!Astro.locals.user) return new Response(null, { status: 401 });
 
 const summary = await getWeatherSummary(
   Astro.locals.pb,

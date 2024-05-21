@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 import { DateTime } from "luxon";
-import { sendWeatherSummary } from "@/lib/sendWeatherSummary";
+import { sendWeatherSummary } from "@/api/lib/sendWeatherSummary";
 
 export const POST: APIRoute = async ({ locals, url }) => {
   const test = url.searchParams.get("test");

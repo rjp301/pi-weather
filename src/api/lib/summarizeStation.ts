@@ -1,10 +1,10 @@
 import type { DateTime } from "luxon";
 
-import type { WeatherFetch } from "./types/fetch.js";
-import type { WeatherObservation } from "./types/observation.js";
-import type { TimesOfInterest } from "./types/interest.js";
-import roundMinutes from "./utils/roundMinutes.js";
-import degToCompass from "./utils/degToCompass.js";
+import type { WeatherFetch } from "../../lib/types/fetch.js";
+import type { WeatherObservation } from "../../lib/types/observation.js";
+import type { TimesOfInterest } from "./types.js";
+import roundMinutes from "../helpers/roundMinutes.js";
+import degToCompass from "../helpers/degToCompass.js";
 
 type ModWeatherObservation = WeatherObservation & { obsTimeRnd: DateTime };
 

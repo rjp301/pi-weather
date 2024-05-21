@@ -1,12 +1,10 @@
 ---
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
-import { hc } from "hono/client";
-import { type AppType } from "@/api";
 import UserAvatar from "./user-avatar";
+import { createClient } from "@/lib/client";
 
-const headers = Object.fromEntries(Astro.request.headers);
-const client = hc<AppType>(Astro.url.origin, { headers });
+const client = createClient(Astro);
 
 const res = await client.api.auth.me.$get();
 const user = await res.json();

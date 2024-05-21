@@ -1,30 +1,45 @@
+import { eq } from "drizzle-orm";
 import { db } from ".";
-import { stationsTable as stationsTable, type StationInsert } from "./schema";
+import {
+  stationsTable as stationsTable,
+  userTable,
+  type StationInsert,
+} from "./schema";
+
+const userId = await db
+  .select()
+  .from(userTable)
+  .where(eq(userTable.username, "rjp301"))
+  .then((rows) => rows[0].id);
+
+if (!userId) {
+  throw new Error("User not found");
+}
 
 const sampleStations: StationInsert[] = [
   {
-    userId: "1",
+    userId,
     name: "SAEG Crooked",
     wuKey: "IREGIO61",
     lat: 54.653556,
     lon: -122.752946,
   },
   {
-    userId: "1",
+    userId,
     name: "SAEG Parsnip",
     wuKey: "IREGIO82",
     lat: 54.76181,
     lon: -122.49811,
   },
   {
-    userId: "1",
+    userId,
     name: "SAEG Crocker",
     wuKey: "IREGIO125",
     lat: 54.895774,
     lon: -122.243683,
   },
   {
-    userId: "1",
+    userId,
     name: "SAEG Headwall",
     wuKey: "IREGIO134",
     lat: 55.08484,

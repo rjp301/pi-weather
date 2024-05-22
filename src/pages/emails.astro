@@ -23,6 +23,8 @@ const client = createClient(Astro);
 
 const res = await client.api.emails.$get();
 const emails = await res.json();
+
+const deleteParams = new URLSearchParams({ redirect: "/emails" });
 ---
 
 <Layout>
@@ -58,7 +60,7 @@ const emails = await res.json();
             </TableCell>
             <TableCell className="w-10 text-center">
               <form
-                action={`/api/emails/${email.id}/delete`}
+                action={`/api/emails/${email.id}/delete?${deleteParams.toString()}`}
                 method="POST"
                 onsubmit="
                 return confirm('Are you sure you want to delete this?')

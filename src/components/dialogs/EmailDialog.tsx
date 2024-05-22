@@ -14,14 +14,16 @@ import { Label } from "../ui/label";
 import { faPlus, faSave } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+const params = new URLSearchParams({ redirect: "/emails" });
+
 export const EmailDialog: React.FC = () => (
   <Dialog>
     <DialogTrigger className={buttonVariants({ variant: "secondary" })}>
-      <FontAwesomeIcon icon={faPlus} className="h-4 w-4 mr-2" />
+      <FontAwesomeIcon icon={faPlus} className="mr-2 h-4 w-4" />
       Add Email
     </DialogTrigger>
     <DialogContent>
-      <form action={`/api/emails`} method="POST">
+      <form action={`/api/emails?${params.toString()}`} method="POST">
         <DialogHeader>
           <DialogTitle>Add Email</DialogTitle>
           <DialogDescription>
@@ -37,7 +39,7 @@ export const EmailDialog: React.FC = () => (
         </div>
         <DialogFooter>
           <Button type="submit">
-            <FontAwesomeIcon icon={faSave} className="h-4 w-4 mr-2" />
+            <FontAwesomeIcon icon={faSave} className="mr-2 h-4 w-4" />
             Save
           </Button>
         </DialogFooter>

@@ -20,7 +20,7 @@ async function fetchDailyWeatherData(
       apiKey,
       format: "json",
       units: "m",
-      stationId: station.id,
+      stationId: station.wuKey,
       date: date.toFormat("yyyyLLdd"),
     },
   };

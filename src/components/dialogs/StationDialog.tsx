@@ -13,7 +13,7 @@ import { Label } from "../ui/label";
 import { Input } from "../ui/input";
 import { faEdit, faPlus, faSave } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import type { Station } from "@/api/db/schema";
+import { type Station } from "@/api/db/schema";
 
 interface Props {
   data?: Station;
@@ -21,6 +21,11 @@ interface Props {
 
 export const StationDialog: React.FC<Props> = (props) => {
   const { data } = props;
+
+  const params = new URLSearchParams({
+    redirect: "/stations",
+  });
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -41,7 +46,11 @@ export const StationDialog: React.FC<Props> = (props) => {
       </DialogTrigger>
       <DialogContent>
         <form
-          action={data ? `/api/stations/${data.id}/update` : "/api/stations"}
+          action={
+            data
+              ? `/api/stations/${data.id}/update?${params.toString()}`
+              : `/api/stations?${params.toString()}`
+          }
           method="POST"
         >
           <DialogHeader>
@@ -65,7 +74,7 @@ export const StationDialog: React.FC<Props> = (props) => {
               <Label>ID</Label>
               <Input
                 type="text"
-                name="wu_id"
+                name="wuKey"
                 placeholder="ID"
                 defaultValue={data?.wuKey}
                 required

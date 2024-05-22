@@ -5,6 +5,16 @@ import { eq } from "drizzle-orm";
 import { zValidator } from "@hono/zod-validator";
 import type { TimesOfInterest } from "@/api/lib/types";
 import authMiddleware from "../middleware/auth";
+import { z } from "zod";
+
+const queryValidator = zValidator("query", z.object({ redirect: z.string() }));
+const formValidator = zValidator(
+  "form",
+  settingInsertSchema.omit({ userId: true }).extend({
+    emailTime: z.coerce.string(),
+    timesOfInterest: z.string(),
+  }),
+);
 
 const app = new Hono()
   .use(authMiddleware)
@@ -16,28 +26,23 @@ const app = new Hono()
       .where(eq(settingsTable.userId, userId))
       .then((rows) => rows[0]);
     if (!settings) {
-      return c.json({ error: "Settings not found" }, 404);
+      return c.json(null);
     }
     return c.json(settings);
   })
-  .post(
-    "/",
-    zValidator("json", settingInsertSchema.omit({ userId: true })),
-    async (c) => {
-      const userId = c.get("user").id;
-      const body = c.req.valid("json");
-      const newSettings = await db
-        .update(settingsTable)
-        .set({
-          ...body,
-          userId,
-          timesOfInterest: body.timesOfInterest as TimesOfInterest,
-        })
-        .where(eq(settingsTable.userId, userId))
-        .returning()
-        .then((rows) => rows[0]);
-      return c.json(newSettings);
-    },
-  );
+  .post("/", formValidator, queryValidator, async (c) => {
+    const userId = c.get("user").id;
+    const data = c.req.valid("form");
+    const { redirect } = c.req.valid("query");
+    await db
+      .update(settingsTable)
+      .set({
+        ...data,
+        emailTime: JSON.parse(data.emailTime),
+        timesOfInterest: JSON.parse(data.timesOfInterest) as TimesOfInterest,
+      })
+      .where(eq(settingsTable.userId, userId));
+    return c.redirect(redirect);
+  });
 
 export default app;

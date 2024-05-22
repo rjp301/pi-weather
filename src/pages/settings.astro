@@ -16,7 +16,6 @@ import { Textarea } from "@/components/ui/textarea";
 import AppLayout from "@/layouts/app-layout.astro";
 import TimeSlider from "@/components/TimeSlider";
 
-import SettingsForm from "@/components/forms/settings-form";
 import { createClient } from "@/lib/client";
 
 const client = createClient(Astro);
@@ -24,19 +23,16 @@ const client = createClient(Astro);
 const res = await client.api.settings.$get();
 const settings = await res.json();
 
-if ("error" in settings) {
-  throw new Error(settings.error);
-}
-
 if (!settings) {
   throw new Error("No settings found");
 }
+
+const params = new URLSearchParams({ redirect: "/settings" }).toString();
 ---
 
 <AppLayout>
-  <SettingsForm client:load initialData={settings} />
   <div>
-    <form action="/api/settings" method="POST">
+    <form action={`/api/settings?${params}`} method="POST">
       <CardHeader className="pt-0 px-0">
         <CardTitle>Settings</CardTitle>
         <CardDescription>Edit configuration settings</CardDescription>
@@ -48,7 +44,7 @@ if (!settings) {
             <Input
               type="password"
               id="wu_api_key"
-              name="wu_api_key"
+              name="wuApiKey"
               defaultValue={settings.wuApiKey ?? undefined}
               placeholder="API Key"
               required
@@ -58,7 +54,7 @@ if (!settings) {
             <Label htmlFor="times_of_interest">Time of Interest</Label>
             <Textarea
               id="times_of_interest"
-              name="times_of_interest"
+              name="timesOfInterest"
               className="font-mono"
               rows={10}
               defaultValue={JSON.stringify(settings.timesOfInterest, null, 2)}
@@ -75,8 +71,8 @@ if (!settings) {
             </Label>
             <Input
               type="text"
-              id="time_zone"
-              name="time_zone"
+              id="timeZone"
+              name="timeZone"
               defaultValue={settings.timeZone ?? undefined}
               placeholder="Time Zone"
               required
@@ -87,7 +83,7 @@ if (!settings) {
             <TimeSlider
               client:load
               default={settings.emailTime ?? 0}
-              name="email_time"
+              name="emailTime"
             />
           </div>
         </div>

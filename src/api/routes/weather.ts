@@ -5,7 +5,7 @@ import { settingsTable, stationsTable, summariesTable } from "../db/schema";
 import { eq } from "drizzle-orm";
 import fetchWeatherData from "../helpers/fetch-weather-data";
 import summarizeStations from "../helpers/summarize-stations";
-import type { SummarizedWeather, WeatherFetch } from "@/api/lib/types";
+import type { SummarizedWeather } from "@/api/lib/types";
 import authMiddleware from "../middleware/auth";
 
 const getFreshWeatherSummary = async (

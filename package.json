@@ -61,6 +61,7 @@
   "devDependencies": {
     "@types/luxon": "^3.4.2",
     "@types/uuid": "^10.0.0",
+    "drizzle-kit": "^0.22.7",
     "vitest": "^1.6.0"
   }
 }

@@ -1,48 +1,47 @@
-# Weather Reporting
+# Astro Starter Kit: Minimal
 
-NodeJS Function run as a CRON job which fetches weather observation data from a private constellation of weather stations along a remote construction site using the Weather Underground API, summarizes that data, and distributes the summary to key decision makers via email.
+```sh
+npm create astro@latest -- --template minimal
+```
 
-![Screenshot 2023-06-20 at 7 07 53 AM](https://github.com/rjp301/pi-weather/assets/71047303/ba3c6dd9-ce10-4493-add1-45e37a3abd77)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-## Data
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-**_data/emailList.csv_**
-CSV file containing every recipient of the weather summary email.
+## 🚀 Project Structure
 
-**_data/weatherStations.json_**
-JSON file containing the name and id of the weather stations that are included in the summary table.
+Inside of your Astro project, you'll see the following folders and files:
 
-**_data/timesOfInterest.json_**
-JSON file defining which hours and time ranges should be used when summarizing data. For each hour, temperature, wind speed and wind direction will be reported. For each time range the precipitation will be summed up.
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-## Modules
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-**_src/library/fetchWeatherData.ts_**
-Fetch data from the Weather Underground API using the Axios library.
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-**_src/library/summarizeStation.ts_**
-Summarize weather observation data from a station over the given time ranges for wind, temperature and rainfall.
+Any static assets, like images, can be placed in the `public/` directory.
 
-**_src/library/summarizeStations.ts_**
-Fetch and summarize weather observation data from every weather station in the weatherStations.json file.
+## 🧞 Commands
 
-**_src/library/renderHtml.ts_**
-Generate a nicely formatting HTML table using the Handlebars templating engine from the summarized data for all weather stations.
+All commands are run from the root of the project, from a terminal:
 
-**_src/library/sendEmail.ts_**
-Interface with the SendGrid API to send emails to all recipients.
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-**_src/index.ts_**
-Entry point into the function. Runs all modules in the function one after another. Uses the Commander framework to create a basic CLI.
+## 👀 Want to learn more?
 
-## Running
-
-Compile Typescript and run using Node.JS
-
-`tsc && node dist`
-
-## Notes
-
-API keys and OAuth2 credentials are stored in local environment variables for security.
-
-Code is hosted on a Ubuntu Linux server provided by [Linode](https://www.linode.com) and run every morning at 4:30 AM using a CronJob. The local repo is kept in-sync with the GitHub repo using webhooks interfacing with my [custom git-pulling node server](https://github.com/rjp301/git-hook-server).
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

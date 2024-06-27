@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 import fetchWeatherData from "../api/helpers/fetch-weather-data.js";
-import { expect, test } from "bun:test";
+import { expect, test } from "vitest";
 import { db } from "@/api/db/index.js";
 import { settingsTable, stationsTable, userTable } from "@/api/db/schema.js";
 import { eq } from "drizzle-orm";

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import type { SummarizedWeather } from "@/api/lib/types";
 import SummaryTableOld from "@/components/SummaryTableOld.astro";
+import LoginButton from "@/components/login-button";
 
 const summary: SummarizedWeather = {
   columns: [
@@ -68,12 +69,11 @@ const summary: SummarizedWeather = {
   ],
 };
 
-const encodedSummary = encodeURI(JSON.stringify(summary));
 ---
 
 <RootLayout>
-  <div class="w-full h-full py-16 overflow-auto">
-    <div class="prose dark:prose-invert mx-auto">
+  <div class="w-full h-full py-16 overflow-auto container2 flex flex-col gap-3 max-w-2xl">
+    <div class="prose dark:prose-invert mx-auto max-w-none">
       <FontAwesomeIcon
         icon={faBolt}
         className="h-20 text-sky-500 mx-auto mb-16"
@@ -83,15 +83,9 @@ const encodedSummary = encodeURI(JSON.stringify(summary));
         A tool to summarize data from personal weather stations and deliver
         email reports
       </p>
-      <div>
-        <a href="/api/auth/login/github">
-          <Button variant="secondary" className="w-full">Login with Github</Button></a
-        >
-      </div>
-      <br />
-      <div class="not-prose">
-        <SummaryTableOld summary={summary} />
-      </div>
     </div>
+    <br>
+    <LoginButton className="w-full" />
+    <SummaryTableOld summary={summary} />
   </div>
 </RootLayout>
